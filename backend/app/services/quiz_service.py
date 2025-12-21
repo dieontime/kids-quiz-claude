@@ -12,6 +12,9 @@ from app.services.category_service import CategoryService
 from app.utils.constants import AGE_TO_DIFFICULTY
 from app.exceptions import ValidationError, NotFoundError
 
+# Module-level cache for active quiz sessions (persists across requests)
+_active_sessions = {}
+
 
 class QuizService:
     """
@@ -21,7 +24,6 @@ class QuizService:
     def __init__(self):
         self.trivia_api = TriviaApiService()
         self.category_service = CategoryService()
-        self._active_sessions = {}  # In-memory cache for active quiz sessions
 
     def start_quiz(self, user_id, category_id, difficulty, question_count):
         """
@@ -82,7 +84,7 @@ class QuizService:
         db.session.commit()
 
         # Cache questions in memory for this session
-        self._active_sessions[attempt.id] = {
+        _active_sessions[attempt.id] = {
             'questions': questions,
             'answered_count': 0
         }
@@ -119,7 +121,7 @@ class QuizService:
             raise ValidationError("Quiz already completed")
 
         # Get cached questions
-        session = self._active_sessions.get(attempt_id)
+        session = _active_sessions.get(attempt_id)
         if not session:
             raise ValidationError("Quiz session expired or not found")
 
@@ -191,8 +193,8 @@ class QuizService:
         db.session.commit()
 
         # Clean up session cache
-        if attempt_id in self._active_sessions:
-            del self._active_sessions[attempt_id]
+        if attempt_id in _active_sessions:
+            del _active_sessions[attempt_id]
 
         # Get all answers for review
         answers = UserAnswer.query.filter_by(attempt_id=attempt_id).all()
@@ -220,7 +222,7 @@ class QuizService:
         Raises:
             NotFoundError: If session not found
         """
-        session = self._active_sessions.get(attempt_id)
+        session = _active_sessions.get(attempt_id)
         if not session:
             raise NotFoundError("Quiz session not found or expired")
         return session['questions']
