@@ -1,7 +1,7 @@
 import { describe, it, expect, vi } from 'vitest';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import { BigButton } from './BigButton';
+import { BigButton } from './BigButton.tsx';
 
 describe('BigButton', () => {
   it('renders label and fires onClick', async () => {
