@@ -22,7 +22,7 @@ describe('mockBackend.signup', () => {
   });
 
   it('rejects profanity', async () => {
-    await expect(mockBackend.signup({ username: 'damnit', pin: ['🐱','⚡','🍕','🌈'], avatar: 'avatar_cat', age_band: '5-6' }))
+    await expect(mockBackend.signup({ username: 'SmartAss', pin: ['🐱','⚡','🍕','🌈'], avatar: 'avatar_cat', age_band: '5-6' }))
       .rejects.toThrow(/profanity|PROFANITY/i);
   });
 
@@ -71,6 +71,39 @@ describe('mockBackend.recoverPin', () => {
   it('rejects bad recovery code', async () => {
     await mockBackend.signup({ username: 'PizzaDragon', pin: ['🐱','⚡','🍕','🌈'], avatar: 'avatar_cat', age_band: '5-6' });
     await expect(mockBackend.recoverPin('PizzaDragon', 'WRONG-CODE-0000', ['🌈','🌈','🌈','🌈'])).rejects.toThrow(MockBackendError);
+  });
+
+  it('uses identical generic error for unknown username and wrong recovery code (no enumeration)', async () => {
+    await mockBackend.signup({ username: 'PizzaDragon', pin: ['🐱','⚡','🍕','🌈'], avatar: 'avatar_cat', age_band: '5-6' });
+
+    let unknownErr: MockBackendError | null = null;
+    try { await mockBackend.recoverPin('NeverExisted', 'WRONG-CODE-0000', ['🌈','🌈','🌈','🌈']); }
+    catch (e) { unknownErr = e as MockBackendError; }
+
+    let wrongErr: MockBackendError | null = null;
+    try { await mockBackend.recoverPin('PizzaDragon', 'WRONG-CODE-0000', ['🌈','🌈','🌈','🌈']); }
+    catch (e) { wrongErr = e as MockBackendError; }
+
+    expect(unknownErr).toBeInstanceOf(MockBackendError);
+    expect(wrongErr).toBeInstanceOf(MockBackendError);
+    expect(unknownErr!.code).toBe('WRONG_RECOVERY');
+    expect(wrongErr!.code).toBe('WRONG_RECOVERY');
+    expect(unknownErr!.message).toBe(wrongErr!.message);
+  });
+
+  it('locks account after 5 wrong recovery attempts', async () => {
+    const { recoveryCode } = await mockBackend.signup({ username: 'PizzaDragon', pin: ['🐱','⚡','🍕','🌈'], avatar: 'avatar_cat', age_band: '5-6' });
+
+    for (let i = 0; i < 5; i++) {
+      try { await mockBackend.recoverPin('PizzaDragon', 'WRONG-CODE-0000', ['🌈','🌈','🌈','🌈']); } catch { /* expected */ }
+    }
+
+    let err: MockBackendError | null = null;
+    try { await mockBackend.recoverPin('PizzaDragon', recoveryCode, ['🌈','🌈','🌈','🌈']); }
+    catch (e) { err = e as MockBackendError; }
+
+    expect(err).toBeInstanceOf(MockBackendError);
+    expect(err!.code).toBe('LOCKED');
   });
 });
 

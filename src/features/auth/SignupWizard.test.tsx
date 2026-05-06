@@ -61,7 +61,7 @@ describe('SignupWizard', () => {
 
   it('rejects profanity and shows error', async () => {
     render(<MemoryRouter><SignupWizard /></MemoryRouter>);
-    await userEvent.type(screen.getByPlaceholderText(/silly name/i), 'damnit');
+    await userEvent.type(screen.getByPlaceholderText(/silly name/i), 'SmartAss');
     await userEvent.click(screen.getByRole('button', { name: /next/i }));
     expect(await screen.findByText(/try another name|please try a different name/i)).toBeInTheDocument();
   });
