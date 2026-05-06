@@ -1,0 +1,50 @@
+/* Accessibility fonts — used by SettingsDrawer toggles */
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;600;800&display=swap');
+@import url('https://fonts.cdnfonts.com/css/opendyslexic');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Class hooks applied by App.tsx in response to SettingsStore */
+html.kq-large-text { font-size: 18px; }
+@media (min-width: 1280px) { html.kq-large-text { font-size: 22px; } }
+@media (min-width: 1920px) { html.kq-large-text { font-size: 26px; } }
+
+html.kq-dyslexia-font, html.kq-dyslexia-font * {
+  font-family: 'OpenDyslexic', 'Lexend', system-ui, sans-serif !important;
+}
+
+@keyframes kq-float-kf {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50%      { transform: translateY(-18px) rotate(3deg); }
+}
+.kq-float { animation: kq-float-kf 7s ease-in-out infinite; }
+
+html, body, #root { height: 100%; }
+body {
+  font-family: 'Nunito', 'Inter', system-ui, sans-serif;
+  background: #fafaf9;
+  /* Larger base text on big screens (TV, big monitors) so the same UI
+     reads well from a couch. */
+  font-size: 16px;
+}
+@media (min-width: 1280px) { body { font-size: 18px; } }
+@media (min-width: 1920px) { body { font-size: 22px; } }
+
+/* Prevent horizontal scroll on mobile from any oversized child. */
+body { overflow-x: hidden; }
+
+/* TV / D-pad navigation: every interactive element gets an obvious
+   focus ring. Components can still override per-element. */
+:focus-visible {
+  outline: 4px solid #FACC15;
+  outline-offset: 3px;
+  border-radius: 8px;
+}
+button:focus-visible,
+a:focus-visible,
+input:focus-visible {
+  outline: 4px solid #FACC15;
+  outline-offset: 3px;
+}

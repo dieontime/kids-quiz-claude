@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <defs>
+    <style>
+      .bg { fill: #FFF8EE; }
+      .shadow { filter: drop-shadow(0 4px 6px rgba(0,0,0,0.08)); }
+      .label-lg { font-size: 22px; font-weight: 700; fill: #1F2937; }
+      .label-sm { font-size: 14px; fill: #6B7280; }
+      .ring-bg { fill: none; stroke-width: 14; stroke: rgba(255,255,255,0.35); }
+      .ring-fg { fill: none; stroke-width: 14; stroke-linecap: round; transform-origin: center; transform: rotate(-90deg); }
+      .mini-ring-bg { fill: none; stroke-width: 5; stroke: rgba(0,0,0,0.08); }
+      .mini-ring { fill: none; stroke-width: 5; stroke-linecap: round; transform-origin: center; transform: rotate(-90deg); }
+    </style>
+  </defs>
+  <rect class="bg" width="1280" height="800"/>
+
+  <!-- Header -->
+  <text x="48" y="60" font-size="32" font-weight="800" fill="#1F2937">Hi, Sparkle Cat! 👋</text>
+  <g transform="translate(1080, 32)">
+    <rect width="152" height="44" rx="10" fill="white" stroke="#7C3AED" stroke-width="2"/>
+    <text x="76" y="29" text-anchor="middle" font-size="16" font-weight="700" fill="#7C3AED">Log out</text>
+  </g>
+
+  <!-- Hero "Continue Math" -->
+  <g class="shadow" transform="translate(48, 110)">
+    <rect width="1184" height="320" rx="28" fill="#3B82F6"/>
+    <text x="48" y="68" font-size="18" font-weight="700" fill="rgba(255,255,255,0.85)">PICK UP WHERE YOU LEFT OFF</text>
+    <text x="48" y="138" font-size="56" font-weight="900" fill="white">Continue Math 🔢</text>
+    <text x="48" y="184" font-size="20" fill="rgba(255,255,255,0.92)">28 questions answered • 12 to go before mastery</text>
+    <g transform="translate(48, 220)">
+      <rect width="220" height="64" rx="16" fill="white"/>
+      <text x="110" y="42" text-anchor="middle" font-size="22" font-weight="800" fill="#3B82F6">Resume →</text>
+    </g>
+    <g transform="translate(284, 220)">
+      <rect width="200" height="64" rx="16" fill="rgba(255,255,255,0.18)" stroke="white" stroke-width="2"/>
+      <text x="100" y="42" text-anchor="middle" font-size="20" font-weight="700" fill="white">Surprise Me ✨</text>
+    </g>
+
+    <!-- Big progress ring on right -->
+    <g transform="translate(900, 60)">
+      <circle cx="100" cy="100" r="86" class="ring-bg"/>
+      <circle cx="100" cy="100" r="86" class="ring-fg" stroke="white" stroke-dasharray="302.6 540.4"/>
+      <text x="100" y="96" text-anchor="middle" font-size="48" font-weight="900" fill="white">56%</text>
+      <text x="100" y="124" text-anchor="middle" font-size="14" font-weight="600" fill="rgba(255,255,255,0.85)">28 / 50</text>
+    </g>
+  </g>
+
+  <!-- Other modules strip -->
+  <text x="48" y="478" font-size="20" font-weight="800" fill="#1F2937">Other modules</text>
+
+  <g class="shadow" transform="translate(48, 500)">
+    <rect width="226" height="180" rx="18" fill="#DCFCE7"/>
+    <text x="22" y="48" font-size="36">🦁</text>
+    <text x="22" y="92" class="label-lg">Animals</text>
+    <g transform="translate(150, 16)">
+      <circle cx="30" cy="30" r="24" class="mini-ring-bg"/>
+      <circle cx="30" cy="30" r="24" class="mini-ring" stroke="#16A34A" stroke-dasharray="36.2 150.8"/>
+      <text x="30" y="36" text-anchor="middle" font-size="13" font-weight="800" fill="#14532D">24%</text>
+    </g>
+    <text x="22" y="142" class="label-sm">12 / 50</text>
+  </g>
+
+  <g class="shadow" transform="translate(290, 500)">
+    <rect width="226" height="180" rx="18" fill="#FEF3C7"/>
+    <text x="22" y="48" font-size="36">🔬</text>
+    <text x="22" y="92" class="label-lg">Science</text>
+    <g transform="translate(150, 16)">
+      <circle cx="30" cy="30" r="24" class="mini-ring-bg"/>
+      <circle cx="30" cy="30" r="24" class="mini-ring" stroke="#F59E0B" stroke-dasharray="15.1 150.8"/>
+      <text x="30" y="36" text-anchor="middle" font-size="13" font-weight="800" fill="#78350F">10%</text>
+    </g>
+    <text x="22" y="142" class="label-sm">5 / 50</text>
+  </g>
+
+  <g class="shadow" transform="translate(532, 500)">
+    <rect width="226" height="180" rx="18" fill="#FEE2E2"/>
+    <text x="22" y="48" font-size="36">🚗</text>
+    <text x="22" y="92" class="label-lg">Vehicles</text>
+    <g transform="translate(150, 16)">
+      <circle cx="30" cy="30" r="24" class="mini-ring-bg"/>
+      <circle cx="30" cy="30" r="24" class="mini-ring" stroke="#DC2626" stroke-dasharray="126.7 150.8"/>
+      <text x="30" y="36" text-anchor="middle" font-size="13" font-weight="800" fill="#7F1D1D">84%</text>
+    </g>
+    <text x="22" y="142" class="label-sm">42 / 50</text>
+  </g>
+
+  <g class="shadow" transform="translate(774, 500)">
+    <rect width="226" height="180" rx="18" fill="#EDE9FE"/>
+    <text x="22" y="48" font-size="36">📚</text>
+    <text x="22" y="92" class="label-lg">Grammar</text>
+    <g transform="translate(150, 16)">
+      <circle cx="30" cy="30" r="24" class="mini-ring-bg"/>
+      <circle cx="30" cy="30" r="24" class="mini-ring" stroke="#7C3AED" stroke-dasharray="24.1 150.8"/>
+      <text x="30" y="36" text-anchor="middle" font-size="13" font-weight="800" fill="#4C1D95">16%</text>
+    </g>
+    <text x="22" y="142" class="label-sm">8 / 50</text>
+  </g>
+
+  <g class="shadow" transform="translate(1016, 500)">
+    <rect width="216" height="180" rx="18" fill="white" stroke="#E5E7EB" stroke-width="2" stroke-dasharray="6 4"/>
+    <text x="22" y="48" font-size="36">🎲</text>
+    <text x="22" y="92" class="label-lg">Random</text>
+    <text x="22" y="142" class="label-sm">Mix it up</text>
+  </g>
+
+  <!-- Caption -->
+  <text x="640" y="740" text-anchor="middle" font-size="16" fill="#6B7280">
+    Layout B — Continue hero: prioritise resume; other modules secondary
+  </text>
+</svg>
