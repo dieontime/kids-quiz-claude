@@ -21,10 +21,23 @@ export function generateMathQuestions(band: '5-6' | '7-9', count: number): Gener
 
 function makeYounger(): GeneratedQuestion {
   const op = Math.random() < 0.5 ? '+' : '-';
-  const a = randInt(0, 10);
-  const b = randInt(0, op === '+' ? 10 - a : a);
-  const answer = op === '+' ? a + b : a - b;
-  const explanation = op === '+' ? `${a} plus ${b} is ${answer}` : `${a} take away ${b} is ${answer}`;
+  let a: number;
+  let b: number;
+  let answer: number;
+  let explanation: string;
+  if (op === '+') {
+    // Both operands >= 1, sum capped at 10. Excludes n+0 and 0+n.
+    a = randInt(1, 9);
+    b = randInt(1, 10 - a);
+    answer = a + b;
+    explanation = `${a} plus ${b} is ${answer}`;
+  } else {
+    // a in [2, 10], b in [1, a-1]. Excludes n-0 and n-n.
+    a = randInt(2, 10);
+    b = randInt(1, a - 1);
+    answer = a - b;
+    explanation = `${a} take away ${b} is ${answer}`;
+  }
   return shape('5-6', `${a} ${op} ${b}`, answer, explanation);
 }
 
@@ -35,12 +48,14 @@ function makeOlder(): GeneratedQuestion {
     const b = randInt(2, 12);
     return shape('7-9', `${a} × ${b}`, a * b, `${a} times ${b} is ${a * b}`);
   } else if (r < 0.7) {
+    // 2-digit + at-least-2 to avoid trivial "47 + 1".
     const a = randInt(10, 99);
-    const b = randInt(1, 99);
+    const b = randInt(2, 99);
     return shape('7-9', `${a} + ${b}`, a + b, `${a} plus ${b} is ${a + b}`);
   } else {
+    // 2-digit minus at-least-2; result strictly positive.
     const a = randInt(20, 99);
-    const b = randInt(1, a);
+    const b = randInt(2, a - 1);
     return shape('7-9', `${a} − ${b}`, a - b, `${a} minus ${b} is ${a - b}`);
   }
 }
