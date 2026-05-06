@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import type { QuizQuestion } from '../../stores/quizSessionStore.ts';
+import type { ModuleTheme } from '../../theme/moduleTheme.ts';
 
 interface Props {
   question: QuizQuestion;
@@ -9,9 +10,10 @@ interface Props {
   // shows the highlighted answer state even after parent-side state changes.
   // When undefined, the card manages picked internally.
   revealedIndex?: number | null;
+  theme?: ModuleTheme;
 }
 
-export function QuestionCard({ question, onAnswer, revealedIndex }: Props) {
+export function QuestionCard({ question, onAnswer, revealedIndex, theme }: Props) {
   const [internalPicked, setInternalPicked] = useState<number | null>(null);
   const picked = revealedIndex !== undefined ? revealedIndex : internalPicked;
 
@@ -35,8 +37,10 @@ export function QuestionCard({ question, onAnswer, revealedIndex }: Props) {
           const isPicked = picked === i;
           const isCorrect = i === question.correct_index;
           const reveal = picked !== null;
+          const accentText = theme?.accentText ?? 'text-primary';
+          const accentBorder = theme?.id === 'math' ? 'border-blue-500' : theme?.id === 'vehicles' ? 'border-red-500' : theme?.id === 'grammar' ? 'border-violet-500' : 'border-primary';
           const tone = !reveal
-            ? 'bg-white text-primary border-primary hover:bg-primary/5'
+            ? `bg-white ${accentText} ${accentBorder} hover:bg-black/5`
             : isCorrect
               ? 'bg-green-500 text-white border-green-500'
               : isPicked

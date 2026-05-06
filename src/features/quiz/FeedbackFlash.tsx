@@ -1,12 +1,15 @@
 import { motion } from 'framer-motion';
+import type { ModuleTheme } from '../../theme/moduleTheme.ts';
 
 interface Props {
   correct: boolean;
   explanation: string;
   onNext: () => void;
+  theme?: ModuleTheme;
 }
 
-export function FeedbackFlash({ correct, explanation, onNext }: Props) {
+export function FeedbackFlash({ correct, explanation, onNext, theme }: Props) {
+  const nextBg = theme?.accentBg ?? 'bg-primary';
   return (
     <motion.div
       initial={{ opacity: 0, y: 30 }}
@@ -22,7 +25,7 @@ export function FeedbackFlash({ correct, explanation, onNext }: Props) {
       <button
         onClick={onNext}
         autoFocus
-        className="px-6 sm:px-8 py-3 sm:py-4 bg-primary text-white text-xl sm:text-2xl md:text-3xl font-bold rounded-xl shadow-md focus-visible:ring-4 focus-visible:ring-yellow-400 focus-visible:outline-none active:scale-95 transition-transform"
+        className={`px-6 sm:px-8 py-3 sm:py-4 ${nextBg} text-white text-xl sm:text-2xl md:text-3xl font-bold rounded-xl shadow-md focus-visible:ring-4 focus-visible:ring-yellow-400 focus-visible:outline-none active:scale-95 transition-transform`}
       >
         Next
       </button>
