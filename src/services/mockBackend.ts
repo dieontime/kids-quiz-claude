@@ -313,16 +313,35 @@ export const mockBackend = {
     const lower = username.toLowerCase();
     const idx = profiles.findIndex(p => p.username_lower === lower);
 
+    // Single generic error for unknown user OR wrong code — avoids username enumeration.
+    // Implementer note: do NOT split this into two messages; the threat model is parents
+    // probing for sibling accounts.
     if (idx === -1) {
-      throw new MockBackendError('NOT_FOUND', 'Username not found');
+      throw new MockBackendError('WRONG_RECOVERY', 'Username or recovery code is incorrect');
     }
 
     const stored = profiles[idx];
 
-    // Validate recovery code
+    // Same lockout ladder as login (5/8/10 → 1m/5m/24h). Recovery code space is
+    // ~4.8M; without rate-limiting it's brute-forceable.
+    if (stored.locked_until) {
+      const lockedUntil = new Date(stored.locked_until);
+      if (lockedUntil > new Date()) {
+        throw new MockBackendError('LOCKED', `Account is locked until ${stored.locked_until}`);
+      }
+      stored.locked_until = null;
+      stored.failed_attempts = 0;
+    }
+
     const attemptHash = await hashRecovery(recoveryCode, stored.salt);
     if (attemptHash !== stored.recovery_hash) {
-      throw new MockBackendError('WRONG_RECOVERY', 'Recovery code is incorrect');
+      stored.failed_attempts += 1;
+      const durationMs = lockoutDurationMs(stored.failed_attempts);
+      if (durationMs !== null) {
+        stored.locked_until = new Date(Date.now() + durationMs).toISOString();
+      }
+      writeKey(KEY_PROFILES, profiles);
+      throw new MockBackendError('WRONG_RECOVERY', 'Username or recovery code is incorrect');
     }
 
     // Validate new PIN
