@@ -2,7 +2,7 @@ import { createBrowserRouter, Navigate } from 'react-router-dom';
 import { SignupWizard } from './features/auth/SignupWizard.tsx';
 import { LoginScreen } from './features/auth/LoginScreen.tsx';
 import { RecoveryScreen } from './features/auth/RecoveryScreen.tsx';
-import { MinimalDashboard } from './features/dashboard/MinimalDashboard.tsx';
+import { ThemedDashboard } from './features/dashboard/ThemedDashboard.tsx';
 import { ModuleSelectionScreen } from './features/modules/ModuleSelectionScreen.tsx';
 import { QuickStartIntro } from './features/quiz/QuickStartIntro.tsx';
 import { QuizScreen } from './features/quiz/QuizScreen.tsx';
@@ -19,7 +19,7 @@ export const router = createBrowserRouter([
   { path: '/login',          Component: LoginScreen },
   { path: '/signup',         Component: SignupWizard },
   { path: '/recovery',       Component: RecoveryScreen },
-  { path: '/dashboard',      Component: MinimalDashboard },
+  { path: '/dashboard',      Component: ThemedDashboard },
   { path: '/modules',        Component: ModuleSelectionScreen },
   { path: '/quick-start',    Component: QuickStartIntro },
   { path: '/quiz/:moduleId', Component: QuizScreen },
