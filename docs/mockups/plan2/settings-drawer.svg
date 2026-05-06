@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <!-- Backdrop dimmed dashboard -->
+  <rect width="1280" height="800" fill="#FFF8EE"/>
+  <rect width="1280" height="800" fill="black" opacity="0.35"/>
+
+  <!-- Drawer (right side, 480px wide) -->
+  <g transform="translate(800, 0)">
+    <rect width="480" height="800" fill="white"/>
+
+    <!-- Header -->
+    <text x="32" y="56" font-size="32" font-weight="800" fill="#1F2937">Settings</text>
+    <text x="448" y="56" text-anchor="end" font-size="40" fill="#6B7280">×</text>
+
+    <!-- Sound section -->
+    <line x1="32" y1="80" x2="448" y2="80" stroke="#E5E7EB" stroke-width="2"/>
+    <text x="32" y="108" font-size="14" font-weight="800" fill="#6B7280" letter-spacing="2">SOUND</text>
+    <text x="32" y="148" font-size="20" fill="#1F2937">Sound</text>
+    <g transform="translate(400, 132)">
+      <rect width="48" height="24" rx="12" fill="#3B82F6"/>
+      <circle cx="36" cy="12" r="9" fill="white"/>
+    </g>
+    <text x="32" y="194" font-size="20" fill="#1F2937">Volume</text>
+    <line x1="280" y1="194" x2="448" y2="194" stroke="#9CA3AF" stroke-width="3"/>
+    <circle cx="364" cy="194" r="9" fill="#3B82F6"/>
+
+    <!-- Display section -->
+    <line x1="32" y1="232" x2="448" y2="232" stroke="#E5E7EB" stroke-width="2"/>
+    <text x="32" y="260" font-size="14" font-weight="800" fill="#6B7280" letter-spacing="2">DISPLAY</text>
+    <text x="32" y="298" font-size="20" fill="#1F2937">Reduce motion</text>
+    <g transform="translate(400, 282)">
+      <rect width="48" height="24" rx="12" fill="#D1D5DB"/>
+      <circle cx="12" cy="12" r="9" fill="white"/>
+    </g>
+    <text x="32" y="338" font-size="20" fill="#1F2937">Large text</text>
+    <g transform="translate(400, 322)">
+      <rect width="48" height="24" rx="12" fill="#D1D5DB"/>
+      <circle cx="12" cy="12" r="9" fill="white"/>
+    </g>
+    <text x="32" y="378" font-size="20" fill="#1F2937">Dyslexia-friendly font</text>
+    <g transform="translate(400, 362)">
+      <rect width="48" height="24" rx="12" fill="#D1D5DB"/>
+      <circle cx="12" cy="12" r="9" fill="white"/>
+    </g>
+
+    <!-- Quiz section -->
+    <line x1="32" y1="412" x2="448" y2="412" stroke="#E5E7EB" stroke-width="2"/>
+    <text x="32" y="440" font-size="14" font-weight="800" fill="#6B7280" letter-spacing="2">QUIZ</text>
+    <text x="32" y="478" font-size="20" fill="#1F2937">Age band</text>
+    <g transform="translate(360, 458)">
+      <rect width="88" height="36" rx="8" fill="white" stroke="#9CA3AF" stroke-width="2"/>
+      <text x="44" y="24" text-anchor="middle" font-size="14" font-weight="700" fill="#1F2937">5-6 years ▾</text>
+    </g>
+    <text x="32" y="510" font-size="12" fill="#6B7280">This setting resets when you log out.</text>
+
+    <!-- Account section -->
+    <line x1="32" y1="540" x2="448" y2="540" stroke="#E5E7EB" stroke-width="2"/>
+    <text x="32" y="568" font-size="14" font-weight="800" fill="#6B7280" letter-spacing="2">ACCOUNT</text>
+    <text x="32" y="608" font-size="20" font-weight="700" fill="#7C3AED">Log out</text>
+    <text x="32" y="650" font-size="20" font-weight="700" fill="#DC2626">Reset my progress</text>
+
+    <text x="32" y="780" font-size="12" fill="#6B7280">ESC to close</text>
+  </g>
+
+  <!-- Caption -->
+  <text x="640" y="780" text-anchor="middle" font-size="16" fill="white" font-weight="700">
+    Settings drawer — Sound + Display (a11y) + Quiz (age band) + Account (Reset gated by AdultGate)
+  </text>
+</svg>
