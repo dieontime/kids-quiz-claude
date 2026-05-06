@@ -7,28 +7,32 @@ export function MinimalDashboard() {
   if (!profile) return <Navigate to="/login" replace />;
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center gap-6 sm:gap-8 md:gap-10 p-6">
-      <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-center">
-        Hi, {profile.username}!
-      </h1>
-      <Link
-        to="/quick-start"
-        className="px-8 sm:px-10 md:px-12 py-4 sm:py-5 md:py-6 bg-primary text-white text-2xl sm:text-3xl md:text-4xl font-bold rounded-2xl shadow-md text-center"
-      >
-        Quick Start
-      </Link>
-      <Link
-        to="/modules"
-        className="px-8 sm:px-10 md:px-12 py-4 sm:py-5 md:py-6 border-4 border-primary text-primary text-2xl sm:text-3xl md:text-4xl font-bold rounded-2xl text-center"
-      >
-        Choose Module
-      </Link>
-      <button
-        onClick={logout}
-        className="text-base sm:text-lg text-gray-500 underline mt-6 sm:mt-8"
-      >
-        Log out
-      </button>
+    <div className="min-h-screen flex flex-col p-4 sm:p-6 md:p-8">
+      <header className="w-full flex justify-end">
+        <button
+          onClick={logout}
+          className="px-3 py-2 text-sm sm:text-base font-bold text-primary border-2 border-primary rounded-lg hover:bg-primary/5"
+        >
+          Log out
+        </button>
+      </header>
+      <div className="flex-1 flex flex-col items-center justify-center gap-6 sm:gap-8 md:gap-10">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center">
+          Hi, {profile.username}!
+        </h1>
+        <Link
+          to="/quick-start"
+          className="px-6 sm:px-8 md:px-10 py-3 sm:py-4 md:py-5 bg-primary text-white text-xl sm:text-2xl md:text-3xl font-bold rounded-2xl shadow-md text-center"
+        >
+          Quick Start
+        </Link>
+        <Link
+          to="/modules"
+          className="px-6 sm:px-8 md:px-10 py-3 sm:py-4 md:py-5 border-4 border-primary text-primary text-xl sm:text-2xl md:text-3xl font-bold rounded-2xl text-center"
+        >
+          Choose Module
+        </Link>
+      </div>
     </div>
   );
 }

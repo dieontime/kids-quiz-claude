@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { EmojiPinKeypad, type PinIcon } from './EmojiPinKeypad.tsx';
 import { recoverPin } from '../../lib/auth.ts';
 import { BigButton } from '../../components/BigButton.tsx';
@@ -45,6 +45,7 @@ export function RecoveryScreen() {
         />
         {error && <p className="text-red-600 text-lg sm:text-xl">{error}</p>}
         <BigButton onClick={() => setStage('newpin')} disabled={!username || !code}>Next</BigButton>
+        <Link to="/login" className="text-lg sm:text-xl text-primary underline">← Back to login</Link>
       </div>
     );
   }
@@ -53,6 +54,12 @@ export function RecoveryScreen() {
       <div className={wrap}>
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center">Pick a new PIN</h2>
         <EmojiPinKeypad onComplete={submitNewPin} />
+        <button
+          onClick={() => setStage('creds')}
+          className="text-lg sm:text-xl text-primary underline"
+        >
+          ← Back
+        </button>
       </div>
     );
   }
