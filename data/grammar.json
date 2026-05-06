@@ -4,7 +4,12 @@
     "age_band": "5-6",
     "external_id": "grammar_v1_001",
     "question_text": "Which word goes before 'apple'? '___ apple'",
-    "options": ["A", "An", "The a", "And"],
+    "options": [
+      "A",
+      "An",
+      "The a",
+      "And"
+    ],
     "correct_index": 1,
     "explanation": "We use 'an' before words that start with a vowel sound, like the 'a' sound in 'apple'. So we say 'an apple'.",
     "source": "static:grammar"
@@ -14,7 +19,12 @@
     "age_band": "5-6",
     "external_id": "grammar_v1_002",
     "question_text": "Which word goes before 'dog'? '___ dog'",
-    "options": ["An", "A", "The an", "Is"],
+    "options": [
+      "An",
+      "A",
+      "The an",
+      "Is"
+    ],
     "correct_index": 1,
     "explanation": "We use 'a' before words that start with a consonant sound, like the 'd' sound in 'dog'. So we say 'a dog'.",
     "source": "static:grammar"
@@ -24,7 +34,12 @@
     "age_band": "5-6",
     "external_id": "grammar_v1_003",
     "question_text": "What is the plural of 'cat'?",
-    "options": ["Cates", "Cat", "Cats", "Caties"],
+    "options": [
+      "Cates",
+      "Cat",
+      "Cats",
+      "Caties"
+    ],
     "correct_index": 2,
     "explanation": "To make most words plural (more than one), we add an 's' at the end. One cat becomes two cats!",
     "source": "static:grammar"
@@ -34,7 +49,12 @@
     "age_band": "5-6",
     "external_id": "grammar_v1_004",
     "question_text": "What is the plural of 'mouse'?",
-    "options": ["Mouses", "Mices", "Mouse", "Mice"],
+    "options": [
+      "Mouses",
+      "Mices",
+      "Mouse",
+      "Mice"
+    ],
     "correct_index": 3,
     "explanation": "Mouse is a tricky word — its plural is mice, not mouses! Some words change completely when there is more than one.",
     "source": "static:grammar"
@@ -44,7 +64,12 @@
     "age_band": "5-6",
     "external_id": "grammar_v1_005",
     "question_text": "What is the plural of 'child'?",
-    "options": ["Childs", "Childes", "Children", "Childrens"],
+    "options": [
+      "Childs",
+      "Childes",
+      "Children",
+      "Childrens"
+    ],
     "correct_index": 2,
     "explanation": "The plural of child is children. It is a special word that changes a lot — just like mouse becomes mice!",
     "source": "static:grammar"
@@ -54,7 +79,12 @@
     "age_band": "5-6",
     "external_id": "grammar_v1_006",
     "question_text": "What is the plural of 'foot'?",
-    "options": ["Foots", "Feet", "Feets", "Foot"],
+    "options": [
+      "Foots",
+      "Feet",
+      "Feets",
+      "Foot"
+    ],
     "correct_index": 1,
     "explanation": "The plural of foot is feet. You have two feet on your body, not two foots!",
     "source": "static:grammar"
@@ -64,7 +94,12 @@
     "age_band": "5-6",
     "external_id": "grammar_v1_007",
     "question_text": "Pick the correct sentence: 'The dog ___ happy.'",
-    "options": ["are", "is", "am", "were"],
+    "options": [
+      "are",
+      "is",
+      "am",
+      "were"
+    ],
     "correct_index": 1,
     "explanation": "When we talk about one person or animal, we use 'is'. The dog is one dog, so we say 'The dog is happy'.",
     "source": "static:grammar"
@@ -74,7 +109,12 @@
     "age_band": "5-6",
     "external_id": "grammar_v1_008",
     "question_text": "Pick the correct sentence: 'The dogs ___ happy.'",
-    "options": ["is", "am", "are", "was"],
+    "options": [
+      "is",
+      "am",
+      "are",
+      "was"
+    ],
     "correct_index": 2,
     "explanation": "When we talk about more than one, we use 'are'. There are many dogs, so we say 'The dogs are happy'.",
     "source": "static:grammar"
@@ -84,7 +124,12 @@
     "age_band": "5-6",
     "external_id": "grammar_v1_009",
     "question_text": "Which letter should go at the start of a sentence?",
-    "options": ["A small letter", "A capital (big) letter", "A number", "A star"],
+    "options": [
+      "A small letter",
+      "A capital (big) letter",
+      "A number",
+      "A star"
+    ],
     "correct_index": 1,
     "explanation": "Every sentence starts with a capital (big) letter. This helps the reader see where a new sentence begins.",
     "source": "static:grammar"
@@ -94,7 +139,12 @@
     "age_band": "5-6",
     "external_id": "grammar_v1_010",
     "question_text": "Which punctuation mark goes at the end of a question?",
-    "options": ["Full stop (.)", "Exclamation mark (!)", "Question mark (?)", "Comma (,)"],
+    "options": [
+      "Full stop (.)",
+      "Exclamation mark (!)",
+      "Question mark (?)",
+      "Comma (,)"
+    ],
     "correct_index": 2,
     "explanation": "A question mark (?) goes at the end of a question. It tells the reader that someone is asking something.",
     "source": "static:grammar"
@@ -104,7 +154,12 @@
     "age_band": "5-6",
     "external_id": "grammar_v1_011",
     "question_text": "Which punctuation mark goes at the end of a normal sentence?",
-    "options": ["Question mark (?)", "Full stop (.)", "Comma (,)", "Exclamation mark (!)"],
+    "options": [
+      "Question mark (?)",
+      "Full stop (.)",
+      "Comma (,)",
+      "Exclamation mark (!)"
+    ],
     "correct_index": 1,
     "explanation": "A full stop (.) goes at the end of most sentences. It tells the reader that the sentence is finished.",
     "source": "static:grammar"
@@ -114,7 +169,12 @@
     "age_band": "5-6",
     "external_id": "grammar_v1_012",
     "question_text": "The boy fell down. What word can replace 'the boy'?",
-    "options": ["She", "They", "He", "We"],
+    "options": [
+      "She",
+      "They",
+      "He",
+      "We"
+    ],
     "correct_index": 2,
     "explanation": "We use 'he' instead of naming a boy or man. So 'The boy fell down' becomes 'He fell down'.",
     "source": "static:grammar"
@@ -124,7 +184,12 @@
     "age_band": "5-6",
     "external_id": "grammar_v1_013",
     "question_text": "The girl is singing. What word can replace 'the girl'?",
-    "options": ["He", "It", "They", "She"],
+    "options": [
+      "He",
+      "It",
+      "They",
+      "She"
+    ],
     "correct_index": 3,
     "explanation": "We use 'she' instead of naming a girl or woman. So 'The girl is singing' becomes 'She is singing'.",
     "source": "static:grammar"
@@ -134,7 +199,12 @@
     "age_band": "5-6",
     "external_id": "grammar_v1_014",
     "question_text": "The cat is sleeping. What word can replace 'the cat'?",
-    "options": ["He", "She", "It", "We"],
+    "options": [
+      "He",
+      "She",
+      "It",
+      "We"
+    ],
     "correct_index": 2,
     "explanation": "We use 'it' when we talk about a thing or an animal (when we don't say if it is a boy or girl animal). So we say 'It is sleeping'.",
     "source": "static:grammar"
@@ -144,7 +214,12 @@
     "age_band": "5-6",
     "external_id": "grammar_v1_015",
     "question_text": "Tom and Lily are playing. What word can replace 'Tom and Lily'?",
-    "options": ["He", "She", "It", "They"],
+    "options": [
+      "He",
+      "She",
+      "It",
+      "They"
+    ],
     "correct_index": 3,
     "explanation": "When we talk about more than one person, we use 'they'. So 'Tom and Lily are playing' becomes 'They are playing'.",
     "source": "static:grammar"
@@ -154,7 +229,12 @@
     "age_band": "5-6",
     "external_id": "grammar_v1_016",
     "question_text": "What is the opposite of 'big'?",
-    "options": ["Fast", "Small", "Tall", "Loud"],
+    "options": [
+      "Fast",
+      "Small",
+      "Tall",
+      "Loud"
+    ],
     "correct_index": 1,
     "explanation": "The opposite of big is small. A elephant is big; a mouse is small!",
     "source": "static:grammar"
@@ -164,7 +244,12 @@
     "age_band": "5-6",
     "external_id": "grammar_v1_017",
     "question_text": "What is the opposite of 'fast'?",
-    "options": ["Slow", "Short", "Cold", "Light"],
+    "options": [
+      "Slow",
+      "Short",
+      "Cold",
+      "Light"
+    ],
     "correct_index": 0,
     "explanation": "The opposite of fast is slow. A cheetah is fast; a snail is slow.",
     "source": "static:grammar"
@@ -174,7 +259,12 @@
     "age_band": "5-6",
     "external_id": "grammar_v1_018",
     "question_text": "What is the opposite of 'hot'?",
-    "options": ["Warm", "Hard", "Cold", "Dark"],
+    "options": [
+      "Warm",
+      "Hard",
+      "Cold",
+      "Dark"
+    ],
     "correct_index": 2,
     "explanation": "The opposite of hot is cold. Fire is hot; ice is cold.",
     "source": "static:grammar"
@@ -184,7 +274,12 @@
     "age_band": "5-6",
     "external_id": "grammar_v1_019",
     "question_text": "What is an action word? (also called a verb)",
-    "options": ["A word that describes color", "A word that names a thing", "A word that shows what someone does", "A word that means more than one"],
+    "options": [
+      "A word that describes color",
+      "A word that names a thing",
+      "A word that shows what someone does",
+      "A word that means more than one"
+    ],
     "correct_index": 2,
     "explanation": "An action word (verb) shows what someone or something does. Run, jump, eat, and sleep are all action words!",
     "source": "static:grammar"
@@ -194,7 +289,12 @@
     "age_band": "5-6",
     "external_id": "grammar_v1_020",
     "question_text": "Which of these is an action word (verb)?",
-    "options": ["Apple", "Jump", "Blue", "Chair"],
+    "options": [
+      "Apple",
+      "Jump",
+      "Blue",
+      "Chair"
+    ],
     "correct_index": 1,
     "explanation": "Jump is an action word — it tells us what someone is doing. Apple, blue, and chair do not show actions.",
     "source": "static:grammar"
@@ -204,7 +304,12 @@
     "age_band": "5-6",
     "external_id": "grammar_v1_021",
     "question_text": "Which of these is a describing word (adjective)?",
-    "options": ["Run", "Cat", "Fluffy", "Eat"],
+    "options": [
+      "Run",
+      "Cat",
+      "Fluffy",
+      "Eat"
+    ],
     "correct_index": 2,
     "explanation": "Fluffy is a describing word — it tells us what something is like. We can say 'a fluffy bunny' to describe how it feels.",
     "source": "static:grammar"
@@ -214,7 +319,12 @@
     "age_band": "5-6",
     "external_id": "grammar_v1_022",
     "question_text": "Which word goes before 'orange'? '___ orange'",
-    "options": ["A", "An", "And", "Are"],
+    "options": [
+      "A",
+      "An",
+      "And",
+      "Are"
+    ],
     "correct_index": 1,
     "explanation": "We use 'an' before words that start with a vowel sound like the 'o' in 'orange'. So we say 'an orange'.",
     "source": "static:grammar"
@@ -224,7 +334,12 @@
     "age_band": "5-6",
     "external_id": "grammar_v1_023",
     "question_text": "Which word goes before 'umbrella'? '___ umbrella'",
-    "options": ["A", "The a", "An", "Is"],
+    "options": [
+      "A",
+      "The a",
+      "An",
+      "Is"
+    ],
     "correct_index": 2,
     "explanation": "We use 'an' before words starting with a vowel sound. Umbrella starts with the 'u' sound, so we say 'an umbrella'.",
     "source": "static:grammar"
@@ -234,7 +349,12 @@
     "age_band": "5-6",
     "external_id": "grammar_v1_024",
     "question_text": "Pick the correct sentence: 'I ___ happy today.'",
-    "options": ["is", "are", "am", "be"],
+    "options": [
+      "is",
+      "are",
+      "am",
+      "be"
+    ],
     "correct_index": 2,
     "explanation": "When we talk about ourselves, we say 'I am'. So the correct sentence is 'I am happy today'.",
     "source": "static:grammar"
@@ -244,7 +364,12 @@
     "age_band": "5-6",
     "external_id": "grammar_v1_025",
     "question_text": "Which of these words is a naming word (noun)?",
-    "options": ["Soft", "Run", "Table", "Quickly"],
+    "options": [
+      "Soft",
+      "Run",
+      "Table",
+      "Quickly"
+    ],
     "correct_index": 2,
     "explanation": "A naming word (noun) is the name of a person, place, or thing. Table is the name of a thing, so it is a noun.",
     "source": "static:grammar"
@@ -254,7 +379,12 @@
     "age_band": "5-6",
     "external_id": "grammar_v1_026",
     "question_text": "What is the plural of 'box'?",
-    "options": ["Boxs", "Boxes", "Boxen", "Box"],
+    "options": [
+      "Boxs",
+      "Boxes",
+      "Boxen",
+      "Box"
+    ],
     "correct_index": 1,
     "explanation": "When a word ends in 'x', we add 'es' to make it plural. So one box becomes two boxes.",
     "source": "static:grammar"
@@ -264,7 +394,12 @@
     "age_band": "5-6",
     "external_id": "grammar_v1_027",
     "question_text": "What is the plural of 'tooth'?",
-    "options": ["Tooths", "Toothes", "Teeth", "Teeths"],
+    "options": [
+      "Tooths",
+      "Toothes",
+      "Teeth",
+      "Teeths"
+    ],
     "correct_index": 2,
     "explanation": "Tooth is another tricky word. More than one tooth is called teeth! Our mouth is full of teeth.",
     "source": "static:grammar"
@@ -274,7 +409,12 @@
     "age_band": "5-6",
     "external_id": "grammar_v1_028",
     "question_text": "My friends and I like pizza. What word can replace 'my friends and I'?",
-    "options": ["They", "We", "He", "It"],
+    "options": [
+      "They",
+      "We",
+      "He",
+      "It"
+    ],
     "correct_index": 1,
     "explanation": "When you talk about yourself and other people together, you use 'we'. 'My friends and I' becomes 'We like pizza'.",
     "source": "static:grammar"
@@ -284,7 +424,12 @@
     "age_band": "5-6",
     "external_id": "grammar_v1_029",
     "question_text": "Which sentence has a capital letter in the right place?",
-    "options": ["the cat sat on the mat.", "The cat sat on the mat.", "the Cat sat on the mat.", "The Cat sat on The mat."],
+    "options": [
+      "the cat sat on the mat.",
+      "The cat sat on the mat.",
+      "the Cat sat on the mat.",
+      "The Cat sat on The mat."
+    ],
     "correct_index": 1,
     "explanation": "A sentence must start with a capital (big) letter. Only the very first word needs a capital unless it is a name.",
     "source": "static:grammar"
@@ -294,7 +439,12 @@
     "age_band": "5-6",
     "external_id": "grammar_v1_030",
     "question_text": "What is the opposite of 'day'?",
-    "options": ["Morning", "Night", "Afternoon", "Light"],
+    "options": [
+      "Morning",
+      "Night",
+      "Afternoon",
+      "Light"
+    ],
     "correct_index": 1,
     "explanation": "The opposite of day is night. When the sun is up it is daytime; when the sun goes down it becomes night.",
     "source": "static:grammar"
@@ -304,7 +454,12 @@
     "age_band": "5-6",
     "external_id": "grammar_v1_031",
     "question_text": "What is the opposite of 'up'?",
-    "options": ["Over", "Forward", "Down", "Across"],
+    "options": [
+      "Over",
+      "Forward",
+      "Down",
+      "Across"
+    ],
     "correct_index": 2,
     "explanation": "The opposite of up is down. When a ball goes up into the air, it comes back down again.",
     "source": "static:grammar"
@@ -314,7 +469,12 @@
     "age_band": "5-6",
     "external_id": "grammar_v1_032",
     "question_text": "Which of these is an action word? 'The rabbit ___ across the field.'",
-    "options": ["Brown", "Fluffy", "Hopped", "Tiny"],
+    "options": [
+      "Brown",
+      "Fluffy",
+      "Hopped",
+      "Tiny"
+    ],
     "correct_index": 2,
     "explanation": "Hopped is an action word (verb) — it tells us what the rabbit did. Brown, fluffy, and tiny are describing words.",
     "source": "static:grammar"
@@ -324,7 +484,12 @@
     "age_band": "5-6",
     "external_id": "grammar_v1_033",
     "question_text": "Which sentence ends correctly?",
-    "options": ["Where is my bag,", "Where is my bag.", "Where is my bag?", "Where is my bag!"],
+    "options": [
+      "Where is my bag,",
+      "Where is my bag.",
+      "Where is my bag?",
+      "Where is my bag!"
+    ],
     "correct_index": 2,
     "explanation": "A question always ends with a question mark (?). 'Where is my bag?' is asking something, so it needs a question mark.",
     "source": "static:grammar"
@@ -334,7 +499,12 @@
     "age_band": "5-6",
     "external_id": "grammar_v1_034",
     "question_text": "Apple, banana, and orange all belong to which group?",
-    "options": ["Vegetables", "Animals", "Vehicles", "Fruit"],
+    "options": [
+      "Vegetables",
+      "Animals",
+      "Vehicles",
+      "Fruit"
+    ],
     "correct_index": 3,
     "explanation": "Apple, banana, and orange are all types of fruit. Words in the same group or category share something in common.",
     "source": "static:grammar"
@@ -344,7 +514,12 @@
     "age_band": "5-6",
     "external_id": "grammar_v1_035",
     "question_text": "Car, bus, and train all belong to which group?",
-    "options": ["Animals", "Food", "Vehicles", "Plants"],
+    "options": [
+      "Animals",
+      "Food",
+      "Vehicles",
+      "Plants"
+    ],
     "correct_index": 2,
     "explanation": "Car, bus, and train are all vehicles — things we use to travel from one place to another.",
     "source": "static:grammar"
@@ -354,7 +529,12 @@
     "age_band": "5-6",
     "external_id": "grammar_v1_036",
     "question_text": "Which word describes how a kitten feels?",
-    "options": ["Run", "Sleep", "Soft", "Meow"],
+    "options": [
+      "Run",
+      "Sleep",
+      "Soft",
+      "Meow"
+    ],
     "correct_index": 2,
     "explanation": "Soft is a describing word (adjective) — it tells us what a kitten feels like when you touch it.",
     "source": "static:grammar"
@@ -364,7 +544,12 @@
     "age_band": "5-6",
     "external_id": "grammar_v1_037",
     "question_text": "Which word is the opposite of 'open'?",
-    "options": ["Wide", "Big", "Closed", "Empty"],
+    "options": [
+      "Wide",
+      "Big",
+      "Closed",
+      "Empty"
+    ],
     "correct_index": 2,
     "explanation": "The opposite of open is closed. A door can be open (you can walk through) or closed (it is shut).",
     "source": "static:grammar"
@@ -374,7 +559,12 @@
     "age_band": "5-6",
     "external_id": "grammar_v1_038",
     "question_text": "Which word is the opposite of 'clean'?",
-    "options": ["Shiny", "Wet", "Bright", "Dirty"],
+    "options": [
+      "Shiny",
+      "Wet",
+      "Bright",
+      "Dirty"
+    ],
     "correct_index": 3,
     "explanation": "The opposite of clean is dirty. After playing in mud, your clothes are dirty — you need to clean them!",
     "source": "static:grammar"
@@ -384,7 +574,12 @@
     "age_band": "5-6",
     "external_id": "grammar_v1_039",
     "question_text": "What is the plural of 'fish' when talking about many of the same kind?",
-    "options": ["Fishes", "Fishs", "Fishies", "Fish"],
+    "options": [
+      "Fishes",
+      "Fishs",
+      "Fishies",
+      "Fish"
+    ],
     "correct_index": 3,
     "explanation": "Fish is a special word — when you talk about many fish of the same kind, it stays as 'fish'. A pond full of goldfish, not goldfishes!",
     "source": "static:grammar"
@@ -394,7 +589,12 @@
     "age_band": "5-6",
     "external_id": "grammar_v1_040",
     "question_text": "Which sentence uses 'run' correctly as an action word?",
-    "options": ["The run is fast.", "She can run fast.", "Run is big.", "A run ball."],
+    "options": [
+      "The run is fast.",
+      "She can run fast.",
+      "Run is big.",
+      "A run ball."
+    ],
     "correct_index": 1,
     "explanation": "Action words (verbs) tell us what someone does. 'She can run fast' uses run correctly to describe what she does.",
     "source": "static:grammar"
@@ -404,7 +604,12 @@
     "age_band": "5-6",
     "external_id": "grammar_v1_041",
     "question_text": "Which word goes before 'egg'? '___ egg'",
-    "options": ["A", "An", "And", "Are"],
+    "options": [
+      "A",
+      "An",
+      "And",
+      "Are"
+    ],
     "correct_index": 1,
     "explanation": "We use 'an' before a vowel sound. Egg starts with the 'e' sound, which is a vowel, so we say 'an egg'.",
     "source": "static:grammar"
@@ -414,7 +619,12 @@
     "age_band": "5-6",
     "external_id": "grammar_v1_042",
     "question_text": "Which word goes before 'book'? '___ book'",
-    "options": ["An", "A", "Are", "Is"],
+    "options": [
+      "An",
+      "A",
+      "Are",
+      "Is"
+    ],
     "correct_index": 1,
     "explanation": "We use 'a' before a consonant sound. Book starts with the 'b' sound, which is a consonant, so we say 'a book'.",
     "source": "static:grammar"
@@ -424,7 +634,12 @@
     "age_band": "5-6",
     "external_id": "grammar_v1_043",
     "question_text": "Which is the correct plural of 'bus'?",
-    "options": ["Buss", "Buses", "Busses", "Bus"],
+    "options": [
+      "Buss",
+      "Buses",
+      "Busses",
+      "Bus"
+    ],
     "correct_index": 1,
     "explanation": "When a word ends in 's', we add 'es' to make it plural. One bus becomes two buses.",
     "source": "static:grammar"
@@ -434,7 +649,12 @@
     "age_band": "5-6",
     "external_id": "grammar_v1_044",
     "question_text": "Dog, cat, and rabbit all belong to which group?",
-    "options": ["Vehicles", "Food", "Animals", "Plants"],
+    "options": [
+      "Vehicles",
+      "Food",
+      "Animals",
+      "Plants"
+    ],
     "correct_index": 2,
     "explanation": "Dog, cat, and rabbit are all animals. We call them pets because many people keep them at home.",
     "source": "static:grammar"
@@ -444,7 +664,12 @@
     "age_band": "5-6",
     "external_id": "grammar_v1_045",
     "question_text": "Which sentence is correct?",
-    "options": ["my name is lily.", "My name is lily.", "my name is Lily.", "My name is Lily."],
+    "options": [
+      "my name is lily.",
+      "My name is lily.",
+      "my name is Lily.",
+      "My name is Lily."
+    ],
     "correct_index": 3,
     "explanation": "Two capital letters are needed here: one to start the sentence ('My') and one because 'Lily' is a person's name.",
     "source": "static:grammar"
@@ -454,7 +679,12 @@
     "age_band": "5-6",
     "external_id": "grammar_v1_046",
     "question_text": "What is the opposite of 'tall'?",
-    "options": ["Wide", "Short", "Long", "Heavy"],
+    "options": [
+      "Wide",
+      "Short",
+      "Long",
+      "Heavy"
+    ],
     "correct_index": 1,
     "explanation": "The opposite of tall is short. A giraffe is tall; a hamster is short.",
     "source": "static:grammar"
@@ -464,7 +694,12 @@
     "age_band": "5-6",
     "external_id": "grammar_v1_047",
     "question_text": "Which of these is an action word (verb)?",
-    "options": ["Happy", "Red", "Eat", "Chair"],
+    "options": [
+      "Happy",
+      "Red",
+      "Eat",
+      "Chair"
+    ],
     "correct_index": 2,
     "explanation": "Eat is an action word (verb) — it tells us what someone does. We eat our lunch every day!",
     "source": "static:grammar"
@@ -474,7 +709,12 @@
     "age_band": "5-6",
     "external_id": "grammar_v1_048",
     "question_text": "Pick the correct sentence: 'We ___ going to the park.'",
-    "options": ["is", "am", "are", "be"],
+    "options": [
+      "is",
+      "am",
+      "are",
+      "be"
+    ],
     "correct_index": 2,
     "explanation": "When we use 'we' (talking about more than one person), we say 'we are'. So the answer is 'We are going to the park'.",
     "source": "static:grammar"
@@ -484,7 +724,12 @@
     "age_band": "5-6",
     "external_id": "grammar_v1_049",
     "question_text": "Which word is a describing word (adjective)?",
-    "options": ["Tree", "Blue", "Jump", "Run"],
+    "options": [
+      "Tree",
+      "Blue",
+      "Jump",
+      "Run"
+    ],
     "correct_index": 1,
     "explanation": "Blue is a describing word (adjective) — it tells us the color of something. We can say 'a blue sky' or 'a blue ball'.",
     "source": "static:grammar"
@@ -494,9 +739,3014 @@
     "age_band": "5-6",
     "external_id": "grammar_v1_050",
     "question_text": "Which sentence needs an exclamation mark?",
-    "options": ["I have a cat", "What is your name", "Watch out", "The sky is blue"],
+    "options": [
+      "I have a cat",
+      "What is your name",
+      "Watch out",
+      "The sky is blue"
+    ],
     "correct_index": 2,
     "explanation": "We use an exclamation mark (!) when something is exciting or urgent. 'Watch out!' is a warning, so it needs an exclamation mark.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_051",
+    "question_text": "Which word is ALWAYS written with a capital letter, no matter where it is in the sentence?",
+    "options": [
+      "i",
+      "you",
+      "we",
+      "my"
+    ],
+    "correct_index": 0,
+    "explanation": "The word 'I' is always a capital letter, even in the middle of a sentence. We write 'I am happy', never 'i am happy'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_052",
+    "question_text": "Which word should start with a capital letter?",
+    "options": [
+      "cat",
+      "red",
+      "Sarah",
+      "jump"
+    ],
+    "correct_index": 2,
+    "explanation": "Sarah is a person's name, so it always starts with a capital letter. Names of people, places, and pets get capital letters.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_053",
+    "question_text": "How many vowels are in the alphabet?",
+    "options": [
+      "Three",
+      "Four",
+      "Five",
+      "Six"
+    ],
+    "correct_index": 2,
+    "explanation": "There are five vowels: A, E, I, O, U. All the other letters are called consonants.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_054",
+    "question_text": "Which of these letters is a vowel?",
+    "options": [
+      "B",
+      "E",
+      "M",
+      "T"
+    ],
+    "correct_index": 1,
+    "explanation": "E is a vowel. The vowels are A, E, I, O, and U.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_055",
+    "question_text": "Which of these letters is NOT a vowel?",
+    "options": [
+      "A",
+      "E",
+      "I",
+      "S"
+    ],
+    "correct_index": 3,
+    "explanation": "S is a consonant, not a vowel. The vowels are only A, E, I, O, and U.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_056",
+    "question_text": "What is the plural of 'dog'?",
+    "options": [
+      "doges",
+      "dogses",
+      "dogs",
+      "dog"
+    ],
+    "correct_index": 2,
+    "explanation": "Add an 's' to most words to make them mean more than one. One dog → many dogs.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_057",
+    "question_text": "What is the plural of 'baby'?",
+    "options": [
+      "babys",
+      "babies",
+      "babes",
+      "babyes"
+    ],
+    "correct_index": 1,
+    "explanation": "When a word ends in 'y', we change the y to 'ies'. So baby becomes babies.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_058",
+    "question_text": "What is the plural of 'wish'?",
+    "options": [
+      "wishs",
+      "wishes",
+      "wishies",
+      "wish"
+    ],
+    "correct_index": 1,
+    "explanation": "When a word ends in 'sh', we add 'es'. So one wish becomes many wishes.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_059",
+    "question_text": "What is the plural of 'goose'?",
+    "options": [
+      "gooses",
+      "geese",
+      "geeses",
+      "goosen"
+    ],
+    "correct_index": 1,
+    "explanation": "Goose is a tricky word — its plural changes the spelling completely. One goose, two geese.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_060",
+    "question_text": "He, she, it, we, and they are all what kind of words?",
+    "options": [
+      "Verbs",
+      "Nouns",
+      "Pronouns",
+      "Adjectives"
+    ],
+    "correct_index": 2,
+    "explanation": "Pronouns are short words we use instead of names. We say 'she ran' instead of 'Maria ran' the second time.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_061",
+    "question_text": "In this sentence, which word is a name? 'Lily and her brother went to the park.'",
+    "options": [
+      "Lily",
+      "brother",
+      "park",
+      "went"
+    ],
+    "correct_index": 0,
+    "explanation": "Lily is the name of a person. Names always start with a capital letter.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_062",
+    "question_text": "How many days are in a week?",
+    "options": [
+      "Five",
+      "Six",
+      "Seven",
+      "Eight"
+    ],
+    "correct_index": 2,
+    "explanation": "There are seven days in a week: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, and Sunday.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_063",
+    "question_text": "Which day of the week is written correctly?",
+    "options": [
+      "monday",
+      "Monday",
+      "MONDAY",
+      "mondaY"
+    ],
+    "correct_index": 1,
+    "explanation": "Days of the week always start with a capital letter. The other letters are lowercase: Monday, Tuesday, Wednesday.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_064",
+    "question_text": "Which month is written correctly?",
+    "options": [
+      "january",
+      "JANUARY",
+      "January",
+      "januarY"
+    ],
+    "correct_index": 2,
+    "explanation": "Months always start with a capital letter. Like days of the week, only the first letter is uppercase: January, February, March.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_065",
+    "question_text": "Which sentence uses 'I' correctly?",
+    "options": [
+      "i went home.",
+      "I went home.",
+      "i Went home.",
+      "i went Home."
+    ],
+    "correct_index": 1,
+    "explanation": "The word 'I' is always capital, and a sentence always starts with a capital. So we write 'I went home.'",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_066",
+    "question_text": "Which question word do we use to ask about a person?",
+    "options": [
+      "Who",
+      "What",
+      "Where",
+      "When"
+    ],
+    "correct_index": 0,
+    "explanation": "We use 'Who' to ask about a person. 'Who is at the door?' or 'Who took my ball?'",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_067",
+    "question_text": "Which question word do we use to ask about a place?",
+    "options": [
+      "Who",
+      "What",
+      "Where",
+      "When"
+    ],
+    "correct_index": 2,
+    "explanation": "We use 'Where' to ask about a place. 'Where is my book?' or 'Where do you live?'",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_068",
+    "question_text": "Which question word do we use to ask about a time?",
+    "options": [
+      "Who",
+      "What",
+      "Where",
+      "When"
+    ],
+    "correct_index": 3,
+    "explanation": "We use 'When' to ask about a time. 'When is your birthday?' or 'When does school start?'",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_069",
+    "question_text": "Two small words joined together to make a new word are called _____.",
+    "options": [
+      "Compound words",
+      "Long words",
+      "Capital words",
+      "Action words"
+    ],
+    "correct_index": 0,
+    "explanation": "A compound word is made from two smaller words. 'Sun' and 'shine' join to become 'sunshine'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_070",
+    "question_text": "Which of these is a compound word?",
+    "options": [
+      "Apple",
+      "Bedroom",
+      "Happy",
+      "Run"
+    ],
+    "correct_index": 1,
+    "explanation": "'Bedroom' is made from two words: 'bed' and 'room'. Other examples are 'rainbow' and 'butterfly'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_071",
+    "question_text": "Which two words combine to make 'butterfly'?",
+    "options": [
+      "Bu + tterfly",
+      "Butter + fly",
+      "But + tfly",
+      "Butterfl + y"
+    ],
+    "correct_index": 1,
+    "explanation": "'Butter' plus 'fly' makes 'butterfly'. The two smaller words come together to make a new compound word.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_072",
+    "question_text": "Which two words rhyme?",
+    "options": [
+      "Cat and dog",
+      "Cat and bat",
+      "Cat and fish",
+      "Cat and apple"
+    ],
+    "correct_index": 1,
+    "explanation": "Words rhyme when they end with the same sound. 'Cat' and 'bat' both end with the '-at' sound.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_073",
+    "question_text": "Which word rhymes with 'sun'?",
+    "options": [
+      "Sand",
+      "Sit",
+      "Run",
+      "Sing"
+    ],
+    "correct_index": 2,
+    "explanation": "'Sun' and 'run' both end with the '-un' sound, so they rhyme.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_074",
+    "question_text": "How many syllables are in the word 'apple'?",
+    "options": [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+    ],
+    "correct_index": 1,
+    "explanation": "Apple has two syllables: ap-ple. You can clap once for each part.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_075",
+    "question_text": "How many syllables are in the word 'banana'?",
+    "options": [
+      "Two",
+      "Three",
+      "Four",
+      "Five"
+    ],
+    "correct_index": 1,
+    "explanation": "Banana has three syllables: ba-na-na. Clap each part as you say it.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_076",
+    "question_text": "Which letter does the word 'fish' START with?",
+    "options": [
+      "S",
+      "H",
+      "F",
+      "I"
+    ],
+    "correct_index": 2,
+    "explanation": "The first letter of 'fish' is F. We say it like 'fff'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_077",
+    "question_text": "Which letter does the word 'mouse' START with?",
+    "options": [
+      "O",
+      "M",
+      "U",
+      "S"
+    ],
+    "correct_index": 1,
+    "explanation": "The first letter of 'mouse' is M, which makes the 'mmm' sound.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_078",
+    "question_text": "Which letter does the word 'sun' END with?",
+    "options": [
+      "S",
+      "U",
+      "N",
+      "E"
+    ],
+    "correct_index": 2,
+    "explanation": "The last letter of 'sun' is N. We say it like 'nnn'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_079",
+    "question_text": "Which one is a complete sentence?",
+    "options": [
+      "The cat.",
+      "The cat sleeps.",
+      "Sleeps.",
+      "Cat the."
+    ],
+    "correct_index": 1,
+    "explanation": "A sentence needs a person or thing AND something they do. 'The cat sleeps' has both — that's a complete sentence.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_080",
+    "question_text": "What goes between every word in a sentence so we can read it?",
+    "options": [
+      "Period",
+      "Comma",
+      "Space",
+      "Letter"
+    ],
+    "correct_index": 2,
+    "explanation": "We put a space between each word. Without spaces, words would all run together and be hard to read.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_081",
+    "question_text": "In 'The dog barks. The dog jumps.' what kind of words are 'barks' and 'jumps'?",
+    "options": [
+      "Names",
+      "Action words",
+      "Question words",
+      "Capital letters"
+    ],
+    "correct_index": 1,
+    "explanation": "Words like 'barks' and 'jumps' tell us what the dog DOES. They are action words, also called verbs.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_082",
+    "question_text": "Which word is the action word in this sentence: 'The bird flies.'?",
+    "options": [
+      "The",
+      "bird",
+      "flies",
+      "(none)"
+    ],
+    "correct_index": 2,
+    "explanation": "'Flies' tells us what the bird does, so it is the action word (verb) in this sentence.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_083",
+    "question_text": "Which word names a person, place, or thing in this sentence: 'The girl runs.'?",
+    "options": [
+      "The",
+      "girl",
+      "runs",
+      "(none)"
+    ],
+    "correct_index": 1,
+    "explanation": "'Girl' is a person, so it is the naming word, also called a noun.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_084",
+    "question_text": "Which word is a describing word in this sentence: 'The big dog ran fast.'?",
+    "options": [
+      "The",
+      "big",
+      "dog",
+      "ran"
+    ],
+    "correct_index": 1,
+    "explanation": "'Big' tells us what kind of dog. Words that describe other words are called describing words, or adjectives.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_085",
+    "question_text": "Which sentence has a capital letter and a period in the right places?",
+    "options": [
+      "the cat ran",
+      "the cat ran.",
+      "The cat ran",
+      "The cat ran."
+    ],
+    "correct_index": 3,
+    "explanation": "Every sentence needs a capital letter at the start AND a period at the end. 'The cat ran.' has both.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_086",
+    "question_text": "Which symbol means strong feeling or excitement?",
+    "options": [
+      ".",
+      "?",
+      "!",
+      ","
+    ],
+    "correct_index": 2,
+    "explanation": "The exclamation mark (!) shows excitement or strong feeling. We use it for shouting or surprise.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_087",
+    "question_text": "Which of these is NOT a sentence?",
+    "options": [
+      "Birds fly.",
+      "Fish swim.",
+      "Around the tree.",
+      "Kids play."
+    ],
+    "correct_index": 2,
+    "explanation": "'Around the tree' doesn't tell us who is doing what. A real sentence needs both a person/thing and an action.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_088",
+    "question_text": "Which word means 'belongs to the dog'?",
+    "options": [
+      "dogs",
+      "dog",
+      "dog's",
+      "doggy"
+    ],
+    "correct_index": 2,
+    "explanation": "We add an apostrophe and an 's' to show something belongs to someone. 'The dog's bone' means the bone that belongs to the dog.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_089",
+    "question_text": "Which means 'one of the cat's toys'?",
+    "options": [
+      "cats",
+      "cat",
+      "cat's",
+      "catses"
+    ],
+    "correct_index": 2,
+    "explanation": "An apostrophe + s shows belonging. So 'the cat's toy' means the toy that belongs to the cat.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_090",
+    "question_text": "What is the short way to write 'do not'?",
+    "options": [
+      "dont",
+      "don't",
+      "doont",
+      "dosen't"
+    ],
+    "correct_index": 1,
+    "explanation": "When we squish 'do' and 'not' together, we use an apostrophe to show a letter is missing. 'Do not' becomes 'don't'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_091",
+    "question_text": "What is the short way to write 'cannot'?",
+    "options": [
+      "cant",
+      "can't",
+      "cannt",
+      "ca'nt"
+    ],
+    "correct_index": 1,
+    "explanation": "We use an apostrophe in place of the missing letters. 'Cannot' becomes 'can't'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_092",
+    "question_text": "What is the short way to write 'I am'?",
+    "options": [
+      "Im",
+      "I'm",
+      "iam",
+      "I'am"
+    ],
+    "correct_index": 1,
+    "explanation": "An apostrophe shows where letters were taken out. 'I am' becomes 'I'm', and the I is still capital.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_093",
+    "question_text": "Which group of words is in ABC order?",
+    "options": [
+      "Cat, ant, bee",
+      "Bee, ant, cat",
+      "Ant, bee, cat",
+      "Cat, bee, ant"
+    ],
+    "correct_index": 2,
+    "explanation": "ABC order means alphabetical order. A comes before B, and B comes before C, so it's ant, bee, cat.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_094",
+    "question_text": "Which of these is in alphabetical order?",
+    "options": [
+      "dog, cat, ball",
+      "ball, cat, dog",
+      "cat, dog, ball",
+      "dog, ball, cat"
+    ],
+    "correct_index": 1,
+    "explanation": "B comes before C, and C comes before D in the alphabet. So 'ball, cat, dog' is in alphabetical order.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_095",
+    "question_text": "What is the opposite of 'happy'?",
+    "options": [
+      "glad",
+      "sad",
+      "silly",
+      "loud"
+    ],
+    "correct_index": 1,
+    "explanation": "'Happy' and 'sad' mean the opposite. When you are happy, you smile. When you are sad, you may feel like crying.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_096",
+    "question_text": "What is the opposite of 'wet'?",
+    "options": [
+      "damp",
+      "cold",
+      "dry",
+      "hot"
+    ],
+    "correct_index": 2,
+    "explanation": "'Wet' and 'dry' are opposites. After a bath, you are wet, and a towel makes you dry.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_097",
+    "question_text": "What is the opposite of 'old' (when talking about a toy)?",
+    "options": [
+      "tired",
+      "new",
+      "ugly",
+      "wise"
+    ],
+    "correct_index": 1,
+    "explanation": "'Old' and 'new' are opposites. A new toy is one you just got, while an old toy you've had for a long time.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_098",
+    "question_text": "What is the opposite of 'empty'?",
+    "options": [
+      "heavy",
+      "small",
+      "full",
+      "light"
+    ],
+    "correct_index": 2,
+    "explanation": "'Empty' and 'full' are opposites. An empty cup has nothing in it, but a full cup is filled to the top.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_099",
+    "question_text": "What is the opposite of 'soft'?",
+    "options": [
+      "Hard",
+      "Cold",
+      "Sad",
+      "Round"
+    ],
+    "correct_index": 0,
+    "explanation": "'Soft' and 'hard' are opposites. A pillow is soft, and a rock is hard.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_100",
+    "question_text": "What is the opposite of 'short'?",
+    "options": [
+      "Tall",
+      "Loud",
+      "Wet",
+      "Old"
+    ],
+    "correct_index": 0,
+    "explanation": "'Short' and 'tall' are opposites. A puppy is short, but a giraffe is very tall.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_101",
+    "question_text": "Pick the action word: 'The bee _____ to the flower.'",
+    "options": [
+      "yellow",
+      "buzzed",
+      "garden",
+      "pretty"
+    ],
+    "correct_index": 1,
+    "explanation": "'Buzzed' tells us what the bee did, so it's an action word. The other words don't show action.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_102",
+    "question_text": "Pick the describing word: 'The _____ kitten purred.'",
+    "options": [
+      "jumped",
+      "book",
+      "fluffy",
+      "and"
+    ],
+    "correct_index": 2,
+    "explanation": "'Fluffy' describes what the kitten is like. Describing words tell us about another word.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_103",
+    "question_text": "Pick the naming word: 'The _____ is bright today.'",
+    "options": [
+      "ran",
+      "sun",
+      "shiny",
+      "fast"
+    ],
+    "correct_index": 1,
+    "explanation": "'Sun' is a thing — a noun. The other words are an action and describing words.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_104",
+    "question_text": "Which small word can replace 'Sara' here? 'Sara has a ball. _____ throws it.'",
+    "options": [
+      "Sara",
+      "She",
+      "Ball",
+      "Throw"
+    ],
+    "correct_index": 1,
+    "explanation": "We can use 'she' instead of 'Sara' so we don't say her name twice. That's what pronouns do.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_105",
+    "question_text": "Which word goes in the blank? 'The boy and his sister _____ at the beach.'",
+    "options": [
+      "is",
+      "was",
+      "are",
+      "am"
+    ],
+    "correct_index": 2,
+    "explanation": "When we talk about more than one person, we use 'are'. 'The boy and his sister are at the beach.'",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_106",
+    "question_text": "Which word goes in the blank? 'I _____ tired.'",
+    "options": [
+      "is",
+      "am",
+      "are",
+      "be"
+    ],
+    "correct_index": 1,
+    "explanation": "We always say 'I am'. 'Am' is the special word that goes only with 'I'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_107",
+    "question_text": "Which word goes in the blank? 'You _____ funny.'",
+    "options": [
+      "am",
+      "is",
+      "are",
+      "be"
+    ],
+    "correct_index": 2,
+    "explanation": "We say 'you are' — never 'you is' or 'you am'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_108",
+    "question_text": "Which sentence says something happened in the past (already finished)?",
+    "options": [
+      "I jump.",
+      "I will jump.",
+      "I jumped.",
+      "I jumping."
+    ],
+    "correct_index": 2,
+    "explanation": "'Jumped' has '-ed' at the end, which often means the action is already done. 'I jumped' = it happened before now.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_109",
+    "question_text": "Which sentence says something will happen later (not yet)?",
+    "options": [
+      "I play.",
+      "I will play.",
+      "I played.",
+      "I playing."
+    ],
+    "correct_index": 1,
+    "explanation": "Adding 'will' before an action word means the action hasn't happened yet, but will happen soon.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_110",
+    "question_text": "Which sentence is asking a question?",
+    "options": [
+      "The bird sings.",
+      "Birds are pretty.",
+      "Are you ready?",
+      "Look at that!"
+    ],
+    "correct_index": 2,
+    "explanation": "Questions often start with words like 'Are', 'Is', 'Do', 'Where' — and they always end with a question mark (?).",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_111",
+    "question_text": "Which two words start with the same sound? 'pig' and ___?",
+    "options": [
+      "cat",
+      "pen",
+      "dog",
+      "bus"
+    ],
+    "correct_index": 1,
+    "explanation": "'Pig' and 'pen' both start with the 'p' sound. The other words start with different sounds.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_112",
+    "question_text": "Which two words start with the same sound? 'sun' and ___?",
+    "options": [
+      "sock",
+      "cake",
+      "milk",
+      "book"
+    ],
+    "correct_index": 0,
+    "explanation": "'Sun' and 'sock' both start with the 's' sound.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_113",
+    "question_text": "Which symbol asks a question?",
+    "options": [
+      ".",
+      "?",
+      "!",
+      ","
+    ],
+    "correct_index": 1,
+    "explanation": "The question mark (?) goes at the end of every question, like 'What time is it?'",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_114",
+    "question_text": "The big letters like A, B, and C are called _____ letters.",
+    "options": [
+      "Loud",
+      "Capital",
+      "Tiny",
+      "Quiet"
+    ],
+    "correct_index": 1,
+    "explanation": "The big letters are called capital letters or uppercase letters. The small ones are called lowercase letters.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_115",
+    "question_text": "The little letters like a, b, and c are called _____ letters.",
+    "options": [
+      "Big",
+      "Lowercase",
+      "Bold",
+      "Strong"
+    ],
+    "correct_index": 1,
+    "explanation": "The small letters are called lowercase. We use them in the middle of most words.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_116",
+    "question_text": "Which sentence has the capital in the WRONG place?",
+    "options": [
+      "The dog ran.",
+      "the Dog ran.",
+      "Dogs are nice.",
+      "Tom is happy."
+    ],
+    "correct_index": 1,
+    "explanation": "Sentences should start with a capital, but ordinary words like 'dog' don't get a capital. 'the Dog ran' breaks both rules.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_117",
+    "question_text": "Which sentence ends correctly? 'Where is my hat'",
+    "options": [
+      "Where is my hat.",
+      "Where is my hat?",
+      "Where is my hat!",
+      "Where is my hat,"
+    ],
+    "correct_index": 1,
+    "explanation": "'Where is my hat' is a question, so it must end with a question mark.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_118",
+    "question_text": "Which list is all naming words (nouns)?",
+    "options": [
+      "jump, run, eat",
+      "dog, ball, tree",
+      "red, fast, big",
+      "the, a, and"
+    ],
+    "correct_index": 1,
+    "explanation": "Dog, ball, and tree are all things you can see and touch. They are all naming words.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_119",
+    "question_text": "Which list is all action words (verbs)?",
+    "options": [
+      "cat, dog, fish",
+      "red, blue, green",
+      "run, jump, swim",
+      "big, small, soft"
+    ],
+    "correct_index": 2,
+    "explanation": "Run, jump, and swim are all things you DO. They are action words, or verbs.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_120",
+    "question_text": "Pick the right pronoun: 'My uncle has a hat. _____ is wearing it.'",
+    "options": [
+      "She",
+      "It",
+      "He",
+      "They"
+    ],
+    "correct_index": 2,
+    "explanation": "An uncle is a man, so we say 'he'. We use 'he' for men and boys.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_121",
+    "question_text": "Pick the right pronoun: 'My aunt has a book. _____ is reading it.'",
+    "options": [
+      "He",
+      "She",
+      "It",
+      "They"
+    ],
+    "correct_index": 1,
+    "explanation": "An aunt is a woman, so we say 'she'. We use 'she' for women and girls.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_122",
+    "question_text": "Pick the right pronoun: 'The dog has a bone. _____ is chewing it.'",
+    "options": [
+      "He",
+      "She",
+      "It",
+      "We"
+    ],
+    "correct_index": 2,
+    "explanation": "We use 'it' for things and animals. The dog is doing the chewing, so we say 'It is chewing'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_123",
+    "question_text": "Which sentence is finished correctly?",
+    "options": [
+      "Look at the rainbow!",
+      "Look at the rainbow,",
+      "Look at the rainbow",
+      "look at the rainbow!"
+    ],
+    "correct_index": 0,
+    "explanation": "Excited sentences start with a capital and end with an exclamation mark. 'Look at the rainbow!' is right.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_124",
+    "question_text": "Which group of letters can spell a word? Pick the one in alphabetical order.",
+    "options": [
+      "fox, ant, bee",
+      "ant, bee, fox",
+      "bee, ant, fox",
+      "fox, bee, ant"
+    ],
+    "correct_index": 1,
+    "explanation": "In ABC order, A comes first, then B, then F. So the order is ant, bee, fox.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_125",
+    "question_text": "Which sentence shows what a girl OWNS?",
+    "options": [
+      "The girl is happy.",
+      "The girl's hat is pink.",
+      "Two girls are playing.",
+      "The girls run fast."
+    ],
+    "correct_index": 1,
+    "explanation": "'The girl's hat' means the hat that belongs to the girl. The apostrophe + s shows belonging.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_126",
+    "question_text": "Which word is the noun in this sentence: 'The clever fox jumped over the fence.'?",
+    "options": [
+      "clever",
+      "fox",
+      "jumped",
+      "over"
+    ],
+    "correct_index": 1,
+    "explanation": "'Fox' names a thing, so it's a noun. 'Clever' describes it, 'jumped' is what it did, and 'over' is a preposition.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_127",
+    "question_text": "Which word is the verb in this sentence: 'The clever fox jumped over the fence.'?",
+    "options": [
+      "clever",
+      "fox",
+      "jumped",
+      "over"
+    ],
+    "correct_index": 2,
+    "explanation": "'Jumped' is the action the fox is doing, so it is the verb.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_128",
+    "question_text": "Which word is the adjective in this sentence: 'The clever fox jumped over the fence.'?",
+    "options": [
+      "clever",
+      "fox",
+      "jumped",
+      "over"
+    ],
+    "correct_index": 0,
+    "explanation": "'Clever' describes the fox — what kind of fox is it? An adjective tells us more about a noun.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_129",
+    "question_text": "Which word is an adverb in 'The dog ran quickly.'?",
+    "options": [
+      "dog",
+      "ran",
+      "quickly",
+      "the"
+    ],
+    "correct_index": 2,
+    "explanation": "'Quickly' tells us HOW the dog ran. Adverbs describe verbs, and many end in '-ly'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_130",
+    "question_text": "What is a preposition?",
+    "options": [
+      "A word that names a thing",
+      "A word that shows where, when, or how things connect",
+      "A word that describes a noun",
+      "A word that shows action"
+    ],
+    "correct_index": 1,
+    "explanation": "Prepositions show relationships, like 'in', 'on', 'under', 'before'. They tell us where, when, or how things connect.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_131",
+    "question_text": "Which word is a preposition in 'The cat sat on the mat.'?",
+    "options": [
+      "cat",
+      "sat",
+      "on",
+      "mat"
+    ],
+    "correct_index": 2,
+    "explanation": "'On' tells us WHERE the cat sat. Other prepositions include 'in', 'under', 'over', 'beside', and 'between'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_132",
+    "question_text": "Which words are conjunctions?",
+    "options": [
+      "and, but, or",
+      "the, a, an",
+      "red, blue, green",
+      "run, jump, swim"
+    ],
+    "correct_index": 0,
+    "explanation": "Conjunctions like 'and', 'but', and 'or' join words or sentences together.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_133",
+    "question_text": "What is the past tense of 'walk'?",
+    "options": [
+      "walks",
+      "walked",
+      "walking",
+      "will walk"
+    ],
+    "correct_index": 1,
+    "explanation": "Add '-ed' to most regular verbs to make the past tense. 'Walk' becomes 'walked'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_134",
+    "question_text": "What is the past tense of 'run'?",
+    "options": [
+      "runned",
+      "runs",
+      "ran",
+      "running"
+    ],
+    "correct_index": 2,
+    "explanation": "'Run' is irregular — its past tense is 'ran'. We don't say 'runned'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_135",
+    "question_text": "What is the past tense of 'eat'?",
+    "options": [
+      "eated",
+      "ate",
+      "eats",
+      "eaten"
+    ],
+    "correct_index": 1,
+    "explanation": "'Eat' is irregular — its past tense is 'ate'. 'I eat lunch today; I ate lunch yesterday.'",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_136",
+    "question_text": "What is the past tense of 'go'?",
+    "options": [
+      "goed",
+      "goes",
+      "went",
+      "gone"
+    ],
+    "correct_index": 2,
+    "explanation": "'Go' is irregular — its past tense is 'went'. 'I go today; I went yesterday.'",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_137",
+    "question_text": "What is the past tense of 'see'?",
+    "options": [
+      "seed",
+      "saw",
+      "seen",
+      "sees"
+    ],
+    "correct_index": 1,
+    "explanation": "'See' is irregular — its past tense is 'saw'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_138",
+    "question_text": "What is the past tense of 'take'?",
+    "options": [
+      "taked",
+      "took",
+      "takes",
+      "takened"
+    ],
+    "correct_index": 1,
+    "explanation": "'Take' is irregular — its past tense is 'took'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_139",
+    "question_text": "What is the plural of 'man'?",
+    "options": [
+      "mans",
+      "mens",
+      "men",
+      "manes"
+    ],
+    "correct_index": 2,
+    "explanation": "'Man' has an irregular plural. One man, two men.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_140",
+    "question_text": "What is the plural of 'woman'?",
+    "options": [
+      "womans",
+      "womens",
+      "women",
+      "womies"
+    ],
+    "correct_index": 2,
+    "explanation": "'Woman' has an irregular plural — women. Notice the spelling change in the middle.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_141",
+    "question_text": "What is the plural of 'leaf'?",
+    "options": [
+      "leafs",
+      "leaves",
+      "leafes",
+      "leafies"
+    ],
+    "correct_index": 1,
+    "explanation": "Words ending in 'f' often change to 'ves'. One leaf becomes many leaves.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_142",
+    "question_text": "What is the plural of 'knife'?",
+    "options": [
+      "knifes",
+      "knives",
+      "knife",
+      "knivez"
+    ],
+    "correct_index": 1,
+    "explanation": "'Knife' ends in 'fe', and the plural changes to 'knives'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_143",
+    "question_text": "What is the plural of 'sheep'?",
+    "options": [
+      "sheeps",
+      "sheepes",
+      "shoop",
+      "sheep"
+    ],
+    "correct_index": 3,
+    "explanation": "'Sheep' is a tricky word — the plural is the SAME as the singular. One sheep, two sheep.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_144",
+    "question_text": "What is the plural of 'deer'?",
+    "options": [
+      "deers",
+      "deeres",
+      "deer",
+      "dears"
+    ],
+    "correct_index": 2,
+    "explanation": "'Deer' is also tricky — the plural doesn't change. One deer, many deer.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_145",
+    "question_text": "What is the short form of 'they are'?",
+    "options": [
+      "theyr",
+      "they're",
+      "their",
+      "theyre"
+    ],
+    "correct_index": 1,
+    "explanation": "'They are' shortens to 'they're' — the apostrophe replaces the missing letter 'a'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_146",
+    "question_text": "What is the short form of 'you are'?",
+    "options": [
+      "youre",
+      "you're",
+      "your",
+      "yo're"
+    ],
+    "correct_index": 1,
+    "explanation": "'You are' shortens to 'you're' with an apostrophe in place of the missing 'a'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_147",
+    "question_text": "What is the short form of 'is not'?",
+    "options": [
+      "isnt",
+      "isn't",
+      "is'nt",
+      "i'snt"
+    ],
+    "correct_index": 1,
+    "explanation": "'Is not' shortens to 'isn't'. The apostrophe takes the place of the missing 'o'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_148",
+    "question_text": "What is the short form of 'will not'?",
+    "options": [
+      "willnt",
+      "willn't",
+      "won't",
+      "will'nt"
+    ],
+    "correct_index": 2,
+    "explanation": "'Will not' has an unusual contraction: it becomes 'won't', not 'willn't'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_149",
+    "question_text": "What is the short form of 'should not'?",
+    "options": [
+      "shouldnt",
+      "shouldn't",
+      "shoul'dnt",
+      "should'nt"
+    ],
+    "correct_index": 1,
+    "explanation": "'Should not' becomes 'shouldn't', with the apostrophe in place of the missing 'o'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_150",
+    "question_text": "Which word means 'belonging to them'?",
+    "options": [
+      "they're",
+      "there",
+      "their",
+      "thier"
+    ],
+    "correct_index": 2,
+    "explanation": "'Their' shows belonging — 'their bikes' means bikes that belong to them. 'They're' means 'they are', and 'there' means a place.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_151",
+    "question_text": "Which word means 'in that place'?",
+    "options": [
+      "they're",
+      "there",
+      "their",
+      "thier"
+    ],
+    "correct_index": 1,
+    "explanation": "'There' refers to a place — 'over there'. 'Their' shows belonging, and 'they're' means 'they are'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_152",
+    "question_text": "Pick the right word: '_____ going to be a great day!'",
+    "options": [
+      "Their",
+      "There",
+      "They're",
+      "Thier"
+    ],
+    "correct_index": 2,
+    "explanation": "We need 'they're' which means 'they are'. 'They are going to be a great day!' makes sense.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_153",
+    "question_text": "Pick the right word: 'I have ___ books to read.'",
+    "options": [
+      "two",
+      "too",
+      "to",
+      "tow"
+    ],
+    "correct_index": 0,
+    "explanation": "'Two' is the number 2. 'Too' means also or very, and 'to' is a small word like 'to the store'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_154",
+    "question_text": "Pick the right word: 'Can I come ___?'",
+    "options": [
+      "two",
+      "too",
+      "to",
+      "tow"
+    ],
+    "correct_index": 1,
+    "explanation": "'Too' means also. 'Can I come too?' = 'Can I come also?'",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_155",
+    "question_text": "Pick the right word: 'We are going ___ the park.'",
+    "options": [
+      "two",
+      "too",
+      "to",
+      "tow"
+    ],
+    "correct_index": 2,
+    "explanation": "'To' is the small connecting word that shows where we are going. 'We are going to the park.'",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_156",
+    "question_text": "Which word means 'belonging to you'?",
+    "options": [
+      "you're",
+      "your",
+      "yours",
+      "yur"
+    ],
+    "correct_index": 1,
+    "explanation": "'Your' shows belonging — 'your hat' means the hat that belongs to you. 'You're' means 'you are'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_157",
+    "question_text": "Pick the right word: '___ a great friend.'",
+    "options": [
+      "Your",
+      "You're",
+      "Youre",
+      "Yor"
+    ],
+    "correct_index": 1,
+    "explanation": "We need 'you're' which means 'you are'. 'You are a great friend' makes sense; 'your a great friend' does not.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_158",
+    "question_text": "Which word means 'belonging to it'?",
+    "options": [
+      "it's",
+      "its",
+      "its'",
+      "it is"
+    ],
+    "correct_index": 1,
+    "explanation": "'Its' (no apostrophe) shows belonging — 'the dog ate its food'. 'It's' means 'it is'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_159",
+    "question_text": "Which word means 'it is'?",
+    "options": [
+      "it's",
+      "its",
+      "is't",
+      "ti's"
+    ],
+    "correct_index": 0,
+    "explanation": "'It's' (with apostrophe) is short for 'it is'. The apostrophe stands for the missing letter 'i'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_160",
+    "question_text": "Pick the right word: 'I ____ the bell ringing.'",
+    "options": [
+      "here",
+      "hear",
+      "heer",
+      "hare"
+    ],
+    "correct_index": 1,
+    "explanation": "'Hear' is the action of listening. 'Here' means 'in this place'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_161",
+    "question_text": "Pick the right word: 'Come over ____.'",
+    "options": [
+      "here",
+      "hear",
+      "heer",
+      "hir"
+    ],
+    "correct_index": 0,
+    "explanation": "'Here' refers to this place. 'Hear' is the action of listening.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_162",
+    "question_text": "Pick the right word: 'Please raise your ____ hand.'",
+    "options": [
+      "write",
+      "wright",
+      "right",
+      "rite"
+    ],
+    "correct_index": 2,
+    "explanation": "'Right' is the opposite of left, and also means 'correct'. 'Write' is what you do with a pen.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_163",
+    "question_text": "Pick the right word: 'I will ___ you a letter.'",
+    "options": [
+      "write",
+      "right",
+      "wright",
+      "rite"
+    ],
+    "correct_index": 0,
+    "explanation": "'Write' is the action of putting words on paper. It sounds the same as 'right' but is spelled differently.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_164",
+    "question_text": "How do we show that one thing belongs to one person?",
+    "options": [
+      "Add 's at the end of the owner's name",
+      "Add s' at the end",
+      "Add ies at the end",
+      "Add es at the end"
+    ],
+    "correct_index": 0,
+    "explanation": "Add an apostrophe and 's' at the end of the owner's name. 'The girl's hat' means the hat belongs to one girl.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_165",
+    "question_text": "How do we show a thing belongs to MORE than one person? 'The kids ___ playground'",
+    "options": [
+      "kids playground",
+      "kid's playground",
+      "kids' playground",
+      "kidses playground"
+    ],
+    "correct_index": 2,
+    "explanation": "When the owners are already plural (end in 's'), just add an apostrophe AFTER the s. 'The kids' playground' belongs to all of them.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_166",
+    "question_text": "Which sentence uses commas correctly?",
+    "options": [
+      "I bought, apples bananas, and grapes.",
+      "I bought apples, bananas, and grapes.",
+      "I bought apples bananas and, grapes.",
+      "I bought, apples, bananas, and, grapes."
+    ],
+    "correct_index": 1,
+    "explanation": "Commas separate items in a list. We put them between items but not before the first or after the last.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_167",
+    "question_text": "Where does a comma go in 'June 14 2026'?",
+    "options": [
+      "June 14, 2026",
+      "June, 14 2026",
+      "June 14 ,2026",
+      "June, 14, 2026"
+    ],
+    "correct_index": 0,
+    "explanation": "In a date, a comma goes between the day and the year: June 14, 2026.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_168",
+    "question_text": "What punctuation goes around someone's exact spoken words?",
+    "options": [
+      "Periods",
+      "Quotation marks",
+      "Brackets",
+      "Hyphens"
+    ],
+    "correct_index": 1,
+    "explanation": "Quotation marks (\" \") wrap around the exact words a character or person says. Like: She said, \"Hello!\"",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_169",
+    "question_text": "Which sentence uses quotation marks correctly?",
+    "options": [
+      "Mom said, \"Time for bed.\"",
+      "Mom said Time for bed.",
+      "\"Mom said\" time for bed.",
+      "Mom said time for bed."
+    ],
+    "correct_index": 0,
+    "explanation": "Quotation marks go around the exact words spoken. The punctuation goes inside the quotes.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_170",
+    "question_text": "Pick the correct sentence: '_____ runs every morning.'",
+    "options": [
+      "She run",
+      "She runs",
+      "She running",
+      "She to run"
+    ],
+    "correct_index": 1,
+    "explanation": "When the subject is 'he', 'she', or 'it', the verb gets an 's' on the end. 'She runs.'",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_171",
+    "question_text": "Pick the correct sentence: 'They _____ to the store.'",
+    "options": [
+      "goes",
+      "go",
+      "going",
+      "is going"
+    ],
+    "correct_index": 1,
+    "explanation": "When the subject is 'they', 'we', or 'you', the verb has no extra 's'. 'They go to the store.'",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_172",
+    "question_text": "Pick the correct sentence: 'My brother and I _____ swimming.'",
+    "options": [
+      "loves",
+      "loving",
+      "love",
+      "is loves"
+    ],
+    "correct_index": 2,
+    "explanation": "Two people together (we) take the verb without an 's'. 'My brother and I love swimming.'",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_173",
+    "question_text": "What does the prefix 'un-' mean? Like in 'unhappy'.",
+    "options": [
+      "very",
+      "not",
+      "again",
+      "before"
+    ],
+    "correct_index": 1,
+    "explanation": "'Un-' means 'not' or 'opposite of'. 'Unhappy' means 'not happy', 'unkind' means 'not kind'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_174",
+    "question_text": "What does the prefix 're-' mean? Like in 'redo'.",
+    "options": [
+      "not",
+      "again",
+      "before",
+      "very"
+    ],
+    "correct_index": 1,
+    "explanation": "'Re-' means 'again'. 'Redo' = do again, 'rewrite' = write again, 'replay' = play again.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_175",
+    "question_text": "What does the prefix 'pre-' mean? Like in 'prepay'.",
+    "options": [
+      "not",
+      "again",
+      "before",
+      "after"
+    ],
+    "correct_index": 2,
+    "explanation": "'Pre-' means 'before'. 'Prepay' = pay before, 'preview' = view before, 'prefix' = a fix at the beginning.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_176",
+    "question_text": "What does the prefix 'mis-' mean? Like in 'misspell'.",
+    "options": [
+      "wrong",
+      "very",
+      "again",
+      "before"
+    ],
+    "correct_index": 0,
+    "explanation": "'Mis-' means 'wrong' or 'badly'. 'Misspell' = spell wrong, 'misunderstand' = understand wrong.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_177",
+    "question_text": "What does the suffix '-less' mean? Like in 'fearless'.",
+    "options": [
+      "without",
+      "full of",
+      "very",
+      "the most"
+    ],
+    "correct_index": 0,
+    "explanation": "'-less' means 'without'. 'Fearless' = without fear, 'careless' = without care, 'hopeless' = without hope.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_178",
+    "question_text": "What does the suffix '-ful' mean? Like in 'helpful'.",
+    "options": [
+      "without",
+      "full of",
+      "less",
+      "past"
+    ],
+    "correct_index": 1,
+    "explanation": "'-ful' means 'full of'. 'Helpful' = full of help, 'careful' = full of care, 'joyful' = full of joy.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_179",
+    "question_text": "Pick the synonym (same meaning) for 'big'.",
+    "options": [
+      "Tiny",
+      "Soft",
+      "Huge",
+      "Quick"
+    ],
+    "correct_index": 2,
+    "explanation": "Synonyms are words that mean almost the same thing. 'Big' and 'huge' both mean large.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_180",
+    "question_text": "Pick the synonym for 'happy'.",
+    "options": [
+      "Sad",
+      "Joyful",
+      "Angry",
+      "Tired"
+    ],
+    "correct_index": 1,
+    "explanation": "'Happy' and 'joyful' both mean cheerful and glad. They are synonyms.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_181",
+    "question_text": "Pick the antonym (opposite) of 'brave'.",
+    "options": [
+      "Bold",
+      "Fearful",
+      "Strong",
+      "Tall"
+    ],
+    "correct_index": 1,
+    "explanation": "Antonyms are words that mean the opposite. 'Brave' means having courage; 'fearful' means full of fear.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_182",
+    "question_text": "Pick the antonym of 'ancient'.",
+    "options": [
+      "Old",
+      "Modern",
+      "Past",
+      "Quiet"
+    ],
+    "correct_index": 1,
+    "explanation": "'Ancient' means very, very old. 'Modern' means new and from today's time.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_183",
+    "question_text": "Which sentence is a STATEMENT (declarative)?",
+    "options": [
+      "Stop right there!",
+      "Where is my book?",
+      "The sky is blue.",
+      "Watch out!"
+    ],
+    "correct_index": 2,
+    "explanation": "A statement gives information and ends with a period. 'The sky is blue.' is a statement.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_184",
+    "question_text": "Which sentence is a QUESTION (interrogative)?",
+    "options": [
+      "The bird sings.",
+      "What time is it?",
+      "Run faster!",
+      "Please sit down."
+    ],
+    "correct_index": 1,
+    "explanation": "Questions ask for information and end with a question mark. 'What time is it?' is a question.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_185",
+    "question_text": "Which sentence is an EXCLAMATION (exclamatory)?",
+    "options": [
+      "The cake is ready.",
+      "Where is the cake?",
+      "That cake is amazing!",
+      "Cut the cake."
+    ],
+    "correct_index": 2,
+    "explanation": "Exclamations show strong feelings and end with an exclamation mark. 'That cake is amazing!' is an exclamation.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_186",
+    "question_text": "Which sentence is a COMMAND (imperative)?",
+    "options": [
+      "The dog is fast.",
+      "Is the dog fast?",
+      "Please feed the dog.",
+      "The dog runs fast!"
+    ],
+    "correct_index": 2,
+    "explanation": "Commands tell someone to do something. They often start with an action word: 'Please feed the dog.'",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_187",
+    "question_text": "Which is a PROPER noun?",
+    "options": [
+      "city",
+      "river",
+      "Paris",
+      "building"
+    ],
+    "correct_index": 2,
+    "explanation": "Proper nouns name a SPECIFIC person, place, or thing — and always start with a capital. 'Paris' is one specific city.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_188",
+    "question_text": "Which is a COMMON noun?",
+    "options": [
+      "Mount Everest",
+      "mountain",
+      "Africa",
+      "Tuesday"
+    ],
+    "correct_index": 1,
+    "explanation": "Common nouns name general things and don't get capitalized. 'Mountain' is general; 'Mount Everest' is specific.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_189",
+    "question_text": "Which word means 'taller than'?",
+    "options": [
+      "tall",
+      "taller",
+      "tallest",
+      "talling"
+    ],
+    "correct_index": 1,
+    "explanation": "Add '-er' when comparing TWO things. 'My sister is taller than me.'",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_190",
+    "question_text": "Which word means 'the most tall of all'?",
+    "options": [
+      "tall",
+      "taller",
+      "tallest",
+      "talling"
+    ],
+    "correct_index": 2,
+    "explanation": "Add '-est' when comparing THREE OR MORE things. 'The redwood is the tallest tree of all.'",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_191",
+    "question_text": "Which is the DEFINITE article (points to ONE specific thing)?",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "and"
+    ],
+    "correct_index": 2,
+    "explanation": "'The' is the definite article — it points to ONE specific thing. 'A' and 'an' are indefinite articles.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_192",
+    "question_text": "Pick the right word: 'My friend and ___ went swimming.'",
+    "options": [
+      "me",
+      "I",
+      "myself",
+      "us"
+    ],
+    "correct_index": 1,
+    "explanation": "When the people are doing the action (the subject), use 'I'. Try removing 'my friend and' — you'd say 'I went swimming'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_193",
+    "question_text": "Pick the right word: 'Mom called my brother and ___ for dinner.'",
+    "options": [
+      "I",
+      "me",
+      "myself",
+      "we"
+    ],
+    "correct_index": 1,
+    "explanation": "When the people are RECEIVING the action (the object), use 'me'. Try removing 'my brother and' — 'Mom called me'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_194",
+    "question_text": "What are the subject and verb in 'The little puppy sleeps.'?",
+    "options": [
+      "little, sleeps",
+      "puppy, little",
+      "puppy, sleeps",
+      "the, puppy"
+    ],
+    "correct_index": 2,
+    "explanation": "The subject is who does the action ('puppy'). The verb is the action itself ('sleeps').",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_195",
+    "question_text": "What kind of word is 'wow' or 'oops' or 'yay'?",
+    "options": [
+      "Noun",
+      "Verb",
+      "Adverb",
+      "Interjection"
+    ],
+    "correct_index": 3,
+    "explanation": "Interjections are short words that show feelings. They often stand alone with an exclamation mark: 'Wow!' 'Oops!' 'Yay!'",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_196",
+    "question_text": "Which is a SIMILE (a comparison using 'like' or 'as')?",
+    "options": [
+      "The runner is fast.",
+      "The runner is as fast as a cheetah.",
+      "The runner won.",
+      "The runner trained hard."
+    ],
+    "correct_index": 1,
+    "explanation": "A simile compares two things using 'like' or 'as'. 'As fast as a cheetah' compares the runner to a cheetah.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_197",
+    "question_text": "Which sentence has a SIMILE?",
+    "options": [
+      "The sky was blue.",
+      "The sky was like a giant blanket.",
+      "The sky had stars.",
+      "The sky grew dark."
+    ],
+    "correct_index": 1,
+    "explanation": "'Like a giant blanket' uses 'like' to compare. That makes it a simile.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_198",
+    "question_text": "Which word is a compound word?",
+    "options": [
+      "running",
+      "basketball",
+      "carefully",
+      "elephant"
+    ],
+    "correct_index": 1,
+    "explanation": "'Basketball' is two words joined: basket + ball. The others are not compound words.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_199",
+    "question_text": "Which is the compound word? Lighthouse, lightning, lighter, lightly.",
+    "options": [
+      "Lighthouse",
+      "Lightning",
+      "Lighter",
+      "Lightly"
+    ],
+    "correct_index": 0,
+    "explanation": "'Lighthouse' is two words joined: 'light' + 'house'. The others have suffixes added to 'light'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_200",
+    "question_text": "Which letter is silent in 'knight'?",
+    "options": [
+      "K",
+      "N",
+      "I",
+      "T"
+    ],
+    "correct_index": 0,
+    "explanation": "The 'k' in 'knight' is silent. We say 'nite', not 'ka-nite'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_201",
+    "question_text": "Which letter is silent in 'lamb'?",
+    "options": [
+      "L",
+      "A",
+      "M",
+      "B"
+    ],
+    "correct_index": 3,
+    "explanation": "The 'b' in 'lamb' is silent. We say 'lam', not 'lam-buh'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_202",
+    "question_text": "Which letter is silent in 'write'?",
+    "options": [
+      "W",
+      "R",
+      "I",
+      "E"
+    ],
+    "correct_index": 0,
+    "explanation": "The 'w' in 'write' is silent. The word sounds like 'rite'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_203",
+    "question_text": "What is the spelling rule about 'i' and 'e'?",
+    "options": [
+      "E always comes first",
+      "I before E except after C",
+      "I and E are never together",
+      "Always use I"
+    ],
+    "correct_index": 1,
+    "explanation": "The rule is 'I before E, except after C'. So 'believe' (i first) but 'receive' (e first, after c).",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_204",
+    "question_text": "Add the suffix '-ed' to 'play'. What do you get?",
+    "options": [
+      "playd",
+      "played",
+      "playyed",
+      "playted"
+    ],
+    "correct_index": 1,
+    "explanation": "Most words just add '-ed' to make the past tense. Play → played, walk → walked, jump → jumped.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_205",
+    "question_text": "Add the suffix '-ing' to 'run'. What do you get?",
+    "options": [
+      "runing",
+      "running",
+      "runned",
+      "ranning"
+    ],
+    "correct_index": 1,
+    "explanation": "When a one-syllable word ends in a vowel + consonant, double the consonant before adding '-ing'. Run → running.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_206",
+    "question_text": "Which word means 'a person who teaches'?",
+    "options": [
+      "teaches",
+      "teaching",
+      "teacher",
+      "teached"
+    ],
+    "correct_index": 2,
+    "explanation": "The suffix '-er' often means 'a person who does something'. Teach + er = teacher.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_207",
+    "question_text": "Which word means 'a person who paints'?",
+    "options": [
+      "paints",
+      "painting",
+      "painter",
+      "painted"
+    ],
+    "correct_index": 2,
+    "explanation": "Adding '-er' makes a noun meaning the doer. Paint + er = painter.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_208",
+    "question_text": "Which is the correct sentence?",
+    "options": [
+      "Me and Sara went to the store.",
+      "Sara and me went to the store.",
+      "Sara and I went to the store.",
+      "I and Sara went to the store."
+    ],
+    "correct_index": 2,
+    "explanation": "When 'I' is doing the action, use 'I' — and put the other person first. 'Sara and I went to the store.'",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_209",
+    "question_text": "Which sentence uses 'were' correctly?",
+    "options": [
+      "She were happy.",
+      "The kids were happy.",
+      "The kid were happy.",
+      "I were happy."
+    ],
+    "correct_index": 1,
+    "explanation": "We use 'were' with plural subjects (the kids) or with 'you'. We use 'was' with singular subjects (she, he, it, I).",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_210",
+    "question_text": "Which sentence uses 'was' correctly?",
+    "options": [
+      "They was tired.",
+      "We was tired.",
+      "She was tired.",
+      "The dogs was tired."
+    ],
+    "correct_index": 2,
+    "explanation": "Use 'was' for one person or thing: I, he, she, it. 'She was tired.' is correct.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_211",
+    "question_text": "What is the past tense of 'bring'?",
+    "options": [
+      "bringed",
+      "brought",
+      "brung",
+      "brings"
+    ],
+    "correct_index": 1,
+    "explanation": "'Bring' is irregular — its past tense is 'brought'. 'I bring it today; I brought it yesterday.'",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_212",
+    "question_text": "What is the past tense of 'catch'?",
+    "options": [
+      "catched",
+      "caught",
+      "catchen",
+      "catchs"
+    ],
+    "correct_index": 1,
+    "explanation": "'Catch' is irregular — its past tense is 'caught'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_213",
+    "question_text": "What is the past tense of 'teach'?",
+    "options": [
+      "teached",
+      "taught",
+      "teaching",
+      "teaches"
+    ],
+    "correct_index": 1,
+    "explanation": "'Teach' is irregular — its past tense is 'taught'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_214",
+    "question_text": "What is the past tense of 'think'?",
+    "options": [
+      "thinked",
+      "thought",
+      "thinking",
+      "thinks"
+    ],
+    "correct_index": 1,
+    "explanation": "'Think' is irregular — its past tense is 'thought'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_215",
+    "question_text": "What is the past tense of 'buy'?",
+    "options": [
+      "buyed",
+      "bought",
+      "buied",
+      "buyes"
+    ],
+    "correct_index": 1,
+    "explanation": "'Buy' is irregular — its past tense is 'bought'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_216",
+    "question_text": "What is the past tense of 'find'?",
+    "options": [
+      "finded",
+      "founded",
+      "found",
+      "finding"
+    ],
+    "correct_index": 2,
+    "explanation": "'Find' is irregular — its past tense is 'found'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_217",
+    "question_text": "Which sentence has correct subject-verb agreement?",
+    "options": [
+      "Each of the students have a book.",
+      "Each of the students has a book.",
+      "Each of the students having a book.",
+      "Each of the students had a book having."
+    ],
+    "correct_index": 1,
+    "explanation": "'Each' is singular, so it takes 'has', not 'have'. The phrase 'of the students' doesn't change that.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_218",
+    "question_text": "Which is a complete sentence?",
+    "options": [
+      "Running through the field.",
+      "The dog ran.",
+      "Although the dog ran.",
+      "When running through the field."
+    ],
+    "correct_index": 1,
+    "explanation": "A complete sentence has a subject (dog) and a verb (ran). The others are fragments — they don't tell a whole idea.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_219",
+    "question_text": "Which is a sentence FRAGMENT (not a complete sentence)?",
+    "options": [
+      "Birds fly south.",
+      "The wind blows hard.",
+      "Across the wide ocean.",
+      "Children laugh loudly."
+    ],
+    "correct_index": 2,
+    "explanation": "'Across the wide ocean' has no subject and no verb — it's just describing where, so it's a fragment.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_220",
+    "question_text": "Which is a RUN-ON sentence (two sentences joined incorrectly)?",
+    "options": [
+      "The bell rang. We went home.",
+      "The bell rang and we went home.",
+      "The bell rang we went home.",
+      "When the bell rang, we went home."
+    ],
+    "correct_index": 2,
+    "explanation": "'The bell rang we went home' jams two sentences together with no comma or joining word. That's a run-on.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_221",
+    "question_text": "Pick the correct word: 'My friend is ___ than me.'",
+    "options": [
+      "tall",
+      "tallest",
+      "taller",
+      "more tall"
+    ],
+    "correct_index": 2,
+    "explanation": "When comparing TWO things, use the '-er' form. 'Taller' compares two people.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_222",
+    "question_text": "Pick the correct word: 'The blue whale is the ___ animal in the world.'",
+    "options": [
+      "big",
+      "bigger",
+      "biggest",
+      "more bigger"
+    ],
+    "correct_index": 2,
+    "explanation": "When comparing THREE OR MORE things, use the '-est' form. 'Biggest' picks one out of all.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_223",
+    "question_text": "Which sentence uses 'good' or 'well' correctly?",
+    "options": [
+      "She sings good.",
+      "She sings well.",
+      "She is sings well.",
+      "She is good sings."
+    ],
+    "correct_index": 1,
+    "explanation": "'Good' is an adjective; 'well' is an adverb. We use 'well' to describe how she sings — the action.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_224",
+    "question_text": "Which is the irregular past of 'fly'?",
+    "options": [
+      "flied",
+      "flew",
+      "flighed",
+      "flying"
+    ],
+    "correct_index": 1,
+    "explanation": "'Fly' is irregular — its past tense is 'flew'. 'The bird flies today; it flew yesterday.'",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_225",
+    "question_text": "Which is the irregular past of 'swim'?",
+    "options": [
+      "swimmed",
+      "swam",
+      "swum",
+      "swims"
+    ],
+    "correct_index": 1,
+    "explanation": "'Swim' is irregular — its past tense is 'swam'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_226",
+    "question_text": "Which is the irregular past of 'sing'?",
+    "options": [
+      "singed",
+      "sang",
+      "sung",
+      "sings"
+    ],
+    "correct_index": 1,
+    "explanation": "'Sing' is irregular — its past tense is 'sang'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_227",
+    "question_text": "Which is the irregular past of 'drink'?",
+    "options": [
+      "drinked",
+      "drank",
+      "drunk",
+      "drinks"
+    ],
+    "correct_index": 1,
+    "explanation": "'Drink' is irregular — its past tense is 'drank'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_228",
+    "question_text": "Which is the irregular past of 'write'?",
+    "options": [
+      "writed",
+      "wrote",
+      "written",
+      "writes"
+    ],
+    "correct_index": 1,
+    "explanation": "'Write' is irregular — its past tense is 'wrote'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_229",
+    "question_text": "Which is the irregular past of 'speak'?",
+    "options": [
+      "speaked",
+      "spoke",
+      "speaken",
+      "speaks"
+    ],
+    "correct_index": 1,
+    "explanation": "'Speak' is irregular — its past tense is 'spoke'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_230",
+    "question_text": "Which is the irregular past of 'break'?",
+    "options": [
+      "breaked",
+      "broke",
+      "broken",
+      "breaks"
+    ],
+    "correct_index": 1,
+    "explanation": "'Break' is irregular — its past tense is 'broke'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_231",
+    "question_text": "Which is the irregular past of 'choose'?",
+    "options": [
+      "chosed",
+      "choosed",
+      "chose",
+      "chooses"
+    ],
+    "correct_index": 2,
+    "explanation": "'Choose' is irregular — its past tense is 'chose'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_232",
+    "question_text": "Which is the irregular past of 'fall'?",
+    "options": [
+      "falled",
+      "fell",
+      "felled",
+      "falls"
+    ],
+    "correct_index": 1,
+    "explanation": "'Fall' is irregular — its past tense is 'fell'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_233",
+    "question_text": "Pick the right word: 'The cat ___ on the mat for hours.'",
+    "options": [
+      "sit",
+      "sits",
+      "sat",
+      "sitting"
+    ],
+    "correct_index": 2,
+    "explanation": "We need the past tense of 'sit'. The irregular past tense is 'sat'. 'The cat sat on the mat.'",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_234",
+    "question_text": "Which sentence shows the FUTURE tense?",
+    "options": [
+      "She walks home.",
+      "She walked home.",
+      "She will walk home.",
+      "She is walking home."
+    ],
+    "correct_index": 2,
+    "explanation": "'Will walk' tells us the action hasn't happened yet but will happen later. That's future tense.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_235",
+    "question_text": "Which sentence shows the PRESENT tense?",
+    "options": [
+      "He played guitar.",
+      "He plays guitar.",
+      "He will play guitar.",
+      "He has played guitar."
+    ],
+    "correct_index": 1,
+    "explanation": "'Plays' is happening right now or regularly. That's present tense.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_236",
+    "question_text": "Which sentence shows the PAST tense?",
+    "options": [
+      "She runs every day.",
+      "She will run tomorrow.",
+      "She ran yesterday.",
+      "She is running now."
+    ],
+    "correct_index": 2,
+    "explanation": "'Ran' tells us the action is finished — it happened yesterday. That's past tense.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_237",
+    "question_text": "Which is the synonym (same meaning) for 'angry'?",
+    "options": [
+      "Calm",
+      "Furious",
+      "Friendly",
+      "Happy"
+    ],
+    "correct_index": 1,
+    "explanation": "'Angry' and 'furious' both mean very mad.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_238",
+    "question_text": "Which is the synonym for 'small'?",
+    "options": [
+      "Tall",
+      "Tiny",
+      "Heavy",
+      "Loud"
+    ],
+    "correct_index": 1,
+    "explanation": "'Small' and 'tiny' both mean little in size.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_239",
+    "question_text": "Which is the synonym for 'fast'?",
+    "options": [
+      "Slow",
+      "Quick",
+      "Soft",
+      "Far"
+    ],
+    "correct_index": 1,
+    "explanation": "'Fast' and 'quick' both mean speedy.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_240",
+    "question_text": "Which is the antonym (opposite) for 'generous'?",
+    "options": [
+      "Kind",
+      "Stingy",
+      "Fair",
+      "Rich"
+    ],
+    "correct_index": 1,
+    "explanation": "'Generous' means giving freely; 'stingy' means holding back from giving. They are opposites.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_241",
+    "question_text": "Which is the antonym for 'arrive'?",
+    "options": [
+      "Reach",
+      "Leave",
+      "Land",
+      "Stay"
+    ],
+    "correct_index": 1,
+    "explanation": "'Arrive' means to come somewhere; 'leave' means to go away. They are opposites.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_242",
+    "question_text": "How should we write a question someone asked? Pick the correct one.",
+    "options": [
+      "The teacher said, \"Did you finish your homework?\"",
+      "The teacher said Did you finish your homework.",
+      "The teacher said, did you finish your homework",
+      "\"The teacher said Did you finish your homework?\""
+    ],
+    "correct_index": 0,
+    "explanation": "When writing what someone said, use a comma after 'said' and put the exact words in quotes. The question mark goes inside the quotes.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_243",
+    "question_text": "If many girls own many bikes, which is the correct way to write it?",
+    "options": [
+      "The girls' bikes are blue.",
+      "The girls bikes are blue.",
+      "The girl's bikes are blue.",
+      "The girls bikes' are blue."
+    ],
+    "correct_index": 0,
+    "explanation": "When many girls own many bikes, the apostrophe goes AFTER the s: 'the girls' bikes'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_244",
+    "question_text": "What's another word for 'sad'?",
+    "options": [
+      "Glad",
+      "Excited",
+      "Gloomy",
+      "Quick"
+    ],
+    "correct_index": 2,
+    "explanation": "'Gloomy' means feeling sad and down. It's a synonym for 'sad'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_245",
+    "question_text": "Which list is in alphabetical order?",
+    "options": [
+      "zebra, monkey, apple",
+      "apple, monkey, zebra",
+      "monkey, zebra, apple",
+      "zebra, apple, monkey"
+    ],
+    "correct_index": 1,
+    "explanation": "Alphabetical order goes A, B, C... so apple (A) comes before monkey (M), and monkey before zebra (Z).",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_246",
+    "question_text": "Which holiday name is written correctly?",
+    "options": [
+      "thanksgiving",
+      "Thanksgiving",
+      "THANKSGIVING",
+      "thanksGiving"
+    ],
+    "correct_index": 1,
+    "explanation": "Holidays are proper nouns and start with a capital letter. The other letters are lowercase.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_247",
+    "question_text": "Which sentence is in PASSIVE voice?",
+    "options": [
+      "The dog chased the cat.",
+      "The cat was chased by the dog.",
+      "The cat ran away.",
+      "The dog likes cats."
+    ],
+    "correct_index": 1,
+    "explanation": "In passive voice, the action is done TO the subject. 'The cat was chased' — the cat receives the action.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_248",
+    "question_text": "Which sentence is in ACTIVE voice?",
+    "options": [
+      "The book was read by Mia.",
+      "Mia read the book.",
+      "The book is being read.",
+      "Reading the book."
+    ],
+    "correct_index": 1,
+    "explanation": "In active voice, the subject DOES the action. 'Mia read the book' — Mia is the doer.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_249",
+    "question_text": "Which is a metaphor (comparison without 'like' or 'as')?",
+    "options": [
+      "Her smile is like sunshine.",
+      "Her smile is sunshine.",
+      "Her smile is bright.",
+      "Her smile is happy."
+    ],
+    "correct_index": 1,
+    "explanation": "A metaphor says one thing IS another. 'Her smile is sunshine' — without using 'like' or 'as'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "7-9",
+    "external_id": "grammar_v1_250",
+    "question_text": "What does the prefix 'bi-' mean? Like in 'bicycle' or 'bilingual'.",
+    "options": [
+      "three",
+      "two",
+      "one",
+      "again"
+    ],
+    "correct_index": 1,
+    "explanation": "'Bi-' means 'two'. A bicycle has 2 wheels; bilingual means speaking 2 languages.",
     "source": "static:grammar"
   }
 ]
