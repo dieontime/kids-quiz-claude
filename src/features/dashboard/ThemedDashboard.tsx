@@ -9,6 +9,8 @@ import { ContinueHero } from './ContinueHero.tsx';
 import { ModuleStrip } from './ModuleStrip.tsx';
 import { SettingsDrawer } from '../settings/SettingsDrawer.tsx';
 import { mockBackend } from '../../services/mockBackend.ts';
+import { avatarEmoji } from '../auth/AvatarPicker.tsx';
+import { PlayfulBackground } from '../../components/PlayfulBackground.tsx';
 
 const MASTERY_SNAPSHOT_KEY = 'kq_mastery_snapshot';
 
@@ -73,10 +75,18 @@ export function ThemedDashboard() {
 
   if (!profile) return <Navigate to="/login" replace />;
 
+  const showFlare = view?.kind === 'pick' || view?.kind === 'mastered' || view === null;
+
   return (
-    <div className="min-h-screen flex flex-col p-4 sm:p-6 md:p-8 gap-4 sm:gap-6">
+    <div className="min-h-screen flex flex-col p-4 sm:p-6 md:p-8 gap-4 sm:gap-6 relative">
+      {showFlare && <PlayfulBackground />}
       <header className="w-full flex justify-between items-center">
-        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold">Hi, {profile.username}! {profile.avatar}</h1>
+        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold flex items-center gap-2 sm:gap-3">
+          <span className="inline-flex items-center justify-center w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 rounded-full bg-white shadow-md text-2xl sm:text-3xl md:text-4xl">
+            {avatarEmoji(profile.avatar)}
+          </span>
+          <span>Hi, {profile.username}!</span>
+        </h1>
         <div className="flex gap-2">
           <button
             onClick={() => setSettingsOpen(true)}

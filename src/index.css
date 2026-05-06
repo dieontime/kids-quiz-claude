@@ -15,6 +15,12 @@ html.kq-dyslexia-font, html.kq-dyslexia-font * {
   font-family: 'OpenDyslexic', 'Lexend', system-ui, sans-serif !important;
 }
 
+@keyframes kq-float-kf {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50%      { transform: translateY(-18px) rotate(3deg); }
+}
+.kq-float { animation: kq-float-kf 7s ease-in-out infinite; }
+
 html, body, #root { height: 100%; }
 body {
   font-family: 'Nunito', 'Inter', system-ui, sans-serif;

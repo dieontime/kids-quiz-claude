@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { EmojiPinKeypad, type PinIcon } from './EmojiPinKeypad.tsx';
 import { login } from '../../lib/auth.ts';
+import { PlayfulBackground } from '../../components/PlayfulBackground.tsx';
 
 export function LoginScreen() {
   const nav = useNavigate();
@@ -18,7 +19,8 @@ export function LoginScreen() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center gap-5 sm:gap-6 md:gap-8 p-4 sm:p-6 md:p-8">
+    <div className="min-h-screen flex flex-col items-center justify-center gap-5 sm:gap-6 md:gap-8 p-4 sm:p-6 md:p-8 relative">
+      <PlayfulBackground />
       <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold">Welcome back!</h1>
       <input
         placeholder="Your silly name"

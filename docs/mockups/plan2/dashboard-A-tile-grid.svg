@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <defs>
+    <style>
+      .bg { fill: #FFF8EE; }
+      .tile-shadow { filter: drop-shadow(0 4px 6px rgba(0,0,0,0.08)); }
+      .label-lg { font-size: 22px; font-weight: 700; fill: #1F2937; }
+      .label-sm { font-size: 14px; fill: #6B7280; }
+      .progress-ring-bg { fill: none; stroke-width: 8; stroke: rgba(0,0,0,0.08); }
+      .progress-ring { fill: none; stroke-width: 8; stroke-linecap: round; transform-origin: center; transform: rotate(-90deg); }
+    </style>
+  </defs>
+
+  <rect class="bg" width="1280" height="800"/>
+
+  <!-- Header -->
+  <text x="48" y="60" font-size="32" font-weight="800" fill="#1F2937">Hi, Sparkle Cat! 👋</text>
+  <g transform="translate(1080, 32)">
+    <rect width="152" height="44" rx="10" fill="white" stroke="#7C3AED" stroke-width="2"/>
+    <text x="76" y="29" text-anchor="middle" font-size="16" font-weight="700" fill="#7C3AED">Log out</text>
+  </g>
+
+  <!-- Quick Start banner -->
+  <g class="tile-shadow" transform="translate(48, 96)">
+    <rect width="1184" height="120" rx="20" fill="url(#qsGrad)"/>
+    <defs>
+      <linearGradient id="qsGrad" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#7C3AED"/>
+        <stop offset="1" stop-color="#EC4899"/>
+      </linearGradient>
+    </defs>
+    <text x="40" y="55" font-size="28" font-weight="800" fill="white">Quick Start ⚡</text>
+    <text x="40" y="86" font-size="16" fill="rgba(255,255,255,0.92)">10 random questions across all modules</text>
+    <g transform="translate(984, 36)">
+      <rect width="160" height="48" rx="12" fill="white"/>
+      <text x="80" y="31" text-anchor="middle" font-size="18" font-weight="800" fill="#7C3AED">Let's go →</text>
+    </g>
+  </g>
+
+  <!-- Module tiles (2 rows x 3 cols) -->
+  <!-- Row 1 -->
+  <g class="tile-shadow" transform="translate(48, 248)">
+    <rect width="370" height="200" rx="20" fill="#DBEAFE"/>
+    <text x="32" y="56" font-size="48">🔢</text>
+    <text x="32" y="108" class="label-lg">Math</text>
+    <text x="32" y="132" class="label-sm">28 / 50 questions</text>
+    <g transform="translate(290, 60)">
+      <circle cx="40" cy="40" r="34" class="progress-ring-bg"/>
+      <circle cx="40" cy="40" r="34" class="progress-ring" stroke="#3B82F6" stroke-dasharray="119.7 213.6"/>
+      <text x="40" y="48" text-anchor="middle" font-size="20" font-weight="800" fill="#1E3A8A">56%</text>
+    </g>
+  </g>
+
+  <g class="tile-shadow" transform="translate(455, 248)">
+    <rect width="370" height="200" rx="20" fill="#DCFCE7"/>
+    <text x="32" y="56" font-size="48">🦁</text>
+    <text x="32" y="108" class="label-lg">Animals</text>
+    <text x="32" y="132" class="label-sm">12 / 50 questions</text>
+    <g transform="translate(290, 60)">
+      <circle cx="40" cy="40" r="34" class="progress-ring-bg"/>
+      <circle cx="40" cy="40" r="34" class="progress-ring" stroke="#16A34A" stroke-dasharray="51.3 213.6"/>
+      <text x="40" y="48" text-anchor="middle" font-size="20" font-weight="800" fill="#14532D">24%</text>
+    </g>
+  </g>
+
+  <g class="tile-shadow" transform="translate(862, 248)">
+    <rect width="370" height="200" rx="20" fill="#FEF3C7"/>
+    <text x="32" y="56" font-size="48">🔬</text>
+    <text x="32" y="108" class="label-lg">Science</text>
+    <text x="32" y="132" class="label-sm">5 / 50 questions</text>
+    <g transform="translate(290, 60)">
+      <circle cx="40" cy="40" r="34" class="progress-ring-bg"/>
+      <circle cx="40" cy="40" r="34" class="progress-ring" stroke="#F59E0B" stroke-dasharray="21.4 213.6"/>
+      <text x="40" y="48" text-anchor="middle" font-size="20" font-weight="800" fill="#78350F">10%</text>
+    </g>
+  </g>
+
+  <!-- Row 2 -->
+  <g class="tile-shadow" transform="translate(48, 472)">
+    <rect width="370" height="200" rx="20" fill="#FEE2E2"/>
+    <text x="32" y="56" font-size="48">🚗</text>
+    <text x="32" y="108" class="label-lg">Vehicles</text>
+    <text x="32" y="132" class="label-sm">42 / 50 questions</text>
+    <g transform="translate(290, 60)">
+      <circle cx="40" cy="40" r="34" class="progress-ring-bg"/>
+      <circle cx="40" cy="40" r="34" class="progress-ring" stroke="#DC2626" stroke-dasharray="179.4 213.6"/>
+      <text x="40" y="48" text-anchor="middle" font-size="20" font-weight="800" fill="#7F1D1D">84%</text>
+    </g>
+  </g>
+
+  <g class="tile-shadow" transform="translate(455, 472)">
+    <rect width="370" height="200" rx="20" fill="#EDE9FE"/>
+    <text x="32" y="56" font-size="48">📚</text>
+    <text x="32" y="108" class="label-lg">Grammar</text>
+    <text x="32" y="132" class="label-sm">8 / 50 questions</text>
+    <g transform="translate(290, 60)">
+      <circle cx="40" cy="40" r="34" class="progress-ring-bg"/>
+      <circle cx="40" cy="40" r="34" class="progress-ring" stroke="#7C3AED" stroke-dasharray="34.2 213.6"/>
+      <text x="40" y="48" text-anchor="middle" font-size="20" font-weight="800" fill="#4C1D95">16%</text>
+    </g>
+  </g>
+
+  <g class="tile-shadow" transform="translate(862, 472)">
+    <rect width="370" height="200" rx="20" fill="white" stroke="#E5E7EB" stroke-width="2" stroke-dasharray="6 4"/>
+    <text x="32" y="56" font-size="48">✨</text>
+    <text x="32" y="108" class="label-lg">Surprise Mix</text>
+    <text x="32" y="132" class="label-sm">A bit of everything</text>
+    <text x="32" y="170" font-size="14" font-weight="700" fill="#7C3AED">Tap to start →</text>
+  </g>
+
+  <!-- Caption -->
+  <text x="640" y="740" text-anchor="middle" font-size="16" fill="#6B7280">
+    Layout A — Tile grid: every module visible, progress shown per tile
+  </text>
+</svg>

@@ -6,6 +6,7 @@ import { containsProfanity } from '../../lib/profanity.ts';
 import { suggestUsernames } from '../../lib/usernameSuggestor.ts';
 import { signup, checkUsernameAvailable } from '../../lib/auth.ts';
 import { BigButton } from '../../components/BigButton.tsx';
+import { PlayfulBackground } from '../../components/PlayfulBackground.tsx';
 
 type Step = 'username' | 'pin' | 'avatar' | 'band' | 'recovery';
 
@@ -56,11 +57,12 @@ export function SignupWizard() {
     setStep('recovery');
   };
 
-  const wrap = 'min-h-screen flex flex-col items-center justify-center gap-5 sm:gap-6 md:gap-8 p-4 sm:p-6 md:p-8';
+  const wrap = 'min-h-screen flex flex-col items-center justify-center gap-5 sm:gap-6 md:gap-8 p-4 sm:p-6 md:p-8 relative';
 
   if (step === 'recovery' && recoveryCode) {
     return (
       <div className={`${wrap} text-center`}>
+        <PlayfulBackground />
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold">Save this code!</h2>
         <p className="text-lg sm:text-xl md:text-2xl max-w-2xl">
           Show it to a parent. If you forget your PIN, this gets you back in.
@@ -75,6 +77,7 @@ export function SignupWizard() {
 
   return (
     <div className={wrap}>
+      <PlayfulBackground />
       {step === 'username' && (
         <>
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center">Pick a silly name!</h2>
