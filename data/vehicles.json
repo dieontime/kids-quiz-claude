@@ -1,0 +1,502 @@
+[
+  {
+    "module_id": "vehicles",
+    "age_band": "5-6",
+    "external_id": "vehicles_v1_001",
+    "question_text": "Which vehicle do firefighters use to put out fires?",
+    "options": ["Police car", "Fire engine", "School bus", "Taxi"],
+    "correct_index": 1,
+    "explanation": "Firefighters ride in a fire engine to get to fires quickly. It carries water and a long hose to put out the flames.",
+    "source": "static:vehicles"
+  },
+  {
+    "module_id": "vehicles",
+    "age_band": "5-6",
+    "external_id": "vehicles_v1_002",
+    "question_text": "How many wheels does a bicycle have?",
+    "options": ["One", "Two", "Three", "Four"],
+    "correct_index": 1,
+    "explanation": "A bicycle has two wheels. You pedal with your feet to make it go, and you need to balance to stay up!",
+    "source": "static:vehicles"
+  },
+  {
+    "module_id": "vehicles",
+    "age_band": "5-6",
+    "external_id": "vehicles_v1_003",
+    "question_text": "Which vehicle flies high up in the sky and carries lots of people?",
+    "options": ["Boat", "Train", "Airplane", "Tractor"],
+    "correct_index": 2,
+    "explanation": "An airplane has wings and very strong engines that let it fly through the sky. It can carry hundreds of people at once!",
+    "source": "static:vehicles"
+  },
+  {
+    "module_id": "vehicles",
+    "age_band": "5-6",
+    "external_id": "vehicles_v1_004",
+    "question_text": "What color is a school bus?",
+    "options": ["Red", "Blue", "Yellow", "Green"],
+    "correct_index": 2,
+    "explanation": "School buses are painted bright yellow so drivers can see them easily and keep children safe on the road.",
+    "source": "static:vehicles"
+  },
+  {
+    "module_id": "vehicles",
+    "age_band": "5-6",
+    "external_id": "vehicles_v1_005",
+    "question_text": "Which vehicle travels on train tracks?",
+    "options": ["Car", "Bus", "Train", "Motorcycle"],
+    "correct_index": 2,
+    "explanation": "A train has metal wheels that roll along rails called train tracks. Trains can carry many people or heavy loads.",
+    "source": "static:vehicles"
+  },
+  {
+    "module_id": "vehicles",
+    "age_band": "5-6",
+    "external_id": "vehicles_v1_006",
+    "question_text": "Which vehicle travels on water?",
+    "options": ["Tractor", "Helicopter", "Boat", "Scooter"],
+    "correct_index": 2,
+    "explanation": "A boat floats on water and can travel across lakes, rivers, and oceans. Some boats use sails, and others use engines.",
+    "source": "static:vehicles"
+  },
+  {
+    "module_id": "vehicles",
+    "age_band": "5-6",
+    "external_id": "vehicles_v1_007",
+    "question_text": "What sound does a car horn make?",
+    "options": ["Choo-choo", "Beep-beep", "Whoosh", "Moo"],
+    "correct_index": 1,
+    "explanation": "Cars have a horn that goes beep-beep to warn other drivers or people nearby. It helps keep everyone safe.",
+    "source": "static:vehicles"
+  },
+  {
+    "module_id": "vehicles",
+    "age_band": "5-6",
+    "external_id": "vehicles_v1_008",
+    "question_text": "Which vehicle do doctors and nurses ride in to help sick people fast?",
+    "options": ["Dump truck", "Ambulance", "Sailboat", "Hot-air balloon"],
+    "correct_index": 1,
+    "explanation": "An ambulance rushes sick or hurt people to the hospital very quickly. It has a loud siren so other cars move out of the way.",
+    "source": "static:vehicles"
+  },
+  {
+    "module_id": "vehicles",
+    "age_band": "5-6",
+    "external_id": "vehicles_v1_009",
+    "question_text": "How many wheels does a car have?",
+    "options": ["Two", "Three", "Four", "Six"],
+    "correct_index": 2,
+    "explanation": "A car has four wheels — two in the front and two in the back. The wheels spin to move the car forward.",
+    "source": "static:vehicles"
+  },
+  {
+    "module_id": "vehicles",
+    "age_band": "5-6",
+    "external_id": "vehicles_v1_010",
+    "question_text": "Which vehicle spins its blades on top to fly through the air?",
+    "options": ["Submarine", "Helicopter", "Tractor", "Rowboat"],
+    "correct_index": 1,
+    "explanation": "A helicopter has spinning blades on top called a rotor. The spinning blades lift the helicopter straight up into the air.",
+    "source": "static:vehicles"
+  },
+  {
+    "module_id": "vehicles",
+    "age_band": "5-6",
+    "external_id": "vehicles_v1_011",
+    "question_text": "Which vehicle travels under the water?",
+    "options": ["Hot-air balloon", "Bicycle", "Submarine", "Fire engine"],
+    "correct_index": 2,
+    "explanation": "A submarine can dive deep under the ocean. It has tanks that fill with water to help it sink down and go up again.",
+    "source": "static:vehicles"
+  },
+  {
+    "module_id": "vehicles",
+    "age_band": "5-6",
+    "external_id": "vehicles_v1_012",
+    "question_text": "Which vehicle is used on a farm to pull heavy loads?",
+    "options": ["Taxi", "Tractor", "Scooter", "Police car"],
+    "correct_index": 1,
+    "explanation": "A tractor is a big, powerful vehicle used on farms. Farmers use it to plow fields and carry heavy loads.",
+    "source": "static:vehicles"
+  },
+  {
+    "module_id": "vehicles",
+    "age_band": "5-6",
+    "external_id": "vehicles_v1_013",
+    "question_text": "What goes up into space?",
+    "options": ["Rowboat", "Rocket", "Bus", "Bicycle"],
+    "correct_index": 1,
+    "explanation": "A rocket shoots fire from its bottom and blasts off into space. Rockets carry astronauts to the space station and beyond.",
+    "source": "static:vehicles"
+  },
+  {
+    "module_id": "vehicles",
+    "age_band": "5-6",
+    "external_id": "vehicles_v1_014",
+    "question_text": "A hot-air balloon floats in the ___.",
+    "options": ["Ocean", "Sky", "Underground tunnel", "River"],
+    "correct_index": 1,
+    "explanation": "A hot-air balloon floats in the sky because hot air inside the big bag is lighter than the cool air outside.",
+    "source": "static:vehicles"
+  },
+  {
+    "module_id": "vehicles",
+    "age_band": "5-6",
+    "external_id": "vehicles_v1_015",
+    "question_text": "What color is a fire engine usually?",
+    "options": ["Blue", "Yellow", "Red", "Purple"],
+    "correct_index": 2,
+    "explanation": "Fire engines are almost always painted bright red. The bold color helps people notice them coming from far away.",
+    "source": "static:vehicles"
+  },
+  {
+    "module_id": "vehicles",
+    "age_band": "5-6",
+    "external_id": "vehicles_v1_016",
+    "question_text": "Which vehicle carries people across the sea on a very long trip?",
+    "options": ["Bicycle", "Ship", "Scooter", "Tractor"],
+    "correct_index": 1,
+    "explanation": "A large ship can sail across the ocean carrying hundreds of people. Big ships are sometimes called ocean liners.",
+    "source": "static:vehicles"
+  },
+  {
+    "module_id": "vehicles",
+    "age_band": "5-6",
+    "external_id": "vehicles_v1_017",
+    "question_text": "A police car makes a loud noise to warn people. What is that noise called?",
+    "options": ["Siren", "Honk", "Whistle", "Bell"],
+    "correct_index": 0,
+    "explanation": "A police car has a siren that makes a loud wailing sound. The siren tells other drivers to move aside quickly.",
+    "source": "static:vehicles"
+  },
+  {
+    "module_id": "vehicles",
+    "age_band": "5-6",
+    "external_id": "vehicles_v1_018",
+    "question_text": "Which of these vehicles only has two wheels and an engine?",
+    "options": ["Car", "Bus", "Motorcycle", "Truck"],
+    "correct_index": 2,
+    "explanation": "A motorcycle has two wheels and a strong engine. The rider sits on top and steers with handlebars.",
+    "source": "static:vehicles"
+  },
+  {
+    "module_id": "vehicles",
+    "age_band": "5-6",
+    "external_id": "vehicles_v1_019",
+    "question_text": "What sound does a train make?",
+    "options": ["Vroom vroom", "Beep beep", "Choo choo", "Splash splash"],
+    "correct_index": 2,
+    "explanation": "Old steam trains made a loud 'choo choo' sound when steam puffed out. That is why children often call them choo-choo trains!",
+    "source": "static:vehicles"
+  },
+  {
+    "module_id": "vehicles",
+    "age_band": "5-6",
+    "external_id": "vehicles_v1_020",
+    "question_text": "Which vehicle uses wind to move across the water?",
+    "options": ["Submarine", "Rocket", "Sailboat", "Train"],
+    "correct_index": 2,
+    "explanation": "A sailboat has a big sail that catches the wind. When the wind blows into the sail, it pushes the boat across the water.",
+    "source": "static:vehicles"
+  },
+  {
+    "module_id": "vehicles",
+    "age_band": "5-6",
+    "external_id": "vehicles_v1_021",
+    "question_text": "A truck is used to carry ___ from place to place.",
+    "options": ["Babies", "Heavy loads or cargo", "Only people", "Fish"],
+    "correct_index": 1,
+    "explanation": "Trucks have a big space at the back to carry heavy loads like food, furniture, or boxes from one place to another.",
+    "source": "static:vehicles"
+  },
+  {
+    "module_id": "vehicles",
+    "age_band": "5-6",
+    "external_id": "vehicles_v1_022",
+    "question_text": "Which of these vehicles can you pedal with your feet?",
+    "options": ["Helicopter", "Bicycle", "Submarine", "School bus"],
+    "correct_index": 1,
+    "explanation": "You pedal a bicycle by pushing the pedals with your feet. The pedals turn the wheels and move you forward.",
+    "source": "static:vehicles"
+  },
+  {
+    "module_id": "vehicles",
+    "age_band": "5-6",
+    "external_id": "vehicles_v1_023",
+    "question_text": "Which vehicle would you take to travel from one country to another very quickly?",
+    "options": ["Tricycle", "Airplane", "Rowboat", "Scooter"],
+    "correct_index": 1,
+    "explanation": "An airplane can fly very fast and travel thousands of miles in just a few hours. It is the quickest way to travel far.",
+    "source": "static:vehicles"
+  },
+  {
+    "module_id": "vehicles",
+    "age_band": "5-6",
+    "external_id": "vehicles_v1_024",
+    "question_text": "A scooter is a small vehicle you can ride on the ___.",
+    "options": ["Water", "Road or path", "Sky", "Underground"],
+    "correct_index": 1,
+    "explanation": "A scooter is ridden on roads or paths. You can stand on it and push with one foot, or use a small engine to go.",
+    "source": "static:vehicles"
+  },
+  {
+    "module_id": "vehicles",
+    "age_band": "5-6",
+    "external_id": "vehicles_v1_025",
+    "question_text": "How many wheels does a tricycle have?",
+    "options": ["One", "Two", "Three", "Four"],
+    "correct_index": 2,
+    "explanation": "A tricycle has three wheels — one at the front and two at the back. The extra wheel makes it easy to balance.",
+    "source": "static:vehicles"
+  },
+  {
+    "module_id": "vehicles",
+    "age_band": "5-6",
+    "external_id": "vehicles_v1_026",
+    "question_text": "Which vehicle is long and carries many passengers on city streets?",
+    "options": ["Bicycle", "Bus", "Canoe", "Hot-air balloon"],
+    "correct_index": 1,
+    "explanation": "A bus is a long vehicle that can carry many people at once. City buses stop at many places to let people on and off.",
+    "source": "static:vehicles"
+  },
+  {
+    "module_id": "vehicles",
+    "age_band": "5-6",
+    "external_id": "vehicles_v1_027",
+    "question_text": "What does an ambulance carry?",
+    "options": ["Groceries", "Sick or hurt people", "Sand", "Animals"],
+    "correct_index": 1,
+    "explanation": "An ambulance carries sick or injured people to the hospital. It has medical equipment inside to help people feel better on the way.",
+    "source": "static:vehicles"
+  },
+  {
+    "module_id": "vehicles",
+    "age_band": "5-6",
+    "external_id": "vehicles_v1_028",
+    "question_text": "Which vehicle can pick up garbage and take it away?",
+    "options": ["Police car", "Garbage truck", "Sailboat", "Rocket"],
+    "correct_index": 1,
+    "explanation": "A garbage truck drives down streets to pick up rubbish from bins. It has a big container that squishes the garbage inside.",
+    "source": "static:vehicles"
+  },
+  {
+    "module_id": "vehicles",
+    "age_band": "5-6",
+    "external_id": "vehicles_v1_029",
+    "question_text": "What do you call the person who drives a train?",
+    "options": ["Pilot", "Captain", "Train driver", "Sailor"],
+    "correct_index": 2,
+    "explanation": "The person who drives a train is called a train driver. They sit at the front and control how fast the train goes.",
+    "source": "static:vehicles"
+  },
+  {
+    "module_id": "vehicles",
+    "age_band": "5-6",
+    "external_id": "vehicles_v1_030",
+    "question_text": "What do you call the person who flies an airplane?",
+    "options": ["Driver", "Captain", "Pilot", "Sailor"],
+    "correct_index": 2,
+    "explanation": "The person who flies an airplane is called a pilot. Pilots train for many years to learn how to safely fly a plane.",
+    "source": "static:vehicles"
+  },
+  {
+    "module_id": "vehicles",
+    "age_band": "5-6",
+    "external_id": "vehicles_v1_031",
+    "question_text": "Which vehicle can you use to go down a snowy hill?",
+    "options": ["Airplane", "Sled", "Rowboat", "Tractor"],
+    "correct_index": 1,
+    "explanation": "A sled slides down snowy hills on smooth runners. You sit on top and zoom down the hill — it is very fun!",
+    "source": "static:vehicles"
+  },
+  {
+    "module_id": "vehicles",
+    "age_band": "5-6",
+    "external_id": "vehicles_v1_032",
+    "question_text": "Which vehicle has a very long body made of many parts joined together?",
+    "options": ["Bicycle", "Hot-air balloon", "Train", "Speedboat"],
+    "correct_index": 2,
+    "explanation": "A train has many carriages joined together in a long line. The engine at the front pulls all the carriages along the track.",
+    "source": "static:vehicles"
+  },
+  {
+    "module_id": "vehicles",
+    "age_band": "5-6",
+    "external_id": "vehicles_v1_033",
+    "question_text": "What kind of road does a car travel on?",
+    "options": ["Train tracks", "A paved road", "A river", "The sky"],
+    "correct_index": 1,
+    "explanation": "Cars drive on paved roads made of tarmac or concrete. Roads connect towns and cities so people can travel between them.",
+    "source": "static:vehicles"
+  },
+  {
+    "module_id": "vehicles",
+    "age_band": "5-6",
+    "external_id": "vehicles_v1_034",
+    "question_text": "Which vehicle would you see in the sky at night with flashing lights?",
+    "options": ["Submarine", "Airplane", "Rowboat", "Tractor"],
+    "correct_index": 1,
+    "explanation": "Airplanes have flashing lights on their wings and tail so other pilots can see them in the dark sky at night.",
+    "source": "static:vehicles"
+  },
+  {
+    "module_id": "vehicles",
+    "age_band": "5-6",
+    "external_id": "vehicles_v1_035",
+    "question_text": "What do astronauts travel in to reach outer space?",
+    "options": ["Helicopter", "Speedboat", "Hot-air balloon", "Rocket"],
+    "correct_index": 3,
+    "explanation": "Astronauts travel in a rocket to reach outer space. The rocket burns huge amounts of fuel to blast away from Earth.",
+    "source": "static:vehicles"
+  },
+  {
+    "module_id": "vehicles",
+    "age_band": "5-6",
+    "external_id": "vehicles_v1_036",
+    "question_text": "Which vehicle has two wheels, pedals, and no engine?",
+    "options": ["Motorcycle", "Bicycle", "Car", "Train"],
+    "correct_index": 1,
+    "explanation": "A bicycle has two wheels and pedals but no engine. You use your own leg power to make it move.",
+    "source": "static:vehicles"
+  },
+  {
+    "module_id": "vehicles",
+    "age_band": "5-6",
+    "external_id": "vehicles_v1_037",
+    "question_text": "What is a canoe?",
+    "options": ["A type of airplane", "A small boat you paddle", "A fast truck", "A kind of train"],
+    "correct_index": 1,
+    "explanation": "A canoe is a small, narrow boat that you move through water with a paddle. You sit inside and use the paddle to steer.",
+    "source": "static:vehicles"
+  },
+  {
+    "module_id": "vehicles",
+    "age_band": "5-6",
+    "external_id": "vehicles_v1_038",
+    "question_text": "Which of these vehicles would you use to travel on a lake?",
+    "options": ["Train", "Kayak", "Tractor", "Fire engine"],
+    "correct_index": 1,
+    "explanation": "A kayak is a small boat that you paddle across a lake or river. You sit low in the water and use a double-ended paddle.",
+    "source": "static:vehicles"
+  },
+  {
+    "module_id": "vehicles",
+    "age_band": "5-6",
+    "external_id": "vehicles_v1_039",
+    "question_text": "Which vehicle is used to carry lots of heavy things like sand or rocks?",
+    "options": ["Canoe", "Scooter", "Dump truck", "Bicycle"],
+    "correct_index": 2,
+    "explanation": "A dump truck has a huge open container at the back that can tip up to empty heavy loads like sand, rocks, or dirt.",
+    "source": "static:vehicles"
+  },
+  {
+    "module_id": "vehicles",
+    "age_band": "5-6",
+    "external_id": "vehicles_v1_040",
+    "question_text": "A police car is used to help keep people ___.",
+    "options": ["Bored", "Safe", "Hungry", "Wet"],
+    "correct_index": 1,
+    "explanation": "Police officers drive police cars to patrol streets and keep people safe. Their cars are fast and easy to spot.",
+    "source": "static:vehicles"
+  },
+  {
+    "module_id": "vehicles",
+    "age_band": "5-6",
+    "external_id": "vehicles_v1_041",
+    "question_text": "Which of these flies through the air with spinning blades but can hover in one spot?",
+    "options": ["Train", "Bicycle", "Helicopter", "Submarine"],
+    "correct_index": 2,
+    "explanation": "A helicopter can hover in one spot because its spinning blades keep it up. That makes it great for rescues!",
+    "source": "static:vehicles"
+  },
+  {
+    "module_id": "vehicles",
+    "age_band": "5-6",
+    "external_id": "vehicles_v1_042",
+    "question_text": "What is the front part of a train called?",
+    "options": ["The sail", "The wing", "The engine", "The hull"],
+    "correct_index": 2,
+    "explanation": "The front part of a train is called the engine or locomotive. It is the most powerful part and pulls the rest of the train.",
+    "source": "static:vehicles"
+  },
+  {
+    "module_id": "vehicles",
+    "age_band": "5-6",
+    "external_id": "vehicles_v1_043",
+    "question_text": "Which vehicle carries people and their cars across a river or bay?",
+    "options": ["Rocket", "Ferry", "Scooter", "Bulldozer"],
+    "correct_index": 1,
+    "explanation": "A ferry is a big flat boat that carries people and even cars across a stretch of water. Cars drive on, and the ferry sails across.",
+    "source": "static:vehicles"
+  },
+  {
+    "module_id": "vehicles",
+    "age_band": "5-6",
+    "external_id": "vehicles_v1_044",
+    "question_text": "What color is a typical taxi cab?",
+    "options": ["Green", "Blue", "Yellow", "Pink"],
+    "correct_index": 2,
+    "explanation": "In many cities, taxis are painted bright yellow. The color makes them easy to spot when you need a ride.",
+    "source": "static:vehicles"
+  },
+  {
+    "module_id": "vehicles",
+    "age_band": "5-6",
+    "external_id": "vehicles_v1_045",
+    "question_text": "Which vehicle is very long, hauls heavy cargo, and drives on highways?",
+    "options": ["Bicycle", "Semi-truck", "Canoe", "Hot-air balloon"],
+    "correct_index": 1,
+    "explanation": "A semi-truck is a very long, powerful truck that can pull a huge trailer. It is used to move cargo over long distances.",
+    "source": "static:vehicles"
+  },
+  {
+    "module_id": "vehicles",
+    "age_band": "5-6",
+    "external_id": "vehicles_v1_046",
+    "question_text": "What does a submarine use to see underwater?",
+    "options": ["Headlights", "Periscope", "Radar dish", "Wings"],
+    "correct_index": 1,
+    "explanation": "A submarine uses a periscope — a long tube with mirrors — to look above the water while still being hidden below.",
+    "source": "static:vehicles"
+  },
+  {
+    "module_id": "vehicles",
+    "age_band": "5-6",
+    "external_id": "vehicles_v1_047",
+    "question_text": "Which of these vehicles is the largest?",
+    "options": ["Scooter", "Bicycle", "Ship", "Motorcycle"],
+    "correct_index": 2,
+    "explanation": "A ship is much larger than scooters, bicycles, or motorcycles. Some ships are as long as several city blocks!",
+    "source": "static:vehicles"
+  },
+  {
+    "module_id": "vehicles",
+    "age_band": "5-6",
+    "external_id": "vehicles_v1_048",
+    "question_text": "Where does an airplane land?",
+    "options": ["A harbor", "A parking lot", "An airport", "A barn"],
+    "correct_index": 2,
+    "explanation": "Airplanes land at an airport on a long, flat strip of road called a runway. Airports have special areas for passengers too.",
+    "source": "static:vehicles"
+  },
+  {
+    "module_id": "vehicles",
+    "age_band": "5-6",
+    "external_id": "vehicles_v1_049",
+    "question_text": "What makes a car go?",
+    "options": ["Wind in its sails", "An engine that burns fuel", "Pedals you push", "A big spring"],
+    "correct_index": 1,
+    "explanation": "Most cars have an engine that burns fuel like petrol to make power. That power turns the wheels and moves the car.",
+    "source": "static:vehicles"
+  },
+  {
+    "module_id": "vehicles",
+    "age_band": "5-6",
+    "external_id": "vehicles_v1_050",
+    "question_text": "A bulldozer is used on a building site to ___.",
+    "options": ["Carry people to work", "Push and move large amounts of dirt", "Fly building workers around", "Catch fish"],
+    "correct_index": 1,
+    "explanation": "A bulldozer has a big metal blade at the front. It pushes heavy dirt or rubble out of the way to clear space for building.",
+    "source": "static:vehicles"
+  }
+]

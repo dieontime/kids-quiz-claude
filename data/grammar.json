@@ -1,0 +1,502 @@
+[
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_001",
+    "question_text": "Which word goes before 'apple'? '___ apple'",
+    "options": ["A", "An", "The a", "And"],
+    "correct_index": 1,
+    "explanation": "We use 'an' before words that start with a vowel sound, like the 'a' sound in 'apple'. So we say 'an apple'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_002",
+    "question_text": "Which word goes before 'dog'? '___ dog'",
+    "options": ["An", "A", "The an", "Is"],
+    "correct_index": 1,
+    "explanation": "We use 'a' before words that start with a consonant sound, like the 'd' sound in 'dog'. So we say 'a dog'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_003",
+    "question_text": "What is the plural of 'cat'?",
+    "options": ["Cates", "Cat", "Cats", "Caties"],
+    "correct_index": 2,
+    "explanation": "To make most words plural (more than one), we add an 's' at the end. One cat becomes two cats!",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_004",
+    "question_text": "What is the plural of 'mouse'?",
+    "options": ["Mouses", "Mices", "Mouse", "Mice"],
+    "correct_index": 3,
+    "explanation": "Mouse is a tricky word — its plural is mice, not mouses! Some words change completely when there is more than one.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_005",
+    "question_text": "What is the plural of 'child'?",
+    "options": ["Childs", "Childes", "Children", "Childrens"],
+    "correct_index": 2,
+    "explanation": "The plural of child is children. It is a special word that changes a lot — just like mouse becomes mice!",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_006",
+    "question_text": "What is the plural of 'foot'?",
+    "options": ["Foots", "Feet", "Feets", "Foot"],
+    "correct_index": 1,
+    "explanation": "The plural of foot is feet. You have two feet on your body, not two foots!",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_007",
+    "question_text": "Pick the correct sentence: 'The dog ___ happy.'",
+    "options": ["are", "is", "am", "were"],
+    "correct_index": 1,
+    "explanation": "When we talk about one person or animal, we use 'is'. The dog is one dog, so we say 'The dog is happy'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_008",
+    "question_text": "Pick the correct sentence: 'The dogs ___ happy.'",
+    "options": ["is", "am", "are", "was"],
+    "correct_index": 2,
+    "explanation": "When we talk about more than one, we use 'are'. There are many dogs, so we say 'The dogs are happy'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_009",
+    "question_text": "Which letter should go at the start of a sentence?",
+    "options": ["A small letter", "A capital (big) letter", "A number", "A star"],
+    "correct_index": 1,
+    "explanation": "Every sentence starts with a capital (big) letter. This helps the reader see where a new sentence begins.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_010",
+    "question_text": "Which punctuation mark goes at the end of a question?",
+    "options": ["Full stop (.)", "Exclamation mark (!)", "Question mark (?)", "Comma (,)"],
+    "correct_index": 2,
+    "explanation": "A question mark (?) goes at the end of a question. It tells the reader that someone is asking something.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_011",
+    "question_text": "Which punctuation mark goes at the end of a normal sentence?",
+    "options": ["Question mark (?)", "Full stop (.)", "Comma (,)", "Exclamation mark (!)"],
+    "correct_index": 1,
+    "explanation": "A full stop (.) goes at the end of most sentences. It tells the reader that the sentence is finished.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_012",
+    "question_text": "The boy fell down. What word can replace 'the boy'?",
+    "options": ["She", "They", "He", "We"],
+    "correct_index": 2,
+    "explanation": "We use 'he' instead of naming a boy or man. So 'The boy fell down' becomes 'He fell down'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_013",
+    "question_text": "The girl is singing. What word can replace 'the girl'?",
+    "options": ["He", "It", "They", "She"],
+    "correct_index": 3,
+    "explanation": "We use 'she' instead of naming a girl or woman. So 'The girl is singing' becomes 'She is singing'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_014",
+    "question_text": "The cat is sleeping. What word can replace 'the cat'?",
+    "options": ["He", "She", "It", "We"],
+    "correct_index": 2,
+    "explanation": "We use 'it' when we talk about a thing or an animal (when we don't say if it is a boy or girl animal). So we say 'It is sleeping'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_015",
+    "question_text": "Tom and Lily are playing. What word can replace 'Tom and Lily'?",
+    "options": ["He", "She", "It", "They"],
+    "correct_index": 3,
+    "explanation": "When we talk about more than one person, we use 'they'. So 'Tom and Lily are playing' becomes 'They are playing'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_016",
+    "question_text": "What is the opposite of 'big'?",
+    "options": ["Fast", "Small", "Tall", "Loud"],
+    "correct_index": 1,
+    "explanation": "The opposite of big is small. A elephant is big; a mouse is small!",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_017",
+    "question_text": "What is the opposite of 'fast'?",
+    "options": ["Slow", "Short", "Cold", "Light"],
+    "correct_index": 0,
+    "explanation": "The opposite of fast is slow. A cheetah is fast; a snail is slow.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_018",
+    "question_text": "What is the opposite of 'hot'?",
+    "options": ["Warm", "Hard", "Cold", "Dark"],
+    "correct_index": 2,
+    "explanation": "The opposite of hot is cold. Fire is hot; ice is cold.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_019",
+    "question_text": "What is an action word? (also called a verb)",
+    "options": ["A word that describes color", "A word that names a thing", "A word that shows what someone does", "A word that means more than one"],
+    "correct_index": 2,
+    "explanation": "An action word (verb) shows what someone or something does. Run, jump, eat, and sleep are all action words!",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_020",
+    "question_text": "Which of these is an action word (verb)?",
+    "options": ["Apple", "Jump", "Blue", "Chair"],
+    "correct_index": 1,
+    "explanation": "Jump is an action word — it tells us what someone is doing. Apple, blue, and chair do not show actions.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_021",
+    "question_text": "Which of these is a describing word (adjective)?",
+    "options": ["Run", "Cat", "Fluffy", "Eat"],
+    "correct_index": 2,
+    "explanation": "Fluffy is a describing word — it tells us what something is like. We can say 'a fluffy bunny' to describe how it feels.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_022",
+    "question_text": "Which word goes before 'orange'? '___ orange'",
+    "options": ["A", "An", "And", "Are"],
+    "correct_index": 1,
+    "explanation": "We use 'an' before words that start with a vowel sound like the 'o' in 'orange'. So we say 'an orange'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_023",
+    "question_text": "Which word goes before 'umbrella'? '___ umbrella'",
+    "options": ["A", "The a", "An", "Is"],
+    "correct_index": 2,
+    "explanation": "We use 'an' before words starting with a vowel sound. Umbrella starts with the 'u' sound, so we say 'an umbrella'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_024",
+    "question_text": "Pick the correct sentence: 'I ___ happy today.'",
+    "options": ["is", "are", "am", "be"],
+    "correct_index": 2,
+    "explanation": "When we talk about ourselves, we say 'I am'. So the correct sentence is 'I am happy today'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_025",
+    "question_text": "Which of these words is a naming word (noun)?",
+    "options": ["Soft", "Run", "Table", "Quickly"],
+    "correct_index": 2,
+    "explanation": "A naming word (noun) is the name of a person, place, or thing. Table is the name of a thing, so it is a noun.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_026",
+    "question_text": "What is the plural of 'box'?",
+    "options": ["Boxs", "Boxes", "Boxen", "Box"],
+    "correct_index": 1,
+    "explanation": "When a word ends in 'x', we add 'es' to make it plural. So one box becomes two boxes.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_027",
+    "question_text": "What is the plural of 'tooth'?",
+    "options": ["Tooths", "Toothes", "Teeth", "Teeths"],
+    "correct_index": 2,
+    "explanation": "Tooth is another tricky word. More than one tooth is called teeth! Our mouth is full of teeth.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_028",
+    "question_text": "My friends and I like pizza. What word can replace 'my friends and I'?",
+    "options": ["They", "We", "He", "It"],
+    "correct_index": 1,
+    "explanation": "When you talk about yourself and other people together, you use 'we'. 'My friends and I' becomes 'We like pizza'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_029",
+    "question_text": "Which sentence has a capital letter in the right place?",
+    "options": ["the cat sat on the mat.", "The cat sat on the mat.", "the Cat sat on the mat.", "The Cat sat on The mat."],
+    "correct_index": 1,
+    "explanation": "A sentence must start with a capital (big) letter. Only the very first word needs a capital unless it is a name.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_030",
+    "question_text": "What is the opposite of 'day'?",
+    "options": ["Morning", "Night", "Afternoon", "Light"],
+    "correct_index": 1,
+    "explanation": "The opposite of day is night. When the sun is up it is daytime; when the sun goes down it becomes night.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_031",
+    "question_text": "What is the opposite of 'up'?",
+    "options": ["Over", "Forward", "Down", "Across"],
+    "correct_index": 2,
+    "explanation": "The opposite of up is down. When a ball goes up into the air, it comes back down again.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_032",
+    "question_text": "Which of these is an action word? 'The rabbit ___ across the field.'",
+    "options": ["Brown", "Fluffy", "Hopped", "Tiny"],
+    "correct_index": 2,
+    "explanation": "Hopped is an action word (verb) — it tells us what the rabbit did. Brown, fluffy, and tiny are describing words.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_033",
+    "question_text": "Which sentence ends correctly?",
+    "options": ["Where is my bag,", "Where is my bag.", "Where is my bag?", "Where is my bag!"],
+    "correct_index": 2,
+    "explanation": "A question always ends with a question mark (?). 'Where is my bag?' is asking something, so it needs a question mark.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_034",
+    "question_text": "Apple, banana, and orange all belong to which group?",
+    "options": ["Vegetables", "Animals", "Vehicles", "Fruit"],
+    "correct_index": 3,
+    "explanation": "Apple, banana, and orange are all types of fruit. Words in the same group or category share something in common.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_035",
+    "question_text": "Car, bus, and train all belong to which group?",
+    "options": ["Animals", "Food", "Vehicles", "Plants"],
+    "correct_index": 2,
+    "explanation": "Car, bus, and train are all vehicles — things we use to travel from one place to another.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_036",
+    "question_text": "Which word describes how a kitten feels?",
+    "options": ["Run", "Sleep", "Soft", "Meow"],
+    "correct_index": 2,
+    "explanation": "Soft is a describing word (adjective) — it tells us what a kitten feels like when you touch it.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_037",
+    "question_text": "Which word is the opposite of 'open'?",
+    "options": ["Wide", "Big", "Closed", "Empty"],
+    "correct_index": 2,
+    "explanation": "The opposite of open is closed. A door can be open (you can walk through) or closed (it is shut).",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_038",
+    "question_text": "Which word is the opposite of 'clean'?",
+    "options": ["Shiny", "Wet", "Bright", "Dirty"],
+    "correct_index": 3,
+    "explanation": "The opposite of clean is dirty. After playing in mud, your clothes are dirty — you need to clean them!",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_039",
+    "question_text": "What is the plural of 'fish' when talking about many of the same kind?",
+    "options": ["Fishes", "Fishs", "Fishies", "Fish"],
+    "correct_index": 3,
+    "explanation": "Fish is a special word — when you talk about many fish of the same kind, it stays as 'fish'. A pond full of goldfish, not goldfishes!",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_040",
+    "question_text": "Which sentence uses 'run' correctly as an action word?",
+    "options": ["The run is fast.", "She can run fast.", "Run is big.", "A run ball."],
+    "correct_index": 1,
+    "explanation": "Action words (verbs) tell us what someone does. 'She can run fast' uses run correctly to describe what she does.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_041",
+    "question_text": "Which word goes before 'egg'? '___ egg'",
+    "options": ["A", "An", "And", "Are"],
+    "correct_index": 1,
+    "explanation": "We use 'an' before a vowel sound. Egg starts with the 'e' sound, which is a vowel, so we say 'an egg'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_042",
+    "question_text": "Which word goes before 'book'? '___ book'",
+    "options": ["An", "A", "Are", "Is"],
+    "correct_index": 1,
+    "explanation": "We use 'a' before a consonant sound. Book starts with the 'b' sound, which is a consonant, so we say 'a book'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_043",
+    "question_text": "Which is the correct plural of 'bus'?",
+    "options": ["Buss", "Buses", "Busses", "Bus"],
+    "correct_index": 1,
+    "explanation": "When a word ends in 's', we add 'es' to make it plural. One bus becomes two buses.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_044",
+    "question_text": "Dog, cat, and rabbit all belong to which group?",
+    "options": ["Vehicles", "Food", "Animals", "Plants"],
+    "correct_index": 2,
+    "explanation": "Dog, cat, and rabbit are all animals. We call them pets because many people keep them at home.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_045",
+    "question_text": "Which sentence is correct?",
+    "options": ["my name is lily.", "My name is lily.", "my name is Lily.", "My name is Lily."],
+    "correct_index": 3,
+    "explanation": "Two capital letters are needed here: one to start the sentence ('My') and one because 'Lily' is a person's name.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_046",
+    "question_text": "What is the opposite of 'tall'?",
+    "options": ["Wide", "Short", "Long", "Heavy"],
+    "correct_index": 1,
+    "explanation": "The opposite of tall is short. A giraffe is tall; a hamster is short.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_047",
+    "question_text": "Which of these is an action word (verb)?",
+    "options": ["Happy", "Red", "Eat", "Chair"],
+    "correct_index": 2,
+    "explanation": "Eat is an action word (verb) — it tells us what someone does. We eat our lunch every day!",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_048",
+    "question_text": "Pick the correct sentence: 'We ___ going to the park.'",
+    "options": ["is", "am", "are", "be"],
+    "correct_index": 2,
+    "explanation": "When we use 'we' (talking about more than one person), we say 'we are'. So the answer is 'We are going to the park'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_049",
+    "question_text": "Which word is a describing word (adjective)?",
+    "options": ["Tree", "Blue", "Jump", "Run"],
+    "correct_index": 1,
+    "explanation": "Blue is a describing word (adjective) — it tells us the color of something. We can say 'a blue sky' or 'a blue ball'.",
+    "source": "static:grammar"
+  },
+  {
+    "module_id": "grammar",
+    "age_band": "5-6",
+    "external_id": "grammar_v1_050",
+    "question_text": "Which sentence needs an exclamation mark?",
+    "options": ["I have a cat", "What is your name", "Watch out", "The sky is blue"],
+    "correct_index": 2,
+    "explanation": "We use an exclamation mark (!) when something is exciting or urgent. 'Watch out!' is a warning, so it needs an exclamation mark.",
+    "source": "static:grammar"
+  }
+]
