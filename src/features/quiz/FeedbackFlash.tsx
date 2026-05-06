@@ -11,11 +11,21 @@ export function FeedbackFlash({ correct, explanation, onNext }: Props) {
     <motion.div
       initial={{ opacity: 0, y: 30 }}
       animate={{ opacity: 1, y: 0 }}
-      className={`mt-6 p-6 rounded-2xl text-xl font-bold w-full max-w-2xl ${correct ? 'bg-green-100 text-green-900' : 'bg-red-100 text-red-900'}`}
+      className={`mt-2 sm:mt-4 p-5 sm:p-6 md:p-8 rounded-2xl w-full max-w-3xl shadow-lg ${correct ? 'bg-green-100 text-green-900 border-4 border-green-400' : 'bg-red-100 text-red-900 border-4 border-red-400'}`}
+      role="status"
+      aria-live="polite"
     >
-      <div className="text-3xl mb-2">{correct ? '✓ Nice!' : 'Not quite — keep going!'}</div>
-      <div className="font-normal mb-4">{explanation}</div>
-      <button onClick={onNext} className="px-6 py-2 bg-primary text-white rounded-xl">Next</button>
+      <div className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2 sm:mb-3">
+        {correct ? '✓ Nice!' : '✗ Not quite — keep going!'}
+      </div>
+      <div className="text-lg sm:text-xl md:text-2xl mb-4 sm:mb-5">{explanation}</div>
+      <button
+        onClick={onNext}
+        autoFocus
+        className="px-6 sm:px-8 py-3 sm:py-4 bg-primary text-white text-xl sm:text-2xl md:text-3xl font-bold rounded-xl shadow-md focus-visible:ring-4 focus-visible:ring-yellow-400 focus-visible:outline-none active:scale-95 transition-transform"
+      >
+        Next
+      </button>
     </motion.div>
   );
 }

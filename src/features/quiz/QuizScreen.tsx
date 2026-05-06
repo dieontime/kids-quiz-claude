@@ -23,10 +23,12 @@ export function QuizScreen() {
   const isComplete = useQuizSession(s => s.isComplete);
   const durationS  = useQuizSession(s => s.durationS);
 
-  const [loading, setLoading]     = useState(true);
-  const [showFlash, setShowFlash] = useState(false);
+  const [loading, setLoading]         = useState(true);
+  const [error, setError]             = useState<string | null>(null);
+  // pickedIndex !== null  ⇒  user has chosen for the *current* question and is
+  // looking at the feedback panel; the next question only renders after Next.
+  const [pickedIndex, setPickedIndex] = useState<number | null>(null);
   const [lastCorrect, setLastCorrect] = useState(false);
-  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     if (!profile || !moduleId) return;
@@ -54,60 +56,62 @@ export function QuizScreen() {
 
   if (!profile) return <Navigate to="/login" replace />;
   if (loading) {
-    return <div className="min-h-screen flex items-center justify-center text-2xl">Loading…</div>;
+    return <div className="min-h-screen flex items-center justify-center text-2xl sm:text-3xl">Loading…</div>;
   }
   if (error) {
     return (
       <div className="min-h-screen flex flex-col items-center justify-center gap-4 p-6 text-center">
-        <p className="text-xl text-red-600">{error}</p>
-        <button onClick={() => nav('/dashboard')} className="px-6 py-2 bg-primary text-white rounded-xl">Back</button>
+        <p className="text-xl sm:text-2xl text-red-600">{error}</p>
+        <button onClick={() => nav('/dashboard')} className="px-6 py-3 bg-primary text-white text-xl rounded-xl focus-visible:ring-4 focus-visible:ring-yellow-400 focus-visible:outline-none">Back</button>
       </div>
     );
   }
 
-  const onAnswer = async (pickedIndex: number) => {
+  const onAnswer = async (idx: number) => {
     const q = questions[currentIdx];
-    if (!q) return;
-    const correct = pickedIndex === q.correct_index;
-    answer(pickedIndex);
+    if (!q || pickedIndex !== null) return;
+    const correct = idx === q.correct_index;
+    setPickedIndex(idx);
     setLastCorrect(correct);
-    setShowFlash(true);
     await logAnswered(profile.id, q.external_id, correct);
   };
 
   const onNext = async () => {
-    setShowFlash(false);
+    if (pickedIndex === null) return;
+    answer(pickedIndex);
+    setPickedIndex(null);
     if (isComplete()) {
-      // After answer() advanced past the last question, score includes the final answer
       const finalScore = useQuizSession.getState().score;
-      const finalTotal = questions.length;
-      await recordQuiz(profile.id, moduleId ?? 'random', finalScore, finalTotal, durationS());
+      await recordQuiz(profile.id, moduleId ?? 'random', finalScore, questions.length, durationS());
       nav('/results');
     }
   };
 
-  if (questions.length === 0) {
-    // Defensive: shouldn't reach this since loading gates it, but covers race
-    return null;
-  }
-  // After the last answer, currentIdx === questions.length. We still render the
-  // final flash; QuestionCard would crash on undefined, so skip it.
+  if (questions.length === 0) return null;
   const q = questions[currentIdx];
+  if (!q) return null;
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center p-6 gap-4">
-      <div className="w-full max-w-2xl flex justify-between text-lg font-bold text-primary">
-        <span>Question {Math.min(currentIdx + 1, questions.length)} of {questions.length}</span>
+    <div className="min-h-screen flex flex-col items-center p-4 sm:p-6 md:p-8 gap-4 sm:gap-6">
+      <div className="w-full max-w-3xl flex justify-between items-center text-base sm:text-lg md:text-xl font-bold text-primary">
+        <span>Question {currentIdx + 1} of {questions.length}</span>
         <span>Score: {score}</span>
       </div>
-      {q && <QuestionCard key={q.external_id} question={q} onAnswer={onAnswer} />}
-      {showFlash && (
-        <FeedbackFlash
-          correct={lastCorrect}
-          explanation={questions[Math.min(currentIdx - 1, questions.length - 1)]?.explanation ?? ''}
-          onNext={onNext}
+      <div className="w-full flex-1 flex flex-col items-center justify-center gap-4 sm:gap-6">
+        <QuestionCard
+          key={q.external_id}
+          question={q}
+          onAnswer={onAnswer}
+          revealedIndex={pickedIndex}
         />
-      )}
+        {pickedIndex !== null && (
+          <FeedbackFlash
+            correct={lastCorrect}
+            explanation={q.explanation}
+            onNext={onNext}
+          />
+        )}
+      </div>
     </div>
   );
 }
