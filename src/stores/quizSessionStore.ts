@@ -26,11 +26,13 @@ interface State {
   answers: AnswerEntry[];
   score: number;
   startedAt: number | null;
+  lastMasteredModuleId: string | null;
   start: (moduleId: string, questions: QuizQuestion[]) => void;
   answer: (pickedIndex: number) => void;
   reset: () => void;
   isComplete: () => boolean;
   durationS: () => number;
+  flagMastery: (moduleId: string) => void;
 }
 
 export const useQuizSession = create<State>()(
@@ -42,6 +44,7 @@ export const useQuizSession = create<State>()(
       answers: [],
       score: 0,
       startedAt: null,
+      lastMasteredModuleId: null,
       start: (moduleId, questions) => set({
         moduleId, questions, currentIndex: 0, answers: [], score: 0, startedAt: Date.now(),
       }),
@@ -56,7 +59,7 @@ export const useQuizSession = create<State>()(
           currentIndex: currentIndex + 1,
         });
       },
-      reset: () => set({ moduleId: null, questions: [], currentIndex: 0, answers: [], score: 0, startedAt: null }),
+      reset: () => set({ moduleId: null, questions: [], currentIndex: 0, answers: [], score: 0, startedAt: null, lastMasteredModuleId: null }),
       isComplete: () => {
         const { questions, currentIndex } = get();
         return questions.length > 0 && currentIndex >= questions.length;
@@ -65,6 +68,7 @@ export const useQuizSession = create<State>()(
         const { startedAt } = get();
         return startedAt ? Math.floor((Date.now() - startedAt) / 1000) : 0;
       },
+      flagMastery: (moduleId) => set({ lastMasteredModuleId: moduleId }),
     }),
     { name: 'kq_quiz_session' },
   ),

@@ -43,4 +43,12 @@ describe('quizSessionStore', () => {
     expect(useQuizSession.getState().score).toBe(0);
     expect(useQuizSession.getState().moduleId).toBeNull();
   });
+
+  it('tracks lastMasteredModuleId set via flagMastery and cleared on reset', () => {
+    const { flagMastery, reset } = useQuizSession.getState();
+    flagMastery('math');
+    expect(useQuizSession.getState().lastMasteredModuleId).toBe('math');
+    reset();
+    expect(useQuizSession.getState().lastMasteredModuleId).toBeNull();
+  });
 });

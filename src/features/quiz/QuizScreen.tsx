@@ -7,12 +7,15 @@ import { useQuizSession } from '../../stores/quizSessionStore.ts';
 import { useProfileStore } from '../../stores/profileStore.ts';
 import { QuestionCard } from './QuestionCard.tsx';
 import { FeedbackFlash } from './FeedbackFlash.tsx';
+import { themeFor, type ModuleId as ThemeModuleId } from '../../theme/moduleTheme.ts';
+import { audio } from '../../services/audio.ts';
 
 const QUIZ_LENGTH = 10;
 
 export function QuizScreen() {
   const nav = useNavigate();
   const { moduleId } = useParams<{ moduleId: string }>();
+  const theme = themeFor(moduleId ?? '');
   const profile = useProfileStore(s => s.profile);
 
   const questions  = useQuizSession(s => s.questions);
@@ -73,6 +76,10 @@ export function QuizScreen() {
     const correct = idx === q.correct_index;
     setPickedIndex(idx);
     setLastCorrect(correct);
+    audio.playUI(correct ? 'correct' : 'incorrect');
+    if (correct && (moduleId === 'math' || moduleId === 'vehicles' || moduleId === 'grammar')) {
+      audio.playStinger(moduleId as ThemeModuleId);
+    }
     await logAnswered(profile.id, q.external_id, correct);
   };
 
@@ -83,6 +90,16 @@ export function QuizScreen() {
     if (isComplete()) {
       const finalScore = useQuizSession.getState().score;
       await recordQuiz(profile.id, moduleId ?? 'random', finalScore, questions.length, durationS());
+      if (moduleId === 'math' || moduleId === 'vehicles' || moduleId === 'grammar') {
+        const { computeModuleProgress } = await import('../../services/moduleProgress.ts');
+        const { useSettings } = await import('../../stores/settingsStore.ts');
+        const band = useSettings.getState().ageBand;
+        const updated = await computeModuleProgress(profile.id, band);
+        const row = updated.find(r => r.moduleId === moduleId);
+        if (row && row.total > 0 && row.answered >= row.total) {
+          useQuizSession.getState().flagMastery(moduleId);
+        }
+      }
       nav('/results');
     }
   };
@@ -103,12 +120,14 @@ export function QuizScreen() {
           question={q}
           onAnswer={onAnswer}
           revealedIndex={pickedIndex}
+          theme={theme}
         />
         {pickedIndex !== null && (
           <FeedbackFlash
             correct={lastCorrect}
             explanation={q.explanation}
             onNext={onNext}
+            theme={theme}
           />
         )}
       </div>
