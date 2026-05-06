@@ -9,10 +9,10 @@ interface Props {
 }
 
 export function BigButton({ children, onClick, disabled, variant = 'primary' }: Props) {
-  const base = 'rounded-2xl px-8 py-4 text-2xl font-bold shadow-md disabled:opacity-50';
+  const base = 'rounded-2xl px-6 sm:px-8 md:px-10 py-3 sm:py-4 md:py-5 text-xl sm:text-2xl md:text-3xl font-bold shadow-md disabled:opacity-50 transition-colors';
   const styles = variant === 'primary'
     ? 'bg-primary text-white'
-    : 'bg-white text-primary border-2 border-primary';
+    : 'bg-white text-primary border-4 border-primary';
   return (
     <motion.button
       whileTap={{ scale: 0.95 }}

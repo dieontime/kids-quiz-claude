@@ -3,4 +3,29 @@
 @tailwind utilities;
 
 html, body, #root { height: 100%; }
-body { font-family: 'Nunito', 'Inter', system-ui, sans-serif; background: #fafaf9; }
+body {
+  font-family: 'Nunito', 'Inter', system-ui, sans-serif;
+  background: #fafaf9;
+  /* Larger base text on big screens (TV, big monitors) so the same UI
+     reads well from a couch. */
+  font-size: 16px;
+}
+@media (min-width: 1280px) { body { font-size: 18px; } }
+@media (min-width: 1920px) { body { font-size: 22px; } }
+
+/* Prevent horizontal scroll on mobile from any oversized child. */
+body { overflow-x: hidden; }
+
+/* TV / D-pad navigation: every interactive element gets an obvious
+   focus ring. Components can still override per-element. */
+:focus-visible {
+  outline: 4px solid #FACC15;
+  outline-offset: 3px;
+  border-radius: 8px;
+}
+button:focus-visible,
+a:focus-visible,
+input:focus-visible {
+  outline: 4px solid #FACC15;
+  outline-offset: 3px;
+}

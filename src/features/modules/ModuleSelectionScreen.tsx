@@ -24,13 +24,19 @@ export function ModuleSelectionScreen() {
   const visible = ALL_MODULES.filter(m => m.bands.includes(profile.age_band));
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center gap-6 p-6">
-      <h1 className="text-3xl font-bold">Pick a topic</h1>
-      <div className="flex flex-col gap-3 w-full max-w-md">
+    <div className="min-h-screen flex flex-col items-center justify-center gap-6 sm:gap-8 md:gap-10 p-4 sm:p-6 md:p-8">
+      <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center">Pick a topic</h1>
+      <div className="flex flex-col gap-4 sm:gap-5 w-full max-w-md md:max-w-lg">
         {visible.map(m => (
           <BigButton key={m.id} onClick={() => nav(`/quiz/${m.id}`)}>{m.label}</BigButton>
         ))}
       </div>
+      <button
+        onClick={() => nav('/dashboard')}
+        className="text-lg sm:text-xl text-primary underline mt-4"
+      >
+        ← Back to home
+      </button>
     </div>
   );
 }

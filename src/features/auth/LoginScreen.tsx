@@ -18,17 +18,17 @@ export function LoginScreen() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center gap-6 p-6">
-      <h1 className="text-3xl font-bold">Welcome back!</h1>
+    <div className="min-h-screen flex flex-col items-center justify-center gap-5 sm:gap-6 md:gap-8 p-4 sm:p-6 md:p-8">
+      <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold">Welcome back!</h1>
       <input
         placeholder="Your silly name"
         value={username}
         onChange={e => setUsername(e.target.value)}
-        className="text-2xl px-4 py-3 rounded-xl border-2 border-primary"
+        className="w-full max-w-md text-xl sm:text-2xl md:text-3xl px-4 py-3 sm:py-4 rounded-xl border-4 border-primary text-center"
       />
       {username.length >= 3 && <EmojiPinKeypad onComplete={onPinDone} />}
-      {error && <p className="text-red-600">{error}</p>}
-      <div className="flex gap-4 text-primary underline">
+      {error && <p className="text-red-600 text-lg sm:text-xl">{error}</p>}
+      <div className="flex flex-col sm:flex-row gap-3 sm:gap-6 text-primary text-lg sm:text-xl underline mt-2">
         <Link to="/signup">Make a new player</Link>
         <Link to="/recovery">Forgot PIN?</Link>
       </div>

@@ -56,36 +56,42 @@ export function SignupWizard() {
     setStep('recovery');
   };
 
+  const wrap = 'min-h-screen flex flex-col items-center justify-center gap-5 sm:gap-6 md:gap-8 p-4 sm:p-6 md:p-8';
+
   if (step === 'recovery' && recoveryCode) {
     return (
-      <div className="min-h-screen flex flex-col items-center justify-center gap-6 p-6 text-center">
-        <h2 className="text-2xl font-bold">Save this code!</h2>
-        <p className="text-lg">Show it to a parent. If you forget your PIN, this gets you back in.</p>
-        <div className="text-3xl font-mono bg-yellow-100 px-6 py-4 rounded-2xl">{recoveryCode}</div>
+      <div className={`${wrap} text-center`}>
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold">Save this code!</h2>
+        <p className="text-lg sm:text-xl md:text-2xl max-w-2xl">
+          Show it to a parent. If you forget your PIN, this gets you back in.
+        </p>
+        <div className="text-2xl sm:text-3xl md:text-4xl font-mono bg-yellow-100 px-6 py-4 rounded-2xl border-4 border-yellow-400">
+          {recoveryCode}
+        </div>
         <BigButton onClick={() => nav('/dashboard')}>OK, got it</BigButton>
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center gap-6 p-6">
+    <div className={wrap}>
       {step === 'username' && (
         <>
-          <h2 className="text-2xl font-bold">Pick a silly name!</h2>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center">Pick a silly name!</h2>
           <input
             placeholder="Your silly name"
             value={username}
             onChange={e => setUsername(e.target.value)}
-            className="text-2xl px-4 py-3 rounded-xl border-2 border-primary"
+            className="w-full max-w-md text-xl sm:text-2xl md:text-3xl px-4 py-3 sm:py-4 rounded-xl border-4 border-primary text-center"
           />
-          {usernameError && <p className="text-red-600">{usernameError}</p>}
+          {usernameError && <p className="text-red-600 text-lg sm:text-xl">{usernameError}</p>}
           {suggestions.length > 0 && (
-            <div className="flex gap-2">
+            <div className="flex flex-wrap gap-2 justify-center">
               {suggestions.map(s => (
                 <button
                   key={s}
                   onClick={() => { setUsername(s); setSuggestions([]); setUsernameError(null); }}
-                  className="px-3 py-1 bg-yellow-100 rounded"
+                  className="px-4 py-2 text-base sm:text-lg bg-yellow-100 rounded-lg border-2 border-yellow-300"
                 >
                   {s}
                 </button>
@@ -97,21 +103,21 @@ export function SignupWizard() {
       )}
       {step === 'pin' && (
         <>
-          <h2 className="text-2xl font-bold">Pick 4 icons for your PIN</h2>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center">Pick 4 icons for your PIN</h2>
           <EmojiPinKeypad onComplete={goPinDone} />
         </>
       )}
       {step === 'avatar' && (
         <>
-          <h2 className="text-2xl font-bold">Pick your face!</h2>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center">Pick your face!</h2>
           <AvatarPicker onPick={setAvatar} selected={avatar ?? undefined} />
           <BigButton onClick={goAvatar} disabled={!avatar}>Next</BigButton>
         </>
       )}
       {step === 'band' && (
         <>
-          <h2 className="text-2xl font-bold">How old are you?</h2>
-          <div className="flex gap-4">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center">How old are you?</h2>
+          <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
             <BigButton onClick={() => goBand('5-6')}>5-6</BigButton>
             <BigButton onClick={() => goBand('7-9')}>7-9</BigButton>
           </div>

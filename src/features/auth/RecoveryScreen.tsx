@@ -25,41 +25,45 @@ export function RecoveryScreen() {
     }
   };
 
+  const wrap = 'min-h-screen flex flex-col items-center justify-center gap-4 sm:gap-6 md:gap-8 p-4 sm:p-6 md:p-8';
+
   if (stage === 'creds') {
     return (
-      <div className="min-h-screen flex flex-col items-center justify-center gap-4 p-6">
-        <h1 className="text-2xl font-bold">Forgot your PIN?</h1>
+      <div className={wrap}>
+        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center">Forgot your PIN?</h1>
         <input
           placeholder="Your silly name"
           value={username}
           onChange={e => setUsername(e.target.value)}
-          className="text-xl px-4 py-3 rounded-xl border-2 border-primary"
+          className="w-full max-w-md text-xl sm:text-2xl px-4 py-3 sm:py-4 rounded-xl border-4 border-primary text-center"
         />
         <input
-          placeholder="Recovery code (e.g. PURPLE-FROG-1234)"
+          placeholder="Recovery code (PURPLE-FROG-1234)"
           value={code}
           onChange={e => setCode(e.target.value.toUpperCase())}
-          className="text-xl px-4 py-3 rounded-xl border-2 border-primary"
+          className="w-full max-w-md text-xl sm:text-2xl px-4 py-3 sm:py-4 rounded-xl border-4 border-primary text-center font-mono"
         />
-        {error && <p className="text-red-600">{error}</p>}
+        {error && <p className="text-red-600 text-lg sm:text-xl">{error}</p>}
         <BigButton onClick={() => setStage('newpin')} disabled={!username || !code}>Next</BigButton>
       </div>
     );
   }
   if (stage === 'newpin') {
     return (
-      <div className="min-h-screen flex flex-col items-center justify-center gap-4 p-6">
-        <h2 className="text-2xl font-bold">Pick a new PIN</h2>
+      <div className={wrap}>
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center">Pick a new PIN</h2>
         <EmojiPinKeypad onComplete={submitNewPin} />
       </div>
     );
   }
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center gap-4 p-6 text-center">
-      <h2 className="text-2xl font-bold">All set!</h2>
-      <p>Your new recovery code:</p>
-      <div className="text-3xl font-mono bg-yellow-100 px-6 py-4 rounded-2xl">{newRecovery}</div>
-      <p className="text-sm">Show this to a parent. Old code no longer works.</p>
+    <div className={`${wrap} text-center`}>
+      <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold">All set!</h2>
+      <p className="text-lg sm:text-xl">Your new recovery code:</p>
+      <div className="text-2xl sm:text-3xl md:text-4xl font-mono bg-yellow-100 px-6 py-4 rounded-2xl border-4 border-yellow-400">
+        {newRecovery}
+      </div>
+      <p className="text-base sm:text-lg max-w-md">Show this to a parent. The old code no longer works.</p>
       <BigButton onClick={() => nav('/login')}>OK, log in</BigButton>
     </div>
   );
