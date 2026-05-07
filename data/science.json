@@ -1,0 +1,3752 @@
+[
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_001",
+    "question_text": "Which planet is closest to the Sun?",
+    "options": [
+      "Venus",
+      "Earth",
+      "Mercury",
+      "Mars"
+    ],
+    "correct_index": 2,
+    "explanation": "Mercury is the closest planet to the Sun. It races around the Sun faster than any other planet, completing a year in just 88 Earth days.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_002",
+    "question_text": "What is the largest planet in our solar system?",
+    "options": [
+      "Jupiter",
+      "Saturn",
+      "Neptune",
+      "Earth"
+    ],
+    "correct_index": 0,
+    "explanation": "Jupiter is the biggest planet. More than 1,000 Earths could fit inside it, and it is mostly made of gas.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_003",
+    "question_text": "Which planet is famous for its bright, icy rings?",
+    "options": [
+      "Uranus",
+      "Jupiter",
+      "Mars",
+      "Saturn"
+    ],
+    "correct_index": 3,
+    "explanation": "Saturn's rings are made of billions of pieces of ice and rock. Other planets have rings too, but Saturn's are by far the brightest.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_004",
+    "question_text": "Which planet is known as the Red Planet?",
+    "options": [
+      "Mars",
+      "Venus",
+      "Mercury",
+      "Jupiter"
+    ],
+    "correct_index": 0,
+    "explanation": "Mars looks reddish because its soil is full of rusty iron. You can sometimes spot it as a red dot in the night sky.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_005",
+    "question_text": "How many planets are in our solar system?",
+    "options": [
+      "Seven",
+      "Nine",
+      "Eight",
+      "Ten"
+    ],
+    "correct_index": 2,
+    "explanation": "There are eight planets: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune. Pluto used to be counted but is now called a dwarf planet.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_006",
+    "question_text": "Which planet is the hottest in our solar system?",
+    "options": [
+      "Mercury",
+      "Mars",
+      "Venus",
+      "Jupiter"
+    ],
+    "correct_index": 2,
+    "explanation": "Venus is the hottest planet because thick clouds trap heat near its surface. Even though Mercury is closer to the Sun, Venus stays warmer.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_007",
+    "question_text": "Which is the farthest planet from the Sun?",
+    "options": [
+      "Pluto",
+      "Saturn",
+      "Uranus",
+      "Neptune"
+    ],
+    "correct_index": 3,
+    "explanation": "Neptune is the farthest of the eight planets. It is so far away that one trip around the Sun takes about 165 Earth years.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_008",
+    "question_text": "What planet do we live on?",
+    "options": [
+      "Earth",
+      "Mars",
+      "Venus",
+      "Mercury"
+    ],
+    "correct_index": 0,
+    "explanation": "Our home is Earth, the third planet from the Sun. It is the only planet we know of where life lives.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_009",
+    "question_text": "Which planet spins on its side, almost like a rolling ball?",
+    "options": [
+      "Neptune",
+      "Uranus",
+      "Saturn",
+      "Mars"
+    ],
+    "correct_index": 1,
+    "explanation": "Uranus is tipped over so much that it rolls around the Sun on its side. Scientists think a giant collision long ago knocked it over.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_010",
+    "question_text": "Which planet has a giant storm called the Great Red Spot?",
+    "options": [
+      "Mars",
+      "Saturn",
+      "Neptune",
+      "Jupiter"
+    ],
+    "correct_index": 3,
+    "explanation": "Jupiter's Great Red Spot is a huge storm that has been swirling for hundreds of years. It is so big that Earth could fit inside it.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_011",
+    "question_text": "Which is the smallest of the eight planets?",
+    "options": [
+      "Mercury",
+      "Mars",
+      "Venus",
+      "Earth"
+    ],
+    "correct_index": 0,
+    "explanation": "Mercury is the smallest planet, only a little larger than our Moon. It also has no atmosphere to keep it warm at night.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_012",
+    "question_text": "What color does Neptune look from space?",
+    "options": [
+      "Bright orange",
+      "Pale yellow",
+      "Deep blue",
+      "Light green"
+    ],
+    "correct_index": 2,
+    "explanation": "Neptune looks deep blue because of a gas called methane in its atmosphere. The methane soaks up red light and reflects blue.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_013",
+    "question_text": "What goes around the Earth once each month?",
+    "options": [
+      "The Sun",
+      "Mars",
+      "Venus",
+      "The Moon"
+    ],
+    "correct_index": 3,
+    "explanation": "The Moon takes about 27 days to circle the Earth. That is why we sometimes say a month is roughly a 'moon-th'.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_014",
+    "question_text": "What do we call it when the Moon passes between the Earth and the Sun?",
+    "options": [
+      "A solar eclipse",
+      "A lunar eclipse",
+      "A meteor shower",
+      "A new moon storm"
+    ],
+    "correct_index": 0,
+    "explanation": "A solar eclipse happens when the Moon blocks the Sun's light from reaching part of the Earth. It can turn the daytime sky dim for a few minutes.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_015",
+    "question_text": "What do we call it when the Earth's shadow falls on the Moon?",
+    "options": [
+      "A solar eclipse",
+      "A meteor shower",
+      "A lunar eclipse",
+      "A blue moon"
+    ],
+    "correct_index": 2,
+    "explanation": "A lunar eclipse happens when the Earth blocks sunlight from reaching the Moon. The Moon often turns a soft red color during one.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_016",
+    "question_text": "Why do we have day and night?",
+    "options": [
+      "The Sun moves around the Earth",
+      "The Earth spins on its axis",
+      "The Moon blocks the Sun",
+      "Clouds cover the sky"
+    ],
+    "correct_index": 1,
+    "explanation": "The Earth spins like a top, so different parts face the Sun at different times. The side facing the Sun has day, and the other side has night.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_017",
+    "question_text": "Why does the Earth have seasons?",
+    "options": [
+      "The Earth is tilted as it orbits the Sun",
+      "The Sun gets hotter and cooler",
+      "The Moon changes the weather",
+      "Clouds cover the Sun in winter"
+    ],
+    "correct_index": 0,
+    "explanation": "The Earth is tilted, so different parts get more direct sunlight at different times of year. That tilt is what gives us summer, winter, spring, and fall.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_018",
+    "question_text": "What mostly causes the ocean tides on Earth?",
+    "options": [
+      "The wind",
+      "Earth's spin",
+      "Underwater volcanoes",
+      "The Moon's pull"
+    ],
+    "correct_index": 3,
+    "explanation": "The Moon's gravity tugs on Earth's oceans, making the water bulge slightly. As the Earth turns, that bulge gives us high and low tides.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_019",
+    "question_text": "What do we call the shape of the Moon when we cannot see it lit up at all?",
+    "options": [
+      "Full moon",
+      "Half moon",
+      "Crescent moon",
+      "New moon"
+    ],
+    "correct_index": 3,
+    "explanation": "A new moon is when the lit side of the Moon faces away from us, so it looks dark. A few nights later, a thin crescent appears.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_020",
+    "question_text": "What do we call the Moon when its whole face looks lit up?",
+    "options": [
+      "A full moon",
+      "A crescent moon",
+      "A blood moon",
+      "A new moon"
+    ],
+    "correct_index": 0,
+    "explanation": "A full moon happens when the Earth is between the Sun and the Moon, so we see the Moon's whole sunlit side. It is the brightest phase.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_021",
+    "question_text": "About how long does the Earth take to travel once around the Sun?",
+    "options": [
+      "One day",
+      "One month",
+      "One year",
+      "Ten years"
+    ],
+    "correct_index": 2,
+    "explanation": "The Earth takes about 365 days to circle the Sun, which is why a year is that long. Every four years, we add a leap day to catch up.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_022",
+    "question_text": "Where does moonlight actually come from?",
+    "options": [
+      "The Moon glows on its own",
+      "It comes from stars",
+      "It comes from Earth",
+      "It reflects sunlight"
+    ],
+    "correct_index": 3,
+    "explanation": "The Moon does not make its own light. It works like a giant mirror, bouncing the Sun's light back to us.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_023",
+    "question_text": "What is the Sun?",
+    "options": [
+      "A planet",
+      "A moon",
+      "A star",
+      "A comet"
+    ],
+    "correct_index": 2,
+    "explanation": "The Sun is a star, just like the tiny twinkly ones you see at night. It only looks bigger because it is much closer to us.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_024",
+    "question_text": "What is the Sun mostly made of?",
+    "options": [
+      "Rock and metal",
+      "Hydrogen and helium gas",
+      "Water and ice",
+      "Burning wood"
+    ],
+    "correct_index": 1,
+    "explanation": "The Sun is a giant ball of hot gases, mostly hydrogen and helium. Deep inside, hydrogen squishes together and releases the energy that warms us.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_025",
+    "question_text": "About how long does sunlight take to reach the Earth?",
+    "options": [
+      "One second",
+      "Eight minutes",
+      "One hour",
+      "One day"
+    ],
+    "correct_index": 1,
+    "explanation": "Sunlight takes about 8 minutes to travel from the Sun to the Earth. So the sunshine you feel is already 8 minutes old by the time it gets here.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_026",
+    "question_text": "What is the stream of tiny particles flowing out from the Sun called?",
+    "options": [
+      "Solar wind",
+      "Star rain",
+      "Sun fog",
+      "Light dust"
+    ],
+    "correct_index": 0,
+    "explanation": "The Sun sends out a steady stream of tiny particles called the solar wind. When it bumps into Earth's atmosphere near the poles, it can create the colorful auroras.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_027",
+    "question_text": "Why should you never look straight at the Sun?",
+    "options": [
+      "It can hurt your eyes",
+      "It will turn your eyes yellow",
+      "It is too far to see",
+      "It moves too fast"
+    ],
+    "correct_index": 0,
+    "explanation": "The Sun is so bright that staring at it can damage your eyes very quickly. People use special safe glasses to look at it during eclipses.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_028",
+    "question_text": "What is the name of the galaxy we live in?",
+    "options": [
+      "Andromeda",
+      "Pinwheel",
+      "Sombrero",
+      "Milky Way"
+    ],
+    "correct_index": 3,
+    "explanation": "Our galaxy is called the Milky Way. On a very dark night you can see it as a misty band of stars stretching across the sky.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_029",
+    "question_text": "What is a galaxy?",
+    "options": [
+      "A single bright star",
+      "A small moon",
+      "A huge group of stars, gas, and dust",
+      "A type of comet"
+    ],
+    "correct_index": 2,
+    "explanation": "A galaxy is a giant family of stars, gas, and dust held together by gravity. Our Milky Way has hundreds of billions of stars.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_030",
+    "question_text": "Which star sits almost directly above the North Pole and barely moves in our sky?",
+    "options": [
+      "Polaris",
+      "Sirius",
+      "Betelgeuse",
+      "Vega"
+    ],
+    "correct_index": 0,
+    "explanation": "Polaris is also called the North Star. Sailors and travelers used it for hundreds of years to find their way north at night.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_031",
+    "question_text": "Which famous star pattern looks like a hunter with a belt of three bright stars?",
+    "options": [
+      "The Big Dipper",
+      "Orion",
+      "Cassiopeia",
+      "Leo"
+    ],
+    "correct_index": 1,
+    "explanation": "The constellation Orion is named after a hunter from old stories. The three bright stars in a row make up his belt.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_032",
+    "question_text": "The Big Dipper is part of a larger constellation that looks like what animal?",
+    "options": [
+      "A swan",
+      "A lion",
+      "A bear",
+      "A dragon"
+    ],
+    "correct_index": 2,
+    "explanation": "The Big Dipper is part of Ursa Major, which means 'Great Bear' in Latin. The dipper shape forms the bear's back and tail.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_033",
+    "question_text": "What is a constellation?",
+    "options": [
+      "A ringed planet",
+      "A pattern of stars in the sky",
+      "A small moon",
+      "A type of comet"
+    ],
+    "correct_index": 1,
+    "explanation": "A constellation is a group of stars that people imagine forming a picture or shape. Different cultures have invented their own constellations for thousands of years.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_034",
+    "question_text": "What is the closest big galaxy to our Milky Way?",
+    "options": [
+      "Whirlpool",
+      "Sombrero",
+      "Triangulum",
+      "Andromeda"
+    ],
+    "correct_index": 3,
+    "explanation": "Andromeda is the nearest large galaxy to ours. It is so far away that the light we see from it left around 2.5 million years ago.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_035",
+    "question_text": "What does a 'light-year' measure?",
+    "options": [
+      "How long a year is on the Sun",
+      "How bright a star is",
+      "A distance that light travels in one year",
+      "How old a star is"
+    ],
+    "correct_index": 2,
+    "explanation": "A light-year is a distance, not a time. It is how far light can travel in one whole year, and light moves incredibly fast.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_036",
+    "question_text": "What are asteroids?",
+    "options": [
+      "Small icy moons",
+      "Rocky objects that orbit the Sun",
+      "Glowing gas clouds",
+      "Tiny baby planets in clouds"
+    ],
+    "correct_index": 1,
+    "explanation": "Asteroids are chunks of rock and metal that orbit the Sun. Most of them live in a band between Mars and Jupiter called the asteroid belt.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_037",
+    "question_text": "What is the bright tail of a comet mostly made of?",
+    "options": [
+      "Fire",
+      "Smoke from rocks",
+      "Gas and dust",
+      "Tiny stars"
+    ],
+    "correct_index": 2,
+    "explanation": "When a comet gets near the Sun, its ice melts and releases gas and dust. The Sun's light pushes that material into a long, glowing tail.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_038",
+    "question_text": "What do we call a 'shooting star' streaking across the night sky?",
+    "options": [
+      "A meteor",
+      "A comet",
+      "A planet",
+      "A satellite"
+    ],
+    "correct_index": 0,
+    "explanation": "A 'shooting star' is really a meteor, which is a small piece of rock burning up in our atmosphere. It only looks like a star because it glows so brightly.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_039",
+    "question_text": "What do we call a space rock that survives its fall and lands on the ground?",
+    "options": [
+      "A meteor",
+      "A meteoroid",
+      "A meteorite",
+      "A comet"
+    ],
+    "correct_index": 2,
+    "explanation": "A meteorite is the leftover rock that makes it all the way to the ground. Scientists love to study them because they came from far out in space.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_040",
+    "question_text": "Pluto used to be called a planet. What is it called now?",
+    "options": [
+      "A moon",
+      "A dwarf planet",
+      "A comet",
+      "An asteroid"
+    ],
+    "correct_index": 1,
+    "explanation": "Scientists changed Pluto's title to 'dwarf planet' in 2006 because it is small and shares its orbit area with other icy objects. It is still a fascinating world.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_041",
+    "question_text": "What was Sputnik 1, launched in 1957?",
+    "options": [
+      "The first rocket to the Moon",
+      "The first satellite to orbit the Earth",
+      "The first Mars rover",
+      "The first space telescope"
+    ],
+    "correct_index": 1,
+    "explanation": "Sputnik 1 was the first artificial satellite ever to orbit the Earth. It was launched by the Soviet Union and was about the size of a beach ball.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_042",
+    "question_text": "Who was the first person to walk on the Moon?",
+    "options": [
+      "Yuri Gagarin",
+      "Buzz Aldrin",
+      "Neil Armstrong",
+      "John Glenn"
+    ],
+    "correct_index": 2,
+    "explanation": "Neil Armstrong was the first person to step onto the Moon, in 1969. He famously said it was 'one small step for man, one giant leap for mankind'.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_043",
+    "question_text": "Which mission carried the first humans to land on the Moon?",
+    "options": [
+      "Apollo 11",
+      "Apollo 13",
+      "Gemini 4",
+      "Mercury 7"
+    ],
+    "correct_index": 0,
+    "explanation": "Apollo 11 carried the first astronauts to land on the Moon in July 1969. Two of them walked on the surface while a third orbited above.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_044",
+    "question_text": "What is the International Space Station?",
+    "options": [
+      "A telescope on Mars",
+      "A laboratory orbiting Earth where astronauts live and work",
+      "A new planet in our solar system",
+      "A robot on the Moon"
+    ],
+    "correct_index": 1,
+    "explanation": "The International Space Station is a giant lab that orbits the Earth. Astronauts from many countries live there for months at a time doing experiments.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_045",
+    "question_text": "What kind of vehicle have scientists sent to drive around on Mars?",
+    "options": [
+      "A submarine",
+      "A rover",
+      "A plane",
+      "A train"
+    ],
+    "correct_index": 1,
+    "explanation": "A rover is a robot car that drives across another world. Mars rovers like Curiosity and Perseverance take photos and study the rocks and soil.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_046",
+    "question_text": "What is the Hubble Space Telescope?",
+    "options": [
+      "A telescope on the Moon",
+      "A telescope orbiting Earth that takes pictures of space",
+      "A type of rocket",
+      "A space station for tourists"
+    ],
+    "correct_index": 1,
+    "explanation": "Hubble is a telescope that orbits high above the Earth's atmosphere. From up there it can take amazingly clear photos of stars and galaxies.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_047",
+    "question_text": "The James Webb Space Telescope mostly looks at the universe using what kind of light?",
+    "options": [
+      "Infrared light",
+      "X-rays",
+      "Sound waves",
+      "Radio music"
+    ],
+    "correct_index": 0,
+    "explanation": "The James Webb Space Telescope uses infrared light, a kind of light our eyes cannot see. That helps it spot very faint and very distant objects.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_048",
+    "question_text": "What do we call a person who travels into space?",
+    "options": [
+      "A pilot",
+      "A scientist",
+      "An astronaut",
+      "A captain"
+    ],
+    "correct_index": 2,
+    "explanation": "People who travel into space are called astronauts, which means 'star sailor'. In Russia they are called cosmonauts.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_049",
+    "question_text": "Why do astronauts float around inside the Space Station?",
+    "options": [
+      "There is no gravity at all in space",
+      "They are constantly falling around the Earth",
+      "They wear special floating boots",
+      "The Station spins very fast"
+    ],
+    "correct_index": 1,
+    "explanation": "The Space Station and the astronauts inside are always falling toward the Earth, but moving sideways so fast they keep missing it. That endless falling makes them feel weightless.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_050",
+    "question_text": "Which planet has the most moons that we know of?",
+    "options": [
+      "Earth",
+      "Mars",
+      "Saturn",
+      "Mercury"
+    ],
+    "correct_index": 2,
+    "explanation": "Saturn has more known moons than any other planet, with over 140 discovered so far. Its biggest moon, Titan, even has lakes of liquid methane.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_051",
+    "question_text": "What is the very center of the Earth called?",
+    "options": [
+      "The crust",
+      "The mantle",
+      "The inner core",
+      "The outer core"
+    ],
+    "correct_index": 2,
+    "explanation": "The inner core is a hot ball of solid metal at the middle of the Earth. It is mostly made of iron and nickel.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_052",
+    "question_text": "Which layer of the Earth do we live on top of?",
+    "options": [
+      "The crust",
+      "The mantle",
+      "The outer core",
+      "The inner core"
+    ],
+    "correct_index": 0,
+    "explanation": "The crust is the thin, rocky outer layer of the Earth. All the land and ocean floors sit on top of it.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_053",
+    "question_text": "How many continents are there on Earth?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correct_index": 2,
+    "explanation": "Earth has 7 continents: Africa, Antarctica, Asia, Australia, Europe, North America, and South America.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_054",
+    "question_text": "What is the imaginary line around the middle of the Earth called?",
+    "options": [
+      "The equator",
+      "The horizon",
+      "The axis",
+      "The meridian"
+    ],
+    "correct_index": 0,
+    "explanation": "The equator splits the Earth into the Northern and Southern Hemispheres. It is the warmest part of the planet because the Sun shines most directly there.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_055",
+    "question_text": "What are the giant pieces of Earth's crust that slowly move around called?",
+    "options": [
+      "Layers",
+      "Boulders",
+      "Continents",
+      "Tectonic plates"
+    ],
+    "correct_index": 3,
+    "explanation": "Tectonic plates fit together like puzzle pieces. When they bump or slide, they can cause earthquakes and build mountains.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_056",
+    "question_text": "The North Pole and South Pole are the coldest places on Earth because they get the least what?",
+    "options": [
+      "Wind",
+      "Rain",
+      "Direct sunlight",
+      "Snow"
+    ],
+    "correct_index": 2,
+    "explanation": "Sunlight hits the poles at a slanted angle, so the warmth spreads out and feels weaker. That is why the poles stay icy all year.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_057",
+    "question_text": "Which layer of the Earth sits just below the crust?",
+    "options": [
+      "The inner core",
+      "The mantle",
+      "The outer core",
+      "The atmosphere"
+    ],
+    "correct_index": 1,
+    "explanation": "The mantle is a thick layer of hot, slow-moving rock. Heat from the mantle is what makes the tectonic plates above it shift.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_058",
+    "question_text": "If you live north of the equator, which hemisphere are you in?",
+    "options": [
+      "Eastern",
+      "Southern",
+      "Western",
+      "Northern"
+    ],
+    "correct_index": 3,
+    "explanation": "The equator divides Earth into two halves called hemispheres. Everything above the equator is in the Northern Hemisphere.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_059",
+    "question_text": "What is the tallest mountain on Earth above sea level?",
+    "options": [
+      "Mount Kilimanjaro",
+      "Mount Fuji",
+      "Mount Everest",
+      "Mount McKinley"
+    ],
+    "correct_index": 2,
+    "explanation": "Mount Everest stands about 8,849 meters tall in the Himalayas. It still grows a tiny bit taller each year as the plates push it up.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_060",
+    "question_text": "How do most mountains form?",
+    "options": [
+      "From rain piling up",
+      "When tectonic plates push together",
+      "From wind blowing rocks",
+      "When trees grow tall"
+    ],
+    "correct_index": 1,
+    "explanation": "When two plates collide, the land between them crumples and folds upward over millions of years. That slow folding builds mountain ranges.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_061",
+    "question_text": "What is the hot, melted rock that comes out of a volcano called?",
+    "options": [
+      "Magma",
+      "Lava",
+      "Ash",
+      "Steam"
+    ],
+    "correct_index": 1,
+    "explanation": "When melted rock is still underground, it is called magma. Once it reaches the surface, it gets a new name: lava.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_062",
+    "question_text": "What is an earthquake?",
+    "options": [
+      "A loud thunderstorm",
+      "A shaking of the ground",
+      "A type of wave in the ocean",
+      "A kind of tall mountain"
+    ],
+    "correct_index": 1,
+    "explanation": "Earthquakes happen when tectonic plates suddenly slip past each other underground. The energy travels through the ground and makes it shake.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_063",
+    "question_text": "The Ring of Fire is a famous area around which ocean?",
+    "options": [
+      "The Atlantic Ocean",
+      "The Indian Ocean",
+      "The Arctic Ocean",
+      "The Pacific Ocean"
+    ],
+    "correct_index": 3,
+    "explanation": "The Ring of Fire is a giant horseshoe shape around the Pacific Ocean. Many of the world's volcanoes and earthquakes happen along it.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_064",
+    "question_text": "What do we call a scientist who studies rocks and the Earth?",
+    "options": [
+      "A geologist",
+      "A biologist",
+      "A chemist",
+      "A meteorologist"
+    ],
+    "correct_index": 0,
+    "explanation": "A geologist studies how the Earth is made and how it changes. They look at rocks, fossils, and even volcanoes for clues.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_065",
+    "question_text": "Which type of rock is formed when lava or magma cools and hardens?",
+    "options": [
+      "Sedimentary",
+      "Metamorphic",
+      "Igneous",
+      "Mineral"
+    ],
+    "correct_index": 2,
+    "explanation": "Igneous rocks come from cooled melted rock. The word igneous comes from a Latin word meaning fire.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_066",
+    "question_text": "Sandstone and limestone are examples of which kind of rock?",
+    "options": [
+      "Sedimentary rocks",
+      "Igneous rocks",
+      "Metamorphic rocks",
+      "Crystal rocks"
+    ],
+    "correct_index": 0,
+    "explanation": "Sedimentary rocks form when bits of sand, mud, or shells press together over a long time. They often have layers you can see.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_067",
+    "question_text": "What is a fossil?",
+    "options": [
+      "A shiny gemstone",
+      "A piece of melted rock",
+      "The preserved remains or trace of an ancient living thing",
+      "A young volcano"
+    ],
+    "correct_index": 2,
+    "explanation": "Fossils are clues left behind in rock by plants and animals that lived long ago. Dinosaur bones found in stone are famous fossils.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_068",
+    "question_text": "Which of these is a mineral often used in pencils?",
+    "options": [
+      "Quartz",
+      "Graphite",
+      "Granite",
+      "Marble"
+    ],
+    "correct_index": 1,
+    "explanation": "The dark line a pencil makes on paper is graphite, not lead. Graphite is a soft mineral made of carbon.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_069",
+    "question_text": "What kind of rock forms when other rocks are changed by heat and pressure deep underground?",
+    "options": [
+      "Igneous",
+      "Sedimentary",
+      "Metamorphic",
+      "Volcanic"
+    ],
+    "correct_index": 2,
+    "explanation": "Metamorphic rocks start as another type of rock and slowly transform. For example, limestone can change into marble.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_070",
+    "question_text": "When water turns into a gas and rises into the air, what is that called?",
+    "options": [
+      "Condensation",
+      "Evaporation",
+      "Precipitation",
+      "Filtration"
+    ],
+    "correct_index": 1,
+    "explanation": "Heat from the Sun gives water energy and turns it into invisible water vapor. This is the first step of the water cycle.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_071",
+    "question_text": "What is it called when water vapor in the air cools and turns back into tiny droplets?",
+    "options": [
+      "Evaporation",
+      "Melting",
+      "Freezing",
+      "Condensation"
+    ],
+    "correct_index": 3,
+    "explanation": "Condensation is how clouds form, and it is also why a cold glass gets wet on the outside on a warm day.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_072",
+    "question_text": "Rain, snow, sleet, and hail are all forms of what?",
+    "options": [
+      "Precipitation",
+      "Evaporation",
+      "Erosion",
+      "Reflection"
+    ],
+    "correct_index": 0,
+    "explanation": "Precipitation is any water that falls from clouds back to the ground. The form it takes depends on how cold the air is.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_073",
+    "question_text": "Which type of cloud is tall, fluffy, and often brings thunderstorms?",
+    "options": [
+      "Cirrus",
+      "Stratus",
+      "Cumulus",
+      "Cumulonimbus"
+    ],
+    "correct_index": 3,
+    "explanation": "Cumulonimbus clouds can grow many kilometers tall. They hold lots of water and energy, which is why they cause storms.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_074",
+    "question_text": "Thin, wispy clouds high up in the sky are called what?",
+    "options": [
+      "Cirrus clouds",
+      "Cumulus clouds",
+      "Stratus clouds",
+      "Fog clouds"
+    ],
+    "correct_index": 0,
+    "explanation": "Cirrus clouds form very high in the sky where the air is freezing. They are made of tiny ice crystals, not water droplets.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_075",
+    "question_text": "A flat, gray cloud that covers the whole sky like a blanket is called what?",
+    "options": [
+      "Cumulus",
+      "Cirrus",
+      "Stratus",
+      "Funnel"
+    ],
+    "correct_index": 2,
+    "explanation": "Stratus clouds form in low, even layers. They often bring drizzle or a gloomy gray day.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_076",
+    "question_text": "What is hail?",
+    "options": [
+      "Frozen rain that falls as small balls of ice",
+      "Cold rain mixed with mud",
+      "A type of light snow",
+      "Frozen fog"
+    ],
+    "correct_index": 0,
+    "explanation": "Hail forms in tall storm clouds where strong winds toss raindrops up into freezing air over and over. Each trip adds a new layer of ice.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_077",
+    "question_text": "What is sleet?",
+    "options": [
+      "Soft, fresh snow",
+      "Tiny pieces of ice from a hailstorm",
+      "Frozen dew on grass",
+      "A mix of rain and snow that freezes as it falls"
+    ],
+    "correct_index": 3,
+    "explanation": "Sleet starts as snow, melts into rain, and then freezes again before reaching the ground. It usually feels like little ice pellets.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_078",
+    "question_text": "Why do we see lightning before we hear thunder?",
+    "options": [
+      "Light travels faster than sound",
+      "Sound travels faster than light",
+      "Thunder happens after the storm ends",
+      "Lightning is louder than thunder"
+    ],
+    "correct_index": 0,
+    "explanation": "Lightning and thunder happen at the same moment, but light reaches our eyes almost instantly while sound takes longer to travel through the air.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_079",
+    "question_text": "What causes thunder?",
+    "options": [
+      "Clouds bumping into each other",
+      "Air heated very quickly by lightning",
+      "Wind blowing through trees",
+      "Rain hitting the ground"
+    ],
+    "correct_index": 1,
+    "explanation": "A lightning bolt heats the air around it so fast that the air explodes outward. That sudden burst of air is the rumble we call thunder.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_080",
+    "question_text": "What two things do you need in the sky to see a rainbow?",
+    "options": [
+      "Snow and clouds",
+      "Wind and dust",
+      "Lightning and rain",
+      "Sunlight and water droplets"
+    ],
+    "correct_index": 3,
+    "explanation": "Rainbows appear when sunlight passes through tiny water droplets and bends. The light splits into all its colors, making the arch we see.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_081",
+    "question_text": "What is a tornado?",
+    "options": [
+      "A spinning column of air that reaches from a cloud to the ground",
+      "A giant ocean wave",
+      "A kind of dust cloud in the desert",
+      "A long, slow rainstorm"
+    ],
+    "correct_index": 0,
+    "explanation": "Tornadoes form during powerful thunderstorms when warm and cool air spin together. They can pick up dust and look dark and funnel-shaped.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_082",
+    "question_text": "Where do hurricanes form?",
+    "options": [
+      "Over cold mountain tops",
+      "Over warm ocean water",
+      "In dry deserts",
+      "Inside caves"
+    ],
+    "correct_index": 1,
+    "explanation": "Hurricanes need warm seawater to grow. The heat and moisture from the ocean give the storm its power.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_083",
+    "question_text": "What is fog?",
+    "options": [
+      "Smoke from a fire",
+      "A cloud that forms close to the ground",
+      "Tiny pieces of falling snow",
+      "Steam from a volcano"
+    ],
+    "correct_index": 1,
+    "explanation": "Fog is just a cloud that forms near the ground when the air cools enough for water vapor to turn into tiny droplets you can walk through.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_084",
+    "question_text": "What do we call a person who studies and predicts the weather?",
+    "options": [
+      "A geologist",
+      "An astronomer",
+      "A meteorologist",
+      "A botanist"
+    ],
+    "correct_index": 2,
+    "explanation": "Meteorologists use tools like radar, satellites, and weather stations to figure out what the weather will do next.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_085",
+    "question_text": "Which gas makes up most of the air we breathe?",
+    "options": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Nitrogen",
+      "Helium"
+    ],
+    "correct_index": 2,
+    "explanation": "About 78% of the air around us is nitrogen. Oxygen is the second most common gas at about 21%.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_086",
+    "question_text": "Which layer of the atmosphere do we live in, where almost all weather happens?",
+    "options": [
+      "Stratosphere",
+      "Mesosphere",
+      "Troposphere",
+      "Thermosphere"
+    ],
+    "correct_index": 2,
+    "explanation": "The troposphere is the lowest layer of the atmosphere. Clouds, rain, and wind all happen here, close to the ground.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_087",
+    "question_text": "What does the ozone layer do for us?",
+    "options": [
+      "It blocks harmful rays from the Sun",
+      "It makes the wind blow",
+      "It produces rain",
+      "It keeps the oceans salty"
+    ],
+    "correct_index": 0,
+    "explanation": "The ozone layer sits high up in the stratosphere. It soaks up most of the Sun's ultraviolet rays so they don't reach the ground.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_088",
+    "question_text": "What is the greenhouse effect?",
+    "options": [
+      "When greenhouses grow more plants in winter",
+      "When the ocean reflects sunlight",
+      "When clouds block the Sun",
+      "When some gases in the air trap heat near the Earth"
+    ],
+    "correct_index": 3,
+    "explanation": "Certain gases in the atmosphere act like a blanket and hold in warmth. A little bit keeps Earth comfy, but too much can make it warmer than usual.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_089",
+    "question_text": "Which gas do humans and animals breathe in to stay alive?",
+    "options": [
+      "Nitrogen",
+      "Carbon dioxide",
+      "Hydrogen",
+      "Oxygen"
+    ],
+    "correct_index": 3,
+    "explanation": "We breathe in oxygen, and our bodies use it to get energy from food. Plants help us by making more oxygen.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_090",
+    "question_text": "About how much of Earth's surface is covered by water?",
+    "options": [
+      "About 30%",
+      "About 50%",
+      "About 71%",
+      "About 95%"
+    ],
+    "correct_index": 2,
+    "explanation": "Roughly 71% of the Earth is covered by oceans, seas, lakes, and rivers. That is why Earth looks so blue from space.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_091",
+    "question_text": "Which is the largest ocean on Earth?",
+    "options": [
+      "The Atlantic Ocean",
+      "The Pacific Ocean",
+      "The Indian Ocean",
+      "The Arctic Ocean"
+    ],
+    "correct_index": 1,
+    "explanation": "The Pacific Ocean is so big it covers more area than all of Earth's land put together. It sits between Asia and the Americas.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_092",
+    "question_text": "How many oceans are there on Earth?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "7"
+    ],
+    "correct_index": 2,
+    "explanation": "There are 5 oceans: the Pacific, Atlantic, Indian, Arctic, and Southern. They are all connected as one big body of water.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_093",
+    "question_text": "What makes ocean water taste salty?",
+    "options": [
+      "Salt washed in from rocks and rivers over a long time",
+      "Salt sprinkled by sea birds",
+      "Salt from rain",
+      "Salt that fish make"
+    ],
+    "correct_index": 0,
+    "explanation": "Rain and rivers slowly dissolve tiny bits of salt from rocks on land and carry them to the sea. The salt builds up in the ocean over millions of years.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_094",
+    "question_text": "What mostly causes the ocean's tides to rise and fall?",
+    "options": [
+      "Wind",
+      "Underwater volcanoes",
+      "Boats moving on the surface",
+      "The pull of the Moon's gravity"
+    ],
+    "correct_index": 3,
+    "explanation": "The Moon's gravity tugs on the Earth's water, making it bulge slightly. As Earth turns, this creates the daily rhythm of high and low tides.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_095",
+    "question_text": "What is the deepest known place in the ocean called?",
+    "options": [
+      "The Mariana Trench",
+      "The Coral Sea",
+      "The Gulf Stream",
+      "The Great Barrier Reef"
+    ],
+    "correct_index": 0,
+    "explanation": "The Mariana Trench is in the Pacific Ocean and goes down nearly 11 kilometers. That is deeper than Mount Everest is tall.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_096",
+    "question_text": "What are the large rivers of moving water inside the ocean called?",
+    "options": [
+      "Tides",
+      "Waves",
+      "Whirlpools",
+      "Currents"
+    ],
+    "correct_index": 3,
+    "explanation": "Ocean currents move warm and cold water around the planet. They help shape the weather and even guide many sea animals on their journeys.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_097",
+    "question_text": "Why does Earth have seasons?",
+    "options": [
+      "Because Earth gets closer and farther from the Sun",
+      "Because Earth is tilted on its axis",
+      "Because the Sun changes its temperature",
+      "Because the Moon blocks sunlight"
+    ],
+    "correct_index": 1,
+    "explanation": "Earth is tilted at about 23.5 degrees. As it orbits the Sun, different parts of the planet lean toward or away from the Sun, which gives us the seasons.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_098",
+    "question_text": "When it is summer in the Northern Hemisphere, what season is it in the Southern Hemisphere?",
+    "options": [
+      "Summer",
+      "Spring",
+      "Autumn",
+      "Winter"
+    ],
+    "correct_index": 3,
+    "explanation": "The two hemispheres are tilted in opposite directions, so they have opposite seasons. When the north is warm, the south is cool.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_099",
+    "question_text": "What is a solstice?",
+    "options": [
+      "A day when day and night are about the same length",
+      "The longest or shortest day of the year",
+      "The first day of spring rain",
+      "A day when the Moon is full"
+    ],
+    "correct_index": 1,
+    "explanation": "A solstice happens twice a year. One brings the longest day of the year, and the other brings the shortest, depending on which hemisphere you live in.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_100",
+    "question_text": "Why do places near the North and South Poles have days that last for months?",
+    "options": [
+      "Because the Sun grows brighter there",
+      "Because Earth's tilt points them toward the Sun for a long time",
+      "Because clouds disappear in summer",
+      "Because the Moon goes away"
+    ],
+    "correct_index": 1,
+    "explanation": "When a pole is tilted toward the Sun, it stays in sunlight all day long for many weeks. Six months later, that same pole is tilted away and stays dark instead.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_101",
+    "question_text": "Which part of a plant takes in water from the soil?",
+    "options": [
+      "Leaves",
+      "Flower",
+      "Roots",
+      "Stem"
+    ],
+    "correct_index": 2,
+    "explanation": "Roots grow down into the soil and soak up water and minerals that the plant needs to grow.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_102",
+    "question_text": "What do plants use to make their own food?",
+    "options": [
+      "Sunlight, water, and air",
+      "Soil and rocks",
+      "Other plants",
+      "Insects"
+    ],
+    "correct_index": 0,
+    "explanation": "Plants use sunlight, water, and a gas in the air called carbon dioxide to make their own food in a process called photosynthesis.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_103",
+    "question_text": "What gas do plants give off that humans need to breathe?",
+    "options": [
+      "Carbon dioxide",
+      "Nitrogen",
+      "Helium",
+      "Oxygen"
+    ],
+    "correct_index": 3,
+    "explanation": "When plants make food using sunlight, they release oxygen into the air. That is the same oxygen we breathe in.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_104",
+    "question_text": "What is the job of a flower on a plant?",
+    "options": [
+      "To soak up water",
+      "To hold the plant up",
+      "To store food",
+      "To make seeds"
+    ],
+    "correct_index": 3,
+    "explanation": "Flowers help plants make seeds. After a flower is pollinated, it can grow into a fruit that holds new seeds.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_105",
+    "question_text": "How do bees help flowers?",
+    "options": [
+      "By eating pests",
+      "By watering them",
+      "By carrying pollen between flowers",
+      "By digging the soil"
+    ],
+    "correct_index": 2,
+    "explanation": "Bees pick up tiny grains of pollen on their fuzzy bodies and carry it from flower to flower, helping plants make seeds.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_106",
+    "question_text": "What is it called when a seed starts to grow into a new plant?",
+    "options": [
+      "Germination",
+      "Pollination",
+      "Evaporation",
+      "Hibernation"
+    ],
+    "correct_index": 0,
+    "explanation": "Germination is when a seed wakes up and starts to sprout. Most seeds need water and warmth to germinate.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_107",
+    "question_text": "Which of these is one way seeds can travel away from a plant?",
+    "options": [
+      "By melting",
+      "Carried by the wind",
+      "Through electricity",
+      "By making sound"
+    ],
+    "correct_index": 1,
+    "explanation": "Some seeds, like dandelion fluff or maple keys, are shaped to ride the wind to a new spot where they can grow.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_108",
+    "question_text": "What do we call trees that lose their leaves every autumn?",
+    "options": [
+      "Evergreen",
+      "Tropical",
+      "Deciduous",
+      "Coniferous"
+    ],
+    "correct_index": 2,
+    "explanation": "Deciduous trees, like oaks and maples, drop their leaves each fall to save energy through the cold winter.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_109",
+    "question_text": "Which part of the plant carries water from the roots up to the leaves?",
+    "options": [
+      "Petal",
+      "Seed",
+      "Bark",
+      "Stem"
+    ],
+    "correct_index": 3,
+    "explanation": "The stem works like a straw, carrying water and nutrients from the roots up to the leaves and flowers.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_110",
+    "question_text": "Why do leaves look green?",
+    "options": [
+      "Because of a green substance called chlorophyll",
+      "Because they reflect grass",
+      "Because of green water inside",
+      "Because of sunlight color"
+    ],
+    "correct_index": 0,
+    "explanation": "Leaves contain chlorophyll, a green substance that captures sunlight and helps the plant make food.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_111",
+    "question_text": "How can you tell how old a tree is by looking at a cut stump?",
+    "options": [
+      "By counting the rings",
+      "By measuring the bark",
+      "By weighing the wood",
+      "By smelling it"
+    ],
+    "correct_index": 0,
+    "explanation": "Each year a tree grows a new ring of wood. By counting the rings, you can find out how many years the tree has been alive.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_112",
+    "question_text": "Even though we eat it like a vegetable, a tomato is actually a what?",
+    "options": [
+      "Root",
+      "Leaf",
+      "Fruit",
+      "Seed"
+    ],
+    "correct_index": 2,
+    "explanation": "In science, a fruit is the part of a plant that holds seeds. Tomatoes have seeds inside, so they are technically fruits.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_113",
+    "question_text": "When you eat a carrot, which part of the plant are you eating?",
+    "options": [
+      "Stem",
+      "Flower",
+      "Leaf",
+      "Root"
+    ],
+    "correct_index": 3,
+    "explanation": "Carrots are roots that grow underground and store food for the plant. That stored food makes them sweet and crunchy.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_114",
+    "question_text": "What are the tiny building blocks that make up all living things?",
+    "options": [
+      "Cells",
+      "Atoms",
+      "Bricks",
+      "Bubbles"
+    ],
+    "correct_index": 0,
+    "explanation": "Cells are the smallest units of life. Your body, plants, and even tiny germs are all made of cells.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_115",
+    "question_text": "What does a plant cell have that an animal cell does not?",
+    "options": [
+      "A nucleus",
+      "A heart",
+      "Skin",
+      "A cell wall"
+    ],
+    "correct_index": 3,
+    "explanation": "Plant cells have a tough cell wall around them that helps the plant stand up straight. Animal cells do not have this wall.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_116",
+    "question_text": "An amoeba is a tiny creature made of how many cells?",
+    "options": [
+      "Hundreds",
+      "Just one",
+      "Twelve",
+      "A million"
+    ],
+    "correct_index": 1,
+    "explanation": "An amoeba is a single-celled organism. Its whole body is just one cell, and you usually need a microscope to see it.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_117",
+    "question_text": "In a food chain, what do we call plants that make their own food?",
+    "options": [
+      "Producers",
+      "Predators",
+      "Decomposers",
+      "Hunters"
+    ],
+    "correct_index": 0,
+    "explanation": "Plants are called producers because they produce, or make, their own food using sunlight. They start most food chains.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_118",
+    "question_text": "What do we call living things that eat other living things for energy?",
+    "options": [
+      "Producers",
+      "Inventors",
+      "Reflectors",
+      "Consumers"
+    ],
+    "correct_index": 3,
+    "explanation": "Consumers cannot make their own food, so they consume, or eat, plants and other animals to get the energy they need.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_119",
+    "question_text": "Mushrooms and many bacteria break down dead plants and animals. What are these helpers called?",
+    "options": [
+      "Decomposers",
+      "Predators",
+      "Producers",
+      "Scavengers"
+    ],
+    "correct_index": 0,
+    "explanation": "Decomposers break down dead things and return their nutrients to the soil, so new plants can grow with that food.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_120",
+    "question_text": "Where does the energy in almost every food chain originally come from?",
+    "options": [
+      "The Moon",
+      "The wind",
+      "The Sun",
+      "The ocean"
+    ],
+    "correct_index": 2,
+    "explanation": "The Sun gives energy to plants, plants are eaten by animals, and so on. Almost all energy in food chains starts with the Sun.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_121",
+    "question_text": "In a predator and prey pair, which one gets eaten?",
+    "options": [
+      "The predator",
+      "The prey",
+      "Both of them",
+      "Neither one"
+    ],
+    "correct_index": 1,
+    "explanation": "The prey is the animal that gets hunted and eaten. The predator is the one doing the hunting.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_122",
+    "question_text": "Which biome is hot, very dry, and gets little rain?",
+    "options": [
+      "Tundra",
+      "Rainforest",
+      "Wetland",
+      "Desert"
+    ],
+    "correct_index": 3,
+    "explanation": "Deserts are very dry places that get less than 10 inches of rain a year. Plants and animals there are built to save water.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_123",
+    "question_text": "Which biome has tall trees, lots of rain, and many kinds of plants and animals?",
+    "options": [
+      "Rainforest",
+      "Desert",
+      "Tundra",
+      "Grassland"
+    ],
+    "correct_index": 0,
+    "explanation": "Rainforests get rain almost every day. They are warm and packed with more types of plants and animals than anywhere else on Earth.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_124",
+    "question_text": "The tundra is a biome that is mostly what?",
+    "options": [
+      "Cold and frozen",
+      "Hot and sandy",
+      "Warm and rainy",
+      "Underwater"
+    ],
+    "correct_index": 0,
+    "explanation": "The tundra is one of the coldest places on Earth. The ground stays frozen most of the year, so trees cannot grow there.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_125",
+    "question_text": "A pond, river, or lake is part of which kind of ecosystem?",
+    "options": [
+      "Freshwater",
+      "Saltwater",
+      "Desert",
+      "Mountain"
+    ],
+    "correct_index": 0,
+    "explanation": "Freshwater ecosystems have water without much salt. Many fish, frogs, and insects live in freshwater ponds, rivers, and lakes.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_126",
+    "question_text": "What is the second stage in a butterfly's life cycle, after the egg?",
+    "options": [
+      "Adult butterfly",
+      "Chrysalis",
+      "Caterpillar",
+      "Cocoon"
+    ],
+    "correct_index": 2,
+    "explanation": "After hatching from an egg, a butterfly is a caterpillar. It eats lots of leaves before turning into a chrysalis.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_127",
+    "question_text": "What do baby frogs that have just hatched from eggs look like?",
+    "options": [
+      "Tiny frogs",
+      "Tadpoles with tails",
+      "Small fish with legs",
+      "Worms"
+    ],
+    "correct_index": 1,
+    "explanation": "Baby frogs are called tadpoles. They have tails and live in water, then slowly grow legs and lose their tails as they become frogs.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_128",
+    "question_text": "What is the very first stage in the life cycle of most flowering plants?",
+    "options": [
+      "A flower",
+      "A fruit",
+      "A leaf",
+      "A seed"
+    ],
+    "correct_index": 3,
+    "explanation": "A new plant starts as a seed. With water, warmth, and soil, the seed germinates and grows into a sprout, then a full plant.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_129",
+    "question_text": "About how many bones are in a fully grown adult human body?",
+    "options": [
+      "About 50",
+      "About 100",
+      "About 206",
+      "About 500"
+    ],
+    "correct_index": 2,
+    "explanation": "Adults have about 206 bones. Together they form the skeleton, which holds your body up and protects your insides.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_130",
+    "question_text": "Babies are actually born with more bones than adults. Why do adults have fewer?",
+    "options": [
+      "Bones disappear as you grow",
+      "Some bones fuse together as you grow",
+      "Babies have extra fake bones",
+      "Adults lose bones in accidents"
+    ],
+    "correct_index": 1,
+    "explanation": "Babies have around 270 bones. As they grow up, some small bones join, or fuse, together to make bigger ones, leaving about 206.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_131",
+    "question_text": "What is the longest bone in the human body?",
+    "options": [
+      "The femur, in your thigh",
+      "The skull",
+      "The rib",
+      "The spine"
+    ],
+    "correct_index": 0,
+    "explanation": "The femur is the thigh bone that runs from your hip to your knee. It is the longest and one of the strongest bones you have.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_132",
+    "question_text": "Where is the smallest bone in your body found?",
+    "options": [
+      "In your toe",
+      "In your nose",
+      "In your ear",
+      "In your finger"
+    ],
+    "correct_index": 2,
+    "explanation": "The stapes, found inside your ear, is the smallest bone in your body. It helps pass sound vibrations so you can hear.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_133",
+    "question_text": "What is the main job of your heart?",
+    "options": [
+      "To digest food",
+      "To pump blood around your body",
+      "To help you think",
+      "To make bones"
+    ],
+    "correct_index": 1,
+    "explanation": "Your heart is a strong muscle that pumps blood through your body. The blood carries oxygen and nutrients to every part of you.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_134",
+    "question_text": "What is the main job of your lungs?",
+    "options": [
+      "To pump blood",
+      "To digest food",
+      "To grow hair",
+      "To help you breathe"
+    ],
+    "correct_index": 3,
+    "explanation": "Your lungs help you breathe. They pull in oxygen from the air and push out a gas called carbon dioxide that your body does not need.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_135",
+    "question_text": "When you breathe in, which gas does your body take from the air?",
+    "options": [
+      "Carbon dioxide",
+      "Hydrogen",
+      "Oxygen",
+      "Helium"
+    ],
+    "correct_index": 2,
+    "explanation": "We breathe in oxygen because every cell in our body needs it to work. We then breathe out carbon dioxide.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_136",
+    "question_text": "What is your pulse?",
+    "options": [
+      "The beat of your heart you can feel",
+      "The sound of your stomach",
+      "The wiggle of your muscles",
+      "Your shadow moving"
+    ],
+    "correct_index": 0,
+    "explanation": "Each time your heart beats, it pushes blood through your body. You can feel that push as a pulse on your wrist or neck.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_137",
+    "question_text": "About how many senses do humans usually use to learn about the world?",
+    "options": [
+      "Two",
+      "Three",
+      "Five",
+      "Ten"
+    ],
+    "correct_index": 2,
+    "explanation": "We usually talk about five senses: sight, hearing, smell, taste, and touch. Each one uses a different part of your body.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_138",
+    "question_text": "Which body part lets in light so you can see?",
+    "options": [
+      "The pupil of your eye",
+      "Your ear",
+      "Your tongue",
+      "Your skin"
+    ],
+    "correct_index": 0,
+    "explanation": "The pupil is the black circle in the middle of your eye. It opens wider in the dark and gets smaller in bright light.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_139",
+    "question_text": "What is the colored ring around the pupil of your eye called?",
+    "options": [
+      "Retina",
+      "Cornea",
+      "Lens",
+      "Iris"
+    ],
+    "correct_index": 3,
+    "explanation": "The iris is the colored part of your eye. It can be brown, blue, green, or hazel, and it controls how much light goes into the pupil.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_140",
+    "question_text": "What is the name of the thin part inside your ear that vibrates when sound hits it?",
+    "options": [
+      "Eardrum",
+      "Tongue tip",
+      "Eyelid",
+      "Voice box"
+    ],
+    "correct_index": 0,
+    "explanation": "Your eardrum is a thin layer that vibrates when sound waves reach it. Those vibrations help your brain understand sounds.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_141",
+    "question_text": "Which body part do you mostly use to taste your food?",
+    "options": [
+      "Nose",
+      "Eyes",
+      "Ears",
+      "Tongue"
+    ],
+    "correct_index": 3,
+    "explanation": "Your tongue is covered in tiny taste buds that pick up flavors like sweet, salty, sour, and bitter.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_142",
+    "question_text": "How many teeth does a typical adult have?",
+    "options": [
+      "20",
+      "24",
+      "32",
+      "40"
+    ],
+    "correct_index": 2,
+    "explanation": "Adults usually have 32 teeth, including wisdom teeth at the back. Each kind of tooth has a different job in chewing.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_143",
+    "question_text": "How many baby teeth does a child usually grow before adult teeth come in?",
+    "options": [
+      "10",
+      "20",
+      "30",
+      "40"
+    ],
+    "correct_index": 1,
+    "explanation": "Children usually have 20 baby teeth. They start falling out around age 6 and are slowly replaced by 32 adult teeth.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_144",
+    "question_text": "Which kind of teeth are flat and wide for grinding food?",
+    "options": [
+      "Incisors",
+      "Canines",
+      "Molars",
+      "Fangs"
+    ],
+    "correct_index": 2,
+    "explanation": "Molars are the big, flat teeth at the back of your mouth. They grind and crush food so it is easier to swallow.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_145",
+    "question_text": "Which organ controls everything you think, feel, and do?",
+    "options": [
+      "The heart",
+      "The stomach",
+      "The liver",
+      "The brain"
+    ],
+    "correct_index": 3,
+    "explanation": "Your brain is the control center of your body. It sends messages through nerves to tell every part what to do.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_146",
+    "question_text": "If a doctor taps your knee and your leg jumps without you trying, what is that called?",
+    "options": [
+      "A reflex",
+      "A daydream",
+      "A muscle cramp",
+      "A heartbeat"
+    ],
+    "correct_index": 0,
+    "explanation": "A reflex is a fast, automatic move your body makes without you having to think about it. It helps protect you from harm.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_147",
+    "question_text": "Where does most of your food go to be broken down after you swallow it?",
+    "options": [
+      "Your lungs",
+      "Your stomach and intestines",
+      "Your heart",
+      "Your bladder"
+    ],
+    "correct_index": 1,
+    "explanation": "Food goes from your mouth to your stomach, where it is mashed up, and then into your intestines, where the goodness is taken in.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_148",
+    "question_text": "Eating fruits and vegetables is a great way to get what important nutrients?",
+    "options": [
+      "Fats and oils",
+      "Sugars only",
+      "Air",
+      "Vitamins and minerals"
+    ],
+    "correct_index": 3,
+    "explanation": "Fruits and vegetables are full of vitamins and minerals that help your body grow strong and stay healthy.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_149",
+    "question_text": "What do muscles do to help your body move?",
+    "options": [
+      "They pump blood only",
+      "They pull on your bones",
+      "They grow hair",
+      "They make food"
+    ],
+    "correct_index": 1,
+    "explanation": "Muscles are attached to your bones. When a muscle tightens, it pulls a bone, and that is how you move your arms, legs, and face.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_150",
+    "question_text": "What is the largest organ of the human body?",
+    "options": [
+      "The heart",
+      "The brain",
+      "The skin",
+      "The liver"
+    ],
+    "correct_index": 2,
+    "explanation": "Your skin is your biggest organ. It covers your whole body, protects your insides, and helps keep you the right temperature.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_151",
+    "question_text": "What are the three main states of matter?",
+    "options": [
+      "Hot, warm, cold",
+      "Big, medium, small",
+      "Wet, dry, damp",
+      "Solid, liquid, gas"
+    ],
+    "correct_index": 3,
+    "explanation": "Matter usually comes in three forms: solid (like ice), liquid (like water), and gas (like steam). Plasma is sometimes called a fourth state.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_152",
+    "question_text": "At what temperature does water freeze?",
+    "options": [
+      "32\u00b0F (0\u00b0C)",
+      "50\u00b0F (10\u00b0C)",
+      "100\u00b0F (38\u00b0C)",
+      "0\u00b0F (-18\u00b0C)"
+    ],
+    "correct_index": 0,
+    "explanation": "Water freezes into ice at 32\u00b0F, which is 0\u00b0C. Below that temperature, the water molecules slow down and lock into a solid shape.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_153",
+    "question_text": "At what temperature does water boil?",
+    "options": [
+      "150\u00b0F (66\u00b0C)",
+      "180\u00b0F (82\u00b0C)",
+      "212\u00b0F (100\u00b0C)",
+      "300\u00b0F (149\u00b0C)"
+    ],
+    "correct_index": 2,
+    "explanation": "Water boils at 212\u00b0F, or 100\u00b0C, turning into a gas called water vapor. That's why a kettle whistles when the steam rushes out.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_154",
+    "question_text": "What is it called when a liquid turns into a gas?",
+    "options": [
+      "Freezing",
+      "Melting",
+      "Evaporation",
+      "Condensation"
+    ],
+    "correct_index": 2,
+    "explanation": "Evaporation is when a liquid turns into a gas, like a puddle drying up in the sun. The water becomes invisible water vapor in the air.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_155",
+    "question_text": "What is it called when a gas turns back into a liquid?",
+    "options": [
+      "Condensation",
+      "Sublimation",
+      "Evaporation",
+      "Melting"
+    ],
+    "correct_index": 0,
+    "explanation": "Condensation happens when water vapor in the air cools down and turns into tiny drops of liquid. That's why a cold glass gets wet on the outside.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_156",
+    "question_text": "What are the tiny building blocks that everything is made of?",
+    "options": [
+      "Cells",
+      "Crystals",
+      "Bubbles",
+      "Atoms"
+    ],
+    "correct_index": 3,
+    "explanation": "Atoms are incredibly tiny pieces that make up everything around us, from your toes to the stars. You'd need millions just to make a speck of dust.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_157",
+    "question_text": "What does the chemical formula H2O stand for?",
+    "options": [
+      "Salt",
+      "Sugar",
+      "Water",
+      "Air"
+    ],
+    "correct_index": 2,
+    "explanation": "H2O is water. It means each water molecule has two hydrogen atoms and one oxygen atom joined together.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_158",
+    "question_text": "Which gas do we breathe out that plants like to use?",
+    "options": [
+      "Oxygen (O2)",
+      "Carbon dioxide (CO2)",
+      "Helium (He)",
+      "Nitrogen (N2)"
+    ],
+    "correct_index": 1,
+    "explanation": "We breathe out carbon dioxide, written as CO2. Plants take in CO2 to help them make food and grow.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_159",
+    "question_text": "If you took a rock to the Moon, what would change?",
+    "options": [
+      "Its weight would change but its mass would stay the same",
+      "Both its mass and weight would change",
+      "Its mass would change but its weight would stay the same",
+      "Nothing would change"
+    ],
+    "correct_index": 0,
+    "explanation": "Mass is how much stuff something is made of, and that doesn't change. Weight depends on gravity, and the Moon has weaker gravity than Earth.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_160",
+    "question_text": "What is it called when a solid turns straight into a gas, skipping liquid?",
+    "options": [
+      "Melting",
+      "Sublimation",
+      "Boiling",
+      "Freezing"
+    ],
+    "correct_index": 1,
+    "explanation": "Sublimation is when a solid turns directly into a gas. Dry ice does this, which is why it makes spooky fog without leaving a puddle.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_161",
+    "question_text": "What force pulls things down toward the ground?",
+    "options": [
+      "Magnetism",
+      "Friction",
+      "Gravity",
+      "Wind"
+    ],
+    "correct_index": 2,
+    "explanation": "Gravity is the force that pulls everything toward the center of the Earth. It's also what keeps the planets moving around the Sun.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_162",
+    "question_text": "What force makes a sliding ball slow down and stop?",
+    "options": [
+      "Gravity",
+      "Friction",
+      "Magnetism",
+      "Electricity"
+    ],
+    "correct_index": 1,
+    "explanation": "Friction happens when two surfaces rub together, slowing things down and creating a little heat. Try rubbing your hands together fast!",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_163",
+    "question_text": "What happens when you put the north poles of two magnets together?",
+    "options": [
+      "They stick together",
+      "They push each other away",
+      "Nothing happens",
+      "They turn into one big magnet"
+    ],
+    "correct_index": 1,
+    "explanation": "Like poles repel each other, so two north poles push apart. Opposite poles, like north and south, snap together.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_164",
+    "question_text": "Which metal is strongly attracted to magnets?",
+    "options": [
+      "Gold",
+      "Aluminum",
+      "Copper",
+      "Iron"
+    ],
+    "correct_index": 3,
+    "explanation": "Iron is one of the few metals that magnets pull on. Most coins, gold, and aluminum foil don't stick to magnets at all.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_165",
+    "question_text": "What are the two basic kinds of forces?",
+    "options": [
+      "Push and pull",
+      "Hot and cold",
+      "Up and down",
+      "Fast and slow"
+    ],
+    "correct_index": 0,
+    "explanation": "Every force is either a push or a pull. Kicking a ball is a push, and pulling a wagon is a pull.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_166",
+    "question_text": "An object that is sitting still will keep sitting still unless what?",
+    "options": [
+      "A force pushes or pulls it",
+      "It gets old",
+      "It changes color",
+      "The Sun comes up"
+    ],
+    "correct_index": 0,
+    "explanation": "This is called inertia. A still object won't move on its own; something has to push or pull it to get it going.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_167",
+    "question_text": "Which of these is a simple machine?",
+    "options": [
+      "A computer",
+      "A blender",
+      "A telephone",
+      "A lever"
+    ],
+    "correct_index": 3,
+    "explanation": "A lever is a simple machine, like a seesaw or a crowbar. Simple machines have few or no moving parts but make work easier.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_168",
+    "question_text": "A ramp is an example of which simple machine?",
+    "options": [
+      "Pulley",
+      "Wheel and axle",
+      "Inclined plane",
+      "Wedge"
+    ],
+    "correct_index": 2,
+    "explanation": "A ramp is an inclined plane. It makes it easier to move heavy things up to a higher place by spreading the work over a longer distance.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_169",
+    "question_text": "What kind of simple machine is a flagpole rope used to raise a flag?",
+    "options": [
+      "Pulley",
+      "Lever",
+      "Screw",
+      "Wedge"
+    ],
+    "correct_index": 0,
+    "explanation": "A pulley uses a wheel and a rope to lift things more easily. Pulling down on one end makes the other end go up.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_170",
+    "question_text": "What kind of energy does a moving bicycle have?",
+    "options": [
+      "Potential energy",
+      "Sound energy",
+      "Kinetic energy",
+      "Chemical energy"
+    ],
+    "correct_index": 2,
+    "explanation": "Kinetic energy is the energy of motion. Anything that's moving, like a runner or a rolling ball, has kinetic energy.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_171",
+    "question_text": "What kind of energy is stored in a stretched rubber band?",
+    "options": [
+      "Kinetic energy",
+      "Potential energy",
+      "Light energy",
+      "Heat energy"
+    ],
+    "correct_index": 1,
+    "explanation": "Potential energy is stored energy waiting to be used. When you let the rubber band go, that stored energy becomes motion.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_172",
+    "question_text": "What kind of energy does a battery store?",
+    "options": [
+      "Light energy",
+      "Sound energy",
+      "Heat energy",
+      "Chemical energy"
+    ],
+    "correct_index": 3,
+    "explanation": "Batteries hold chemical energy inside them. When a battery is in a circuit, that chemical energy turns into electricity.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_173",
+    "question_text": "Which of these is a renewable energy source?",
+    "options": [
+      "Coal",
+      "Oil",
+      "Sunlight",
+      "Gasoline"
+    ],
+    "correct_index": 2,
+    "explanation": "Sunlight is renewable because it keeps coming every day. Coal, oil, and gas are nonrenewable, meaning once we use them up, they're gone.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_174",
+    "question_text": "Which of these uses moving air to make electricity?",
+    "options": [
+      "A wind turbine",
+      "A coal plant",
+      "A flashlight",
+      "A microwave"
+    ],
+    "correct_index": 0,
+    "explanation": "Wind turbines have giant blades that spin when the wind blows, and that spinning motion gets turned into electricity.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_175",
+    "question_text": "When you turn on a lamp, electrical energy mostly turns into what?",
+    "options": [
+      "Sound and motion",
+      "Light and heat",
+      "Sound and cold",
+      "Wind and rain"
+    ],
+    "correct_index": 1,
+    "explanation": "A light bulb changes electricity into light energy, and a little bit becomes heat. That's why a bulb feels warm after it's been on.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_176",
+    "question_text": "How does light travel?",
+    "options": [
+      "In wavy zigzags",
+      "In circles",
+      "In straight lines",
+      "It doesn't move at all"
+    ],
+    "correct_index": 2,
+    "explanation": "Light travels in straight lines until it hits something. That's why shadows are sharp and flashlights make a clear beam.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_177",
+    "question_text": "About how fast does light travel?",
+    "options": [
+      "186,000 miles per second",
+      "100 miles per hour",
+      "1,000 miles per minute",
+      "30 miles per second"
+    ],
+    "correct_index": 0,
+    "explanation": "Light zooms at about 186,000 miles every single second. Nothing in the universe travels faster than light.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_178",
+    "question_text": "About how long does sunlight take to reach Earth from the Sun?",
+    "options": [
+      "A few seconds",
+      "1 hour",
+      "1 day",
+      "8 minutes"
+    ],
+    "correct_index": 3,
+    "explanation": "Sunlight travels for about 8 minutes before it gets to Earth. So the sunshine you feel right now actually left the Sun 8 minutes ago.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_179",
+    "question_text": "What is it called when light bounces off a surface like a mirror?",
+    "options": [
+      "Refraction",
+      "Reflection",
+      "Absorption",
+      "Sublimation"
+    ],
+    "correct_index": 1,
+    "explanation": "Reflection is when light bounces off something. A mirror is so smooth that it reflects light perfectly, showing you your face.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_180",
+    "question_text": "What happens when sunlight passes through a glass prism?",
+    "options": [
+      "It disappears",
+      "It turns green",
+      "It splits into rainbow colors",
+      "It gets darker"
+    ],
+    "correct_index": 2,
+    "explanation": "A prism bends light and splits it into the colors of the rainbow: red, orange, yellow, green, blue, indigo, and violet.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_181",
+    "question_text": "What are the three primary colors of light?",
+    "options": [
+      "Red, yellow, blue",
+      "Pink, purple, orange",
+      "Black, white, gray",
+      "Red, green, blue"
+    ],
+    "correct_index": 3,
+    "explanation": "The primary colors of light are red, green, and blue. When all three mix together, they make white light. This is different from paint colors!",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_182",
+    "question_text": "What makes a shadow?",
+    "options": [
+      "An object blocking light",
+      "Wind blowing past",
+      "Cold air",
+      "A reflection"
+    ],
+    "correct_index": 0,
+    "explanation": "A shadow forms when something blocks the light. Since light travels in straight lines, it can't bend around the object to fill the dark space behind it.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_183",
+    "question_text": "Why does the sky look blue during the day?",
+    "options": [
+      "The ocean reflects up onto the sky",
+      "Blue light scatters more in the air",
+      "The Sun is blue",
+      "Air is colored blue"
+    ],
+    "correct_index": 1,
+    "explanation": "Sunlight has all the colors, but blue light bounces around in the air more than the others. That scattered blue light fills the sky.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_184",
+    "question_text": "What is sound made of?",
+    "options": [
+      "Light waves",
+      "Tiny bubbles",
+      "Vibrations",
+      "Wind only"
+    ],
+    "correct_index": 2,
+    "explanation": "Sound is made of vibrations that travel through air, water, or other materials. When the vibrations reach your ear, your brain hears them as sound.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_185",
+    "question_text": "Where can sound NOT travel?",
+    "options": [
+      "Through water",
+      "Through wood",
+      "Through outer space",
+      "Through air"
+    ],
+    "correct_index": 2,
+    "explanation": "Outer space is empty, with no air or matter for vibrations to move through. That's why space is silent, no matter how big the explosion.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_186",
+    "question_text": "What do you call sound that bounces back to you off a wall or cliff?",
+    "options": [
+      "A whisper",
+      "A vibration",
+      "A boom",
+      "An echo"
+    ],
+    "correct_index": 3,
+    "explanation": "An echo is sound bouncing off a hard surface and coming back to your ears. Bats and dolphins use echoes to find their way around.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_187",
+    "question_text": "What do we call how high or low a sound is?",
+    "options": [
+      "Pitch",
+      "Volume",
+      "Echo",
+      "Tone"
+    ],
+    "correct_index": 0,
+    "explanation": "Pitch is how high or low a sound is. A tiny bird's tweet has a high pitch, and a big drum has a low pitch.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_188",
+    "question_text": "Why do you see lightning before you hear thunder?",
+    "options": [
+      "Light travels much faster than sound",
+      "Thunder happens later than lightning",
+      "Sound is too quiet",
+      "Your eyes work first"
+    ],
+    "correct_index": 0,
+    "explanation": "Light is way faster than sound, so the flash reaches you almost instantly while the boom takes longer to arrive. The closer the storm, the smaller the gap.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_189",
+    "question_text": "What word describes how loud or quiet a sound is?",
+    "options": [
+      "Pitch",
+      "Volume",
+      "Speed",
+      "Color"
+    ],
+    "correct_index": 1,
+    "explanation": "Volume is how loud or quiet a sound is. Turning up the volume on a TV makes the sound louder, not higher.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_190",
+    "question_text": "Which of these materials is the best conductor of electricity?",
+    "options": [
+      "Rubber",
+      "Wood",
+      "Plastic",
+      "Copper"
+    ],
+    "correct_index": 3,
+    "explanation": "Copper is a metal, and metals let electricity flow through them easily. That's why most electrical wires have copper inside.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_191",
+    "question_text": "Which of these is an insulator that blocks electricity?",
+    "options": [
+      "Iron",
+      "Rubber",
+      "Silver",
+      "Copper"
+    ],
+    "correct_index": 1,
+    "explanation": "Rubber is an insulator, meaning electricity can't easily move through it. That's why electrical wires are wrapped in rubber or plastic to keep us safe.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_192",
+    "question_text": "Why does a balloon stick to your hair after you rub it?",
+    "options": [
+      "Magnetism",
+      "Static electricity",
+      "Gravity",
+      "Friction heat"
+    ],
+    "correct_index": 1,
+    "explanation": "Rubbing the balloon moves tiny particles called electrons around, creating static electricity. The balloon and your hair then pull toward each other.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_193",
+    "question_text": "What does an electric circuit need to work?",
+    "options": [
+      "A complete loop",
+      "A magnet",
+      "A light bulb",
+      "A switch that's open"
+    ],
+    "correct_index": 0,
+    "explanation": "Electricity has to flow in a complete loop. If the loop is broken anywhere, the electricity stops and the device turns off.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_194",
+    "question_text": "What is lightning?",
+    "options": [
+      "A burst of wind",
+      "A type of cloud",
+      "A giant spark of electricity",
+      "Hot rain"
+    ],
+    "correct_index": 2,
+    "explanation": "Lightning is a huge spark of electricity that jumps between clouds or from a cloud to the ground. It can be hotter than the surface of the Sun.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_195",
+    "question_text": "What is the chemical symbol for gold?",
+    "options": [
+      "Go",
+      "Gd",
+      "Au",
+      "Gl"
+    ],
+    "correct_index": 2,
+    "explanation": "Gold's symbol is Au, from its old Latin name 'aurum,' which means 'shining dawn.' Each element has its own short symbol.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_196",
+    "question_text": "What is the chemical symbol for oxygen, the gas we breathe in?",
+    "options": [
+      "Ox",
+      "O",
+      "Og",
+      "On"
+    ],
+    "correct_index": 1,
+    "explanation": "Oxygen's symbol is just the letter O. Our lungs pull oxygen out of the air every time we take a breath.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_197",
+    "question_text": "Which of these is an acid?",
+    "options": [
+      "Soap",
+      "Baking soda",
+      "Pure water",
+      "Lemon juice"
+    ],
+    "correct_index": 3,
+    "explanation": "Lemon juice is acidic, which is why it tastes so sour. Soap and baking soda are bases, the opposite of acids.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_198",
+    "question_text": "What is table salt's chemical name?",
+    "options": [
+      "Sodium chloride",
+      "Calcium carbonate",
+      "Hydrogen peroxide",
+      "Potassium nitrate"
+    ],
+    "correct_index": 0,
+    "explanation": "Table salt is sodium chloride, written as NaCl. It's made of one sodium atom joined with one chlorine atom.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_199",
+    "question_text": "Which of these is a solution, where one thing dissolves into another?",
+    "options": [
+      "Sand mixed with water",
+      "Salt stirred into water",
+      "Marbles in a jar",
+      "Oil floating on water"
+    ],
+    "correct_index": 1,
+    "explanation": "When salt is stirred into water, it disappears into the liquid, making a solution. Sand just sinks and stays separate, so it's only a mixture.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_200",
+    "question_text": "What three things does a fire need to burn?",
+    "options": [
+      "Water, salt, and air",
+      "Fuel, oxygen, and heat",
+      "Sunlight, dirt, and wind",
+      "Gas, ice, and metal"
+    ],
+    "correct_index": 1,
+    "explanation": "This is called the fire triangle: fuel (something to burn), oxygen (from the air), and heat. Take any one away and the fire goes out.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_201",
+    "question_text": "Which scientist is famous for figuring out how gravity works after watching an apple fall?",
+    "options": [
+      "Albert Einstein",
+      "Isaac Newton",
+      "Galileo Galilei",
+      "Charles Darwin"
+    ],
+    "correct_index": 1,
+    "explanation": "Isaac Newton wondered why apples fall down instead of up, which led him to describe gravity, the force that pulls things toward each other.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_202",
+    "question_text": "Albert Einstein is best known for his theory of what?",
+    "options": [
+      "Evolution",
+      "Gravity",
+      "Magnetism",
+      "Relativity"
+    ],
+    "correct_index": 3,
+    "explanation": "Einstein's theory of relativity changed how we think about time, space, and energy. His famous equation E=mc squared came from this work.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_203",
+    "question_text": "Galileo Galilei used which instrument to study the Moon and planets?",
+    "options": [
+      "A microscope",
+      "A magnifying glass",
+      "A telescope",
+      "A camera"
+    ],
+    "correct_index": 2,
+    "explanation": "Galileo improved the telescope and pointed it at the sky. He saw mountains on the Moon and four moons orbiting Jupiter.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_204",
+    "question_text": "Nicolaus Copernicus suggested that what is at the center of our solar system?",
+    "options": [
+      "The Sun",
+      "The Earth",
+      "The Moon",
+      "Jupiter"
+    ],
+    "correct_index": 0,
+    "explanation": "Long ago, most people thought Earth was the center. Copernicus showed that the Sun is at the center and the planets orbit around it.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_205",
+    "question_text": "Marie Curie is famous for her research on what?",
+    "options": [
+      "Dinosaurs",
+      "Electricity",
+      "Volcanoes",
+      "Radioactivity"
+    ],
+    "correct_index": 3,
+    "explanation": "Marie Curie discovered radioactive elements like radium and polonium. She was the first person ever to win two Nobel Prizes.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_206",
+    "question_text": "Which scientist developed the theory of evolution after visiting the Galapagos Islands?",
+    "options": [
+      "Louis Pasteur",
+      "Gregor Mendel",
+      "Charles Darwin",
+      "Isaac Newton"
+    ],
+    "correct_index": 2,
+    "explanation": "Charles Darwin noticed that finches on different islands had different beaks. This helped him explain how living things change over time.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_207",
+    "question_text": "Gregor Mendel discovered the basics of genetics by studying which plant?",
+    "options": [
+      "Peas",
+      "Roses",
+      "Sunflowers",
+      "Tomatoes"
+    ],
+    "correct_index": 0,
+    "explanation": "Mendel grew thousands of pea plants and tracked traits like flower color. His work showed how parents pass features to their children.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_208",
+    "question_text": "Louis Pasteur is famous for showing that what causes many diseases?",
+    "options": [
+      "Cold weather",
+      "Bad smells",
+      "Tiny germs",
+      "Salty food"
+    ],
+    "correct_index": 2,
+    "explanation": "Pasteur proved that tiny living germs can make people sick. He also invented pasteurization, which heats milk to kill harmful germs.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_209",
+    "question_text": "Alexander Fleming discovered which life-saving medicine in 1928?",
+    "options": [
+      "Aspirin",
+      "Penicillin",
+      "Insulin",
+      "Vitamin C"
+    ],
+    "correct_index": 1,
+    "explanation": "Fleming noticed mold growing in his lab was killing bacteria. That mold became penicillin, the first antibiotic, which has saved millions of lives.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_210",
+    "question_text": "Edwin Hubble made an important discovery about what?",
+    "options": [
+      "Other galaxies far from ours",
+      "How birds fly",
+      "Volcanoes underwater",
+      "Ant colonies"
+    ],
+    "correct_index": 0,
+    "explanation": "Hubble showed that there are billions of galaxies beyond our Milky Way and that they are moving apart. The famous Hubble Space Telescope is named after him.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_211",
+    "question_text": "Stephen Hawking was a scientist who studied what mysterious objects in space?",
+    "options": [
+      "Comets",
+      "Asteroids",
+      "Black holes",
+      "Rainbows"
+    ],
+    "correct_index": 2,
+    "explanation": "Stephen Hawking helped us understand black holes, regions in space where gravity is so strong that nothing, not even light, can escape.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_212",
+    "question_text": "Rosalind Franklin's photographs helped scientists discover the shape of what?",
+    "options": [
+      "Atoms",
+      "Bones",
+      "Snowflakes",
+      "DNA"
+    ],
+    "correct_index": 3,
+    "explanation": "Franklin's X-ray pictures showed that DNA, the instruction code in our cells, has a twisted ladder shape called a double helix.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_213",
+    "question_text": "Jane Goodall spent her life studying which kind of animal?",
+    "options": [
+      "Lions",
+      "Dolphins",
+      "Chimpanzees",
+      "Elephants"
+    ],
+    "correct_index": 2,
+    "explanation": "Jane Goodall lived in the forests of Tanzania and watched chimpanzees up close. She showed that they use tools, just like people do.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_214",
+    "question_text": "Katherine Johnson was a brilliant mathematician who worked for which organization?",
+    "options": [
+      "The army",
+      "NASA",
+      "A bank",
+      "A hospital"
+    ],
+    "correct_index": 1,
+    "explanation": "Katherine Johnson did the math that helped NASA send astronauts safely into space and back. Her calculations were checked by hand before computers were trusted.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_215",
+    "question_text": "Thomas Edison is most famous for inventing a practical version of what?",
+    "options": [
+      "The bicycle",
+      "The light bulb",
+      "The radio",
+      "The clock"
+    ],
+    "correct_index": 1,
+    "explanation": "Edison tested thousands of materials before finding one that made a long-lasting light bulb. He also invented the phonograph, which could record sound.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_216",
+    "question_text": "Nikola Tesla helped develop which kind of electricity that powers most homes today?",
+    "options": [
+      "Alternating current",
+      "Static electricity",
+      "Battery power",
+      "Lightning"
+    ],
+    "correct_index": 0,
+    "explanation": "Tesla designed systems for alternating current, or AC, which can travel long distances through wires. That is the kind of electricity in your wall outlets.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_217",
+    "question_text": "Alexander Graham Bell is credited with inventing what?",
+    "options": [
+      "The television",
+      "The car",
+      "The computer",
+      "The telephone"
+    ],
+    "correct_index": 3,
+    "explanation": "Bell invented the telephone in 1876. His first words spoken on it were to his assistant in another room.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_218",
+    "question_text": "The Wright Brothers made history in 1903 by being the first to do what?",
+    "options": [
+      "Build a submarine",
+      "Fly a powered airplane",
+      "Drive a car across America",
+      "Climb Mount Everest"
+    ],
+    "correct_index": 1,
+    "explanation": "Orville and Wilbur Wright flew the first powered airplane at Kitty Hawk, North Carolina. The flight only lasted 12 seconds but changed the world.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_219",
+    "question_text": "Johannes Gutenberg invented a machine that made it easier to print what?",
+    "options": [
+      "Money",
+      "Maps",
+      "Paintings",
+      "Books"
+    ],
+    "correct_index": 3,
+    "explanation": "Gutenberg's printing press from the 1440s could make many copies of books quickly. Before that, books had to be copied by hand and very few people had them.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_220",
+    "question_text": "Tim Berners-Lee is famous for inventing what in 1989?",
+    "options": [
+      "The World Wide Web",
+      "The smartphone",
+      "Email",
+      "The video game"
+    ],
+    "correct_index": 0,
+    "explanation": "Berners-Lee invented the World Wide Web, which lets people share pages and links across the internet. He gave it away for free so anyone could use it.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_221",
+    "question_text": "Henry Ford changed how cars were built by using what?",
+    "options": [
+      "Solar panels",
+      "Robot workers",
+      "An assembly line",
+      "Electric motors"
+    ],
+    "correct_index": 2,
+    "explanation": "Ford's assembly line had each worker add just one part as the car moved past. This made cars cheap enough for regular families to own.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_222",
+    "question_text": "Garrett Morgan invented an early version of which safety device used on roads?",
+    "options": [
+      "Seat belts",
+      "Crosswalks",
+      "Speed bumps",
+      "The traffic signal"
+    ],
+    "correct_index": 3,
+    "explanation": "Morgan invented a three-position traffic signal in 1923 that helped cars take turns safely at busy intersections. He also invented an early gas mask.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_223",
+    "question_text": "Hedy Lamarr was a movie star who also helped invent technology used in what?",
+    "options": [
+      "Refrigerators",
+      "Microwaves",
+      "Wireless devices like Wi-Fi",
+      "Cameras"
+    ],
+    "correct_index": 2,
+    "explanation": "Lamarr co-invented a frequency-hopping system during World War II. The same idea helps modern Wi-Fi, Bluetooth, and GPS work today.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_224",
+    "question_text": "Granville Woods invented a system that let trains do what?",
+    "options": [
+      "Travel underwater",
+      "Send telegraph messages while moving",
+      "Run on solar power",
+      "Float on magnets"
+    ],
+    "correct_index": 1,
+    "explanation": "Woods created a way for moving trains to send messages to stations using telegraph signals. This made train travel much safer by preventing crashes.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_225",
+    "question_text": "Steve Jobs and Steve Wozniak started which famous technology company?",
+    "options": [
+      "Microsoft",
+      "Google",
+      "Apple",
+      "Amazon"
+    ],
+    "correct_index": 2,
+    "explanation": "Jobs and Wozniak built their first Apple computer in a garage in California in 1976. Apple later made the iPhone, iPad, and Mac.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_226",
+    "question_text": "Velcro was invented after a man noticed what stuck to his dog's fur?",
+    "options": [
+      "Mud",
+      "Spider webs",
+      "Tree sap",
+      "Burrs from plants"
+    ],
+    "correct_index": 3,
+    "explanation": "Swiss inventor George de Mestral saw burrs sticking to his dog and looked at them under a microscope. He copied the tiny hooks to make Velcro.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_227",
+    "question_text": "Post-it notes were invented when a scientist accidentally created what?",
+    "options": [
+      "Glue that was only a little sticky",
+      "Glue that was extra strong",
+      "Paper that wouldn't tear",
+      "Ink that glowed"
+    ],
+    "correct_index": 0,
+    "explanation": "A 3M scientist tried to make super-strong glue but ended up with a weak one that peeled off easily. That gentle stickiness was perfect for sticky notes.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_228",
+    "question_text": "The microwave oven was discovered when an engineer noticed what melted in his pocket?",
+    "options": [
+      "A chocolate bar",
+      "An ice cube",
+      "A rubber band",
+      "A piece of cheese"
+    ],
+    "correct_index": 0,
+    "explanation": "Percy Spencer was working near a radar machine when the chocolate in his pocket melted. He realized the waves were heating food and invented the microwave.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_229",
+    "question_text": "Inside a computer, which part acts like the brain and does the thinking?",
+    "options": [
+      "The keyboard",
+      "The screen",
+      "The CPU",
+      "The speakers"
+    ],
+    "correct_index": 2,
+    "explanation": "CPU stands for Central Processing Unit. It carries out the instructions that make programs and games work.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_230",
+    "question_text": "Which part of a computer stores files even when the power is off?",
+    "options": [
+      "The hard drive",
+      "The mouse",
+      "The screen",
+      "The fan"
+    ],
+    "correct_index": 0,
+    "explanation": "The hard drive is long-term memory that keeps your photos, games, and documents safe when the computer is shut down.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_231",
+    "question_text": "Computers do all their work using only two numbers. What are they?",
+    "options": [
+      "1 and 2",
+      "5 and 10",
+      "9 and 0",
+      "0 and 1"
+    ],
+    "correct_index": 3,
+    "explanation": "This is called binary. Inside a computer, a 1 means a switch is on and a 0 means it is off. Long strings of 1s and 0s make everything work.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_232",
+    "question_text": "GPS, which helps maps know where you are, works using what?",
+    "options": [
+      "Radio towers",
+      "Satellites in space",
+      "Underground cables",
+      "Lighthouses"
+    ],
+    "correct_index": 1,
+    "explanation": "GPS stands for Global Positioning System. Your phone listens to signals from satellites circling Earth to figure out exactly where you are.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_233",
+    "question_text": "What does it mean to write code or program a computer?",
+    "options": [
+      "Cleaning the screen",
+      "Charging the battery",
+      "Building the keyboard",
+      "Giving the computer instructions to follow"
+    ],
+    "correct_index": 3,
+    "explanation": "Programming means writing step-by-step instructions in a special language the computer understands. Scratch and Python are languages kids often start with.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_234",
+    "question_text": "The first computers built in the 1940s were about the size of what?",
+    "options": [
+      "A book",
+      "A backpack",
+      "A whole room",
+      "A pencil"
+    ],
+    "correct_index": 2,
+    "explanation": "Early computers like ENIAC filled entire rooms and weighed many tons. Today a phone in your pocket is millions of times more powerful.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_235",
+    "question_text": "What is a robot?",
+    "options": [
+      "A type of toy car",
+      "A machine that can be programmed to do tasks",
+      "A new kind of phone",
+      "A computer game"
+    ],
+    "correct_index": 1,
+    "explanation": "A robot is a machine that follows instructions to do jobs by itself. Some robots build cars, some explore Mars, and some even vacuum floors.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_236",
+    "question_text": "What does AI stand for?",
+    "options": [
+      "Apple Internet",
+      "Artificial Intelligence",
+      "Animal Instinct",
+      "Automatic Information"
+    ],
+    "correct_index": 1,
+    "explanation": "Artificial intelligence means computer programs that can learn and solve problems in ways that seem smart. Voice assistants and chatbots use AI.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_237",
+    "question_text": "A modern smartphone replaces many older devices. Which of these is NOT one of them?",
+    "options": [
+      "A camera",
+      "A calculator",
+      "A refrigerator",
+      "A map"
+    ],
+    "correct_index": 2,
+    "explanation": "Phones have absorbed cameras, calculators, maps, music players, flashlights, and more. But they still cannot keep your food cold.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_238",
+    "question_text": "What is the difference between the internet and the World Wide Web?",
+    "options": [
+      "The internet is the network of computers; the Web is the pages and links on it",
+      "They are exactly the same thing",
+      "The Web is older than the internet",
+      "The internet only works on phones"
+    ],
+    "correct_index": 0,
+    "explanation": "The internet is the giant network connecting computers. The Web is one thing you can use on the internet, made of pages you visit in a browser.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_239",
+    "question_text": "In science, what is a hypothesis?",
+    "options": [
+      "A final answer",
+      "A smart guess that you test with an experiment",
+      "A type of graph",
+      "A measuring tool"
+    ],
+    "correct_index": 1,
+    "explanation": "A hypothesis is your best guess about what will happen. Scientists test it with experiments to see if the guess turns out to be right or wrong.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_240",
+    "question_text": "Which tool would you use to look at something tiny like a single cell?",
+    "options": [
+      "A telescope",
+      "A thermometer",
+      "A stethoscope",
+      "A microscope"
+    ],
+    "correct_index": 3,
+    "explanation": "A microscope uses lenses to make very small things look much bigger. Scientists use them to study cells, bacteria, and other tiny objects.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_241",
+    "question_text": "What do doctors use a stethoscope for?",
+    "options": [
+      "Looking inside ears",
+      "Measuring height",
+      "Listening to heartbeats and breathing",
+      "Checking eyesight"
+    ],
+    "correct_index": 2,
+    "explanation": "A stethoscope makes the quiet sounds inside your body louder. Doctors press it to your chest to hear your heart beating and your lungs breathing.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_242",
+    "question_text": "Which instrument measures how hot or cold something is?",
+    "options": [
+      "A thermometer",
+      "A scale",
+      "A ruler",
+      "A clock"
+    ],
+    "correct_index": 0,
+    "explanation": "A thermometer measures temperature. Some show numbers on a screen, while older ones use a thin line of liquid that rises when it gets warmer.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_243",
+    "question_text": "When scientists run an experiment, what is a variable?",
+    "options": [
+      "A scientist's helper",
+      "A type of chemical",
+      "The room where work is done",
+      "Something you change or measure in the test"
+    ],
+    "correct_index": 3,
+    "explanation": "A variable is anything that can change in an experiment, like the amount of water you give plants. Scientists usually change just one at a time to see what it does.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_244",
+    "question_text": "What does it mean to make an observation in science?",
+    "options": [
+      "To use your senses to notice and learn about something",
+      "To prove an idea is wrong",
+      "To build a machine",
+      "To draw a picture from memory"
+    ],
+    "correct_index": 0,
+    "explanation": "Observation means carefully watching, listening, smelling, or touching to gather information. Good observations are the start of almost every science discovery.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_245",
+    "question_text": "How do vaccines help keep us healthy?",
+    "options": [
+      "They make germs grow faster",
+      "They give you extra energy",
+      "They cure you after you are already sick",
+      "They train the body to fight germs before you get sick"
+    ],
+    "correct_index": 3,
+    "explanation": "A vaccine teaches your immune system to recognize a germ. If the real germ shows up later, your body already knows how to fight it off.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_246",
+    "question_text": "Wilhelm Roentgen discovered a kind of ray that can take pictures of what?",
+    "options": [
+      "The bones inside your body",
+      "Stars in the sky",
+      "Fish underwater",
+      "Plant roots"
+    ],
+    "correct_index": 0,
+    "explanation": "Roentgen discovered X-rays in 1895. They pass through soft skin but not through bones, so X-ray pictures show your skeleton.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_247",
+    "question_text": "Why is washing your hands with soap such an important habit?",
+    "options": [
+      "It makes them smell nice",
+      "It removes germs that could make you sick",
+      "It helps fingernails grow",
+      "It keeps skin from wrinkling"
+    ],
+    "correct_index": 1,
+    "explanation": "Soap breaks apart the outer layer of many germs and lets water rinse them away. Twenty seconds of scrubbing does the trick.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_248",
+    "question_text": "Antibiotic medicines are used to fight which kind of germ?",
+    "options": [
+      "Viruses",
+      "Mold",
+      "Bacteria",
+      "Pollen"
+    ],
+    "correct_index": 2,
+    "explanation": "Antibiotics work against bacterial infections like strep throat. They do not work on viruses, which is why they cannot cure a cold or the flu.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_249",
+    "question_text": "What is the main job of a bandage on a small cut?",
+    "options": [
+      "To make the cut heal in one minute",
+      "To keep the cut clean and protected while it heals",
+      "To stop the skin from feeling cold",
+      "To change the color of the skin"
+    ],
+    "correct_index": 1,
+    "explanation": "Bandages cover a cut so dirt and germs cannot get in. Your body still does the healing underneath, usually in a few days.",
+    "source": "static:science"
+  },
+  {
+    "module_id": "science",
+    "age_band": "7-9",
+    "external_id": "science_v1_250",
+    "question_text": "What kind of tool would you use to measure how much something weighs?",
+    "options": [
+      "A telescope",
+      "A ruler",
+      "A scale",
+      "A stopwatch"
+    ],
+    "correct_index": 2,
+    "explanation": "A scale measures weight or mass. Bathroom scales tell people their weight, and kitchen scales help cooks measure ingredients.",
+    "source": "static:science"
+  }
+]
