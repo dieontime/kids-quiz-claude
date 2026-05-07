@@ -22,7 +22,9 @@ function jsonTotalForBand(module: 'vehicles' | 'grammar', band: AgeBand): number
   return POOLS[module].filter(e => e.age_band === band || e.age_band === 'both').length;
 }
 
-function countAnsweredForModule(allAnswered: string[], moduleId: ModuleId, band: AgeBand): number {
+type ProgressModuleId = 'math' | 'vehicles' | 'grammar';
+
+function countAnsweredForModule(allAnswered: string[], moduleId: ProgressModuleId, band: AgeBand): number {
   if (moduleId === 'math') {
     return allAnswered.filter(id => id.startsWith(`math:${band}:`)).length;
   }
@@ -32,7 +34,7 @@ function countAnsweredForModule(allAnswered: string[], moduleId: ModuleId, band:
 
 export async function computeModuleProgress(profileId: string, band: AgeBand): Promise<ModuleProgress[]> {
   const allAnswered = await mockBackend.getAnsweredExternalIds(profileId, ['math', 'vehicles', 'grammar']);
-  const order: ModuleId[] = ['math', 'vehicles', 'grammar'];
+  const order: ProgressModuleId[] = ['math', 'vehicles', 'grammar'];
   return order.map(moduleId => {
     const total = moduleId === 'math'
       ? MODULE_THEMES.math.milestoneTotal![band]

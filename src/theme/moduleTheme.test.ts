@@ -2,9 +2,9 @@ import { describe, it, expect } from 'vitest';
 import { MODULE_THEMES, DEFAULT_THEME, themeFor, type ModuleId } from './moduleTheme.ts';
 
 describe('moduleTheme', () => {
-  it('exposes math, vehicles, grammar themes only (Plan 2 catalog)', () => {
+  it('exposes math, vehicles, grammar, animals, science themes (Plan 3 catalog)', () => {
     const ids = Object.keys(MODULE_THEMES).sort();
-    expect(ids).toEqual(['grammar', 'math', 'vehicles']);
+    expect(ids).toEqual(['animals', 'grammar', 'math', 'science', 'vehicles']);
   });
 
   it('every theme has all required fields', () => {

@@ -1,4 +1,4 @@
-export type ModuleId = 'math' | 'vehicles' | 'grammar';
+export type ModuleId = 'math' | 'vehicles' | 'grammar' | 'animals' | 'science';
 
 export interface ModuleTheme {
   id: ModuleId;
@@ -47,6 +47,28 @@ export const MODULE_THEMES: Record<ModuleId, ModuleTheme> = {
     accentText: 'text-violet-700',
     accentBg: 'bg-violet-500',
     stinger: '/sounds/stingers/grammar.mp3',
+    milestoneTotal: null,
+  },
+  animals: {
+    id: 'animals',
+    label: 'Animals',
+    emoji: '🐾',
+    bgTint: 'bg-green-100',
+    ringColor: 'stroke-green-500',
+    accentText: 'text-green-700',
+    accentBg: 'bg-green-500',
+    stinger: '/sounds/stingers/animals.mp3',
+    milestoneTotal: null,
+  },
+  science: {
+    id: 'science',
+    label: 'Science',
+    emoji: '🔬',
+    bgTint: 'bg-amber-100',
+    ringColor: 'stroke-amber-500',
+    accentText: 'text-amber-700',
+    accentBg: 'bg-amber-500',
+    stinger: '/sounds/stingers/science.mp3',
     milestoneTotal: null,
   },
 };
