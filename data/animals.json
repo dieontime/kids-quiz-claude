@@ -1,0 +1,3752 @@
+[
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_001",
+    "question_text": "What is a group of lions called?",
+    "options": [
+      "Pride",
+      "Flock",
+      "Pack",
+      "Herd"
+    ],
+    "correct_index": 0,
+    "explanation": "A group of lions is called a pride. A pride usually has a few males, several females, and their cubs.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_002",
+    "question_text": "Which animal is the fastest on land?",
+    "options": [
+      "Horse",
+      "Cheetah",
+      "Greyhound",
+      "Lion"
+    ],
+    "correct_index": 1,
+    "explanation": "The cheetah is the fastest land animal. It can sprint about 70 miles per hour for short bursts.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_003",
+    "question_text": "How many legs does a spider have?",
+    "options": [
+      "Six",
+      "Ten",
+      "Eight",
+      "Twelve"
+    ],
+    "correct_index": 2,
+    "explanation": "Spiders have eight legs. Insects have six legs, so spiders are arachnids, not insects.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_004",
+    "question_text": "Which is the largest animal that has ever lived on Earth?",
+    "options": [
+      "African elephant",
+      "Blue whale",
+      "Giant squid",
+      "Tyrannosaurus rex"
+    ],
+    "correct_index": 1,
+    "explanation": "The blue whale is the largest animal known to have ever lived. It can grow longer than three school buses.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_005",
+    "question_text": "What is a baby kangaroo called?",
+    "options": [
+      "Cub",
+      "Joey",
+      "Calf",
+      "Kit"
+    ],
+    "correct_index": 1,
+    "explanation": "A baby kangaroo is called a joey. It lives in its mother's pouch until it grows bigger.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_006",
+    "question_text": "Which animal is known as the 'king of the jungle'?",
+    "options": [
+      "Elephant",
+      "Tiger",
+      "Lion",
+      "Gorilla"
+    ],
+    "correct_index": 2,
+    "explanation": "The lion is called the king of the jungle, even though lions actually live on grasslands called savannas, not jungles.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_007",
+    "question_text": "What do pandas mostly eat?",
+    "options": [
+      "Bamboo",
+      "Meat",
+      "Fish",
+      "Honey"
+    ],
+    "correct_index": 0,
+    "explanation": "Giant pandas eat mostly bamboo. They spend many hours every day chewing bamboo stalks and leaves.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_008",
+    "question_text": "Which animal is the tallest in the world?",
+    "options": [
+      "Horse",
+      "Camel",
+      "Giraffe",
+      "Elephant"
+    ],
+    "correct_index": 2,
+    "explanation": "The giraffe is the tallest animal on Earth. Adult giraffes can stand up to 18 feet tall.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_009",
+    "question_text": "How many hearts does an octopus have?",
+    "options": [
+      "One",
+      "Two",
+      "Four",
+      "Three"
+    ],
+    "correct_index": 3,
+    "explanation": "An octopus has three hearts. Two pump blood through its gills, and one pumps blood to the rest of its body.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_010",
+    "question_text": "Which of these is a reptile?",
+    "options": [
+      "Salamander",
+      "Snake",
+      "Newt",
+      "Frog"
+    ],
+    "correct_index": 1,
+    "explanation": "A snake is a reptile. Frogs, salamanders, and newts are amphibians, which usually start life in water.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_011",
+    "question_text": "What is a baby frog called before it grows legs?",
+    "options": [
+      "Tadpole",
+      "Pollywog",
+      "Fry",
+      "Froglet"
+    ],
+    "correct_index": 0,
+    "explanation": "A baby frog is called a tadpole. Tadpoles live in water and breathe with gills before they grow into adult frogs.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_012",
+    "question_text": "Which animal can change color to blend with its surroundings?",
+    "options": [
+      "Chameleon",
+      "Iguana",
+      "Gecko",
+      "Komodo dragon"
+    ],
+    "correct_index": 0,
+    "explanation": "Chameleons can change color to blend in or to show how they feel. They use special cells in their skin to do this.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_013",
+    "question_text": "Which of these is the only mammal that can truly fly?",
+    "options": [
+      "Bat",
+      "Eagle",
+      "Sugar glider",
+      "Flying squirrel"
+    ],
+    "correct_index": 0,
+    "explanation": "Bats are the only mammals that can truly fly. Flying squirrels and sugar gliders only glide between trees.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_014",
+    "question_text": "What is the largest fish in the ocean?",
+    "options": [
+      "Tuna",
+      "Whale shark",
+      "Manta ray",
+      "Great white shark"
+    ],
+    "correct_index": 1,
+    "explanation": "The whale shark is the largest fish in the ocean. Despite its size, it eats tiny plankton and is gentle.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_015",
+    "question_text": "Which bird cannot fly?",
+    "options": [
+      "Owl",
+      "Eagle",
+      "Hummingbird",
+      "Penguin"
+    ],
+    "correct_index": 3,
+    "explanation": "Penguins cannot fly. Their wings work like flippers to help them swim through the water instead.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_016",
+    "question_text": "What is a baby horse called?",
+    "options": [
+      "Kid",
+      "Foal",
+      "Cub",
+      "Calf"
+    ],
+    "correct_index": 1,
+    "explanation": "A baby horse is called a foal. A young male is a colt and a young female is a filly.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_017",
+    "question_text": "Which animal has the longest neck?",
+    "options": [
+      "Ostrich",
+      "Giraffe",
+      "Camel",
+      "Llama"
+    ],
+    "correct_index": 1,
+    "explanation": "The giraffe has the longest neck of any living animal. Surprisingly, it has only seven neck bones, the same as humans.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_018",
+    "question_text": "Which big cat has spots that look like rosettes?",
+    "options": [
+      "Leopard",
+      "Tiger",
+      "Cougar",
+      "Lion"
+    ],
+    "correct_index": 0,
+    "explanation": "Leopards have rosette-shaped spots. The pattern helps them hide in the dappled light of forests.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_019",
+    "question_text": "Which bird is famous for never forgetting its way home?",
+    "options": [
+      "Robin",
+      "Pigeon",
+      "Crow",
+      "Sparrow"
+    ],
+    "correct_index": 1,
+    "explanation": "Homing pigeons can find their way home from far away. People have used them to carry messages for thousands of years.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_020",
+    "question_text": "What do we call animals that eat only plants?",
+    "options": [
+      "Insectivores",
+      "Herbivores",
+      "Omnivores",
+      "Carnivores"
+    ],
+    "correct_index": 1,
+    "explanation": "Animals that eat only plants are called herbivores. Cows, deer, and rabbits are herbivores.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_021",
+    "question_text": "What do we call animals that eat only meat?",
+    "options": [
+      "Herbivores",
+      "Decomposers",
+      "Omnivores",
+      "Carnivores"
+    ],
+    "correct_index": 3,
+    "explanation": "Animals that eat only meat are called carnivores. Lions, sharks, and eagles are carnivores.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_022",
+    "question_text": "What do we call animals that eat both plants and meat?",
+    "options": [
+      "Scavengers",
+      "Herbivores",
+      "Carnivores",
+      "Omnivores"
+    ],
+    "correct_index": 3,
+    "explanation": "Animals that eat both plants and meat are called omnivores. Bears, pigs, and humans are omnivores.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_023",
+    "question_text": "Which animal is the largest land animal on Earth today?",
+    "options": [
+      "African elephant",
+      "Rhinoceros",
+      "Giraffe",
+      "Hippopotamus"
+    ],
+    "correct_index": 0,
+    "explanation": "The African elephant is the largest land animal alive today. Adult males can weigh more than six tons.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_024",
+    "question_text": "What does an elephant use its trunk for?",
+    "options": [
+      "Many things including drinking, grabbing, and smelling",
+      "Only to make sounds",
+      "Only to drink",
+      "Only to breathe"
+    ],
+    "correct_index": 0,
+    "explanation": "Elephants use their trunks to drink, smell, grab food, lift objects, and even greet other elephants. The trunk has thousands of muscles.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_025",
+    "question_text": "Which sea creature is famous for having eight arms?",
+    "options": [
+      "Squid",
+      "Jellyfish",
+      "Octopus",
+      "Starfish"
+    ],
+    "correct_index": 2,
+    "explanation": "An octopus has eight arms. Each arm has rows of suction cups it uses to grip things.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_026",
+    "question_text": "Which group does a frog belong to?",
+    "options": [
+      "Reptiles",
+      "Mammals",
+      "Fish",
+      "Amphibians"
+    ],
+    "correct_index": 3,
+    "explanation": "Frogs are amphibians. Amphibians usually start life in water with gills and grow lungs as adults.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_027",
+    "question_text": "What is a group of wolves called?",
+    "options": [
+      "Pride",
+      "Pack",
+      "School",
+      "Herd"
+    ],
+    "correct_index": 1,
+    "explanation": "A group of wolves is called a pack. A pack usually has a lead pair and their offspring.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_028",
+    "question_text": "Which of these is NOT a mammal?",
+    "options": [
+      "Shark",
+      "Bat",
+      "Whale",
+      "Dolphin"
+    ],
+    "correct_index": 0,
+    "explanation": "Sharks are fish, not mammals. Dolphins and whales look like fish but breathe air and feed milk to their young.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_029",
+    "question_text": "Which mammal lays eggs instead of giving birth?",
+    "options": [
+      "Raccoon",
+      "Bat",
+      "Platypus",
+      "Otter"
+    ],
+    "correct_index": 2,
+    "explanation": "The platypus is a very unusual mammal that lays eggs. It also feeds milk to its babies, like other mammals.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_030",
+    "question_text": "Which animal is known as the slowest mammal?",
+    "options": [
+      "Snail",
+      "Koala",
+      "Tortoise",
+      "Sloth"
+    ],
+    "correct_index": 3,
+    "explanation": "The sloth is the slowest mammal. It moves so slowly that algae sometimes grows on its fur.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_031",
+    "question_text": "Which animal sleeps standing up?",
+    "options": [
+      "Cat",
+      "Horse",
+      "Dog",
+      "Rabbit"
+    ],
+    "correct_index": 1,
+    "explanation": "Horses can sleep standing up. Special leg muscles lock in place so they don't fall over.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_032",
+    "question_text": "What is a group of fish called?",
+    "options": [
+      "Flock",
+      "School",
+      "Pride",
+      "Pack"
+    ],
+    "correct_index": 1,
+    "explanation": "A group of fish is called a school. Swimming together helps protect them from predators.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_033",
+    "question_text": "What is a group of birds called?",
+    "options": [
+      "Herd",
+      "Flock",
+      "Pack",
+      "Pod"
+    ],
+    "correct_index": 1,
+    "explanation": "A group of birds is called a flock. Some birds fly in large flocks to stay safe and find food.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_034",
+    "question_text": "What is a group of cattle called?",
+    "options": [
+      "Flock",
+      "Pride",
+      "Herd",
+      "School"
+    ],
+    "correct_index": 2,
+    "explanation": "A group of cattle is called a herd. Many large grazing animals like deer and bison live in herds.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_035",
+    "question_text": "Which animal is famous for storing nuts for winter?",
+    "options": [
+      "Mouse",
+      "Hedgehog",
+      "Rabbit",
+      "Squirrel"
+    ],
+    "correct_index": 3,
+    "explanation": "Squirrels gather and bury nuts to eat during winter. They sometimes forget where they hid them, which helps trees grow.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_036",
+    "question_text": "What do we call an animal's long winter sleep?",
+    "options": [
+      "Camouflage",
+      "Estivation",
+      "Migration",
+      "Hibernation"
+    ],
+    "correct_index": 3,
+    "explanation": "Hibernation is the long sleep some animals take in winter. Their heart rate and breathing slow way down to save energy.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_037",
+    "question_text": "What do we call a long seasonal journey by animals?",
+    "options": [
+      "Adaptation",
+      "Migration",
+      "Hibernation",
+      "Mutation"
+    ],
+    "correct_index": 1,
+    "explanation": "Migration is the long journey some animals take with the seasons. Many birds migrate south for winter.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_038",
+    "question_text": "Which insect makes honey?",
+    "options": [
+      "Ant",
+      "Bee",
+      "Wasp",
+      "Fly"
+    ],
+    "correct_index": 1,
+    "explanation": "Honey bees make honey from flower nectar. They store it in honeycombs to feed their colony.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_039",
+    "question_text": "What do bees do that helps plants grow?",
+    "options": [
+      "They pollinate flowers",
+      "They scare birds",
+      "They eat weeds",
+      "They water plants"
+    ],
+    "correct_index": 0,
+    "explanation": "Bees pollinate flowers as they collect nectar. Pollination helps plants make seeds and fruits.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_040",
+    "question_text": "Which animal is famous for building dams?",
+    "options": [
+      "Muskrat",
+      "Otter",
+      "Platypus",
+      "Beaver"
+    ],
+    "correct_index": 3,
+    "explanation": "Beavers build dams from logs and mud across streams. The dams create ponds where they build their lodges.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_041",
+    "question_text": "Which insect undergoes metamorphosis from caterpillar to winged adult?",
+    "options": [
+      "Ant",
+      "Bee",
+      "Butterfly",
+      "Beetle"
+    ],
+    "correct_index": 2,
+    "explanation": "A butterfly starts as an egg, becomes a caterpillar, then a chrysalis, and finally an adult butterfly. This change is called metamorphosis.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_042",
+    "question_text": "What is the largest type of bear?",
+    "options": [
+      "Polar bear",
+      "Grizzly bear",
+      "Black bear",
+      "Sun bear"
+    ],
+    "correct_index": 0,
+    "explanation": "The polar bear is the largest bear. It lives in the Arctic and has thick fur and fat to stay warm.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_043",
+    "question_text": "Where do polar bears live?",
+    "options": [
+      "Antarctica",
+      "Arctic",
+      "Australia",
+      "Africa"
+    ],
+    "correct_index": 1,
+    "explanation": "Polar bears live in the Arctic, which is the area around the North Pole. Penguins live near the South Pole instead.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_044",
+    "question_text": "Where do most penguins live?",
+    "options": [
+      "The Amazon rainforest",
+      "The Southern Hemisphere, including Antarctica",
+      "The Arctic",
+      "The Sahara desert"
+    ],
+    "correct_index": 1,
+    "explanation": "Most penguins live in the Southern Hemisphere, especially in Antarctica. They are excellent swimmers but cannot fly.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_045",
+    "question_text": "What is the largest species of penguin?",
+    "options": [
+      "King penguin",
+      "Adelie penguin",
+      "Gentoo penguin",
+      "Emperor penguin"
+    ],
+    "correct_index": 3,
+    "explanation": "The emperor penguin is the largest penguin. It can stand nearly four feet tall and survives the brutal Antarctic winter.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_046",
+    "question_text": "How many humps does a Bactrian camel have?",
+    "options": [
+      "Two",
+      "None",
+      "Three",
+      "One"
+    ],
+    "correct_index": 0,
+    "explanation": "The Bactrian camel has two humps. The dromedary camel, which lives in Africa and Arabia, has only one.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_047",
+    "question_text": "What does a camel store in its hump?",
+    "options": [
+      "Air",
+      "Water",
+      "Fat",
+      "Sand"
+    ],
+    "correct_index": 2,
+    "explanation": "A camel stores fat in its hump, not water. The fat gives the camel energy when food is hard to find in the desert.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_048",
+    "question_text": "Which animal lives in a colony with a queen and workers?",
+    "options": [
+      "Spider",
+      "Honey bee",
+      "Snail",
+      "Frog"
+    ],
+    "correct_index": 1,
+    "explanation": "Honey bees live in colonies with one queen, many workers, and some drones. Each bee has a specific job to do.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_049",
+    "question_text": "Which insect is famous for its loud buzzing in summer trees?",
+    "options": [
+      "Cicada",
+      "Cricket",
+      "Wasp",
+      "Grasshopper"
+    ],
+    "correct_index": 0,
+    "explanation": "Cicadas make a loud buzzing sound from trees in summer. Males buzz to attract females.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_050",
+    "question_text": "Which big cat has stripes?",
+    "options": [
+      "Cheetah",
+      "Leopard",
+      "Lion",
+      "Tiger"
+    ],
+    "correct_index": 3,
+    "explanation": "Tigers have stripes. The pattern helps them hide in tall grass and forests when they hunt.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_051",
+    "question_text": "Which bird is known for its colorful tail feathers spread like a fan?",
+    "options": [
+      "Pelican",
+      "Peacock",
+      "Eagle",
+      "Crow"
+    ],
+    "correct_index": 1,
+    "explanation": "Male peacocks spread their colorful tail feathers in a fan shape to attract females. Females are called peahens.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_052",
+    "question_text": "Which animal has a long, sticky tongue to catch ants?",
+    "options": [
+      "Hedgehog",
+      "Anteater",
+      "Sloth",
+      "Armadillo"
+    ],
+    "correct_index": 1,
+    "explanation": "An anteater uses its long, sticky tongue to catch ants and termites. Its tongue can be longer than its head.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_053",
+    "question_text": "What is unique about a kangaroo's way of moving?",
+    "options": [
+      "It walks on four legs",
+      "It slithers",
+      "It hops on two strong back legs",
+      "It rolls"
+    ],
+    "correct_index": 2,
+    "explanation": "Kangaroos hop on two strong back legs. Their long tail helps them keep their balance while jumping.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_054",
+    "question_text": "Which animal is the symbol of the United States?",
+    "options": [
+      "Mockingbird",
+      "Bison",
+      "Bald eagle",
+      "Wild turkey"
+    ],
+    "correct_index": 2,
+    "explanation": "The bald eagle is the national bird and symbol of the United States. It is not actually bald \u2014 its head is covered in white feathers.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_055",
+    "question_text": "Which is the only continent where wild kangaroos live?",
+    "options": [
+      "Australia",
+      "Asia",
+      "South America",
+      "Africa"
+    ],
+    "correct_index": 0,
+    "explanation": "Kangaroos live wild only in Australia. Many unusual animals like koalas and wombats live there too.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_056",
+    "question_text": "What do koalas mostly eat?",
+    "options": [
+      "Eucalyptus leaves",
+      "Bamboo",
+      "Fruit",
+      "Acorns"
+    ],
+    "correct_index": 0,
+    "explanation": "Koalas eat mostly eucalyptus leaves. The leaves are tough and not very nutritious, so koalas sleep up to 20 hours a day.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_057",
+    "question_text": "Which sea creature has tentacles and can sting?",
+    "options": [
+      "Lobster",
+      "Starfish",
+      "Octopus",
+      "Jellyfish"
+    ],
+    "correct_index": 3,
+    "explanation": "Jellyfish have tentacles with stinging cells they use to catch prey. They have no brain or bones.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_058",
+    "question_text": "What is a baby cow called?",
+    "options": [
+      "Foal",
+      "Calf",
+      "Kid",
+      "Lamb"
+    ],
+    "correct_index": 1,
+    "explanation": "A baby cow is called a calf. The same name is used for baby elephants and baby whales.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_059",
+    "question_text": "What is a baby goat called?",
+    "options": [
+      "Calf",
+      "Lamb",
+      "Foal",
+      "Kid"
+    ],
+    "correct_index": 3,
+    "explanation": "A baby goat is called a kid. People sometimes call children kids because of this.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_060",
+    "question_text": "What is a baby sheep called?",
+    "options": [
+      "Lamb",
+      "Kid",
+      "Calf",
+      "Joey"
+    ],
+    "correct_index": 0,
+    "explanation": "A baby sheep is called a lamb. Mother sheep are called ewes and father sheep are called rams.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_061",
+    "question_text": "What is a baby pig called?",
+    "options": [
+      "Piglet",
+      "Joey",
+      "Cub",
+      "Kit"
+    ],
+    "correct_index": 0,
+    "explanation": "A baby pig is called a piglet. A group of piglets born together is called a litter.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_062",
+    "question_text": "What is a baby chicken called?",
+    "options": [
+      "Joey",
+      "Pup",
+      "Chick",
+      "Kit"
+    ],
+    "correct_index": 2,
+    "explanation": "A baby chicken is called a chick. It hatches from an egg and is covered in soft, fluffy feathers called down.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_063",
+    "question_text": "What is a baby duck called?",
+    "options": [
+      "Gosling",
+      "Cub",
+      "Duckling",
+      "Chick"
+    ],
+    "correct_index": 2,
+    "explanation": "A baby duck is called a duckling. Ducklings can swim almost as soon as they hatch.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_064",
+    "question_text": "What is a baby goose called?",
+    "options": [
+      "Owlet",
+      "Gosling",
+      "Duckling",
+      "Chick"
+    ],
+    "correct_index": 1,
+    "explanation": "A baby goose is called a gosling. Geese are larger than ducks and have longer necks.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_065",
+    "question_text": "What is a baby owl called?",
+    "options": [
+      "Hatchling",
+      "Chick",
+      "Eaglet",
+      "Owlet"
+    ],
+    "correct_index": 3,
+    "explanation": "A baby owl is called an owlet. Owls are mostly active at night and have huge eyes for seeing in the dark.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_066",
+    "question_text": "What is a baby bear called?",
+    "options": [
+      "Cub",
+      "Pup",
+      "Kit",
+      "Calf"
+    ],
+    "correct_index": 0,
+    "explanation": "A baby bear is called a cub. Mother bears are very protective of their cubs.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_067",
+    "question_text": "What is a baby rabbit called?",
+    "options": [
+      "Cub",
+      "Pup",
+      "Bunny",
+      "Kit"
+    ],
+    "correct_index": 3,
+    "explanation": "A baby rabbit is called a kit, short for 'kitten.' Many people also call them bunnies.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_068",
+    "question_text": "Which animal has the longest tongue compared to its body?",
+    "options": [
+      "Chameleon",
+      "Anteater",
+      "Frog",
+      "Snake"
+    ],
+    "correct_index": 0,
+    "explanation": "A chameleon's tongue can be longer than its whole body. It shoots out fast to grab insects.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_069",
+    "question_text": "Which animal has armor plates and rolls into a ball when scared?",
+    "options": [
+      "Hedgehog",
+      "Pangolin",
+      "Porcupine",
+      "Armadillo"
+    ],
+    "correct_index": 3,
+    "explanation": "An armadillo has bony armor plates on its back. Some kinds can roll into a ball to protect their soft belly.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_070",
+    "question_text": "Which animal is covered in sharp quills for defense?",
+    "options": [
+      "Porcupine",
+      "Skunk",
+      "Beaver",
+      "Otter"
+    ],
+    "correct_index": 0,
+    "explanation": "A porcupine is covered in sharp quills. The quills can stick in animals that try to attack it.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_071",
+    "question_text": "Which animal sprays a smelly liquid when threatened?",
+    "options": [
+      "Hedgehog",
+      "Raccoon",
+      "Skunk",
+      "Otter"
+    ],
+    "correct_index": 2,
+    "explanation": "A skunk sprays a strong-smelling liquid to scare away predators. The smell can travel far on the wind.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_072",
+    "question_text": "Which is the only marsupial native to North America?",
+    "options": [
+      "Beaver",
+      "Raccoon",
+      "Opossum",
+      "Skunk"
+    ],
+    "correct_index": 2,
+    "explanation": "The opossum is the only marsupial in North America. Like a kangaroo, the mother carries her babies in a pouch.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_073",
+    "question_text": "Which mammal uses sound waves to find its way in the dark?",
+    "options": [
+      "Cat",
+      "Mole",
+      "Owl",
+      "Bat"
+    ],
+    "correct_index": 3,
+    "explanation": "Bats use a skill called echolocation. They make sounds and listen for echoes to figure out where things are.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_074",
+    "question_text": "Which sea mammal also uses echolocation?",
+    "options": [
+      "Walrus",
+      "Dolphin",
+      "Sea otter",
+      "Manatee"
+    ],
+    "correct_index": 1,
+    "explanation": "Dolphins use echolocation underwater. They send out clicks and listen to the echoes to find fish and avoid danger.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_075",
+    "question_text": "Which animal is famous for its musical 'songs' in the ocean?",
+    "options": [
+      "Sea lion",
+      "Manatee",
+      "Humpback whale",
+      "Dolphin"
+    ],
+    "correct_index": 2,
+    "explanation": "Humpback whales sing long, complex songs that travel for miles underwater. Males sing the most.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_076",
+    "question_text": "Which whale is the largest animal in the world today?",
+    "options": [
+      "Sperm whale",
+      "Orca",
+      "Humpback whale",
+      "Blue whale"
+    ],
+    "correct_index": 3,
+    "explanation": "The blue whale is the largest animal alive today. Its tongue alone can weigh as much as an elephant.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_077",
+    "question_text": "Which whale is also called the 'killer whale'?",
+    "options": [
+      "Orca",
+      "Sperm whale",
+      "Beluga",
+      "Narwhal"
+    ],
+    "correct_index": 0,
+    "explanation": "The orca is called the killer whale. It is actually the largest member of the dolphin family.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_078",
+    "question_text": "Which whale has a long spiral tusk like a unicorn's horn?",
+    "options": [
+      "Sperm whale",
+      "Pilot whale",
+      "Beluga",
+      "Narwhal"
+    ],
+    "correct_index": 3,
+    "explanation": "The narwhal has a long spiral tusk that is actually a tooth. Most tusks are found on males.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_079",
+    "question_text": "Which animal has the largest brain on Earth?",
+    "options": [
+      "Elephant",
+      "Human",
+      "Sperm whale",
+      "Dolphin"
+    ],
+    "correct_index": 2,
+    "explanation": "The sperm whale has the largest brain of any animal. Its brain can weigh more than 15 pounds.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_080",
+    "question_text": "Which marine mammal is sometimes called a 'sea cow'?",
+    "options": [
+      "Sea lion",
+      "Manatee",
+      "Walrus",
+      "Otter"
+    ],
+    "correct_index": 1,
+    "explanation": "Manatees are called sea cows because they are large, slow, and graze on underwater plants.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_081",
+    "question_text": "Which animal has long tusks and lives on Arctic ice?",
+    "options": [
+      "Narwhal",
+      "Walrus",
+      "Manatee",
+      "Sea otter"
+    ],
+    "correct_index": 1,
+    "explanation": "Walruses have long tusks and live on Arctic ice. They use their tusks to climb out of the water and to fight.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_082",
+    "question_text": "What does the word 'invertebrate' mean?",
+    "options": [
+      "An animal without a backbone",
+      "An animal that hibernates",
+      "An animal with a backbone",
+      "An animal that lays eggs"
+    ],
+    "correct_index": 0,
+    "explanation": "An invertebrate is an animal without a backbone. Insects, snails, and worms are invertebrates.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_083",
+    "question_text": "What does the word 'vertebrate' mean?",
+    "options": [
+      "An animal without bones",
+      "An animal that swims",
+      "An animal with a backbone",
+      "An animal that flies"
+    ],
+    "correct_index": 2,
+    "explanation": "A vertebrate is an animal with a backbone. Mammals, birds, fish, reptiles, and amphibians are all vertebrates.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_084",
+    "question_text": "Which of these is NOT a vertebrate?",
+    "options": [
+      "Worm",
+      "Fish",
+      "Frog",
+      "Snake"
+    ],
+    "correct_index": 0,
+    "explanation": "A worm is an invertebrate \u2014 it has no backbone. Frogs, snakes, and fish all have backbones.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_085",
+    "question_text": "What is special about a starfish's body?",
+    "options": [
+      "It lays eggs on land",
+      "It has gills",
+      "It has fur",
+      "It can regrow lost arms"
+    ],
+    "correct_index": 3,
+    "explanation": "A starfish can regrow arms it loses. Some can even grow a whole new body from a single arm.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_086",
+    "question_text": "How many legs do insects have?",
+    "options": [
+      "Eight",
+      "Four",
+      "Ten",
+      "Six"
+    ],
+    "correct_index": 3,
+    "explanation": "Insects have six legs. Their bodies are also divided into three parts: head, thorax, and abdomen.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_087",
+    "question_text": "Which insect is famous for changing leaves into beautiful wings?",
+    "options": [
+      "Wasp",
+      "Butterfly",
+      "Beetle",
+      "Mosquito"
+    ],
+    "correct_index": 1,
+    "explanation": "Butterflies start as caterpillars that eat leaves. After forming a chrysalis, they emerge with colorful wings.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_088",
+    "question_text": "Which butterfly is famous for migrating thousands of miles each year?",
+    "options": [
+      "Monarch",
+      "Swallowtail",
+      "Cabbage white",
+      "Painted lady"
+    ],
+    "correct_index": 0,
+    "explanation": "Monarch butterflies migrate from North America all the way to Mexico \u2014 thousands of miles. It takes more than one generation to complete the trip.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_089",
+    "question_text": "Which insect has a hard shell and is the largest group of insects?",
+    "options": [
+      "Beetle",
+      "Bee",
+      "Butterfly",
+      "Ant"
+    ],
+    "correct_index": 0,
+    "explanation": "Beetles are the largest group of insects on Earth. There are more than 350,000 known kinds of beetles.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_090",
+    "question_text": "Which red beetle with black spots is a sign of good luck in many places?",
+    "options": [
+      "Dung beetle",
+      "Firefly",
+      "Ladybug",
+      "Stag beetle"
+    ],
+    "correct_index": 2,
+    "explanation": "Ladybugs are red beetles with black spots. They eat pests like aphids and are loved by gardeners.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_091",
+    "question_text": "Which insect lights up at night to send signals?",
+    "options": [
+      "Mosquito",
+      "Cricket",
+      "Firefly",
+      "Moth"
+    ],
+    "correct_index": 2,
+    "explanation": "Fireflies make their own light through a process called bioluminescence. They flash to find mates.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_092",
+    "question_text": "Which large insect is famous for its lightning-fast hunting strike?",
+    "options": [
+      "Cricket",
+      "Grasshopper",
+      "Cicada",
+      "Praying mantis"
+    ],
+    "correct_index": 3,
+    "explanation": "A praying mantis can strike at prey faster than the human eye can track. It uses its spiked front legs to catch insects.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_093",
+    "question_text": "Which arachnid has a curved stinger on its tail?",
+    "options": [
+      "Scorpion",
+      "Spider",
+      "Tick",
+      "Mite"
+    ],
+    "correct_index": 0,
+    "explanation": "A scorpion has a curved stinger on its tail. Like spiders, scorpions are arachnids with eight legs.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_094",
+    "question_text": "Which is the largest type of spider?",
+    "options": [
+      "Daddy long legs",
+      "Tarantula",
+      "Black widow",
+      "Wolf spider"
+    ],
+    "correct_index": 1,
+    "explanation": "Tarantulas are the largest spiders. The Goliath birdeater can be as big as a dinner plate when its legs are spread.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_095",
+    "question_text": "How many legs does a centipede have?",
+    "options": [
+      "Six",
+      "Always 100",
+      "Many pairs, often around 30 to 300",
+      "Always 1000"
+    ],
+    "correct_index": 2,
+    "explanation": "Centipedes have many pairs of legs, but the number varies by kind \u2014 usually 30 to 300. Their name means '100 feet,' but few have exactly that many.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_096",
+    "question_text": "Which crawling animal has two pairs of legs on most body segments?",
+    "options": [
+      "Caterpillar",
+      "Millipede",
+      "Centipede",
+      "Worm"
+    ],
+    "correct_index": 1,
+    "explanation": "A millipede has two pairs of legs per body segment. Centipedes have only one pair per segment.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_097",
+    "question_text": "What does a snail use to slide along the ground?",
+    "options": [
+      "Slimy mucus from its foot",
+      "Suction cups",
+      "Wings",
+      "Tiny wheels"
+    ],
+    "correct_index": 0,
+    "explanation": "A snail glides along on a layer of slimy mucus made by its single muscular foot. This protects its body and helps it move.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_098",
+    "question_text": "What is a slug?",
+    "options": [
+      "A worm",
+      "A snail without a shell",
+      "A baby snake",
+      "A type of lizard"
+    ],
+    "correct_index": 1,
+    "explanation": "A slug is basically a snail without an outer shell. Slugs and snails are both mollusks.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_099",
+    "question_text": "Which underground animal helps plants by loosening soil?",
+    "options": [
+      "Mole",
+      "Snake",
+      "Caterpillar",
+      "Earthworm"
+    ],
+    "correct_index": 3,
+    "explanation": "Earthworms tunnel through soil, breaking it up and adding nutrients. Gardeners love earthworms for keeping soil healthy.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_100",
+    "question_text": "Which sea creature has a hard shell, two large claws, and walks sideways?",
+    "options": [
+      "Lobster",
+      "Crayfish",
+      "Shrimp",
+      "Crab"
+    ],
+    "correct_index": 3,
+    "explanation": "Crabs have a hard outer shell, two big claws, and walk sideways on their other legs.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_101",
+    "question_text": "Which sea creature has a long body, two large pincers, and lives on the ocean floor?",
+    "options": [
+      "Shrimp",
+      "Lobster",
+      "Squid",
+      "Crab"
+    ],
+    "correct_index": 1,
+    "explanation": "Lobsters have long bodies and large pincer claws. They walk along the ocean floor looking for food.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_102",
+    "question_text": "Which freshwater creature looks like a tiny lobster?",
+    "options": [
+      "Krill",
+      "Plankton",
+      "Crayfish",
+      "Shrimp"
+    ],
+    "correct_index": 2,
+    "explanation": "Crayfish look like small lobsters but live in fresh water \u2014 streams, rivers, and ponds.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_103",
+    "question_text": "Which sea creature can squirt ink to escape predators?",
+    "options": [
+      "Starfish",
+      "Crab",
+      "Sea urchin",
+      "Octopus"
+    ],
+    "correct_index": 3,
+    "explanation": "Octopuses squirt black ink into the water to confuse predators while they swim away. Squids can do this too.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_104",
+    "question_text": "Which fish carries its babies in a pouch \u2014 and the father does it?",
+    "options": [
+      "Pufferfish",
+      "Clownfish",
+      "Catfish",
+      "Seahorse"
+    ],
+    "correct_index": 3,
+    "explanation": "In seahorses, the male carries the eggs in a pouch on his belly until they hatch. He does the work of bringing the babies into the world.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_105",
+    "question_text": "Which fish is famous for inflating itself like a balloon when scared?",
+    "options": [
+      "Clownfish",
+      "Swordfish",
+      "Anglerfish",
+      "Pufferfish"
+    ],
+    "correct_index": 3,
+    "explanation": "Pufferfish swallow water to puff up like a spiky balloon. This makes them hard for predators to eat.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_106",
+    "question_text": "Which deep-sea fish uses a glowing lure to attract prey?",
+    "options": [
+      "Anglerfish",
+      "Swordfish",
+      "Salmon",
+      "Tuna"
+    ],
+    "correct_index": 0,
+    "explanation": "An anglerfish has a glowing lure on its head that attracts smaller fish. When they come close, the anglerfish snaps them up.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_107",
+    "question_text": "Which orange-and-white fish is famous for living among sea anemones?",
+    "options": [
+      "Goldfish",
+      "Pufferfish",
+      "Clownfish",
+      "Mackerel"
+    ],
+    "correct_index": 2,
+    "explanation": "Clownfish live among sea anemones. The anemone's stinging tentacles protect the clownfish, which is immune to the sting.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_108",
+    "question_text": "Which fish can deliver a powerful electric shock?",
+    "options": [
+      "Sailfish",
+      "Pike",
+      "Electric eel",
+      "Tuna"
+    ],
+    "correct_index": 2,
+    "explanation": "An electric eel can produce strong electric shocks to stun prey or defend itself. Despite its name, it is not a true eel.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_109",
+    "question_text": "What is the fastest fish in the ocean?",
+    "options": [
+      "Salmon",
+      "Sailfish",
+      "Tuna",
+      "Marlin"
+    ],
+    "correct_index": 1,
+    "explanation": "The sailfish is considered the fastest fish, swimming up to 68 miles per hour for short bursts.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_110",
+    "question_text": "What is unique about a shark's skeleton?",
+    "options": [
+      "It is made of cartilage instead of bone",
+      "It has no skeleton",
+      "It is made of metal",
+      "It is made of plastic"
+    ],
+    "correct_index": 0,
+    "explanation": "A shark's skeleton is made of cartilage, not bone. Cartilage is the same flexible material in your nose and ears.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_111",
+    "question_text": "Which shark is known for its strange T-shaped head?",
+    "options": [
+      "Tiger shark",
+      "Bull shark",
+      "Great white",
+      "Hammerhead"
+    ],
+    "correct_index": 3,
+    "explanation": "Hammerhead sharks have wide, flat, T-shaped heads. The shape gives them a wider field of vision and helps them sense prey.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_112",
+    "question_text": "Which large flat sea creature glides through the water like a kite?",
+    "options": [
+      "Octopus",
+      "Jellyfish",
+      "Stingray",
+      "Eel"
+    ],
+    "correct_index": 2,
+    "explanation": "Stingrays have flat bodies that glide gracefully through water. They are related to sharks.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_113",
+    "question_text": "Which fish swims upstream to lay its eggs?",
+    "options": [
+      "Tuna",
+      "Salmon",
+      "Anchovy",
+      "Swordfish"
+    ],
+    "correct_index": 1,
+    "explanation": "Salmon swim upstream from the ocean to lay their eggs in the same rivers where they were born.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_114",
+    "question_text": "What do amphibians need to keep their skin healthy?",
+    "options": [
+      "Salt water only",
+      "Hot, dry air",
+      "Snow",
+      "Moist or wet places"
+    ],
+    "correct_index": 3,
+    "explanation": "Amphibians need moist places because they breathe partly through their skin. Dry skin can hurt them.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_115",
+    "question_text": "Which colorful frog can be very poisonous to predators?",
+    "options": [
+      "Leopard frog",
+      "Bullfrog",
+      "Tree frog",
+      "Poison dart frog"
+    ],
+    "correct_index": 3,
+    "explanation": "Poison dart frogs are tiny but very poisonous. Their bright colors warn predators to stay away.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_116",
+    "question_text": "Which amphibian can regrow lost legs and even parts of its heart?",
+    "options": [
+      "Toad",
+      "Bullfrog",
+      "Newt",
+      "Axolotl"
+    ],
+    "correct_index": 3,
+    "explanation": "The axolotl is a salamander that can regrow lost legs, tail, and even parts of its heart and brain.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_117",
+    "question_text": "Which is the largest snake in the world by weight?",
+    "options": [
+      "Cobra",
+      "Rattlesnake",
+      "Garter snake",
+      "Anaconda"
+    ],
+    "correct_index": 3,
+    "explanation": "The green anaconda is the heaviest snake in the world. It lives in the rivers and swamps of South America.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_118",
+    "question_text": "Which snake hoods its neck when threatened?",
+    "options": [
+      "Python",
+      "Boa",
+      "Cobra",
+      "Rattlesnake"
+    ],
+    "correct_index": 2,
+    "explanation": "Cobras spread the skin around their necks into a hood when threatened. This makes them look bigger and scarier.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_119",
+    "question_text": "Which snake warns predators by shaking its tail?",
+    "options": [
+      "Rattlesnake",
+      "Cobra",
+      "Garter snake",
+      "Python"
+    ],
+    "correct_index": 0,
+    "explanation": "A rattlesnake shakes the rattle at the end of its tail to warn predators to stay away.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_120",
+    "question_text": "Which is the largest lizard in the world?",
+    "options": [
+      "Gila monster",
+      "Monitor lizard",
+      "Komodo dragon",
+      "Iguana"
+    ],
+    "correct_index": 2,
+    "explanation": "The Komodo dragon is the largest living lizard. It can grow up to 10 feet long and lives only on a few Indonesian islands.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_121",
+    "question_text": "Which lizard can climb walls and even ceilings?",
+    "options": [
+      "Iguana",
+      "Gecko",
+      "Komodo dragon",
+      "Monitor lizard"
+    ],
+    "correct_index": 1,
+    "explanation": "Geckos can climb walls and ceilings using tiny hairs on their toes that stick to almost any surface.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_122",
+    "question_text": "What is the main difference between a turtle and a tortoise?",
+    "options": [
+      "Tortoises are reptiles; turtles aren't",
+      "Turtles have shells; tortoises don't",
+      "There is no difference",
+      "Turtles spend time in water; tortoises live on land"
+    ],
+    "correct_index": 3,
+    "explanation": "Turtles spend time in water while tortoises live on land. Both are reptiles with hard shells.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_123",
+    "question_text": "Which Gal\u00e1pagos animal is famous for living over 100 years?",
+    "options": [
+      "Iguana",
+      "Sea lion",
+      "Tortoise",
+      "Booby"
+    ],
+    "correct_index": 2,
+    "explanation": "Gal\u00e1pagos tortoises can live over 100 years. They are some of the longest-lived land animals on Earth.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_124",
+    "question_text": "Which large reptile lurks in rivers across Africa, Asia, and Australia?",
+    "options": [
+      "Alligator",
+      "Iguana",
+      "Crocodile",
+      "Komodo dragon"
+    ],
+    "correct_index": 2,
+    "explanation": "Crocodiles live in rivers and swamps across Africa, Asia, and Australia. They are powerful predators.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_125",
+    "question_text": "How can you tell an alligator from a crocodile?",
+    "options": [
+      "Alligators are reptiles; crocodiles aren't",
+      "Crocodiles have no teeth",
+      "Alligators have wider, U-shaped snouts; crocodiles have narrower, V-shaped snouts",
+      "Alligators live in the sea"
+    ],
+    "correct_index": 2,
+    "explanation": "Alligators have wider, U-shaped snouts. Crocodiles have narrower, V-shaped snouts and often show teeth even when their mouths are closed.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_126",
+    "question_text": "Which bird can rotate its head almost three-quarters of the way around?",
+    "options": [
+      "Eagle",
+      "Owl",
+      "Vulture",
+      "Hawk"
+    ],
+    "correct_index": 1,
+    "explanation": "Owls can rotate their heads about 270 degrees. They cannot move their eyes, so turning the head helps them see around.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_127",
+    "question_text": "Which bird is the fastest in a dive?",
+    "options": [
+      "Eagle",
+      "Owl",
+      "Hawk",
+      "Peregrine falcon"
+    ],
+    "correct_index": 3,
+    "explanation": "The peregrine falcon is the fastest animal on Earth in a dive, reaching over 200 miles per hour.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_128",
+    "question_text": "Which bird has the largest wingspan?",
+    "options": [
+      "Pelican",
+      "Bald eagle",
+      "Condor",
+      "Albatross"
+    ],
+    "correct_index": 3,
+    "explanation": "The wandering albatross has the largest wingspan of any bird, sometimes over 11 feet across.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_129",
+    "question_text": "Which bird is the smallest in the world?",
+    "options": [
+      "Finch",
+      "Wren",
+      "Hummingbird",
+      "Sparrow"
+    ],
+    "correct_index": 2,
+    "explanation": "The bee hummingbird is the smallest bird in the world. It is so tiny it can fit on a fingertip.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_130",
+    "question_text": "How can a hummingbird hover in midair?",
+    "options": [
+      "By using helium",
+      "By riding the wind",
+      "By flapping its wings very fast",
+      "By holding its breath"
+    ],
+    "correct_index": 2,
+    "explanation": "Hummingbirds flap their wings dozens of times each second. This lets them hover and even fly backward.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_131",
+    "question_text": "Why are flamingos pink?",
+    "options": [
+      "Because of the sun",
+      "Because of pigments in the food they eat",
+      "Because of their feathers' DNA",
+      "Because of pink water"
+    ],
+    "correct_index": 1,
+    "explanation": "Flamingos turn pink from pigments in the shrimp and algae they eat. Without that food, their feathers would be white or gray.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_132",
+    "question_text": "Which large bird has a stretchy pouch under its bill for catching fish?",
+    "options": [
+      "Stork",
+      "Heron",
+      "Pelican",
+      "Swan"
+    ],
+    "correct_index": 2,
+    "explanation": "Pelicans have a large stretchy pouch under their bills that they use to scoop up fish from the water.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_133",
+    "question_text": "Which clever black bird is known for using tools?",
+    "options": [
+      "Pigeon",
+      "Crow",
+      "Sparrow",
+      "Robin"
+    ],
+    "correct_index": 1,
+    "explanation": "Crows are very intelligent. Some have been seen using sticks and even bending wires into hooks to get food.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_134",
+    "question_text": "Which bird drills holes in trees to find insects?",
+    "options": [
+      "Robin",
+      "Sparrow",
+      "Crow",
+      "Woodpecker"
+    ],
+    "correct_index": 3,
+    "explanation": "Woodpeckers drum their beaks against tree bark to find insects underneath. Their skulls have special padding to protect their brains.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_135",
+    "question_text": "Which large flightless bird is native to Australia?",
+    "options": [
+      "Cassowary",
+      "Kiwi",
+      "Ostrich",
+      "Emu"
+    ],
+    "correct_index": 3,
+    "explanation": "Emus are large flightless birds native to Australia. They are the second tallest birds in the world.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_136",
+    "question_text": "Which is the largest bird in the world?",
+    "options": [
+      "Ostrich",
+      "Emu",
+      "Albatross",
+      "Eagle"
+    ],
+    "correct_index": 0,
+    "explanation": "The ostrich is the largest bird in the world. It cannot fly but it can run faster than 40 miles per hour.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_137",
+    "question_text": "Which small flightless bird from New Zealand has a long beak and lays huge eggs?",
+    "options": [
+      "Emu",
+      "Puffin",
+      "Penguin",
+      "Kiwi"
+    ],
+    "correct_index": 3,
+    "explanation": "The kiwi is a small flightless bird from New Zealand. It is famous for laying enormous eggs compared to its body size.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_138",
+    "question_text": "Which colorful South American bird has an enormous beak?",
+    "options": [
+      "Hummingbird",
+      "Toucan",
+      "Parrot",
+      "Macaw"
+    ],
+    "correct_index": 1,
+    "explanation": "Toucans have huge, colorful beaks. The big beak helps them reach fruit on thin branches.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_139",
+    "question_text": "Which colorful birds can mimic human speech?",
+    "options": [
+      "Robins",
+      "Sparrows",
+      "Parrots",
+      "Doves"
+    ],
+    "correct_index": 2,
+    "explanation": "Parrots can mimic human voices and other sounds. Some parrots, like African greys, can learn many words.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_140",
+    "question_text": "Which group of birds includes eagles, hawks, and falcons?",
+    "options": [
+      "Waterfowl",
+      "Songbirds",
+      "Birds of prey",
+      "Game birds"
+    ],
+    "correct_index": 2,
+    "explanation": "Eagles, hawks, and falcons are birds of prey. They hunt other animals using strong talons and sharp beaks.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_141",
+    "question_text": "Which animal is the largest rodent in the world?",
+    "options": [
+      "Porcupine",
+      "Beaver",
+      "Capybara",
+      "Groundhog"
+    ],
+    "correct_index": 2,
+    "explanation": "The capybara is the largest rodent in the world. It lives in South America and loves the water.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_142",
+    "question_text": "What is special about a beaver's teeth?",
+    "options": [
+      "They never stop growing",
+      "They are made of metal",
+      "They fall out each year",
+      "They are blue"
+    ],
+    "correct_index": 0,
+    "explanation": "Beavers have teeth that never stop growing. Chewing wood every day keeps them from getting too long.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_143",
+    "question_text": "Which animal is famous for playing dead when scared?",
+    "options": [
+      "Opossum",
+      "Raccoon",
+      "Squirrel",
+      "Skunk"
+    ],
+    "correct_index": 0,
+    "explanation": "Opossums sometimes go limp and 'play dead' when threatened. This trick can fool predators into leaving them alone.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_144",
+    "question_text": "Which clever, masked-faced animal is famous for opening trash cans?",
+    "options": [
+      "Opossum",
+      "Skunk",
+      "Raccoon",
+      "Hedgehog"
+    ],
+    "correct_index": 2,
+    "explanation": "Raccoons have a black mask of fur around their eyes and clever paws good at opening containers.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_145",
+    "question_text": "What sound does an angry rattlesnake make as a warning?",
+    "options": [
+      "A hoot",
+      "A rattle or buzz",
+      "A chirp",
+      "A bark"
+    ],
+    "correct_index": 1,
+    "explanation": "A rattlesnake's tail makes a buzzing rattle sound. This warns animals and people to keep their distance.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_146",
+    "question_text": "Which hopping mammal stores food in pouches in its cheeks?",
+    "options": [
+      "Rabbit",
+      "Hamster",
+      "Mouse",
+      "Squirrel"
+    ],
+    "correct_index": 1,
+    "explanation": "Hamsters use big cheek pouches to carry food back to their burrows.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_147",
+    "question_text": "What is special about a chameleon's eyes?",
+    "options": [
+      "They never blink",
+      "They are blue",
+      "They glow in the dark",
+      "Each eye can move on its own"
+    ],
+    "correct_index": 3,
+    "explanation": "A chameleon's eyes can move independently, so it can look in two directions at the same time.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_148",
+    "question_text": "What is the smallest species of penguin?",
+    "options": [
+      "Adelie penguin",
+      "Emperor penguin",
+      "Little blue penguin",
+      "King penguin"
+    ],
+    "correct_index": 2,
+    "explanation": "The little blue penguin, also called the fairy penguin, is the smallest. It stands only about 13 inches tall.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_149",
+    "question_text": "Which mammal's babies climb into a pouch right after birth?",
+    "options": [
+      "Kangaroo",
+      "Squirrel",
+      "Otter",
+      "Hamster"
+    ],
+    "correct_index": 0,
+    "explanation": "Kangaroo babies, called joeys, are born tiny and crawl into the mother's pouch to keep growing safely.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_150",
+    "question_text": "Which animal is the closest living relative to humans?",
+    "options": [
+      "Orangutan",
+      "Chimpanzee",
+      "Gorilla",
+      "Monkey"
+    ],
+    "correct_index": 1,
+    "explanation": "Chimpanzees share more than 98 percent of their DNA with humans. They are our closest living relatives.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_151",
+    "question_text": "Which is the largest primate?",
+    "options": [
+      "Chimpanzee",
+      "Orangutan",
+      "Baboon",
+      "Gorilla"
+    ],
+    "correct_index": 3,
+    "explanation": "Gorillas are the largest primates. They live in the forests of central Africa and eat mostly plants.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_152",
+    "question_text": "Which bright orange ape lives in the rainforests of Borneo and Sumatra?",
+    "options": [
+      "Chimpanzee",
+      "Gibbon",
+      "Orangutan",
+      "Gorilla"
+    ],
+    "correct_index": 2,
+    "explanation": "Orangutans live in the rainforests of Borneo and Sumatra. Their name means 'person of the forest.'",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_153",
+    "question_text": "Which is the only species of bear native to South America?",
+    "options": [
+      "Sloth bear",
+      "Spectacled bear",
+      "Sun bear",
+      "Polar bear"
+    ],
+    "correct_index": 1,
+    "explanation": "The spectacled bear is the only bear native to South America. It is named for the light fur around its eyes.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_154",
+    "question_text": "Which big cat is famous for its loud roar?",
+    "options": [
+      "Cougar",
+      "Cheetah",
+      "Lion",
+      "Lynx"
+    ],
+    "correct_index": 2,
+    "explanation": "Lions are famous for their loud roars. A lion's roar can be heard up to five miles away.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_155",
+    "question_text": "Which big cat lives high in snowy mountains and is rarely seen?",
+    "options": [
+      "Lynx",
+      "Snow leopard",
+      "Jaguar",
+      "Cheetah"
+    ],
+    "correct_index": 1,
+    "explanation": "Snow leopards live high in the mountains of Central Asia. Their thick fur and long tail help them stay warm.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_156",
+    "question_text": "Which big cat is the largest in the Americas and is the only big cat there?",
+    "options": [
+      "Lynx",
+      "Bobcat",
+      "Jaguar",
+      "Cougar"
+    ],
+    "correct_index": 2,
+    "explanation": "Jaguars are the largest cats in the Americas. They live in Central and South America and have very strong jaws.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_157",
+    "question_text": "Which big cat is also called the puma or mountain lion?",
+    "options": [
+      "Jaguar",
+      "Lynx",
+      "Cheetah",
+      "Cougar"
+    ],
+    "correct_index": 3,
+    "explanation": "The cougar is also called the puma or mountain lion. It lives across the Americas, from Canada to South America.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_158",
+    "question_text": "Which cat-like animal has tufts on its ears and a short tail?",
+    "options": [
+      "Jaguar",
+      "Cheetah",
+      "Lynx",
+      "Cougar"
+    ],
+    "correct_index": 2,
+    "explanation": "Lynxes are medium-sized wild cats with tufts of fur on their ears and short, stubby tails.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_159",
+    "question_text": "Which scavenger animal has a famous 'laughing' call?",
+    "options": [
+      "Hyena",
+      "Coyote",
+      "Jackal",
+      "Wolf"
+    ],
+    "correct_index": 0,
+    "explanation": "Hyenas make a sound that often sounds like laughter. They are excellent hunters and scavengers in Africa.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_160",
+    "question_text": "Which animal has black-and-white stripes that may help confuse insects and predators?",
+    "options": [
+      "Penguin",
+      "Skunk",
+      "Zebra",
+      "Tiger"
+    ],
+    "correct_index": 2,
+    "explanation": "Zebras have unique black-and-white stripes. Scientists think the stripes may confuse biting flies and predators.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_161",
+    "question_text": "Which large gray animal has a horn made of keratin (the same material as hair)?",
+    "options": [
+      "Rhinoceros",
+      "Hippopotamus",
+      "Elephant",
+      "Buffalo"
+    ],
+    "correct_index": 0,
+    "explanation": "A rhinoceros's horn is made of keratin, the same material in your hair and nails. It is not bone.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_162",
+    "question_text": "Which large herbivore spends most of the day in rivers in Africa?",
+    "options": [
+      "Crocodile",
+      "Hippopotamus",
+      "Elephant",
+      "Buffalo"
+    ],
+    "correct_index": 1,
+    "explanation": "Hippopotamuses spend most of the day in African rivers and lakes to keep cool. They come out at night to graze.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_163",
+    "question_text": "Which African herd animal has long curved horns and travels in huge numbers?",
+    "options": [
+      "Wildebeest",
+      "Hippo",
+      "Rhino",
+      "Tapir"
+    ],
+    "correct_index": 0,
+    "explanation": "Wildebeests, also called gnus, travel in huge herds across Africa. Their migration is one of nature's biggest events.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_164",
+    "question_text": "Which animal has a long spotted tongue used to grab leaves high in trees?",
+    "options": [
+      "Horse",
+      "Giraffe",
+      "Llama",
+      "Camel"
+    ],
+    "correct_index": 1,
+    "explanation": "A giraffe's long tongue (often dark blue or purple) helps it grab leaves from tall trees, even past thorns.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_165",
+    "question_text": "Which Andean pack animal looks like a small camel without humps?",
+    "options": [
+      "Goat",
+      "Llama",
+      "Horse",
+      "Donkey"
+    ],
+    "correct_index": 1,
+    "explanation": "Llamas are pack animals from the Andes Mountains in South America. They are related to camels but have no humps.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_166",
+    "question_text": "Which mammal is famous for its cleverness and is often called a trickster in folktales?",
+    "options": [
+      "Fox",
+      "Squirrel",
+      "Coyote",
+      "Wolf"
+    ],
+    "correct_index": 0,
+    "explanation": "Foxes appear in many folktales as clever tricksters. They are quick, smart, and very adaptable.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_167",
+    "question_text": "Which sled-pulling dog breed comes from Arctic regions?",
+    "options": [
+      "Poodle",
+      "Husky",
+      "Beagle",
+      "Bulldog"
+    ],
+    "correct_index": 1,
+    "explanation": "Huskies are working dogs bred for cold Arctic climates. They have thick fur and lots of energy for pulling sleds.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_168",
+    "question_text": "Which sea creature has a hard outer shell made of two halves that close together?",
+    "options": [
+      "Squid",
+      "Crab",
+      "Clam",
+      "Octopus"
+    ],
+    "correct_index": 2,
+    "explanation": "Clams are mollusks with two-part shells that close tightly to protect them. Oysters and mussels are similar.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_169",
+    "question_text": "Which sea animal is actually a colony of tiny creatures that builds reefs?",
+    "options": [
+      "Sponge",
+      "Coral",
+      "Jellyfish",
+      "Anemone"
+    ],
+    "correct_index": 1,
+    "explanation": "Coral is made of tiny animals called polyps. Their hard skeletons build up over time to form coral reefs.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_170",
+    "question_text": "What is the simplest type of animal, with no brain or nervous system?",
+    "options": [
+      "Worm",
+      "Jellyfish",
+      "Coral",
+      "Sponge"
+    ],
+    "correct_index": 3,
+    "explanation": "Sponges are the simplest animals. They have no brain, heart, or organs \u2014 just bodies that filter water for food.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_171",
+    "question_text": "Which tiny ocean creatures float in huge clouds and feed many sea animals?",
+    "options": [
+      "Anemones",
+      "Sponges",
+      "Coral",
+      "Plankton"
+    ],
+    "correct_index": 3,
+    "explanation": "Plankton are tiny plants and animals that drift in the ocean. They are food for many sea creatures, including the biggest whales.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_172",
+    "question_text": "Which shrimp-like sea animals are the main food of blue whales?",
+    "options": [
+      "Krill",
+      "Lobsters",
+      "Snails",
+      "Crabs"
+    ],
+    "correct_index": 0,
+    "explanation": "Krill are tiny shrimp-like animals. Blue whales eat tons of krill every day.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_173",
+    "question_text": "What does it mean if an animal is 'cold-blooded'?",
+    "options": [
+      "It lives in cold places only",
+      "Its blood is cold",
+      "It has no blood",
+      "Its body temperature changes with its surroundings"
+    ],
+    "correct_index": 3,
+    "explanation": "Cold-blooded animals don't make their own body heat. Their temperature changes with the air or water around them.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_174",
+    "question_text": "What does it mean if an animal is 'warm-blooded'?",
+    "options": [
+      "It has more blood than other animals",
+      "It eats only warm food",
+      "It always lives in warm places",
+      "Its body keeps a steady warm temperature"
+    ],
+    "correct_index": 3,
+    "explanation": "Warm-blooded animals keep their body temperature steady, no matter the weather. Mammals and birds are warm-blooded.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_175",
+    "question_text": "Which group of animals is mostly cold-blooded and often has scales?",
+    "options": [
+      "Amphibians",
+      "Reptiles",
+      "Birds",
+      "Mammals"
+    ],
+    "correct_index": 1,
+    "explanation": "Reptiles are cold-blooded and most have scaly skin. Snakes, lizards, turtles, and crocodiles are reptiles.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_176",
+    "question_text": "Which mammal stays awake all night and uses huge eyes and ears to hunt?",
+    "options": [
+      "Bat",
+      "Rabbit",
+      "Owl",
+      "Cat"
+    ],
+    "correct_index": 0,
+    "explanation": "Bats are nocturnal mammals. They have large ears for echolocation and find insects in total darkness.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_177",
+    "question_text": "What is the name for animals that are mostly active at night?",
+    "options": [
+      "Hibernating",
+      "Diurnal",
+      "Nocturnal",
+      "Migratory"
+    ],
+    "correct_index": 2,
+    "explanation": "Animals that are active at night are called nocturnal. Owls, bats, and raccoons are nocturnal.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_178",
+    "question_text": "What is the name for animals that are mostly active during the day?",
+    "options": [
+      "Migratory",
+      "Crepuscular",
+      "Nocturnal",
+      "Diurnal"
+    ],
+    "correct_index": 3,
+    "explanation": "Animals active during the day are called diurnal. Most birds, including humans' day-loving species, are diurnal.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_179",
+    "question_text": "What is camouflage?",
+    "options": [
+      "Body colors or patterns that help an animal blend in",
+      "A loud warning sound",
+      "An armored shell",
+      "A type of bird call"
+    ],
+    "correct_index": 0,
+    "explanation": "Camouflage is body coloring or patterns that help an animal blend into its surroundings to hide from predators or sneak up on prey.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_180",
+    "question_text": "What is mimicry in animals?",
+    "options": [
+      "Copying the look or behavior of another animal",
+      "Sleeping all winter",
+      "Building underground homes",
+      "Migrating south"
+    ],
+    "correct_index": 0,
+    "explanation": "Mimicry is when an animal looks or acts like another, often a dangerous one, to scare away predators.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_181",
+    "question_text": "Which extinct flightless bird was last seen in the 1600s?",
+    "options": [
+      "Passenger pigeon",
+      "Moa",
+      "Dodo",
+      "Great auk"
+    ],
+    "correct_index": 2,
+    "explanation": "The dodo was a flightless bird from the island of Mauritius. It went extinct after sailors arrived and changed its habitat.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_182",
+    "question_text": "Which extinct hairy elephant relative roamed Ice Age plains?",
+    "options": [
+      "Giant sloth",
+      "Mammoth",
+      "Saber-toothed cat",
+      "Mastodon"
+    ],
+    "correct_index": 1,
+    "explanation": "Woolly mammoths were huge, hairy relatives of elephants that lived during the last Ice Age. The last ones died out about 4,000 years ago.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_183",
+    "question_text": "Which extinct cat had enormous front teeth shaped like sabers?",
+    "options": [
+      "Cheetah",
+      "Cave lion",
+      "Saber-toothed cat",
+      "Jaguar"
+    ],
+    "correct_index": 2,
+    "explanation": "Saber-toothed cats had giant curved canine teeth. They lived during the Ice Age and are not the same as today's tigers.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_184",
+    "question_text": "What does 'extinct' mean?",
+    "options": [
+      "Very rare",
+      "Hibernating",
+      "No longer existing anywhere on Earth",
+      "Sleeping"
+    ],
+    "correct_index": 2,
+    "explanation": "Extinct means a kind of animal or plant has died out completely and no longer exists anywhere on Earth.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_185",
+    "question_text": "What does 'endangered' mean?",
+    "options": [
+      "Hibernating",
+      "At risk of becoming extinct",
+      "Already extinct",
+      "Very common"
+    ],
+    "correct_index": 1,
+    "explanation": "An endangered species is at risk of becoming extinct. Only a small number are left in the wild.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_186",
+    "question_text": "Which striped Australian marsupial went extinct in the 20th century?",
+    "options": [
+      "Tasmanian devil",
+      "Quoll",
+      "Tasmanian tiger",
+      "Wombat"
+    ],
+    "correct_index": 2,
+    "explanation": "The Tasmanian tiger, also called the thylacine, went extinct in the 1930s. It was a marsupial, not really a tiger.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_187",
+    "question_text": "Which big-eared African animal is the largest land animal of all?",
+    "options": [
+      "African elephant",
+      "Asian elephant",
+      "Giraffe",
+      "Hippo"
+    ],
+    "correct_index": 0,
+    "explanation": "African elephants have larger ears than Asian elephants and are the biggest land animals on Earth.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_188",
+    "question_text": "Which animal has spots that help it blend into tall grass?",
+    "options": [
+      "Tiger",
+      "Cheetah",
+      "Zebra",
+      "Polar bear"
+    ],
+    "correct_index": 1,
+    "explanation": "A cheetah's spotted coat helps it hide in tall grass while it stalks prey.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_189",
+    "question_text": "What is a group of dolphins called?",
+    "options": [
+      "Pod",
+      "Pride",
+      "School",
+      "Pack"
+    ],
+    "correct_index": 0,
+    "explanation": "A group of dolphins is called a pod. Pods often work together to hunt and play.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_190",
+    "question_text": "What is a group of monkeys called?",
+    "options": [
+      "Pack",
+      "School",
+      "Troop",
+      "Pride"
+    ],
+    "correct_index": 2,
+    "explanation": "A group of monkeys is called a troop. Many monkey species live together in family troops.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_191",
+    "question_text": "What is a group of bees called?",
+    "options": [
+      "Pride",
+      "Swarm",
+      "Pack",
+      "School"
+    ],
+    "correct_index": 1,
+    "explanation": "A group of bees flying together is called a swarm. The whole colony is sometimes called a hive.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_192",
+    "question_text": "What is a group of crows called?",
+    "options": [
+      "Flock",
+      "Pack",
+      "Murder",
+      "Swarm"
+    ],
+    "correct_index": 2,
+    "explanation": "A group of crows has the unusual name 'a murder of crows.' The name has been used for centuries.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_193",
+    "question_text": "What is a group of ants called?",
+    "options": [
+      "Colony",
+      "Hive",
+      "Pack",
+      "Pride"
+    ],
+    "correct_index": 0,
+    "explanation": "A group of ants is called a colony. Colonies have a queen, workers, and sometimes soldiers.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_194",
+    "question_text": "Which marine mammal can hold its breath for over an hour?",
+    "options": [
+      "Otter",
+      "Sperm whale",
+      "Dolphin",
+      "Seal"
+    ],
+    "correct_index": 1,
+    "explanation": "Sperm whales can dive deep and hold their breath for over an hour while they hunt giant squid.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_195",
+    "question_text": "How does a dolphin sleep without drowning?",
+    "options": [
+      "It does not sleep",
+      "It sleeps on land",
+      "It holds its breath all night",
+      "Half its brain stays awake"
+    ],
+    "correct_index": 3,
+    "explanation": "Dolphins sleep with one half of the brain at a time. The other half stays awake to keep them breathing and alert.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_196",
+    "question_text": "Which sea creature is famous for tickling humans with its long tentacles in tide pools?",
+    "options": [
+      "Sponge",
+      "Sea anemone",
+      "Coral",
+      "Sea cucumber"
+    ],
+    "correct_index": 1,
+    "explanation": "Sea anemones look like underwater flowers but are animals. Their soft tentacles can sting tiny prey.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_197",
+    "question_text": "Which fast-flying insect was around even before the dinosaurs?",
+    "options": [
+      "Bee",
+      "Dragonfly",
+      "Butterfly",
+      "Mosquito"
+    ],
+    "correct_index": 1,
+    "explanation": "Dragonflies are ancient insects. Fossils show they existed long before dinosaurs, and some had huge wingspans.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_198",
+    "question_text": "What is the difference between a moth and a butterfly?",
+    "options": [
+      "Moths are usually active at night and butterflies during the day",
+      "Moths cannot fly",
+      "Butterflies have no antennae",
+      "Moths have no wings"
+    ],
+    "correct_index": 0,
+    "explanation": "Most moths are active at night and butterflies during the day. Moths often have feathery antennae and rest with wings flat.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_199",
+    "question_text": "Which African mammal has a long pink tongue and lives in mounds with a queen?",
+    "options": [
+      "Honey badger",
+      "Naked mole rat",
+      "Pangolin",
+      "Aardvark"
+    ],
+    "correct_index": 1,
+    "explanation": "Naked mole rats live in colonies underground with a queen, much like ants or bees.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_200",
+    "question_text": "What is bioluminescence?",
+    "options": [
+      "A type of weather",
+      "A kind of camouflage",
+      "The way plants make food",
+      "Light made by living things"
+    ],
+    "correct_index": 3,
+    "explanation": "Bioluminescence is when a living thing produces its own light. Fireflies, deep-sea fish, and some jellyfish do this.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_201",
+    "question_text": "Which group does a snail belong to?",
+    "options": [
+      "Insects",
+      "Crustaceans",
+      "Reptiles",
+      "Mollusks"
+    ],
+    "correct_index": 3,
+    "explanation": "Snails are mollusks, the same group as clams, octopuses, and squids. Many mollusks have shells.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_202",
+    "question_text": "Which reptile is the largest, sometimes longer than 20 feet?",
+    "options": [
+      "Gal\u00e1pagos tortoise",
+      "Saltwater crocodile",
+      "Komodo dragon",
+      "Anaconda"
+    ],
+    "correct_index": 1,
+    "explanation": "Saltwater crocodiles are the largest reptiles. They can grow more than 20 feet long.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_203",
+    "question_text": "Which large bird of prey is known for soaring high over the Andes Mountains?",
+    "options": [
+      "Bald eagle",
+      "Great horned owl",
+      "Peregrine falcon",
+      "Andean condor"
+    ],
+    "correct_index": 3,
+    "explanation": "The Andean condor is one of the largest flying birds. It soars on rising warm air over the Andes Mountains.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_204",
+    "question_text": "Which stripe-loving bird has a sharp 'caw' call?",
+    "options": [
+      "Robin",
+      "Pigeon",
+      "Sparrow",
+      "Crow"
+    ],
+    "correct_index": 3,
+    "explanation": "Crows have a loud, sharp 'caw' sound. They are intelligent birds that can solve simple puzzles.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_205",
+    "question_text": "Which animal has a body shaped to glide through water \u2014 and isn't a fish?",
+    "options": [
+      "Whale",
+      "Shark",
+      "Stingray",
+      "Pufferfish"
+    ],
+    "correct_index": 0,
+    "explanation": "Whales look like fish but are mammals. They have streamlined bodies that glide through water and they breathe air.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_206",
+    "question_text": "Which forest cat is famous for stalking quietly and pouncing on prey?",
+    "options": [
+      "Hyena",
+      "Lion",
+      "Cheetah",
+      "Tiger"
+    ],
+    "correct_index": 3,
+    "explanation": "Tigers are stealthy hunters in forests. They sneak up on prey before pouncing.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_207",
+    "question_text": "Which is the world's smallest mammal by length?",
+    "options": [
+      "Etruscan shrew",
+      "Bumblebee bat",
+      "Mouse lemur",
+      "Pygmy possum"
+    ],
+    "correct_index": 1,
+    "explanation": "The bumblebee bat (also called Kitti's hog-nosed bat) is the world's smallest mammal by length, only about an inch long.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_208",
+    "question_text": "Which type of whale uses big teeth to hunt squid?",
+    "options": [
+      "Humpback whale",
+      "Blue whale",
+      "Right whale",
+      "Sperm whale"
+    ],
+    "correct_index": 3,
+    "explanation": "Sperm whales have huge teeth and dive deep to hunt giant squid. Other whales like blue whales have plates instead of teeth.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_209",
+    "question_text": "Which whales filter food using comb-like plates instead of teeth?",
+    "options": [
+      "Pilot whales",
+      "Toothed whales",
+      "Baleen whales",
+      "Sperm whales"
+    ],
+    "correct_index": 2,
+    "explanation": "Baleen whales filter tiny krill and small fish through plates in their mouths called baleen. Blue whales and humpbacks are baleen whales.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_210",
+    "question_text": "Which ocean creature has a body like an umbrella and trailing tentacles?",
+    "options": [
+      "Jellyfish",
+      "Squid",
+      "Octopus",
+      "Eel"
+    ],
+    "correct_index": 0,
+    "explanation": "Jellyfish have soft bell-shaped bodies and trailing tentacles. They drift with ocean currents.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_211",
+    "question_text": "Which animal is a master of disguise, changing color and skin texture?",
+    "options": [
+      "Tuna",
+      "Eel",
+      "Lobster",
+      "Octopus"
+    ],
+    "correct_index": 3,
+    "explanation": "Octopuses can change both color and skin texture in seconds, making them excellent at hiding from predators.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_212",
+    "question_text": "Which insect is a very important pollinator and is on the decline today?",
+    "options": [
+      "Cockroach",
+      "Termite",
+      "Mosquito",
+      "Bee"
+    ],
+    "correct_index": 3,
+    "explanation": "Bees are vital pollinators. Many bee species are in decline because of habitat loss and pesticides.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_213",
+    "question_text": "What is special about the platypus's ability to find food underwater?",
+    "options": [
+      "It senses electric signals from prey",
+      "It uses its eyes only",
+      "It uses scent",
+      "It uses sound"
+    ],
+    "correct_index": 0,
+    "explanation": "A platypus closes its eyes and ears underwater. It finds food by sensing tiny electric signals from prey with its bill.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_214",
+    "question_text": "Which gentle giant in Australia has a large tail and is also a marsupial?",
+    "options": [
+      "Tasmanian devil",
+      "Wombat",
+      "Quokka",
+      "Kangaroo"
+    ],
+    "correct_index": 3,
+    "explanation": "Kangaroos are large marsupials with strong tails that they use as a third leg when standing.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_215",
+    "question_text": "Which Australian marsupial is famous for its toothy grin and is the world's smallest happy-looking mammal?",
+    "options": [
+      "Possum",
+      "Quokka",
+      "Bilby",
+      "Wombat"
+    ],
+    "correct_index": 1,
+    "explanation": "Quokkas are small marsupials known for their cheerful-looking faces. They live mostly on islands off Western Australia.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_216",
+    "question_text": "Which sea bird sleeps while floating on waves wrapped in seaweed?",
+    "options": [
+      "Penguin",
+      "Albatross",
+      "Sea otter",
+      "Pelican"
+    ],
+    "correct_index": 2,
+    "explanation": "Sea otters are mammals, not birds, but they sleep floating on their backs. They sometimes wrap themselves in kelp so they don't drift away.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_217",
+    "question_text": "Which apex predator is at the very top of a food chain?",
+    "options": [
+      "A decomposer",
+      "A predator with no natural enemies",
+      "The smallest plant eater",
+      "A scavenger only"
+    ],
+    "correct_index": 1,
+    "explanation": "An apex predator is at the top of its food chain and has no natural predators of its own. Lions, polar bears, and orcas are apex predators.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_218",
+    "question_text": "What is a scavenger?",
+    "options": [
+      "An animal that eats dead animals or leftovers",
+      "An animal that hunts fresh prey",
+      "A baby animal",
+      "An animal that only eats plants"
+    ],
+    "correct_index": 0,
+    "explanation": "A scavenger is an animal that eats dead animals or leftover food. Vultures, hyenas, and crows often scavenge.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_219",
+    "question_text": "Which large bird circles in the sky waiting for animals to die?",
+    "options": [
+      "Hawk",
+      "Vulture",
+      "Eagle",
+      "Falcon"
+    ],
+    "correct_index": 1,
+    "explanation": "Vultures often circle high in the sky watching for dead animals to eat. They have keen eyesight and a great sense of smell.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_220",
+    "question_text": "Which insect is famous for marching in long lines and lifting heavy loads?",
+    "options": [
+      "Termite",
+      "Beetle",
+      "Bee",
+      "Ant"
+    ],
+    "correct_index": 3,
+    "explanation": "Ants can carry many times their own body weight. They march in lines and work together to gather food.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_221",
+    "question_text": "Which insect builds large mounds in tropical regions and eats wood?",
+    "options": [
+      "Bee",
+      "Beetle",
+      "Termite",
+      "Ant"
+    ],
+    "correct_index": 2,
+    "explanation": "Termites build huge mounds of dirt in some tropical areas. They eat wood and can damage buildings.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_222",
+    "question_text": "Which animal has a long sticky tongue and can lap up over a thousand insects in a meal?",
+    "options": [
+      "Pangolin",
+      "Sloth bear",
+      "Anteater",
+      "Aardvark"
+    ],
+    "correct_index": 2,
+    "explanation": "Anteaters have long sticky tongues and can lap up tens of thousands of insects each day.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_223",
+    "question_text": "Which scaly mammal rolls into a ball when scared, and is sadly hunted illegally?",
+    "options": [
+      "Armadillo",
+      "Porcupine",
+      "Pangolin",
+      "Hedgehog"
+    ],
+    "correct_index": 2,
+    "explanation": "Pangolins are scaly mammals from Africa and Asia. They roll into a ball when threatened. Many species are endangered.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_224",
+    "question_text": "What is the term for offspring that grow inside an egg outside the mother's body?",
+    "options": [
+      "Oviparous animals",
+      "Insects",
+      "Mammals",
+      "Marsupials"
+    ],
+    "correct_index": 0,
+    "explanation": "Animals that lay eggs outside the body are called oviparous. Birds, most reptiles, fish, and insects are oviparous.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_225",
+    "question_text": "How is a tortoise different from a sea turtle?",
+    "options": [
+      "Sea turtles cannot swim",
+      "There is no difference",
+      "Tortoises live mostly on land; sea turtles live in the ocean",
+      "Tortoises have no shells"
+    ],
+    "correct_index": 2,
+    "explanation": "Tortoises live on land and have stout legs. Sea turtles live in the ocean and have flippers.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_226",
+    "question_text": "What is a herd of elephants usually led by?",
+    "options": [
+      "A male elephant",
+      "Twin elephants",
+      "The youngest male",
+      "The oldest female (matriarch)"
+    ],
+    "correct_index": 3,
+    "explanation": "Elephant herds are led by the oldest female, called the matriarch. She uses her memory to find water and food.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_227",
+    "question_text": "Which insect is famous for carrying diseases like malaria?",
+    "options": [
+      "Beetle",
+      "Bee",
+      "Mosquito",
+      "Butterfly"
+    ],
+    "correct_index": 2,
+    "explanation": "Mosquitoes can spread serious diseases when they bite. Females are the ones that bite to feed on blood.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_228",
+    "question_text": "Which whale-shaped fish is sometimes called a 'gentle giant'?",
+    "options": [
+      "Tiger shark",
+      "Great white shark",
+      "Whale shark",
+      "Hammerhead"
+    ],
+    "correct_index": 2,
+    "explanation": "Whale sharks are huge but gentle. They eat tiny plankton by filtering water through their mouths.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_229",
+    "question_text": "Which freshwater mammal builds homes called lodges?",
+    "options": [
+      "Beaver",
+      "Otter",
+      "Mink",
+      "Muskrat"
+    ],
+    "correct_index": 0,
+    "explanation": "Beavers build homes called lodges in the ponds they create with their dams. The entrance is underwater for safety.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_230",
+    "question_text": "Which young insect lives in water before becoming an adult that flies?",
+    "options": [
+      "Dragonfly",
+      "Cicada",
+      "Bee",
+      "Butterfly"
+    ],
+    "correct_index": 0,
+    "explanation": "Dragonfly young, called nymphs, live underwater before climbing out and becoming flying adults.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_231",
+    "question_text": "Which group of marine animals includes shrimp, crabs, and lobsters?",
+    "options": [
+      "Crustaceans",
+      "Cnidarians",
+      "Echinoderms",
+      "Mollusks"
+    ],
+    "correct_index": 0,
+    "explanation": "Crustaceans are sea creatures with hard outer shells. Crabs, lobsters, shrimp, and crayfish are all crustaceans.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_232",
+    "question_text": "Which group includes starfish, sea urchins, and sand dollars?",
+    "options": [
+      "Echinoderms",
+      "Cnidarians",
+      "Crustaceans",
+      "Mollusks"
+    ],
+    "correct_index": 0,
+    "explanation": "Echinoderms include starfish, sea urchins, and sand dollars. They have radial symmetry and live in the ocean.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_233",
+    "question_text": "Which group includes jellyfish, corals, and anemones?",
+    "options": [
+      "Cnidarians",
+      "Echinoderms",
+      "Mollusks",
+      "Crustaceans"
+    ],
+    "correct_index": 0,
+    "explanation": "Cnidarians include jellyfish, corals, and sea anemones. They all have stinging cells called cnidocytes.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_234",
+    "question_text": "Which dog-like mammal lives wild across North America?",
+    "options": [
+      "Dingo",
+      "Coyote",
+      "Hyena",
+      "Jackal"
+    ],
+    "correct_index": 1,
+    "explanation": "Coyotes are wild dogs found across North America, from forests to cities. They are smaller than wolves.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_235",
+    "question_text": "Which wild dog lives only in Australia?",
+    "options": [
+      "Coyote",
+      "Jackal",
+      "Dingo",
+      "Wolf"
+    ],
+    "correct_index": 2,
+    "explanation": "Dingoes are wild dogs found only in Australia. They have lived there for thousands of years.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_236",
+    "question_text": "What is a baby seal called?",
+    "options": [
+      "Pup",
+      "Cub",
+      "Calf",
+      "Joey"
+    ],
+    "correct_index": 0,
+    "explanation": "Baby seals are called pups. They are usually born with fluffy white fur that helps them stay warm on ice.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_237",
+    "question_text": "Which ocean fish is known for clinging to bigger animals using a sucker on its head?",
+    "options": [
+      "Pufferfish",
+      "Anglerfish",
+      "Remora",
+      "Sailfish"
+    ],
+    "correct_index": 2,
+    "explanation": "Remoras have sucker discs on their heads. They cling to sharks, turtles, and whales to hitch a ride.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_238",
+    "question_text": "What kind of skin do fish typically have?",
+    "options": [
+      "Fur",
+      "Feathers",
+      "Shell",
+      "Scales"
+    ],
+    "correct_index": 3,
+    "explanation": "Most fish are covered in scales. Scales protect their bodies and help them slip through water easily.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_239",
+    "question_text": "How do fish breathe underwater?",
+    "options": [
+      "With lungs",
+      "With skin",
+      "They hold their breath",
+      "With gills"
+    ],
+    "correct_index": 3,
+    "explanation": "Fish breathe through gills. Water flows over the gills and oxygen passes into the fish's blood.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_240",
+    "question_text": "Which feature do all birds have in common?",
+    "options": [
+      "They all fly",
+      "They all live in trees",
+      "They all have feathers",
+      "They all swim"
+    ],
+    "correct_index": 2,
+    "explanation": "All birds have feathers. Some birds, like penguins and ostriches, can't fly, but all of them grow feathers.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_241",
+    "question_text": "Which feature do all mammals share?",
+    "options": [
+      "They all feed milk to their babies",
+      "They all live on land",
+      "They all have feathers",
+      "They all lay eggs"
+    ],
+    "correct_index": 0,
+    "explanation": "All mammals feed milk to their babies. Most also have hair or fur and breathe with lungs.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_242",
+    "question_text": "Which sense is especially important to a dog's experience of the world?",
+    "options": [
+      "Taste",
+      "Sight",
+      "Hearing",
+      "Smell"
+    ],
+    "correct_index": 3,
+    "explanation": "Dogs have an incredible sense of smell \u2014 far better than humans. They explore the world mostly through their noses.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_243",
+    "question_text": "Which bird is famous for thieving shiny objects to decorate its nest?",
+    "options": [
+      "Magpie",
+      "Owl",
+      "Sparrow",
+      "Crow"
+    ],
+    "correct_index": 0,
+    "explanation": "Magpies are sometimes said to steal shiny things, though scientists now think they are simply curious about new objects.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_244",
+    "question_text": "Which animal has the most powerful bite of any living animal?",
+    "options": [
+      "Saltwater crocodile",
+      "Hyena",
+      "Lion",
+      "Great white shark"
+    ],
+    "correct_index": 0,
+    "explanation": "The saltwater crocodile is believed to have the strongest bite of any living animal. Its jaws can close with crushing force.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_245",
+    "question_text": "Which colorful coral-reef fish hides among sea anemones?",
+    "options": [
+      "Clownfish",
+      "Goldfish",
+      "Pufferfish",
+      "Catfish"
+    ],
+    "correct_index": 0,
+    "explanation": "Clownfish live among sea anemone tentacles. They are protected from the stings by a special slimy coating on their skin.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_246",
+    "question_text": "What is the name for a group of frogs?",
+    "options": [
+      "Flock",
+      "Army",
+      "Pack",
+      "Pride"
+    ],
+    "correct_index": 1,
+    "explanation": "A group of frogs is called an army. A group of toads is called a knot.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_247",
+    "question_text": "Which insect's young are called grubs?",
+    "options": [
+      "Butterfly",
+      "Cricket",
+      "Bee",
+      "Beetle"
+    ],
+    "correct_index": 3,
+    "explanation": "Beetle larvae are often called grubs. They look like fat worms before they grow into beetles.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_248",
+    "question_text": "Which sea creature has a five-pointed body and tube feet?",
+    "options": [
+      "Starfish",
+      "Coral",
+      "Jellyfish",
+      "Octopus"
+    ],
+    "correct_index": 0,
+    "explanation": "Starfish (also called sea stars) usually have five arms and use tiny tube feet underneath to move and to grip prey.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_249",
+    "question_text": "Which Asian elephant feature is different from African elephants?",
+    "options": [
+      "Asian elephants are usually smaller and have smaller ears",
+      "Asian elephants are mammals",
+      "Asian elephants have no trunks",
+      "African elephants are smaller"
+    ],
+    "correct_index": 0,
+    "explanation": "Asian elephants are smaller than African elephants and have smaller, rounded ears. African elephants have larger ears shaped like the African continent.",
+    "source": "static:animals"
+  },
+  {
+    "module_id": "animals",
+    "age_band": "7-9",
+    "external_id": "animals_v1_250",
+    "question_text": "What role do decomposers like worms and fungi play in nature?",
+    "options": [
+      "They hunt prey",
+      "They migrate every year",
+      "They break down dead plants and animals",
+      "They pollinate flowers"
+    ],
+    "correct_index": 2,
+    "explanation": "Decomposers break down dead plants and animals into nutrients. This recycles material back into the soil.",
+    "source": "static:animals"
+  }
+]

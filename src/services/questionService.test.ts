@@ -1,4 +1,4 @@
-import { describe, it, expect, beforeEach, vi } from 'vitest';
+import { describe, it, expect, beforeEach } from 'vitest';
 import { fetchQuizQuestions } from './questionService.ts';
 import { mockBackend } from './mockBackend.ts';
 import { useProfileStore } from '../stores/profileStore.ts';
@@ -11,6 +11,14 @@ beforeEach(() => {
 async function setUp56() {
   const { profile, token } = await mockBackend.signup({
     username: 'PizzaDragon', pin: ['🐱','⚡','🍕','🌈'], avatar: 'avatar_cat', age_band: '5-6',
+  });
+  useProfileStore.getState().login(token, profile);
+  return profile;
+}
+
+async function setUp79() {
+  const { profile, token } = await mockBackend.signup({
+    username: 'StarRocket', pin: ['🚀','⭐','🌙','☀️'], avatar: 'avatar_dog', age_band: '7-9',
   });
   useProfileStore.getState().login(token, profile);
   return profile;
@@ -43,13 +51,26 @@ describe('fetchQuizQuestions', () => {
     expect(second.every(q => !firstIds.has(q.external_id))).toBe(true);
   });
 
-  it('animals returns empty in mock-mode', async () => {
+  it('animals returns empty for 5-6 (no 5-6 entries in pool)', async () => {
     await setUp56();
-    const warn = vi.spyOn(console, 'warn').mockImplementation(() => {});
     const out = await fetchQuizQuestions({ moduleId: 'animals', count: 10 });
     expect(out).toEqual([]);
-    expect(warn).toHaveBeenCalled();
-    warn.mockRestore();
+  });
+
+  it('animals returns from bundled JSON, filtered for 7-9', async () => {
+    await setUp79();
+    const out = await fetchQuizQuestions({ moduleId: 'animals', count: 5 });
+    expect(out).toHaveLength(5);
+    expect(out.every(q => q.module_id === 'animals')).toBe(true);
+    expect(out.every(q => q.age_band === '7-9' || q.age_band === 'both')).toBe(true);
+  });
+
+  it('science returns from bundled JSON, filtered for 7-9', async () => {
+    await setUp79();
+    const out = await fetchQuizQuestions({ moduleId: 'science', count: 5 });
+    expect(out).toHaveLength(5);
+    expect(out.every(q => q.module_id === 'science')).toBe(true);
+    expect(out.every(q => q.age_band === '7-9' || q.age_band === 'both')).toBe(true);
   });
 
   it('random mixes math + static questions for 5-6', async () => {
