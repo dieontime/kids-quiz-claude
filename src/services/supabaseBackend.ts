@@ -284,4 +284,15 @@ export const supabaseBackend = {
       console.warn('supabaseBackend.reset: rpc_reset_all threw —', e);
     }
   },
+
+  async resetProgress(profileId: string): Promise<void> {
+    const c = client();
+    // Delete all 3 tables' rows for this profile. RLS permissive policy allows.
+    const { error: e1 } = await c.from('answered_questions').delete().eq('profile_id', profileId);
+    if (e1) throw new Error(`resetProgress.answered: ${e1.message}`);
+    const { error: e2 } = await c.from('quiz_history').delete().eq('profile_id', profileId);
+    if (e2) throw new Error(`resetProgress.history: ${e2.message}`);
+    const { error: e3 } = await c.from('module_progress').delete().eq('profile_id', profileId);
+    if (e3) throw new Error(`resetProgress.progress: ${e3.message}`);
+  },
 };

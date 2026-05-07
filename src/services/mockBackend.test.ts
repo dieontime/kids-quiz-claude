@@ -107,6 +107,43 @@ describe('mockBackend.recoverPin', () => {
   });
 });
 
+describe('mockBackend.resetProgress', () => {
+  it('clears one profile\'s data without touching the other profile or its profile row', async () => {
+    const { profile: p1 } = await mockBackend.signup({
+      username: 'PizzaDragon', pin: ['🐱','⚡','🍕','🌈'], avatar: 'avatar_cat', age_band: '5-6',
+    });
+    const { profile: p2 } = await mockBackend.signup({
+      username: 'TacoTiger', pin: ['🐶','⚡','🌮','🌈'], avatar: 'avatar_dog', age_band: '7-9',
+    });
+
+    // Log activity for both profiles
+    await mockBackend.logAnswered(p1.id, 'q1', true);
+    await mockBackend.logAnswered(p1.id, 'q2', false);
+    await mockBackend.recordQuiz(p1.id, 'math', 8, 10, 60);
+
+    await mockBackend.logAnswered(p2.id, 'q3', true);
+    await mockBackend.recordQuiz(p2.id, 'animals', 9, 10, 50);
+
+    // Reset only p1
+    await mockBackend.resetProgress(p1.id);
+
+    // p1's per-profile data is gone
+    expect(await mockBackend.getAnsweredExternalIds(p1.id, ['math'])).toEqual([]);
+    expect(await mockBackend.getProgress(p1.id)).toEqual([]);
+
+    // p2's data is preserved
+    expect(await mockBackend.getAnsweredExternalIds(p2.id, ['animals'])).toEqual(['q3']);
+    const p2prog = await mockBackend.getProgress(p2.id);
+    expect(p2prog).toHaveLength(1);
+    expect(p2prog[0].module_id).toBe('animals');
+    expect(p2prog[0].best_score).toBe(9);
+
+    // p1's profile row is NOT deleted — login still works
+    const login = await mockBackend.login('PizzaDragon', ['🐱','⚡','🍕','🌈']);
+    expect(login.profile.id).toBe(p1.id);
+  });
+});
+
 describe('mockBackend storage', () => {
   it('logAnswered + getAnsweredExternalIds round-trip', async () => {
     const { profile } = await mockBackend.signup({ username: 'PizzaDragon', pin: ['🐱','⚡','🍕','🌈'], avatar: 'avatar_cat', age_band: '5-6' });

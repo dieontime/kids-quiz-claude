@@ -3,10 +3,15 @@ import { render, waitFor } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
 import { ThemedDashboard } from './ThemedDashboard.tsx';
 
+// Stable references so consumers depending on `profile` identity (effects with
+// [profile, ...] dep arrays) don't re-fire on every render.
+const MOCK_PROFILE = { id: 'p1', username: 'Sparkle Cat', avatar: '🐱', age_band: '5-6' as const };
+const MOCK_LOGOUT = () => {};
+const MOCK_PROFILE_STATE = { profile: MOCK_PROFILE, logout: MOCK_LOGOUT };
 vi.mock('../../stores/profileStore.ts', () => ({
   useProfileStore: Object.assign(
-    (sel: (s: unknown) => unknown) => sel({ profile: { id: 'p1', username: 'Sparkle Cat', avatar: '🐱', age_band: '5-6' }, logout: () => {} }),
-    { getState: () => ({ profile: { id: 'p1', username: 'Sparkle Cat', avatar: '🐱', age_band: '5-6' }, logout: () => {} }) },
+    (sel: (s: unknown) => unknown) => sel(MOCK_PROFILE_STATE),
+    { getState: () => MOCK_PROFILE_STATE },
   ),
 }));
 

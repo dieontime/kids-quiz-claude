@@ -302,6 +302,45 @@ describe('supabaseBackend', () => {
     }));
   });
 
+  it('resetProgress deletes from all 3 tables filtered by profile_id', async () => {
+    // Build a builder where from(t).delete().eq('profile_id', X) resolves successfully.
+    function makeDeleteBuilder() {
+      const eq = vi.fn().mockResolvedValue({ data: null, error: null });
+      const del = vi.fn().mockReturnValue({ eq });
+      return { delete: del, eq };
+    }
+    const answeredQb = makeDeleteBuilder();
+    const historyQb = makeDeleteBuilder();
+    const progressQb = makeDeleteBuilder();
+    fromMock
+      .mockReturnValueOnce(answeredQb)
+      .mockReturnValueOnce(historyQb)
+      .mockReturnValueOnce(progressQb);
+
+    await supabaseBackend.resetProgress('p1');
+
+    expect(fromMock).toHaveBeenNthCalledWith(1, 'answered_questions');
+    expect(fromMock).toHaveBeenNthCalledWith(2, 'quiz_history');
+    expect(fromMock).toHaveBeenNthCalledWith(3, 'module_progress');
+    expect(answeredQb.delete).toHaveBeenCalledTimes(1);
+    expect(answeredQb.eq).toHaveBeenCalledWith('profile_id', 'p1');
+    expect(historyQb.delete).toHaveBeenCalledTimes(1);
+    expect(historyQb.eq).toHaveBeenCalledWith('profile_id', 'p1');
+    expect(progressQb.delete).toHaveBeenCalledTimes(1);
+    expect(progressQb.eq).toHaveBeenCalledWith('profile_id', 'p1');
+  });
+
+  it('resetProgress throws if a delete returns an error', async () => {
+    function makeDeleteBuilder(result: { data?: unknown; error?: unknown }) {
+      const eq = vi.fn().mockResolvedValue(result);
+      const del = vi.fn().mockReturnValue({ eq });
+      return { delete: del, eq };
+    }
+    const answeredQb = makeDeleteBuilder({ data: null, error: { message: 'boom' } });
+    fromMock.mockReturnValueOnce(answeredQb);
+    await expect(supabaseBackend.resetProgress('p1')).rejects.toThrow(/resetProgress\.answered: boom/);
+  });
+
   it('recordQuiz updates existing progress row when one is found', async () => {
     const histQb = makeQueryBuilder({});
     const progReadQb = makeQueryBuilder({

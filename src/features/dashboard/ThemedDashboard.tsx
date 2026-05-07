@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useLayoutEffect, useMemo, useState } from 'react';
 import { useNavigate, Navigate } from 'react-router-dom';
 import confetti from 'canvas-confetti';
 import { useProfileStore } from '../../stores/profileStore.ts';
@@ -31,7 +31,11 @@ export function ThemedDashboard() {
   const nav = useNavigate();
   const [progress, setProgress] = useState<ModuleProgress[] | null>(null);
 
-  useEffect(() => { if (profile) initFromProfile(profile.age_band); }, [profile, initFromProfile]);
+  // Sync settings band from the profile BEFORE useEffect runs. useLayoutEffect
+  // state updates flush synchronously before regular effects fire, so the
+  // compute effect below sees the profile's band on first paint instead of
+  // running once with the stale '5-6' default and again after re-render.
+  useLayoutEffect(() => { if (profile) initFromProfile(profile.age_band); }, [profile, initFromProfile]);
 
   useEffect(() => {
     if (!profile) return;
@@ -115,6 +119,11 @@ export function ThemedDashboard() {
             onTileClick={(id) => nav(`/quiz/${id}`)}
             onSurpriseMix={() => nav('/quiz/random')}
           />
+          {ageBand === '5-6' && (
+            <p className="text-sm sm:text-base text-gray-600 text-center">
+              🎂 More modules unlock when you're 7+! A grown-up can switch your age in Settings.
+            </p>
+          )}
         </div>
       )}
 
@@ -131,6 +140,11 @@ export function ThemedDashboard() {
             onTileClick={(id) => nav(`/quiz/${id}`)}
             onSurpriseMix={() => nav('/quiz/random')}
           />
+          {ageBand === '5-6' && (
+            <p className="text-sm sm:text-base text-gray-600 text-center">
+              🎂 More modules unlock when you're 7+! A grown-up can switch your age in Settings.
+            </p>
+          )}
         </div>
       )}
 
@@ -148,8 +162,14 @@ export function ThemedDashboard() {
       <SettingsDrawer
         open={settingsOpen}
         onClose={() => setSettingsOpen(false)}
-        onResetProgress={() => {
-          backend.reset();
+        onResetProgress={async () => {
+          if (!profile) return;
+          await backend.resetProgress(profile.id);
+          // Clear the per-session mastery snapshot so confetti doesn't get suppressed
+          sessionStorage.removeItem(MASTERY_SNAPSHOT_KEY);
+          // Also reset the in-progress quiz session if any (so a stale mid-quiz exit doesn't survive)
+          const { useQuizSession } = await import('../../stores/quizSessionStore.ts');
+          useQuizSession.getState().reset();
           setSettingsOpen(false);
           window.location.reload();
         }}
