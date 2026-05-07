@@ -15,6 +15,8 @@ const STINGER_SOURCES: Record<ModuleId, string> = {
   math:     '/sounds/stingers/math.mp3',
   vehicles: '/sounds/stingers/vehicles.mp3',
   grammar:  '/sounds/stingers/grammar.mp3',
+  animals:  '/sounds/stingers/animals.mp3',
+  science:  '/sounds/stingers/science.mp3',
 };
 
 const uiHowls: Partial<Record<UiName, Howl>> = {};

@@ -11,6 +11,8 @@ export function ResultsScreen() {
   const { moduleId, questions, score, reset } = useQuizSession();
   const reducedMotion = useSettings(s => s.reducedMotion);
   const lastMastered = useQuizSession(s => s.lastMasteredModuleId);
+  const isReviewSession = useQuizSession(s => s.isReviewSession);
+  const startReview = useQuizSession(s => s.startReview);
 
   useEffect(() => {
     audio.playUI('complete');
@@ -39,6 +41,8 @@ export function ResultsScreen() {
 
   const total = questions.length;
   const cheer = score >= 8 ? 'Awesome! 🎉' : score >= 5 ? 'Nice try!' : 'Keep going!';
+  const wrongCount = total - score;
+  const showReviewButton = total > 0 && wrongCount > 0 && !isReviewSession;
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center gap-6 sm:gap-8 md:gap-10 p-4 sm:p-6 md:p-8 text-center">
@@ -53,6 +57,11 @@ export function ResultsScreen() {
       )}
       <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 flex-wrap justify-center max-w-3xl">
         <BigButton onClick={() => { const m = moduleId; reset(); if (m) nav(`/quiz/${m}`); else nav('/dashboard'); }}>Retry</BigButton>
+        {showReviewButton && (
+          <BigButton onClick={() => { startReview(); nav('/quiz/review'); }}>
+            Review wrong answers ({wrongCount})
+          </BigButton>
+        )}
         <BigButton variant="ghost" onClick={() => { reset(); nav('/dashboard'); }}>Back</BigButton>
         <BigButton onClick={() => { reset(); nav('/quiz/random'); }}>Next Quiz</BigButton>
       </div>

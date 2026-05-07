@@ -51,4 +51,53 @@ describe('quizSessionStore', () => {
     reset();
     expect(useQuizSession.getState().lastMasteredModuleId).toBeNull();
   });
+
+  it('wrongAnswers() returns only the questions whose answer was incorrect', () => {
+    useQuizSession.getState().start('math', sampleQs);
+    useQuizSession.getState().answer(0); // Q0 correct
+    useQuizSession.getState().answer(2); // Q1 wrong
+    useQuizSession.getState().answer(3); // Q2 wrong
+    const wrong = useQuizSession.getState().wrongAnswers();
+    expect(wrong).toHaveLength(2);
+    expect(wrong.map(q => q.external_id)).toEqual(['m1', 'm2']);
+  });
+
+  it('startReview() populates reviewQuestions and sets isReviewSession=true', () => {
+    useQuizSession.getState().start('math', sampleQs);
+    useQuizSession.getState().answer(0); // correct
+    useQuizSession.getState().answer(2); // wrong
+    useQuizSession.getState().answer(3); // wrong
+    useQuizSession.getState().startReview();
+    const s = useQuizSession.getState();
+    expect(s.isReviewSession).toBe(true);
+    expect(s.reviewQuestions).toHaveLength(2);
+    expect(s.questions).toHaveLength(2);
+    expect(s.moduleId).toBe('review');
+    expect(s.currentIndex).toBe(0);
+    expect(s.score).toBe(0);
+    expect(s.answers).toHaveLength(0);
+  });
+
+  it('reset() clears review state', () => {
+    useQuizSession.getState().start('math', sampleQs);
+    useQuizSession.getState().answer(2);
+    useQuizSession.getState().answer(2);
+    useQuizSession.getState().answer(2);
+    useQuizSession.getState().startReview();
+    expect(useQuizSession.getState().isReviewSession).toBe(true);
+    useQuizSession.getState().reset();
+    const s = useQuizSession.getState();
+    expect(s.isReviewSession).toBe(false);
+    expect(s.reviewQuestions).toHaveLength(0);
+  });
+
+  it('endReview() turns off the review flag', () => {
+    useQuizSession.getState().start('math', sampleQs);
+    useQuizSession.getState().answer(2);
+    useQuizSession.getState().answer(2);
+    useQuizSession.getState().answer(2);
+    useQuizSession.getState().startReview();
+    useQuizSession.getState().endReview();
+    expect(useQuizSession.getState().isReviewSession).toBe(false);
+  });
 });

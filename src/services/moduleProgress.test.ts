@@ -14,6 +14,13 @@ vi.mock('../../data/vehicles.json', () => ({ default: [
 vi.mock('../../data/grammar.json', () => ({ default: [
   { external_id: 'g1', age_band: '5-6' },
 ] }));
+vi.mock('../../data/animals.json', () => ({ default: [
+  { external_id: 'a1', age_band: '7-9' },
+  { external_id: 'a2', age_band: '7-9' },
+] }));
+vi.mock('../../data/science.json', () => ({ default: [
+  { external_id: 's1', age_band: '7-9' },
+] }));
 
 import { mockBackend } from './mockBackend.ts';
 
@@ -22,10 +29,32 @@ beforeEach(() => {
 });
 
 describe('computeModuleProgress', () => {
-  it('returns 3 modules in fixed order: math, vehicles, grammar', async () => {
+  it('5-6 band returns 3 modules in fixed order: math, vehicles, grammar', async () => {
     (mockBackend.getAnsweredExternalIds as ReturnType<typeof vi.fn>).mockResolvedValue([]);
     const result = await computeModuleProgress('p1', '5-6');
     expect(result.map(r => r.moduleId)).toEqual(['math', 'vehicles', 'grammar']);
+  });
+
+  it('7-9 band returns 5 modules including animals and science', async () => {
+    (mockBackend.getAnsweredExternalIds as ReturnType<typeof vi.fn>).mockResolvedValue([]);
+    const result = await computeModuleProgress('p1', '7-9');
+    expect(result.map(r => r.moduleId)).toEqual(['math', 'vehicles', 'grammar', 'animals', 'science']);
+  });
+
+  it('7-9 animals denominator counts JSON entries with age_band 7-9 or both', async () => {
+    (mockBackend.getAnsweredExternalIds as ReturnType<typeof vi.fn>).mockResolvedValue([]);
+    const result = await computeModuleProgress('p1', '7-9');
+    expect(result.find(r => r.moduleId === 'animals')!.total).toBe(2);
+    expect(result.find(r => r.moduleId === 'science')!.total).toBe(1);
+  });
+
+  it('answered counts include animals/science external_ids in 7-9 band', async () => {
+    (mockBackend.getAnsweredExternalIds as ReturnType<typeof vi.fn>).mockResolvedValue([
+      'a1', 's1',
+    ]);
+    const result = await computeModuleProgress('p1', '7-9');
+    expect(result.find(r => r.moduleId === 'animals')!.answered).toBe(1);
+    expect(result.find(r => r.moduleId === 'science')!.answered).toBe(1);
   });
 
   it('math 5-6 denominator is 90', async () => {

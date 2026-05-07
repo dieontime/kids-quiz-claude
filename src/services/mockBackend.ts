@@ -191,6 +191,15 @@ export const mockBackend = {
     localStorage.removeItem(KEY_PROGRESS);
   },
 
+  async resetProgress(profileId: string): Promise<void> {
+    const answered = readKey<AnsweredRow>(KEY_ANSWERED).filter(r => r.profile_id !== profileId);
+    writeKey(KEY_ANSWERED, answered);
+    const history = readKey<HistoryRow>(KEY_HISTORY).filter(r => r.profile_id !== profileId);
+    writeKey(KEY_HISTORY, history);
+    const progress = readKey<ProgressRow>(KEY_PROGRESS).filter(r => r.profile_id !== profileId);
+    writeKey(KEY_PROGRESS, progress);
+  },
+
   async checkUsernameAvailable(username: string): Promise<boolean> {
     const profiles = readKey<StoredProfile>(KEY_PROFILES);
     const lower = username.toLowerCase();
@@ -377,6 +386,14 @@ export const mockBackend = {
     return answered
       .filter(r => r.profile_id === profileId)
       .map(r => r.question_external_id);
+  },
+
+  async getIncorrectExternalIds(profileId: string): Promise<string[]> {
+    const rows = readKey<AnsweredRow>(KEY_ANSWERED).filter(r => r.profile_id === profileId);
+    // Dedupe by question_external_id keeping LATEST (later append wins)
+    const latest = new Map<string, boolean>();
+    for (const r of rows) latest.set(r.question_external_id, r.correct);
+    return Array.from(latest.entries()).filter(([, correct]) => !correct).map(([id]) => id);
   },
 
   async recordQuiz(

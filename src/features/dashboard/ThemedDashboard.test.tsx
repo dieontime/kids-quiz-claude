@@ -3,10 +3,15 @@ import { render, waitFor } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
 import { ThemedDashboard } from './ThemedDashboard.tsx';
 
+// Stable references so consumers depending on `profile` identity (effects with
+// [profile, ...] dep arrays) don't re-fire on every render.
+const MOCK_PROFILE = { id: 'p1', username: 'Sparkle Cat', avatar: '🐱', age_band: '5-6' as const };
+const MOCK_LOGOUT = () => {};
+const MOCK_PROFILE_STATE = { profile: MOCK_PROFILE, logout: MOCK_LOGOUT };
 vi.mock('../../stores/profileStore.ts', () => ({
   useProfileStore: Object.assign(
-    (sel: (s: unknown) => unknown) => sel({ profile: { id: 'p1', username: 'Sparkle Cat', avatar: '🐱', age_band: '5-6' }, logout: () => {} }),
-    { getState: () => ({ profile: { id: 'p1', username: 'Sparkle Cat', avatar: '🐱', age_band: '5-6' }, logout: () => {} }) },
+    (sel: (s: unknown) => unknown) => sel(MOCK_PROFILE_STATE),
+    { getState: () => MOCK_PROFILE_STATE },
   ),
 }));
 
@@ -16,6 +21,11 @@ vi.mock('../../services/moduleProgress.ts', () => ({
     { moduleId: 'vehicles', answered: 5,  total: 50, lastPlayedAt: null },
     { moduleId: 'grammar',  answered: 0,  total: 50, lastPlayedAt: null },
   ]),
+}));
+
+vi.mock('../../services/incorrectQuestions.ts', () => ({
+  countIncorrect: vi.fn().mockResolvedValue(0),
+  fetchIncorrectQuestions: vi.fn().mockResolvedValue([]),
 }));
 
 beforeEach(() => { sessionStorage.clear(); });
@@ -46,5 +56,57 @@ describe('ThemedDashboard', () => {
     ]);
     const { getByText } = render(<MemoryRouter><ThemedDashboard /></MemoryRouter>);
     await waitFor(() => expect(getByText(/mastered everything/i)).toBeInTheDocument());
+  });
+
+  it('7-9 pick view renders animals and science tiles alongside the base 3', async () => {
+    const mod = await import('../../services/moduleProgress.ts');
+    (mod.computeModuleProgress as ReturnType<typeof vi.fn>).mockResolvedValueOnce([
+      { moduleId: 'math',     answered: 0, total: 200, lastPlayedAt: null },
+      { moduleId: 'vehicles', answered: 0, total: 50,  lastPlayedAt: null },
+      { moduleId: 'grammar',  answered: 0, total: 50,  lastPlayedAt: null },
+      { moduleId: 'animals',  answered: 0, total: 250, lastPlayedAt: null },
+      { moduleId: 'science',  answered: 0, total: 250, lastPlayedAt: null },
+    ]);
+    const { getByText } = render(<MemoryRouter><ThemedDashboard /></MemoryRouter>);
+    await waitFor(() => expect(getByText(/Pick a module to start/i)).toBeInTheDocument());
+    expect(getByText('Animals')).toBeInTheDocument();
+    expect(getByText('Science')).toBeInTheDocument();
+    expect(getByText('Math')).toBeInTheDocument();
+    expect(getByText('Vehicles')).toBeInTheDocument();
+    expect(getByText('Grammar')).toBeInTheDocument();
+  });
+
+  it('shows Practice Mistakes button only when incorrectCount > 0', async () => {
+    const inc = await import('../../services/incorrectQuestions.ts');
+    (inc.countIncorrect as ReturnType<typeof vi.fn>).mockResolvedValueOnce(3);
+    const { getByText } = render(<MemoryRouter><ThemedDashboard /></MemoryRouter>);
+    await waitFor(() => expect(getByText(/Practice Mistakes \(3\)/i)).toBeInTheDocument());
+  });
+
+  it('hides Practice Mistakes button when incorrectCount is 0', async () => {
+    const { queryByText } = render(<MemoryRouter><ThemedDashboard /></MemoryRouter>);
+    // wait for dashboard to render past loading
+    await waitFor(() => expect(queryByText(/Continue Grammar/i)).toBeInTheDocument());
+    expect(queryByText(/Practice Mistakes/i)).toBeNull();
+  });
+
+  it('always renders Time Attack button', async () => {
+    const { getByText } = render(<MemoryRouter><ThemedDashboard /></MemoryRouter>);
+    await waitFor(() => expect(getByText(/Time Attack/i)).toBeInTheDocument());
+  });
+
+  it('7-9 hero view renders the rest including animals and science', async () => {
+    const mod = await import('../../services/moduleProgress.ts');
+    (mod.computeModuleProgress as ReturnType<typeof vi.fn>).mockResolvedValueOnce([
+      { moduleId: 'math',     answered: 30, total: 200, lastPlayedAt: null },
+      { moduleId: 'vehicles', answered: 5,  total: 50,  lastPlayedAt: null },
+      { moduleId: 'grammar',  answered: 0,  total: 50,  lastPlayedAt: null },
+      { moduleId: 'animals',  answered: 10, total: 250, lastPlayedAt: null },
+      { moduleId: 'science',  answered: 1,  total: 250, lastPlayedAt: null },
+    ]);
+    const { getByText } = render(<MemoryRouter><ThemedDashboard /></MemoryRouter>);
+    await waitFor(() => expect(getByText(/Continue Grammar/i)).toBeInTheDocument());
+    expect(getByText('Animals')).toBeInTheDocument();
+    expect(getByText('Science')).toBeInTheDocument();
   });
 });

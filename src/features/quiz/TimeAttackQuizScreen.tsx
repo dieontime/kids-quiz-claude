@@ -1,19 +1,25 @@
-import { useEffect, useState } from 'react';
-import { useNavigate, useParams, Navigate } from 'react-router-dom';
+import { useCallback, useEffect, useState } from 'react';
+import { useNavigate, Navigate } from 'react-router-dom';
 import {
-  fetchQuizQuestions, logAnswered, recordQuiz, type ModuleId,
+  fetchQuizQuestions, logAnswered, recordQuiz,
 } from '../../services/questionService.ts';
 import { useQuizSession } from '../../stores/quizSessionStore.ts';
 import { useProfileStore } from '../../stores/profileStore.ts';
 import { QuestionCard } from './QuestionCard.tsx';
 import { FeedbackFlash } from './FeedbackFlash.tsx';
 import { QuizLoadingScreen } from './QuizLoadingScreen.tsx';
-import { themeFor, type ModuleId as ThemeModuleId } from '../../theme/moduleTheme.ts';
+import { TimeAttackTimer } from './TimeAttackTimer.tsx';
+import { DEFAULT_THEME } from '../../theme/moduleTheme.ts';
 import { audio } from '../../services/audio.ts';
 import { PlayfulBackground } from '../../components/PlayfulBackground.tsx';
 
 const QUIZ_LENGTH = 10;
-const STINGER_MODULES = new Set<ThemeModuleId>(['math', 'vehicles', 'grammar', 'animals', 'science']);
+const PER_QUESTION_S = 15;
+// Sentinel returned to QuestionCard's revealedIndex when the timer elapses
+// before the user picks. -1 means "answered (locked) but no option highlighted",
+// which makes every option show the dim "wrong" tone except the correct one
+// which is highlighted green — matching how QuestionCard renders a reveal.
+const TIMEOUT_SENTINEL = -1;
 
 function BackToDashboard({ onBack }: { onBack: () => void }) {
   return (
@@ -27,10 +33,9 @@ function BackToDashboard({ onBack }: { onBack: () => void }) {
   );
 }
 
-export function QuizScreen() {
+export function TimeAttackQuizScreen() {
   const nav = useNavigate();
-  const { moduleId } = useParams<{ moduleId: string }>();
-  const theme = themeFor(moduleId ?? '');
+  const theme = DEFAULT_THEME;
   const profile = useProfileStore(s => s.profile);
 
   const questions  = useQuizSession(s => s.questions);
@@ -43,24 +48,22 @@ export function QuizScreen() {
 
   const [loading, setLoading]         = useState(true);
   const [error, setError]             = useState<string | null>(null);
-  // pickedIndex !== null  ⇒  user has chosen for the *current* question and is
-  // looking at the feedback panel; the next question only renders after Next.
   const [pickedIndex, setPickedIndex] = useState<number | null>(null);
   const [lastCorrect, setLastCorrect] = useState(false);
 
   useEffect(() => {
-    if (!profile || !moduleId) return;
+    if (!profile) return;
     let cancelled = false;
     (async () => {
       try {
-        const qs = await fetchQuizQuestions({ moduleId: moduleId as ModuleId, count: QUIZ_LENGTH });
+        const qs = await fetchQuizQuestions({ moduleId: 'random', count: QUIZ_LENGTH });
         if (cancelled) return;
         if (qs.length === 0) {
-          setError('No questions available for this module yet — try a different one!');
+          setError('No questions available right now — try a different mode!');
           setLoading(false);
           return;
         }
-        start(moduleId, qs);
+        start('random', qs);
         setLoading(false);
       } catch (e) {
         if (cancelled) return;
@@ -70,12 +73,23 @@ export function QuizScreen() {
     })();
     return () => { cancelled = true; };
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [moduleId, profile?.id]);
+  }, [profile?.id]);
 
   const onBack = () => {
     useQuizSession.getState().reset();
     nav('/dashboard');
   };
+
+  const onTimerElapsed = useCallback(async () => {
+    const q = questions[currentIdx];
+    if (!q || pickedIndex !== null) return;
+    setPickedIndex(TIMEOUT_SENTINEL);
+    setLastCorrect(false);
+    audio.playUI('incorrect');
+    if (profile) {
+      await logAnswered(profile.id, q.external_id, false);
+    }
+  }, [questions, currentIdx, pickedIndex, profile]);
 
   if (!profile) return <Navigate to="/login" replace />;
   if (loading) {
@@ -102,29 +116,20 @@ export function QuizScreen() {
     setPickedIndex(idx);
     setLastCorrect(correct);
     audio.playUI(correct ? 'correct' : 'incorrect');
-    if (correct && STINGER_MODULES.has(moduleId as ThemeModuleId)) {
-      audio.playStinger(moduleId as ThemeModuleId);
-    }
     await logAnswered(profile.id, q.external_id, correct);
   };
 
   const onNext = async () => {
     if (pickedIndex === null) return;
-    answer(pickedIndex);
+    // Convert the timeout sentinel to a non-correct sentinel for the session
+    // store (any non-correct_index value works — answer() decides correctness
+    // by comparing to question.correct_index).
+    const recordedPick = pickedIndex === TIMEOUT_SENTINEL ? TIMEOUT_SENTINEL : pickedIndex;
+    answer(recordedPick);
     setPickedIndex(null);
     if (isComplete()) {
       const finalScore = useQuizSession.getState().score;
-      await recordQuiz(profile.id, moduleId ?? 'random', finalScore, questions.length, durationS());
-      if (moduleId === 'math' || moduleId === 'vehicles' || moduleId === 'grammar') {
-        const { computeModuleProgress } = await import('../../services/moduleProgress.ts');
-        const { useSettings } = await import('../../stores/settingsStore.ts');
-        const band = useSettings.getState().ageBand;
-        const updated = await computeModuleProgress(profile.id, band);
-        const row = updated.find(r => r.moduleId === moduleId);
-        if (row && row.total > 0 && row.answered >= row.total) {
-          useQuizSession.getState().flagMastery(moduleId);
-        }
-      }
+      await recordQuiz(profile.id, 'random', finalScore, questions.length, durationS());
       nav('/results');
     }
   };
@@ -141,6 +146,15 @@ export function QuizScreen() {
         <span>Question {currentIdx + 1} of {questions.length}</span>
         <span>Score: {score}</span>
       </div>
+      <div className="w-full max-w-3xl px-4 py-2 rounded-2xl bg-purple-100 border-4 border-purple-400 text-purple-900 text-lg sm:text-xl md:text-2xl font-bold text-center">
+        ⏱️ Time Attack
+      </div>
+      <TimeAttackTimer
+        durationS={PER_QUESTION_S}
+        onElapsed={onTimerElapsed}
+        paused={pickedIndex !== null}
+        resetKey={currentIdx}
+      />
       <div className="w-full flex-1 flex flex-col items-center justify-center gap-4 sm:gap-6">
         <QuestionCard
           key={q.external_id}

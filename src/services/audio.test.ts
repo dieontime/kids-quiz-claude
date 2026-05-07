@@ -21,10 +21,10 @@ beforeEach(async () => {
 afterEach(() => { vi.resetModules(); });
 
 describe('audio service', () => {
-  it('preload constructs a Howl per sound (5 ui + 3 stingers = 8)', async () => {
+  it('preload constructs a Howl per sound (5 ui + 5 stingers = 10)', async () => {
     const { audio } = await import('./audio.ts');
     audio.preload();
-    expect(HowlMock).toHaveBeenCalledTimes(8);
+    expect(HowlMock).toHaveBeenCalledTimes(10);
   });
 
   it('playUI plays the named UI sound after preload', async () => {

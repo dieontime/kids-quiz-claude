@@ -1,14 +1,16 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useLayoutEffect, useMemo, useState } from 'react';
 import { useNavigate, Navigate } from 'react-router-dom';
 import confetti from 'canvas-confetti';
 import { useProfileStore } from '../../stores/profileStore.ts';
 import { useSettings } from '../../stores/settingsStore.ts';
 import { computeModuleProgress, type ModuleProgress } from '../../services/moduleProgress.ts';
-import { MODULE_THEMES, type ModuleId } from '../../theme/moduleTheme.ts';
+import { MODULE_THEMES } from '../../theme/moduleTheme.ts';
 import { ContinueHero } from './ContinueHero.tsx';
 import { ModuleStrip } from './ModuleStrip.tsx';
+import { SpecialModes } from './SpecialModes.tsx';
 import { SettingsDrawer } from '../settings/SettingsDrawer.tsx';
-import { mockBackend } from '../../services/mockBackend.ts';
+import { backend } from '../../services/backend.ts';
+import { countIncorrect } from '../../services/incorrectQuestions.ts';
 import { avatarEmoji } from '../auth/AvatarPicker.tsx';
 import { PlayfulBackground } from '../../components/PlayfulBackground.tsx';
 
@@ -30,8 +32,13 @@ export function ThemedDashboard() {
   const initFromProfile = useSettings(s => s.initFromProfile);
   const nav = useNavigate();
   const [progress, setProgress] = useState<ModuleProgress[] | null>(null);
+  const [incorrectCount, setIncorrectCount] = useState(0);
 
-  useEffect(() => { if (profile) initFromProfile(profile.age_band); }, [profile, initFromProfile]);
+  // Sync settings band from the profile BEFORE useEffect runs. useLayoutEffect
+  // state updates flush synchronously before regular effects fire, so the
+  // compute effect below sees the profile's band on first paint instead of
+  // running once with the stale '5-6' default and again after re-render.
+  useLayoutEffect(() => { if (profile) initFromProfile(profile.age_band); }, [profile, initFromProfile]);
 
   useEffect(() => {
     if (!profile) return;
@@ -39,6 +46,13 @@ export function ThemedDashboard() {
     computeModuleProgress(profile.id, ageBand).then(p => { if (!cancelled) setProgress(p); });
     return () => { cancelled = true; };
   }, [profile, ageBand]);
+
+  useEffect(() => {
+    if (!profile) return;
+    let cancelled = false;
+    countIncorrect(profile.id).then(n => { if (!cancelled) setIncorrectCount(n); });
+    return () => { cancelled = true; };
+  }, [profile]);
 
   useEffect(() => {
     if (!progress) return;
@@ -75,11 +89,9 @@ export function ThemedDashboard() {
 
   if (!profile) return <Navigate to="/login" replace />;
 
-  const showFlare = view?.kind === 'pick' || view?.kind === 'mastered' || view === null;
-
   return (
     <div className="min-h-screen flex flex-col p-4 sm:p-6 md:p-8 gap-4 sm:gap-6 relative">
-      {showFlare && <PlayfulBackground />}
+      <PlayfulBackground />
       <header className="w-full flex justify-between items-center">
         <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold flex items-center gap-2 sm:gap-3">
           <span className="inline-flex items-center justify-center w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 rounded-full bg-white shadow-md text-2xl sm:text-3xl md:text-4xl">
@@ -110,13 +122,23 @@ export function ThemedDashboard() {
         <div className="flex-1 flex flex-col gap-6 sm:gap-8">
           <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-center">Pick a module to start!</h2>
           <ModuleStrip
-            items={(['math', 'vehicles', 'grammar'] as ModuleId[]).map(id => ({
-              theme: MODULE_THEMES[id],
-              progress: progress!.find(p => p.moduleId === id)!,
+            items={progress!.map(p => ({
+              theme: MODULE_THEMES[p.moduleId],
+              progress: p,
             }))}
             onTileClick={(id) => nav(`/quiz/${id}`)}
-            onSurpriseMix={() => nav('/quiz/random')}
           />
+          <SpecialModes
+            onSurpriseMix={() => nav('/quiz/random')}
+            onTimeAttack={() => nav('/quiz/time-attack')}
+            onPracticeMistakes={incorrectCount > 0 ? () => nav('/quiz/practice') : undefined}
+            practiceCount={incorrectCount}
+          />
+          {ageBand === '5-6' && (
+            <p className="text-sm sm:text-base text-gray-600 text-center">
+              🎂 More modules unlock when you're 7+! A grown-up can switch your age in Settings.
+            </p>
+          )}
         </div>
       )}
 
@@ -131,8 +153,18 @@ export function ThemedDashboard() {
           <ModuleStrip
             items={view.rest.map(p => ({ theme: MODULE_THEMES[p.moduleId], progress: p }))}
             onTileClick={(id) => nav(`/quiz/${id}`)}
-            onSurpriseMix={() => nav('/quiz/random')}
           />
+          <SpecialModes
+            onSurpriseMix={() => nav('/quiz/random')}
+            onTimeAttack={() => nav('/quiz/time-attack')}
+            onPracticeMistakes={incorrectCount > 0 ? () => nav('/quiz/practice') : undefined}
+            practiceCount={incorrectCount}
+          />
+          {ageBand === '5-6' && (
+            <p className="text-sm sm:text-base text-gray-600 text-center">
+              🎂 More modules unlock when you're 7+! A grown-up can switch your age in Settings.
+            </p>
+          )}
         </div>
       )}
 
@@ -150,8 +182,14 @@ export function ThemedDashboard() {
       <SettingsDrawer
         open={settingsOpen}
         onClose={() => setSettingsOpen(false)}
-        onResetProgress={() => {
-          mockBackend.reset();
+        onResetProgress={async () => {
+          if (!profile) return;
+          await backend.resetProgress(profile.id);
+          // Clear the per-session mastery snapshot so confetti doesn't get suppressed
+          sessionStorage.removeItem(MASTERY_SNAPSHOT_KEY);
+          // Also reset the in-progress quiz session if any (so a stale mid-quiz exit doesn't survive)
+          const { useQuizSession } = await import('../../stores/quizSessionStore.ts');
+          useQuizSession.getState().reset();
           setSettingsOpen(false);
           window.location.reload();
         }}
