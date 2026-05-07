@@ -7,8 +7,10 @@ import { computeModuleProgress, type ModuleProgress } from '../../services/modul
 import { MODULE_THEMES } from '../../theme/moduleTheme.ts';
 import { ContinueHero } from './ContinueHero.tsx';
 import { ModuleStrip } from './ModuleStrip.tsx';
+import { SpecialModes } from './SpecialModes.tsx';
 import { SettingsDrawer } from '../settings/SettingsDrawer.tsx';
 import { backend } from '../../services/backend.ts';
+import { countIncorrect } from '../../services/incorrectQuestions.ts';
 import { avatarEmoji } from '../auth/AvatarPicker.tsx';
 import { PlayfulBackground } from '../../components/PlayfulBackground.tsx';
 
@@ -30,6 +32,7 @@ export function ThemedDashboard() {
   const initFromProfile = useSettings(s => s.initFromProfile);
   const nav = useNavigate();
   const [progress, setProgress] = useState<ModuleProgress[] | null>(null);
+  const [incorrectCount, setIncorrectCount] = useState(0);
 
   // Sync settings band from the profile BEFORE useEffect runs. useLayoutEffect
   // state updates flush synchronously before regular effects fire, so the
@@ -43,6 +46,13 @@ export function ThemedDashboard() {
     computeModuleProgress(profile.id, ageBand).then(p => { if (!cancelled) setProgress(p); });
     return () => { cancelled = true; };
   }, [profile, ageBand]);
+
+  useEffect(() => {
+    if (!profile) return;
+    let cancelled = false;
+    countIncorrect(profile.id).then(n => { if (!cancelled) setIncorrectCount(n); });
+    return () => { cancelled = true; };
+  }, [profile]);
 
   useEffect(() => {
     if (!progress) return;
@@ -117,7 +127,12 @@ export function ThemedDashboard() {
               progress: p,
             }))}
             onTileClick={(id) => nav(`/quiz/${id}`)}
+          />
+          <SpecialModes
             onSurpriseMix={() => nav('/quiz/random')}
+            onTimeAttack={() => nav('/quiz/time-attack')}
+            onPracticeMistakes={incorrectCount > 0 ? () => nav('/quiz/practice') : undefined}
+            practiceCount={incorrectCount}
           />
           {ageBand === '5-6' && (
             <p className="text-sm sm:text-base text-gray-600 text-center">
@@ -138,7 +153,12 @@ export function ThemedDashboard() {
           <ModuleStrip
             items={view.rest.map(p => ({ theme: MODULE_THEMES[p.moduleId], progress: p }))}
             onTileClick={(id) => nav(`/quiz/${id}`)}
+          />
+          <SpecialModes
             onSurpriseMix={() => nav('/quiz/random')}
+            onTimeAttack={() => nav('/quiz/time-attack')}
+            onPracticeMistakes={incorrectCount > 0 ? () => nav('/quiz/practice') : undefined}
+            practiceCount={incorrectCount}
           />
           {ageBand === '5-6' && (
             <p className="text-sm sm:text-base text-gray-600 text-center">

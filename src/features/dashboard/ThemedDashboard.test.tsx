@@ -23,6 +23,11 @@ vi.mock('../../services/moduleProgress.ts', () => ({
   ]),
 }));
 
+vi.mock('../../services/incorrectQuestions.ts', () => ({
+  countIncorrect: vi.fn().mockResolvedValue(0),
+  fetchIncorrectQuestions: vi.fn().mockResolvedValue([]),
+}));
+
 beforeEach(() => { sessionStorage.clear(); });
 
 describe('ThemedDashboard', () => {
@@ -69,6 +74,25 @@ describe('ThemedDashboard', () => {
     expect(getByText('Math')).toBeInTheDocument();
     expect(getByText('Vehicles')).toBeInTheDocument();
     expect(getByText('Grammar')).toBeInTheDocument();
+  });
+
+  it('shows Practice Mistakes button only when incorrectCount > 0', async () => {
+    const inc = await import('../../services/incorrectQuestions.ts');
+    (inc.countIncorrect as ReturnType<typeof vi.fn>).mockResolvedValueOnce(3);
+    const { getByText } = render(<MemoryRouter><ThemedDashboard /></MemoryRouter>);
+    await waitFor(() => expect(getByText(/Practice Mistakes \(3\)/i)).toBeInTheDocument());
+  });
+
+  it('hides Practice Mistakes button when incorrectCount is 0', async () => {
+    const { queryByText } = render(<MemoryRouter><ThemedDashboard /></MemoryRouter>);
+    // wait for dashboard to render past loading
+    await waitFor(() => expect(queryByText(/Continue Grammar/i)).toBeInTheDocument());
+    expect(queryByText(/Practice Mistakes/i)).toBeNull();
+  });
+
+  it('always renders Time Attack button', async () => {
+    const { getByText } = render(<MemoryRouter><ThemedDashboard /></MemoryRouter>);
+    await waitFor(() => expect(getByText(/Time Attack/i)).toBeInTheDocument());
   });
 
   it('7-9 hero view renders the rest including animals and science', async () => {

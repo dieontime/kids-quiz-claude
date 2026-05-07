@@ -182,6 +182,20 @@ export const supabaseBackend = {
     return (data as Array<{ question_external_id: string }>).map(r => r.question_external_id);
   },
 
+  async getIncorrectExternalIds(profileId: string): Promise<string[]> {
+    const { data, error } = await client()
+      .from('answered_questions')
+      .select('question_external_id, correct, answered_at')
+      .eq('profile_id', profileId)
+      .order('answered_at', { ascending: true });
+    if (error) throw new Error(`getIncorrectExternalIds: ${error.message}`);
+    const latest = new Map<string, boolean>();
+    for (const row of (data ?? []) as Array<{ question_external_id: string; correct: boolean }>) {
+      latest.set(row.question_external_id, row.correct);
+    }
+    return Array.from(latest.entries()).filter(([, c]) => !c).map(([id]) => id);
+  },
+
   async recordQuiz(
     profileId: string,
     moduleId: string,

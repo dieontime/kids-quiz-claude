@@ -7,8 +7,11 @@ import { ModuleSelectionScreen } from './features/modules/ModuleSelectionScreen.
 import { QuickStartIntro } from './features/quiz/QuickStartIntro.tsx';
 import { QuizScreen } from './features/quiz/QuizScreen.tsx';
 import { ReviewQuizScreen } from './features/quiz/ReviewQuizScreen.tsx';
+import { PracticeMistakesScreen } from './features/quiz/PracticeMistakesScreen.tsx';
+import { TimeAttackQuizScreen } from './features/quiz/TimeAttackQuizScreen.tsx';
 import { ResultsScreen } from './features/results/ResultsScreen.tsx';
 import { ReviewResultsScreen } from './features/results/ReviewResultsScreen.tsx';
+import { PracticeResultsScreen } from './features/results/PracticeResultsScreen.tsx';
 import { useProfileStore } from './stores/profileStore.ts';
 
 function Index() {
@@ -17,15 +20,18 @@ function Index() {
 }
 
 export const router = createBrowserRouter([
-  { path: '/',               Component: Index },
-  { path: '/login',          Component: LoginScreen },
-  { path: '/signup',         Component: SignupWizard },
-  { path: '/recovery',       Component: RecoveryScreen },
-  { path: '/dashboard',      Component: ThemedDashboard },
-  { path: '/modules',        Component: ModuleSelectionScreen },
-  { path: '/quick-start',    Component: QuickStartIntro },
-  { path: '/quiz/review',    Component: ReviewQuizScreen },
-  { path: '/quiz/:moduleId', Component: QuizScreen },
-  { path: '/results',        Component: ResultsScreen },
-  { path: '/review-results', Component: ReviewResultsScreen },
+  { path: '/',                 Component: Index },
+  { path: '/login',            Component: LoginScreen },
+  { path: '/signup',           Component: SignupWizard },
+  { path: '/recovery',         Component: RecoveryScreen },
+  { path: '/dashboard',        Component: ThemedDashboard },
+  { path: '/modules',          Component: ModuleSelectionScreen },
+  { path: '/quick-start',      Component: QuickStartIntro },
+  { path: '/quiz/review',      Component: ReviewQuizScreen },
+  { path: '/quiz/practice',    Component: PracticeMistakesScreen },
+  { path: '/quiz/time-attack', Component: TimeAttackQuizScreen },
+  { path: '/quiz/:moduleId',   Component: QuizScreen },
+  { path: '/results',          Component: ResultsScreen },
+  { path: '/review-results',   Component: ReviewResultsScreen },
+  { path: '/practice-results', Component: PracticeResultsScreen },
 ]);

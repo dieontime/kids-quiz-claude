@@ -388,6 +388,14 @@ export const mockBackend = {
       .map(r => r.question_external_id);
   },
 
+  async getIncorrectExternalIds(profileId: string): Promise<string[]> {
+    const rows = readKey<AnsweredRow>(KEY_ANSWERED).filter(r => r.profile_id === profileId);
+    // Dedupe by question_external_id keeping LATEST (later append wins)
+    const latest = new Map<string, boolean>();
+    for (const r of rows) latest.set(r.question_external_id, r.correct);
+    return Array.from(latest.entries()).filter(([, correct]) => !correct).map(([id]) => id);
+  },
+
   async recordQuiz(
     profileId: string,
     moduleId: string,

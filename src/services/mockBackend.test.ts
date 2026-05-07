@@ -144,6 +144,29 @@ describe('mockBackend.resetProgress', () => {
   });
 });
 
+describe('mockBackend.getIncorrectExternalIds', () => {
+  it('returns only the latest-incorrect ids and drops re-corrected ones', async () => {
+    const { profile } = await mockBackend.signup({
+      username: 'PizzaDragon', pin: ['🐱','⚡','🍕','🌈'], avatar: 'avatar_cat', age_band: '5-6',
+    });
+    // Mixed log: q1 wrong, q2 right, q3 wrong, then q1 corrected.
+    await mockBackend.logAnswered(profile.id, 'q1', false);
+    await mockBackend.logAnswered(profile.id, 'q2', true);
+    await mockBackend.logAnswered(profile.id, 'q3', false);
+    await mockBackend.logAnswered(profile.id, 'q1', true); // q1 now correct
+
+    const incorrect = await mockBackend.getIncorrectExternalIds(profile.id);
+    expect(incorrect).toEqual(['q3']);
+  });
+
+  it('returns [] when nothing has been answered', async () => {
+    const { profile } = await mockBackend.signup({
+      username: 'Empty', pin: ['🐱','⚡','🍕','🌈'], avatar: 'avatar_cat', age_band: '5-6',
+    });
+    expect(await mockBackend.getIncorrectExternalIds(profile.id)).toEqual([]);
+  });
+});
+
 describe('mockBackend storage', () => {
   it('logAnswered + getAnsweredExternalIds round-trip', async () => {
     const { profile } = await mockBackend.signup({ username: 'PizzaDragon', pin: ['🐱','⚡','🍕','🌈'], avatar: 'avatar_cat', age_band: '5-6' });

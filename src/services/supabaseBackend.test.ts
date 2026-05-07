@@ -302,6 +302,32 @@ describe('supabaseBackend', () => {
     }));
   });
 
+  it('getIncorrectExternalIds dedupes by id keeping latest and filters to incorrect', async () => {
+    // Build a chain: from(t).select(cols).eq('profile_id', x).order(col, opts) → resolves
+    const orderResult = {
+      data: [
+        { question_external_id: 'q1', correct: false, answered_at: '2026-01-01T00:00:00Z' },
+        { question_external_id: 'q2', correct: true,  answered_at: '2026-01-02T00:00:00Z' },
+        { question_external_id: 'q3', correct: false, answered_at: '2026-01-03T00:00:00Z' },
+        // q1 corrected later — should drop out of result
+        { question_external_id: 'q1', correct: true,  answered_at: '2026-01-04T00:00:00Z' },
+      ],
+      error: null,
+    };
+    const order = vi.fn().mockResolvedValue(orderResult);
+    const eq = vi.fn().mockReturnValue({ order });
+    const select = vi.fn().mockReturnValue({ eq });
+    fromMock.mockReturnValueOnce({ select });
+
+    const ids = await supabaseBackend.getIncorrectExternalIds('p1');
+
+    expect(fromMock).toHaveBeenCalledWith('answered_questions');
+    expect(select).toHaveBeenCalledWith('question_external_id, correct, answered_at');
+    expect(eq).toHaveBeenCalledWith('profile_id', 'p1');
+    expect(order).toHaveBeenCalledWith('answered_at', { ascending: true });
+    expect(ids).toEqual(['q3']);
+  });
+
   it('resetProgress deletes from all 3 tables filtered by profile_id', async () => {
     // Build a builder where from(t).delete().eq('profile_id', X) resolves successfully.
     function makeDeleteBuilder() {
