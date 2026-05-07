@@ -11,6 +11,18 @@ import { PlayfulBackground } from '../../components/PlayfulBackground.tsx';
 
 const STINGER_MODULES = new Set<ThemeModuleId>(['math', 'vehicles', 'grammar', 'animals', 'science']);
 
+function BackToDashboard({ onBack }: { onBack: () => void }) {
+  return (
+    <button
+      onClick={onBack}
+      aria-label="Back to dashboard"
+      className="px-3 py-2 rounded-xl text-base sm:text-lg font-semibold text-primary hover:bg-white/40 focus-visible:ring-4 focus-visible:ring-yellow-400 focus-visible:outline-none"
+    >
+      ← Back
+    </button>
+  );
+}
+
 export function ReviewQuizScreen() {
   const nav = useNavigate();
   const theme = themeFor('review');
@@ -26,6 +38,12 @@ export function ReviewQuizScreen() {
 
   const [pickedIndex, setPickedIndex] = useState<number | null>(null);
   const [lastCorrect, setLastCorrect] = useState(false);
+
+  const onBack = () => {
+    endReview();
+    useQuizSession.getState().reset();
+    nav('/dashboard');
+  };
 
   if (!profile) return <Navigate to="/login" replace />;
   if (!isReviewSession || questions.length === 0) {
@@ -65,7 +83,8 @@ export function ReviewQuizScreen() {
   return (
     <div className="min-h-screen flex flex-col items-center p-4 sm:p-6 md:p-8 gap-4 sm:gap-6 relative">
       <PlayfulBackground />
-      <div className="w-full max-w-3xl flex justify-between items-center text-base sm:text-lg md:text-xl font-bold text-primary">
+      <div className="w-full max-w-3xl flex justify-between items-center gap-2 text-base sm:text-lg md:text-xl font-bold text-primary">
+        <BackToDashboard onBack={onBack} />
         <span>Question {currentIdx + 1} of {questions.length}</span>
         <span>Score: {score}</span>
       </div>

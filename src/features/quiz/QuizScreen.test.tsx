@@ -34,6 +34,7 @@ function renderAt(path: string) {
         <Route path="/quiz/:moduleId" element={<QuizScreen />} />
         <Route path="/results" element={<div>RESULTS-PAGE</div>} />
         <Route path="/login" element={<div>LOGIN-PAGE</div>} />
+        <Route path="/dashboard" element={<div>DASHBOARD-PAGE</div>} />
       </Routes>
     </MemoryRouter>,
   );
@@ -82,6 +83,22 @@ describe('QuizScreen', () => {
     vi.mocked(svc.fetchQuizQuestions).mockResolvedValueOnce([]);
     renderAt('/quiz/animals');
     expect(await screen.findByText(/no questions available/i)).toBeInTheDocument();
+  });
+
+  it('back button resets session and navigates to /dashboard', async () => {
+    renderAt('/quiz/math');
+    await screen.findByText(/Q0/);
+    // Answer Q0 to populate session state, so we can verify reset() runs.
+    await userEvent.click(screen.getByText('1'));
+    await userEvent.click(screen.getByRole('button', { name: /next/i }));
+    await screen.findByText(/Q1/);
+    expect(useQuizSession.getState().score).toBe(1);
+
+    await userEvent.click(screen.getByRole('button', { name: /back to dashboard/i }));
+    await waitFor(() => expect(screen.getByText(/DASHBOARD-PAGE/)).toBeInTheDocument());
+    // reset() clears questions/score; sanity-check the session was reset.
+    expect(useQuizSession.getState().questions).toEqual([]);
+    expect(useQuizSession.getState().score).toBe(0);
   });
 
   it('loading screen shows a fun fact while questions are loading', async () => {

@@ -22,9 +22,10 @@ const FACT_INTERVAL_MS = 3000;
 
 interface QuizLoadingScreenProps {
   theme: ModuleTheme;
+  onBack?: () => void;
 }
 
-export function QuizLoadingScreen({ theme }: QuizLoadingScreenProps) {
+export function QuizLoadingScreen({ theme, onBack }: QuizLoadingScreenProps) {
   const reduced = useSettings(s => s.reducedMotion);
   const [factIdx, setFactIdx] = useState(() => Math.floor(Math.random() * FUN_FACTS.length));
   // Trigger the progress-bar transition by toggling from 0 -> 90 after mount.
@@ -47,6 +48,17 @@ export function QuizLoadingScreen({ theme }: QuizLoadingScreenProps) {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center gap-6 sm:gap-8 p-6 relative">
       <PlayfulBackground />
+      {onBack && (
+        <div className="absolute top-4 left-4 sm:top-6 sm:left-6">
+          <button
+            onClick={onBack}
+            aria-label="Back to dashboard"
+            className="px-3 py-2 rounded-xl text-base sm:text-lg font-semibold text-primary hover:bg-white/40 focus-visible:ring-4 focus-visible:ring-yellow-400 focus-visible:outline-none"
+          >
+            ← Back
+          </button>
+        </div>
+      )}
       <div className="text-5xl sm:text-6xl" aria-hidden>{theme.emoji}</div>
       <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center">
         {reduced ? 'Loading your quiz…' : 'Getting your questions ready! 🚀'}

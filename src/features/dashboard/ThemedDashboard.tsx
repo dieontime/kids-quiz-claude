@@ -4,7 +4,7 @@ import confetti from 'canvas-confetti';
 import { useProfileStore } from '../../stores/profileStore.ts';
 import { useSettings } from '../../stores/settingsStore.ts';
 import { computeModuleProgress, type ModuleProgress } from '../../services/moduleProgress.ts';
-import { MODULE_THEMES, type ModuleId } from '../../theme/moduleTheme.ts';
+import { MODULE_THEMES } from '../../theme/moduleTheme.ts';
 import { ContinueHero } from './ContinueHero.tsx';
 import { ModuleStrip } from './ModuleStrip.tsx';
 import { SettingsDrawer } from '../settings/SettingsDrawer.tsx';
@@ -75,11 +75,9 @@ export function ThemedDashboard() {
 
   if (!profile) return <Navigate to="/login" replace />;
 
-  const showFlare = view?.kind === 'pick' || view?.kind === 'mastered' || view === null;
-
   return (
     <div className="min-h-screen flex flex-col p-4 sm:p-6 md:p-8 gap-4 sm:gap-6 relative">
-      {showFlare && <PlayfulBackground />}
+      <PlayfulBackground />
       <header className="w-full flex justify-between items-center">
         <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold flex items-center gap-2 sm:gap-3">
           <span className="inline-flex items-center justify-center w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 rounded-full bg-white shadow-md text-2xl sm:text-3xl md:text-4xl">
@@ -110,9 +108,9 @@ export function ThemedDashboard() {
         <div className="flex-1 flex flex-col gap-6 sm:gap-8">
           <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-center">Pick a module to start!</h2>
           <ModuleStrip
-            items={(['math', 'vehicles', 'grammar'] as ModuleId[]).map(id => ({
-              theme: MODULE_THEMES[id],
-              progress: progress!.find(p => p.moduleId === id)!,
+            items={progress!.map(p => ({
+              theme: MODULE_THEMES[p.moduleId],
+              progress: p,
             }))}
             onTileClick={(id) => nav(`/quiz/${id}`)}
             onSurpriseMix={() => nav('/quiz/random')}

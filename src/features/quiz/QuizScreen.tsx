@@ -15,6 +15,18 @@ import { PlayfulBackground } from '../../components/PlayfulBackground.tsx';
 const QUIZ_LENGTH = 10;
 const STINGER_MODULES = new Set<ThemeModuleId>(['math', 'vehicles', 'grammar', 'animals', 'science']);
 
+function BackToDashboard({ onBack }: { onBack: () => void }) {
+  return (
+    <button
+      onClick={onBack}
+      aria-label="Back to dashboard"
+      className="px-3 py-2 rounded-xl text-base sm:text-lg font-semibold text-primary hover:bg-white/40 focus-visible:ring-4 focus-visible:ring-yellow-400 focus-visible:outline-none"
+    >
+      ← Back
+    </button>
+  );
+}
+
 export function QuizScreen() {
   const nav = useNavigate();
   const { moduleId } = useParams<{ moduleId: string }>();
@@ -60,16 +72,25 @@ export function QuizScreen() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [moduleId, profile?.id]);
 
+  const onBack = () => {
+    useQuizSession.getState().reset();
+    nav('/dashboard');
+  };
+
   if (!profile) return <Navigate to="/login" replace />;
   if (loading) {
-    return <QuizLoadingScreen theme={theme} />;
+    return <QuizLoadingScreen theme={theme} onBack={onBack} />;
   }
   if (error) {
     return (
-      <div className="min-h-screen flex flex-col items-center justify-center gap-4 p-6 text-center relative">
+      <div className="min-h-screen flex flex-col p-4 sm:p-6 md:p-8 relative">
         <PlayfulBackground />
-        <p className="text-xl sm:text-2xl text-red-600">{error}</p>
-        <button onClick={() => nav('/dashboard')} className="px-6 py-3 bg-primary text-white text-xl rounded-xl focus-visible:ring-4 focus-visible:ring-yellow-400 focus-visible:outline-none">Back</button>
+        <div className="w-full max-w-3xl mx-auto flex justify-start">
+          <BackToDashboard onBack={onBack} />
+        </div>
+        <div className="flex-1 flex flex-col items-center justify-center gap-4 text-center">
+          <p className="text-xl sm:text-2xl text-red-600">{error}</p>
+        </div>
       </div>
     );
   }
@@ -115,7 +136,8 @@ export function QuizScreen() {
   return (
     <div className="min-h-screen flex flex-col items-center p-4 sm:p-6 md:p-8 gap-4 sm:gap-6 relative">
       <PlayfulBackground />
-      <div className="w-full max-w-3xl flex justify-between items-center text-base sm:text-lg md:text-xl font-bold text-primary">
+      <div className="w-full max-w-3xl flex justify-between items-center gap-2 text-base sm:text-lg md:text-xl font-bold text-primary">
+        <BackToDashboard onBack={onBack} />
         <span>Question {currentIdx + 1} of {questions.length}</span>
         <span>Score: {score}</span>
       </div>

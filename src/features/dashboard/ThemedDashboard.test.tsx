@@ -47,4 +47,37 @@ describe('ThemedDashboard', () => {
     const { getByText } = render(<MemoryRouter><ThemedDashboard /></MemoryRouter>);
     await waitFor(() => expect(getByText(/mastered everything/i)).toBeInTheDocument());
   });
+
+  it('7-9 pick view renders animals and science tiles alongside the base 3', async () => {
+    const mod = await import('../../services/moduleProgress.ts');
+    (mod.computeModuleProgress as ReturnType<typeof vi.fn>).mockResolvedValueOnce([
+      { moduleId: 'math',     answered: 0, total: 200, lastPlayedAt: null },
+      { moduleId: 'vehicles', answered: 0, total: 50,  lastPlayedAt: null },
+      { moduleId: 'grammar',  answered: 0, total: 50,  lastPlayedAt: null },
+      { moduleId: 'animals',  answered: 0, total: 250, lastPlayedAt: null },
+      { moduleId: 'science',  answered: 0, total: 250, lastPlayedAt: null },
+    ]);
+    const { getByText } = render(<MemoryRouter><ThemedDashboard /></MemoryRouter>);
+    await waitFor(() => expect(getByText(/Pick a module to start/i)).toBeInTheDocument());
+    expect(getByText('Animals')).toBeInTheDocument();
+    expect(getByText('Science')).toBeInTheDocument();
+    expect(getByText('Math')).toBeInTheDocument();
+    expect(getByText('Vehicles')).toBeInTheDocument();
+    expect(getByText('Grammar')).toBeInTheDocument();
+  });
+
+  it('7-9 hero view renders the rest including animals and science', async () => {
+    const mod = await import('../../services/moduleProgress.ts');
+    (mod.computeModuleProgress as ReturnType<typeof vi.fn>).mockResolvedValueOnce([
+      { moduleId: 'math',     answered: 30, total: 200, lastPlayedAt: null },
+      { moduleId: 'vehicles', answered: 5,  total: 50,  lastPlayedAt: null },
+      { moduleId: 'grammar',  answered: 0,  total: 50,  lastPlayedAt: null },
+      { moduleId: 'animals',  answered: 10, total: 250, lastPlayedAt: null },
+      { moduleId: 'science',  answered: 1,  total: 250, lastPlayedAt: null },
+    ]);
+    const { getByText } = render(<MemoryRouter><ThemedDashboard /></MemoryRouter>);
+    await waitFor(() => expect(getByText(/Continue Grammar/i)).toBeInTheDocument());
+    expect(getByText('Animals')).toBeInTheDocument();
+    expect(getByText('Science')).toBeInTheDocument();
+  });
 });
