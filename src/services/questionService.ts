@@ -1,5 +1,6 @@
 import { generateMathQuestions } from '../generators/math.ts';
-import { mockBackend, type Profile } from './mockBackend.ts';
+import type { Profile } from './mockBackend.ts';
+import { backend } from './backend.ts';
 import type { QuizQuestion } from '../stores/quizSessionStore.ts';
 import vehiclesJson from '../../data/vehicles.json';
 import grammarJson from '../../data/grammar.json';
@@ -43,7 +44,7 @@ async function staticPoolFiltered(
   count: number,
 ): Promise<QuizQuestion[]> {
   const pool = STATIC_POOLS[module].filter(q => q.age_band === band || q.age_band === 'both');
-  const seen = new Set(await mockBackend.getAnsweredExternalIds(profileId, [module]));
+  const seen = new Set(await backend.getAnsweredExternalIds(profileId, [module]));
   const unseen = pool.filter(q => !seen.has(q.external_id));
   return shuffle(unseen).slice(0, count);
 }
@@ -74,9 +75,9 @@ export async function fetchQuizQuestions({ moduleId, count }: FetchArgs): Promis
 }
 
 export async function logAnswered(profileId: string, questionExternalId: string, correct: boolean): Promise<void> {
-  return mockBackend.logAnswered(profileId, questionExternalId, correct);
+  return backend.logAnswered(profileId, questionExternalId, correct);
 }
 
 export async function recordQuiz(profileId: string, moduleId: string, score: number, total: number, durationS: number): Promise<void> {
-  return mockBackend.recordQuiz(profileId, moduleId, score, total, durationS);
+  return backend.recordQuiz(profileId, moduleId, score, total, durationS);
 }

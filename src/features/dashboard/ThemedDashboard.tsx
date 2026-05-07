@@ -8,7 +8,7 @@ import { MODULE_THEMES, type ModuleId } from '../../theme/moduleTheme.ts';
 import { ContinueHero } from './ContinueHero.tsx';
 import { ModuleStrip } from './ModuleStrip.tsx';
 import { SettingsDrawer } from '../settings/SettingsDrawer.tsx';
-import { mockBackend } from '../../services/mockBackend.ts';
+import { backend } from '../../services/backend.ts';
 import { avatarEmoji } from '../auth/AvatarPicker.tsx';
 import { PlayfulBackground } from '../../components/PlayfulBackground.tsx';
 
@@ -151,7 +151,7 @@ export function ThemedDashboard() {
         open={settingsOpen}
         onClose={() => setSettingsOpen(false)}
         onResetProgress={() => {
-          mockBackend.reset();
+          backend.reset();
           setSettingsOpen(false);
           window.location.reload();
         }}

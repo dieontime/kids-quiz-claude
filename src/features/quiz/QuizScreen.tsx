@@ -7,10 +7,13 @@ import { useQuizSession } from '../../stores/quizSessionStore.ts';
 import { useProfileStore } from '../../stores/profileStore.ts';
 import { QuestionCard } from './QuestionCard.tsx';
 import { FeedbackFlash } from './FeedbackFlash.tsx';
+import { QuizLoadingScreen } from './QuizLoadingScreen.tsx';
 import { themeFor, type ModuleId as ThemeModuleId } from '../../theme/moduleTheme.ts';
 import { audio } from '../../services/audio.ts';
+import { PlayfulBackground } from '../../components/PlayfulBackground.tsx';
 
 const QUIZ_LENGTH = 10;
+const STINGER_MODULES = new Set<ThemeModuleId>(['math', 'vehicles', 'grammar', 'animals', 'science']);
 
 export function QuizScreen() {
   const nav = useNavigate();
@@ -59,11 +62,12 @@ export function QuizScreen() {
 
   if (!profile) return <Navigate to="/login" replace />;
   if (loading) {
-    return <div className="min-h-screen flex items-center justify-center text-2xl sm:text-3xl">Loading…</div>;
+    return <QuizLoadingScreen theme={theme} />;
   }
   if (error) {
     return (
-      <div className="min-h-screen flex flex-col items-center justify-center gap-4 p-6 text-center">
+      <div className="min-h-screen flex flex-col items-center justify-center gap-4 p-6 text-center relative">
+        <PlayfulBackground />
         <p className="text-xl sm:text-2xl text-red-600">{error}</p>
         <button onClick={() => nav('/dashboard')} className="px-6 py-3 bg-primary text-white text-xl rounded-xl focus-visible:ring-4 focus-visible:ring-yellow-400 focus-visible:outline-none">Back</button>
       </div>
@@ -77,7 +81,7 @@ export function QuizScreen() {
     setPickedIndex(idx);
     setLastCorrect(correct);
     audio.playUI(correct ? 'correct' : 'incorrect');
-    if (correct && (moduleId === 'math' || moduleId === 'vehicles' || moduleId === 'grammar')) {
+    if (correct && STINGER_MODULES.has(moduleId as ThemeModuleId)) {
       audio.playStinger(moduleId as ThemeModuleId);
     }
     await logAnswered(profile.id, q.external_id, correct);
@@ -109,7 +113,8 @@ export function QuizScreen() {
   if (!q) return null;
 
   return (
-    <div className="min-h-screen flex flex-col items-center p-4 sm:p-6 md:p-8 gap-4 sm:gap-6">
+    <div className="min-h-screen flex flex-col items-center p-4 sm:p-6 md:p-8 gap-4 sm:gap-6 relative">
+      <PlayfulBackground />
       <div className="w-full max-w-3xl flex justify-between items-center text-base sm:text-lg md:text-xl font-bold text-primary">
         <span>Question {currentIdx + 1} of {questions.length}</span>
         <span>Score: {score}</span>

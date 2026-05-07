@@ -1,4 +1,4 @@
-import { mockBackend } from './mockBackend.ts';
+import { backend } from './backend.ts';
 import { MODULE_THEMES, type ModuleId } from '../theme/moduleTheme.ts';
 import vehiclesJson from '../../data/vehicles.json';
 import grammarJson from '../../data/grammar.json';
@@ -33,7 +33,7 @@ function countAnsweredForModule(allAnswered: string[], moduleId: ProgressModuleI
 }
 
 export async function computeModuleProgress(profileId: string, band: AgeBand): Promise<ModuleProgress[]> {
-  const allAnswered = await mockBackend.getAnsweredExternalIds(profileId, ['math', 'vehicles', 'grammar']);
+  const allAnswered = await backend.getAnsweredExternalIds(profileId, ['math', 'vehicles', 'grammar']);
   const order: ProgressModuleId[] = ['math', 'vehicles', 'grammar'];
   return order.map(moduleId => {
     const total = moduleId === 'math'

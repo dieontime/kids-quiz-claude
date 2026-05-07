@@ -27,12 +27,17 @@ interface State {
   score: number;
   startedAt: number | null;
   lastMasteredModuleId: string | null;
+  reviewQuestions: QuizQuestion[];
+  isReviewSession: boolean;
   start: (moduleId: string, questions: QuizQuestion[]) => void;
   answer: (pickedIndex: number) => void;
   reset: () => void;
   isComplete: () => boolean;
   durationS: () => number;
   flagMastery: (moduleId: string) => void;
+  wrongAnswers: () => QuizQuestion[];
+  startReview: () => void;
+  endReview: () => void;
 }
 
 export const useQuizSession = create<State>()(
@@ -45,6 +50,8 @@ export const useQuizSession = create<State>()(
       score: 0,
       startedAt: null,
       lastMasteredModuleId: null,
+      reviewQuestions: [],
+      isReviewSession: false,
       start: (moduleId, questions) => set({
         moduleId, questions, currentIndex: 0, answers: [], score: 0, startedAt: Date.now(),
       }),
@@ -59,7 +66,7 @@ export const useQuizSession = create<State>()(
           currentIndex: currentIndex + 1,
         });
       },
-      reset: () => set({ moduleId: null, questions: [], currentIndex: 0, answers: [], score: 0, startedAt: null, lastMasteredModuleId: null }),
+      reset: () => set({ moduleId: null, questions: [], currentIndex: 0, answers: [], score: 0, startedAt: null, lastMasteredModuleId: null, reviewQuestions: [], isReviewSession: false }),
       isComplete: () => {
         const { questions, currentIndex } = get();
         return questions.length > 0 && currentIndex >= questions.length;
@@ -69,6 +76,24 @@ export const useQuizSession = create<State>()(
         return startedAt ? Math.floor((Date.now() - startedAt) / 1000) : 0;
       },
       flagMastery: (moduleId) => set({ lastMasteredModuleId: moduleId }),
+      wrongAnswers: () => {
+        const { questions, answers } = get();
+        return questions.filter((_, i) => answers[i] && answers[i].correct === false);
+      },
+      startReview: () => {
+        const wrong = get().wrongAnswers();
+        set({
+          moduleId: 'review',
+          questions: wrong,
+          currentIndex: 0,
+          answers: [],
+          score: 0,
+          startedAt: Date.now(),
+          reviewQuestions: wrong,
+          isReviewSession: true,
+        });
+      },
+      endReview: () => set({ isReviewSession: false }),
     }),
     { name: 'kq_quiz_session' },
   ),

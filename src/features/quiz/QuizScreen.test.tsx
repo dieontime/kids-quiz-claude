@@ -1,5 +1,5 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest';
-import { render, screen, waitFor } from '@testing-library/react';
+import { act, render, screen, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { MemoryRouter, Routes, Route } from 'react-router-dom';
 import { QuizScreen } from './QuizScreen.tsx';
@@ -82,5 +82,22 @@ describe('QuizScreen', () => {
     vi.mocked(svc.fetchQuizQuestions).mockResolvedValueOnce([]);
     renderAt('/quiz/animals');
     expect(await screen.findByText(/no questions available/i)).toBeInTheDocument();
+  });
+
+  it('loading screen shows a fun fact while questions are loading', async () => {
+    // Hold the fetch open so we can observe the loading state.
+    let resolveFetch: (qs: QuizQuestion[]) => void = () => {};
+    vi.mocked(svc.fetchQuizQuestions).mockImplementationOnce(
+      () => new Promise<QuizQuestion[]>((resolve) => { resolveFetch = resolve; }),
+    );
+    renderAt('/quiz/math');
+    expect(await screen.findByText(/Did you know\?/i)).toBeInTheDocument();
+    // Progress bar is rendered as a progressbar role.
+    expect(screen.getByRole('progressbar', { name: /loading progress/i })).toBeInTheDocument();
+    // Resolve the fetch so the test can complete cleanly.
+    await act(async () => {
+      resolveFetch(sampleQs);
+    });
+    await screen.findByText(/Q0/);
   });
 });

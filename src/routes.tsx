@@ -6,7 +6,9 @@ import { ThemedDashboard } from './features/dashboard/ThemedDashboard.tsx';
 import { ModuleSelectionScreen } from './features/modules/ModuleSelectionScreen.tsx';
 import { QuickStartIntro } from './features/quiz/QuickStartIntro.tsx';
 import { QuizScreen } from './features/quiz/QuizScreen.tsx';
+import { ReviewQuizScreen } from './features/quiz/ReviewQuizScreen.tsx';
 import { ResultsScreen } from './features/results/ResultsScreen.tsx';
+import { ReviewResultsScreen } from './features/results/ReviewResultsScreen.tsx';
 import { useProfileStore } from './stores/profileStore.ts';
 
 function Index() {
@@ -22,6 +24,8 @@ export const router = createBrowserRouter([
   { path: '/dashboard',      Component: ThemedDashboard },
   { path: '/modules',        Component: ModuleSelectionScreen },
   { path: '/quick-start',    Component: QuickStartIntro },
+  { path: '/quiz/review',    Component: ReviewQuizScreen },
   { path: '/quiz/:moduleId', Component: QuizScreen },
   { path: '/results',        Component: ResultsScreen },
+  { path: '/review-results', Component: ReviewResultsScreen },
 ]);
